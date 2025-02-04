@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Monitoreo del Sistema</title>
+</head>
+<body>
+    <h1>Monitoreo del Sistema</h1>
+
+    <!-- Mostrar notificaciones flash -->
+    {% with messages = get_flashed_messages(with_categories=true) %}
+        {% if messages %}
+            <ul>
+                {% for category, message in messages %}
+                    <li class="{{ category }}">{{ message }}</li>
+                {% endfor %}
+            </ul>
+        {% endif %}
+    {% endwith %}
+
+    <h2>Uso de CPU</h2>
+    <p>{{ system_data.cpu_percent }}%</p>
+
+    <h2>Uso de Memoria</h2>
+    <p>{{ system_data.memory_percent }}% ({{ system_data.memory_used_gb }} GB usados de {{ system_data.memory_total_gb }} GB)</p>
+
+    <h2>Uso de Almacenamiento</h2>
+    <p>{{ system_data.disk_percent }}% ({{ system_data.disk_used_gb }} GB usados de {{ system_data.disk_total_gb }} GB)</p>
+
+    <h2>Sugerencias de Optimización</h2>
+    <ul>
+        {% for suggestion in suggestions %}
+            <li>{{ suggestion }}</li>
+        {% endfor %}
+    </ul>
+
+    <p><a href="{{ url_for('generate_pdf_report') }}">Generar informe PDF</a></p>
+
+   
+    <p><a href="{{ url_for('logout') }}">Cerrar sesión</a></p>
+</body>
+</html>
