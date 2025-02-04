@@ -3,9 +3,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Gestión de Sistemas</title>
+    <title>Inicio</title>
 </head>
 <body>
-    <h1>¡Bienvenido a la aplicación de gestión de sistemas!</h1>
+    <h1>¡Bienvenido, {{ current_user.username }}!</h1>
+    <p>Has iniciado sesión correctamente.</p>
+    <a href="{{ url_for('auth.logout') }}">Cerrar Sesión</a>
 </body>
 </html>

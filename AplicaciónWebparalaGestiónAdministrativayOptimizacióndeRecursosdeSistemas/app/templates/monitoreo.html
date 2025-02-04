@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Monitoreo de Recursos</title>
+</head>
+<body>
+    <h1>Monitoreo de Recursos del Sistema</h1>
+    <table>
+        <thead>
+            <tr>
+                <th>Recurso</th>
+                <th>Uso Actual</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>CPU</td>
+                <td>{{ system_usage.cpu_percent }}%</td>
+            </tr>
+            <tr>
+                <td>Memoria</td>
+                <td>{{ system_usage.memory_percent }}%</td>
+            </tr>
+            <tr>
+                <td>Almacenamiento</td>
+                <td>{{ system_usage.disk_percent }}%</td>
+            </tr>
+        </tbody>
+    </table>
+   
+    <h2>Alertas</h2>
+    <ul>
+    {% for alert in alerts %}
+    <li style="color: red;">{{ alert }}</li>
+    {% else %}
+    <li>No hay alertas en este momento.</li>
+    {% endfor %}
+    </ul>
+
+    <a href="{{ url_for('main.index') }}">Volver al Inicio</a>
+</body>
+</html>
