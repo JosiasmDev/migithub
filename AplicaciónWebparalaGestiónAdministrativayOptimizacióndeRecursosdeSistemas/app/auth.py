@@ -13,17 +13,15 @@ def registro():
         email = request.form.get('email')
         password = request.form.get('password')
 
-        # Verificar si el usuario ya existe
         user = User.query.filter_by(email=email).first()
         if user:
             flash('El correo electrónico ya está registrado.', 'error')
             return redirect(url_for('auth.registro'))
 
-        # Crear un nuevo usuario
         new_user = User(
             username=username,
             email=email,
-            password=generate_password_hash(password, method='pbkdf2:sha256')
+            password=generate_password_hash(password, method='sha256')
         )
         db.session.add(new_user)
         db.session.commit()
@@ -39,13 +37,11 @@ def login():
         email = request.form.get('email')
         password = request.form.get('password')
 
-        # Verificar si el usuario existe
         user = User.query.filter_by(email=email).first()
         if not user or not check_password_hash(user.password, password):
             flash('Correo electrónico o contraseña incorrectos.', 'error')
             return redirect(url_for('auth.login'))
 
-        # Iniciar sesión
         login_user(user)
         return redirect(url_for('main.index'))
 

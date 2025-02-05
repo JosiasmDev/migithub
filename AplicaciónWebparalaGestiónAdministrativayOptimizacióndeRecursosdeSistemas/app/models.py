@@ -1,4 +1,4 @@
-from app import db, login_manager
+from app import db
 from flask_login import UserMixin
 
 class User(db.Model, UserMixin):
@@ -10,7 +10,3 @@ class User(db.Model, UserMixin):
 
     def __repr__(self):
         return f'<User {self.username}>'
-    
-@login_manager.user_loader
-def load_user(user_id):
-    return Usuario.query.get(int(user_id))  # Flask-Login usará esta función para cargar usuarios
