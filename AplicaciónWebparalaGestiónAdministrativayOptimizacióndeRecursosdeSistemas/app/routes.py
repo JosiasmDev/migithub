@@ -7,7 +7,8 @@ main_routes = Blueprint('main', __name__)
 
 @main_routes.route('/')
 @login_required
-def index():
+def index(): 
+    print(f"Usuario actual: {current_user.username}")  # Mensaje de depuración
     return render_template('index.html')
 
 @main_routes.route('/usuarios')

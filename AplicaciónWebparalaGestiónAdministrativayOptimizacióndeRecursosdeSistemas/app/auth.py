@@ -43,6 +43,7 @@ def login():
             return redirect(url_for('auth.login'))
 
         login_user(user)
+        print(f"Usuario autenticado: {user.username}")  # Mensaje de depuración
         return redirect(url_for('main.index'))
 
     return render_template('login.html')
