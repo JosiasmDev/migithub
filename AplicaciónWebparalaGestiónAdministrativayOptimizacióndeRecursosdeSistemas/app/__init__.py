@@ -1,45 +1,18 @@
 from flask import Flask
 from flask_sqlalchemy import SQLAlchemy
-from flask_login import LoginManager
 
-
-
+# Inicializar la base de datos
 db = SQLAlchemy()
-login_manager = LoginManager()
-
-from app.models import User
 
 def create_app():
     app = Flask(__name__)
     app.config.from_object('config.Config')
 
-    
-
     # Inicializar la base de datos
     db.init_app(app)
 
-    
-
-    # Inicializar Flask-Login
-    login_manager.init_app(app)
-    login_manager.login_view = 'auth.login'  # Ruta para el inicio de sesión
-
-    
-
-    # Cargar el usuario actual
-    @login_manager.user_loader
-    def load_user(user_id):
-        return User.query.get(int(user_id))
-        print(f"Cargando usuario: {user}")  # Mensaje de depuración
-        return user
-    
-
-    # Registrar blueprints (rutas)
+    # Registrar blueprint para las rutas principales
     from app.routes import main_routes
-    from app.auth import auth_routes
     app.register_blueprint(main_routes)
-    app.register_blueprint(auth_routes)
-
-    from app.models import User
 
     return app
