@@ -43,7 +43,7 @@ def editar_usuario(id):
             db.session.rollback()  # En caso de error, deshacer cambios
             flash('Error al actualizar el usuario: ' + str(e), 'danger')
             
-    return render_template('editar_usuario.html')
+    return render_template('editar_usuario.html', usuario=usuario)
 
         #return redirect(url_for('main.usuarios'))  # Redirigir a la lista de usuarios
 
