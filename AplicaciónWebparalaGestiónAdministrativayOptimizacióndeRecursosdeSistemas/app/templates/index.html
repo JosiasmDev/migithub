@@ -2,4 +2,6 @@
 {% block content %}
 <h1>¡Bienvenido!</h1>
 <p>Has iniciado sesión correctamente.</p>
+<a href="{{ url_for('main.listar_usuarios') }}">Volver a la Lista de Usuarios</a>
+<a href="{{ url_for('main.monitoreo') }}">Monitoreo recursos consumidos</a>
 {% endblock %}

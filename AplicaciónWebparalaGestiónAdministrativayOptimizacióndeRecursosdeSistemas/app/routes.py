@@ -15,6 +15,7 @@ def listar_usuarios():
     usuarios = User.query.all()
     return render_template('usuarios.html', usuarios=usuarios)
 
+
 @main_routes.route('/editar_usuario/<int:id>', methods=['GET', 'POST'])
 def editar_usuario(id):
     # Obtener el usuario de la base de datos
