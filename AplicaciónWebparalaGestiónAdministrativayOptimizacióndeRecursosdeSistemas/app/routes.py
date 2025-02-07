@@ -1,4 +1,4 @@
-from flask import Blueprint, render_template, redirect, url_for, flash, request
+from flask import Blueprint, render_template, redirect, url_for, flash, request, session
 from app.models import User
 from app import db
 from app.utils.system_monitor import get_system_usage, check_system_usage
@@ -7,8 +7,34 @@ main_routes = Blueprint('main', __name__)
 
 @main_routes.route('/')
 def index(): 
-    print('raiz')
-    return render_template('index.html')
+    print(session.get('username', 'Usuario'))
+    username = session.get('username', 'Usuario')  # Si no hay sesión, muestra 'Usuario' por defecto
+    return render_template('index.html', username=username)
+
+
+@main_routes.route('/login', methods=['GET', 'POST'])
+def login():
+    if request.method == 'POST':
+        username = request.form['username']
+        password = request.form['password']
+        session['username'] = username  # Guardamos el nombre del usuario en la sesión
+        print(session['username'])
+        if not username or not password:
+            flash('Todos los campos son obligatorios.', 'danger')
+            return redirect(url_for('main.login'))
+        
+        # Buscar al usuario por nombre de usuario
+        user = User.query.filter_by(username=username).first()
+        
+        # Verificar si el usuario existe y la contraseña es correcta
+        if user and user.password == password:
+            flash('¡Bienvenido de nuevo!', 'success')
+            return redirect(url_for('main.index'))  # Redirige al inicio o donde quieras
+        else:
+            flash('Credenciales incorrectas, intenta de nuevo.', 'danger')
+    
+    return render_template('login.html')
+
 
 @main_routes.route('/usuarios', methods=['GET'])
 def listar_usuarios():
@@ -91,24 +117,4 @@ def registro():
     
     return render_template('registro.html')
 
-@main_routes.route('/login', methods=['GET', 'POST'])
-def login():
-    if request.method == 'POST':
-        username = request.form['username']
-        password = request.form['password']
 
-        if not username or not password:
-            flash('Todos los campos son obligatorios.', 'danger')
-            return redirect(url_for('main.login'))
-        
-        # Buscar al usuario por nombre de usuario
-        user = User.query.filter_by(username=username).first()
-        
-        # Verificar si el usuario existe y la contraseña es correcta
-        if user and user.password == password:
-            flash('¡Bienvenido de nuevo!', 'success')
-            return redirect(url_for('main.index'))  # Redirige al inicio o donde quieras
-        else:
-            flash('Credenciales incorrectas, intenta de nuevo.', 'danger')
-    
-    return render_template('login.html')
