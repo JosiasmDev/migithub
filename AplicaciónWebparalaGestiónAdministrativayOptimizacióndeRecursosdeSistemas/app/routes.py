@@ -1,9 +1,12 @@
-from flask import Blueprint, render_template, redirect, url_for, flash, request, session
+from flask import Blueprint, render_template, redirect, url_for, flash, request, session, send_file, jsonify, current_app
 from app.models import User
 from app import db
-from app.utils.system_monitor import get_system_usage, check_system_usage
+from app.tools.system_monitor import get_system_usage, check_system_usage
 import os
 from datetime import datetime  # Importar datetime
+from .tools.informes import generar_informe_pdf, generar_informe_csv
+from .models import obtener_datos_rendimiento
+
 
 main_routes = Blueprint('main', __name__)
 
@@ -140,3 +143,20 @@ def ver_logs():
             continue
 
     return render_template('logs.html', logs_grouped_by_day=logs_grouped_by_day)
+
+
+@main_routes.route('/descargar_pdf')
+def descargar_pdf():
+    datos = obtener_datos_rendimiento()
+    filename = 'informe.pdf'
+    ruta_archivo = os.path.join(current_app.root_path, filename)  # Elimina el duplicado 'app'
+    generar_informe_pdf(datos, ruta_archivo)
+    return send_file(ruta_archivo, as_attachment=True)
+
+@main_routes.route('/descargar_csv')
+def descargar_csv():
+    datos = obtener_datos_rendimiento()
+    filename = 'informe.csv'
+    ruta_archivo = os.path.join(current_app.root_path, filename)  # Igualmente para el CSV
+    generar_informe_csv(datos, ruta_archivo)
+    return send_file(ruta_archivo, as_attachment=True)

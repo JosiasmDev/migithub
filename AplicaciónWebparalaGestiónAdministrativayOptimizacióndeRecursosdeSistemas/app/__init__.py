@@ -6,6 +6,8 @@ from apscheduler.schedulers.background import BackgroundScheduler
 from logging.handlers import TimedRotatingFileHandler
 import psutil  # Necesario para la obtención de recursos del sistema
 
+
+
 # Inicializar la base de datos
 db = SQLAlchemy()
 

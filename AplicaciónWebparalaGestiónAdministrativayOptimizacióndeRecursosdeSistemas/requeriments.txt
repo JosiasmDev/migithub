@@ -4,4 +4,4 @@ Flask-Login==0.6.2
 pymysql==1.0.2
 psutil==5.9.5
 
-# pip install flask flask-sqlalchemy flask-login pymysql psutil apscheduler
+# pip install flask flask-sqlalchemy flask-login pymysql psutil apscheduler reportlab

@@ -9,3 +9,12 @@ class User(db.Model):
 
     def __repr__(self):
         return f'<User {self.username}>'
+    
+def obtener_datos_rendimiento():
+    # Simulación de datos; reemplázalo con una consulta a la base de datos.
+    datos = [
+        {'nombre': 'Uso de CPU', 'valor': '45%'},
+        {'nombre': 'Uso de Memoria', 'valor': '3.2 GB'},
+        {'nombre': 'Tiempo de Respuesta', 'valor': '120 ms'}
+    ]
+    return datos
