@@ -101,11 +101,11 @@ footer {
 
 @media (max-width: 768px) {
   nav {
-      flex-direction: column;
+    flex-direction: column;
   }
 
   nav a {
-      margin: 10px 0;
+    margin: 10px 0;
   }
 }
 
@@ -114,7 +114,7 @@ footer {
   margin: 20px auto;
   padding: 30px;
   background-color: #f7f7f7;
-  border-radius: 15px;
+  border-radius: 30px;
   box-shadow: 0 10px 15px rgba(0, 0, 0, 0.1);
   max-width: 1200px;
 }
@@ -138,7 +138,7 @@ footer {
 .log-entry {
   background-color: #fff;
   padding: 20px;
-  border-radius: 10px;
+  border-radius: 30px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
   transition: transform 0.3s ease;
 }
@@ -182,4 +182,199 @@ footer {
   text-align: center;
   color: #666;
   font-size: 1.2rem;
+}
+
+/* Estilo adicional para la interfaz con fondo oscuro */
+body {
+  background: linear-gradient(135deg, #0f0f0f, #1a1a1a);
+  color: #d1d1d1;
+}
+
+.container {
+  background: rgba(20, 20, 20, 0.95);
+  border-radius: 30px;
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 1);
+  border: 2px solid #ff0000;
+}
+
+/* Encabezado con fondo oscuro */
+header {
+  background: linear-gradient(135deg, #2c0e0e, #7b0000);
+  color: #ff0000;
+  padding: 30px 0;
+  text-align: center;
+  font-size: 3rem;
+  border-radius: 30px 30px 30px 30px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 1);
+  text-transform: uppercase;
+  letter-spacing: 3px;
+}
+
+/* Navegación con fondo oscuro */
+nav {
+  display: flex;
+  justify-content: space-around;
+  background: linear-gradient(135deg, #3e3e3e, #000000);
+  padding: 20px 0;
+  border-radius: 30px;
+  margin: 20px 0;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 1);
+  border: 2px solid #ff0000;
+}
+
+nav a {
+  color: #ff0000;
+  text-decoration: none;
+  font-weight: bold;
+  padding: 15px 30px;
+  border-radius: 30px;
+  transition: background-color 0.2s ease, color 0.2s ease;
+}
+
+nav a:hover {
+  background: #ff0000;
+  color: #000000;
+}
+
+/* Tablas */
+table {
+  width: 100%;
+  border-collapse: separate;
+  border-spacing: 0 15px;
+  margin-bottom: 20px;
+}
+
+table th, table td {
+  padding: 20px;
+  text-align: left;
+  background-color: rgba(40, 40, 40, 0.95);
+  color: #d1d1d1;
+  border-radius: 30px;
+  border: 2px solid #ff0000;
+}
+
+table th {
+  background: linear-gradient(135deg, #7b0000, #2c0e0e);
+  color: #fff;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+tr:nth-child(even) td {
+  background-color: rgba(60, 60, 60, 0.9);
+}
+
+tr:hover td {
+  background-color: #ff0000;
+  color: #000;
+  cursor: pointer;
+}
+
+/* Formularios */
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+form label {
+  margin: 15px 0 5px;
+  font-weight: bold;
+  color: #ff0000;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+form input, form select, form textarea {
+  padding: 15px;
+  border: 2px solid #ff0000;
+  border-radius: 30px;
+  margin-bottom: 20px;
+  background: #1a1a1a;
+  color: #d1d1d1;
+  transition: all 0.2s ease;
+}
+
+form input:focus, form select:focus, form textarea:focus {
+  outline: none;
+  border-color: #ff0000;
+  box-shadow: 0 0 15px rgba(255, 0, 0, 1);
+}
+
+/* Botones */
+.button {
+  background: linear-gradient(135deg, #7b0000, #2c0e0e);
+  color: #fff;
+  padding: 20px;
+  border: none;
+  border-radius: 50%; /* Hacer los botones circulares */
+  width: 60px; /* Ajusta el tamaño según lo necesites */
+  height: 60px; /* Ajusta el tamaño según lo necesites */
+  cursor: pointer;
+  font-weight: bold;
+  text-transform: uppercase;
+  transition: transform 0.2s ease, background 0.2s ease;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 1);
+}
+
+.button:hover {
+  transform: scale(1.1);
+  background: #ff0000;
+  color: #000;
+}
+
+/* Alertas */
+.alert {
+  padding: 20px;
+  margin: 20px 0;
+  border-radius: 30px;
+  font-weight: bold;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 1);
+  text-transform: uppercase;
+  border: 2px solid #ff0000;
+}
+
+.alert-success {
+  background: linear-gradient(135deg, #00b09b, #96c93d);
+  color: #000;
+}
+
+.alert-warning {
+  background: linear-gradient(135deg, #ffb347, #ffcc33);
+  color: #000;
+}
+
+.alert-danger {
+  background: linear-gradient(135deg, #cb2d3e, #ef473a);
+  color: #fff;
+}
+
+/* Entradas de log */
+.log-entry {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 50%; /* Hacer las entradas de log circulares */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0
+
+/* Footer */
+footer {
+  text-align: center;
+  padding: 20px;
+  margin-top: 20px;
+  background: linear-gradient(135deg, #000000, #2c0e0e);
+  color: #ff0000;
+  border-radius: 30px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 1);
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+
+@media (max-width: 768px) {
+  nav {
+    flex-direction: column;
+  }
+
+  nav a {
+    margin: 10px 0;
+  }
 }
