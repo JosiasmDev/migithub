@@ -66,13 +66,14 @@ def editar_usuario(id):
         try:
             db.session.commit()  # Guardar cambios en la base de datos
             flash('Usuario actualizado correctamente', 'success')
+            return redirect(url_for('main.listar_usuarios'))  # Redirigir a la lista de usuarios
         except Exception as e:
             db.session.rollback()  # En caso de error, deshacer cambios
             flash('Error al actualizar el usuario: ' + str(e), 'danger')
             
     return render_template('editar_usuario.html', usuario=usuario)
 
-        #return redirect(url_for('main.usuarios'))  # Redirigir a la lista de usuarios
+    #return redirect(url_for('main.usuarios'))  # Redirigir a la lista de usuarios
 
     #return render_template('editar_usuario.html', usuario=usuario)
 
@@ -82,7 +83,7 @@ def eliminar_usuario(id):
     db.session.delete(usuario)
     db.session.commit()
     flash('Usuario eliminado correctamente.', 'success')
-    return redirect(url_for('main.usuarios'))  # Redirigir a la lista actualizada
+    return redirect(url_for('main.listar_usuarios'))  # Redirigir a la lista actualizada
 
 
 @main_routes.route('/monitoreo')
