@@ -3559,3 +3559,289 @@ Job "create_app.<locals>.obtener_recursos (trigger: interval[0:01:00], next run 
  * Detected change in 'C:\\xampp\\htdocs\\xampp\\migithub\\AplicaciónWebparalaGestiónAdministrativayOptimizacióndeRecursosdeSistemas\\app\\routes.py', reloading
 2025-02-10 13:53:47 -  * Restarting with stat
  * Restarting with stat
+2025-02-10 13:53:49 - Looking up time zone info from registry
+Looking up time zone info from registry
+2025-02-10 13:53:49 - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-02-10 13:53:49 - Added job "create_app.<locals>.obtener_recursos" to job store "default"
+Added job "create_app.<locals>.obtener_recursos" to job store "default"
+2025-02-10 13:53:49 - Scheduler started
+Scheduler started
+2025-02-10 13:53:49 - Looking for jobs to run
+Looking for jobs to run
+2025-02-10 13:53:49 - Next wakeup is due at 2025-02-10 13:54:49.173403+01:00 (in 59.997460 seconds)
+Next wakeup is due at 2025-02-10 13:54:49.173403+01:00 (in 59.997460 seconds)
+2025-02-10 13:53:49 -  * Debugger is active!
+ * Debugger is active!
+2025-02-10 13:53:49 -  * Debugger PIN: 587-271-109
+ * Debugger PIN: 587-271-109
+2025-02-10 13:53:53 - 127.0.0.1 - - [10/Feb/2025 13:53:53] "GET /descargar_pdf HTTP/1.1" 200 -
+127.0.0.1 - - [10/Feb/2025 13:53:53] "GET /descargar_pdf HTTP/1.1" 200 -
+2025-02-10 13:53:54 - 127.0.0.1 - - [10/Feb/2025 13:53:54] "GET /descargar_pdf HTTP/1.1" 200 -
+127.0.0.1 - - [10/Feb/2025 13:53:54] "GET /descargar_pdf HTTP/1.1" 200 -
+2025-02-10 13:54:19 - 127.0.0.1 - - [10/Feb/2025 13:54:19] "GET /descargar_pdf HTTP/1.1" 200 -
+127.0.0.1 - - [10/Feb/2025 13:54:19] "GET /descargar_pdf HTTP/1.1" 200 -
+2025-02-10 13:54:35 - Looking for jobs to run
+Looking for jobs to run
+2025-02-10 13:54:35 - Next wakeup is due at 2025-02-10 13:55:35.711513+01:00 (in 59.994339 seconds)
+Next wakeup is due at 2025-02-10 13:55:35.711513+01:00 (in 59.994339 seconds)
+2025-02-10 13:54:35 - Running job "create_app.<locals>.obtener_recursos (trigger: interval[0:01:00], next run at: 2025-02-10 13:55:35 CET)" (scheduled at 2025-02-10 13:54:35.711513+01:00)
+Running job "create_app.<locals>.obtener_recursos (trigger: interval[0:01:00], next run at: 2025-02-10 13:55:35 CET)" (scheduled at 2025-02-10 13:54:35.711513+01:00)
+2025-02-10 13:54:36 - CPU: 13.6% | Memoria: 87.0% | Disco: 96.9%
+CPU: 13.6% | Memoria: 87.0% | Disco: 96.9%
+2025-02-10 13:54:36 - Job "create_app.<locals>.obtener_recursos (trigger: interval[0:01:00], next run at: 2025-02-10 13:55:35 CET)" executed successfully
+Job "create_app.<locals>.obtener_recursos (trigger: interval[0:01:00], next run at: 2025-02-10 13:55:35 CET)" executed successfully
+2025-02-10 13:54:49 - Looking for jobs to run
+Looking for jobs to run
+2025-02-10 13:54:49 - Running job "create_app.<locals>.obtener_recursos (trigger: interval[0:01:00], next run at: 2025-02-10 13:54:49 CET)" (scheduled at 2025-02-10 13:54:49.173403+01:00)
+Running job "create_app.<locals>.obtener_recursos (trigger: interval[0:01:00], next run at: 2025-02-10 13:55:49 CET)" (scheduled at 2025-02-10 13:54:49.173403+01:00)
+2025-02-10 13:54:49 - Next wakeup is due at 2025-02-10 13:55:49.173403+01:00 (in 59.995409 seconds)
+Next wakeup is due at 2025-02-10 13:55:49.173403+01:00 (in 59.995409 seconds)
+2025-02-10 13:54:50 - CPU: 5.8% | Memoria: 86.0% | Disco: 96.9%
+CPU: 5.8% | Memoria: 86.0% | Disco: 96.9%
+2025-02-10 13:54:50 - Job "create_app.<locals>.obtener_recursos (trigger: interval[0:01:00], next run at: 2025-02-10 13:55:49 CET)" executed successfully
+Job "create_app.<locals>.obtener_recursos (trigger: interval[0:01:00], next run at: 2025-02-10 13:55:49 CET)" executed successfully
+2025-02-10 13:54:51 - 127.0.0.1 - - [10/Feb/2025 13:54:51] "GET /descargar_csv HTTP/1.1" 200 -
+127.0.0.1 - - [10/Feb/2025 13:54:51] "GET /descargar_csv HTTP/1.1" 200 -
+2025-02-10 13:55:35 - Looking for jobs to run
+Looking for jobs to run
+2025-02-10 13:55:35 - Next wakeup is due at 2025-02-10 13:56:35.711513+01:00 (in 59.984139 seconds)
+Next wakeup is due at 2025-02-10 13:56:35.711513+01:00 (in 59.984139 seconds)
+2025-02-10 13:55:35 - Running job "create_app.<locals>.obtener_recursos (trigger: interval[0:01:00], next run at: 2025-02-10 13:56:35 CET)" (scheduled at 2025-02-10 13:55:35.711513+01:00)
+Running job "create_app.<locals>.obtener_recursos (trigger: interval[0:01:00], next run at: 2025-02-10 13:56:35 CET)" (scheduled at 2025-02-10 13:55:35.711513+01:00)
+2025-02-10 13:55:36 - CPU: 15.6% | Memoria: 85.4% | Disco: 96.9%
+CPU: 15.6% | Memoria: 85.4% | Disco: 96.9%
+2025-02-10 13:55:36 - Job "create_app.<locals>.obtener_recursos (trigger: interval[0:01:00], next run at: 2025-02-10 13:56:35 CET)" executed successfully
+Job "create_app.<locals>.obtener_recursos (trigger: interval[0:01:00], next run at: 2025-02-10 13:56:35 CET)" executed successfully
+2025-02-10 13:55:49 - Looking for jobs to run
+Looking for jobs to run
+2025-02-10 13:55:49 - Next wakeup is due at 2025-02-10 13:56:49.173403+01:00 (in 59.995470 seconds)
+Next wakeup is due at 2025-02-10 13:56:49.173403+01:00 (in 59.995470 seconds)
+2025-02-10 13:55:49 - Running job "create_app.<locals>.obtener_recursos (trigger: interval[0:01:00], next run at: 2025-02-10 13:56:49 CET)" (scheduled at 2025-02-10 13:55:49.173403+01:00)
+Running job "create_app.<locals>.obtener_recursos (trigger: interval[0:01:00], next run at: 2025-02-10 13:56:49 CET)" (scheduled at 2025-02-10 13:55:49.173403+01:00)
+2025-02-10 13:55:50 - CPU: 3.3% | Memoria: 86.8% | Disco: 96.9%
+CPU: 3.3% | Memoria: 86.8% | Disco: 96.9%
+2025-02-10 13:55:50 - Job "create_app.<locals>.obtener_recursos (trigger: interval[0:01:00], next run at: 2025-02-10 13:56:49 CET)" executed successfully
+Job "create_app.<locals>.obtener_recursos (trigger: interval[0:01:00], next run at: 2025-02-10 13:56:49 CET)" executed successfully
+2025-02-10 13:56:35 - Looking for jobs to run
+Looking for jobs to run
+2025-02-10 13:56:35 - Next wakeup is due at 2025-02-10 13:57:35.711513+01:00 (in 59.984355 seconds)
+Next wakeup is due at 2025-02-10 13:57:35.711513+01:00 (in 59.984355 seconds)
+2025-02-10 13:56:35 - Running job "create_app.<locals>.obtener_recursos (trigger: interval[0:01:00], next run at: 2025-02-10 13:57:35 CET)" (scheduled at 2025-02-10 13:56:35.711513+01:00)
+Running job "create_app.<locals>.obtener_recursos (trigger: interval[0:01:00], next run at: 2025-02-10 13:57:35 CET)" (scheduled at 2025-02-10 13:56:35.711513+01:00)
+2025-02-10 13:56:36 - CPU: 18.4% | Memoria: 83.6% | Disco: 96.9%
+CPU: 18.4% | Memoria: 83.6% | Disco: 96.9%
+2025-02-10 13:56:36 - Job "create_app.<locals>.obtener_recursos (trigger: interval[0:01:00], next run at: 2025-02-10 13:57:35 CET)" executed successfully
+Job "create_app.<locals>.obtener_recursos (trigger: interval[0:01:00], next run at: 2025-02-10 13:57:35 CET)" executed successfully
+2025-02-10 13:56:49 - Looking for jobs to run
+Looking for jobs to run
+2025-02-10 13:56:49 - Next wakeup is due at 2025-02-10 13:57:49.173403+01:00 (in 59.997348 seconds)
+Next wakeup is due at 2025-02-10 13:57:49.173403+01:00 (in 59.997348 seconds)
+2025-02-10 13:56:49 - Running job "create_app.<locals>.obtener_recursos (trigger: interval[0:01:00], next run at: 2025-02-10 13:57:49 CET)" (scheduled at 2025-02-10 13:56:49.173403+01:00)
+Running job "create_app.<locals>.obtener_recursos (trigger: interval[0:01:00], next run at: 2025-02-10 13:57:49 CET)" (scheduled at 2025-02-10 13:56:49.173403+01:00)
+2025-02-10 13:56:50 - CPU: 20.2% | Memoria: 84.0% | Disco: 96.9%
+CPU: 20.2% | Memoria: 84.0% | Disco: 96.9%
+2025-02-10 13:56:50 - Job "create_app.<locals>.obtener_recursos (trigger: interval[0:01:00], next run at: 2025-02-10 13:57:49 CET)" executed successfully
+Job "create_app.<locals>.obtener_recursos (trigger: interval[0:01:00], next run at: 2025-02-10 13:57:49 CET)" executed successfully
+2025-02-10 13:57:04 - 127.0.0.1 - - [10/Feb/2025 13:57:04] "GET /monitoreo HTTP/1.1" 200 -
+127.0.0.1 - - [10/Feb/2025 13:57:04] "GET /monitoreo HTTP/1.1" 200 -
+2025-02-10 13:57:04 - 127.0.0.1 - - [10/Feb/2025 13:57:04] "[36mGET /static/css/estilos_gestion_sistemas.css HTTP/1.1[0m" 304 -
+127.0.0.1 - - [10/Feb/2025 13:57:04] "[36mGET /static/css/estilos_gestion_sistemas.css HTTP/1.1[0m" 304 -
+2025-02-10 13:57:22 - 127.0.0.1 - - [10/Feb/2025 13:57:22] "GET /descargar_pdf HTTP/1.1" 200 -
+127.0.0.1 - - [10/Feb/2025 13:57:22] "GET /descargar_pdf HTTP/1.1" 200 -
+2025-02-10 13:57:35 - Looking for jobs to run
+Looking for jobs to run
+2025-02-10 13:57:35 - Next wakeup is due at 2025-02-10 13:58:35.711513+01:00 (in 59.994347 seconds)
+Next wakeup is due at 2025-02-10 13:58:35.711513+01:00 (in 59.994347 seconds)
+2025-02-10 13:57:35 - Running job "create_app.<locals>.obtener_recursos (trigger: interval[0:01:00], next run at: 2025-02-10 13:58:35 CET)" (scheduled at 2025-02-10 13:57:35.711513+01:00)
+Running job "create_app.<locals>.obtener_recursos (trigger: interval[0:01:00], next run at: 2025-02-10 13:58:35 CET)" (scheduled at 2025-02-10 13:57:35.711513+01:00)
+2025-02-10 13:57:36 - CPU: 12.4% | Memoria: 84.1% | Disco: 96.9%
+CPU: 12.4% | Memoria: 84.1% | Disco: 96.9%
+2025-02-10 13:57:36 - Job "create_app.<locals>.obtener_recursos (trigger: interval[0:01:00], next run at: 2025-02-10 13:58:35 CET)" executed successfully
+Job "create_app.<locals>.obtener_recursos (trigger: interval[0:01:00], next run at: 2025-02-10 13:58:35 CET)" executed successfully
+2025-02-10 13:57:49 - Looking for jobs to run
+Looking for jobs to run
+2025-02-10 13:57:49 - Next wakeup is due at 2025-02-10 13:58:49.173403+01:00 (in 59.981441 seconds)
+Next wakeup is due at 2025-02-10 13:58:49.173403+01:00 (in 59.981441 seconds)
+2025-02-10 13:57:49 - Running job "create_app.<locals>.obtener_recursos (trigger: interval[0:01:00], next run at: 2025-02-10 13:58:49 CET)" (scheduled at 2025-02-10 13:57:49.173403+01:00)
+Running job "create_app.<locals>.obtener_recursos (trigger: interval[0:01:00], next run at: 2025-02-10 13:58:49 CET)" (scheduled at 2025-02-10 13:57:49.173403+01:00)
+2025-02-10 13:57:50 - CPU: 24.3% | Memoria: 85.5% | Disco: 97.0%
+CPU: 24.3% | Memoria: 85.5% | Disco: 97.0%
+2025-02-10 13:57:50 - Job "create_app.<locals>.obtener_recursos (trigger: interval[0:01:00], next run at: 2025-02-10 13:58:49 CET)" executed successfully
+Job "create_app.<locals>.obtener_recursos (trigger: interval[0:01:00], next run at: 2025-02-10 13:58:49 CET)" executed successfully
+2025-02-10 13:58:35 - Looking for jobs to run
+Looking for jobs to run
+2025-02-10 13:58:35 - Next wakeup is due at 2025-02-10 13:59:35.711513+01:00 (in 59.981161 seconds)
+Next wakeup is due at 2025-02-10 13:59:35.711513+01:00 (in 59.981161 seconds)
+2025-02-10 13:58:35 - Running job "create_app.<locals>.obtener_recursos (trigger: interval[0:01:00], next run at: 2025-02-10 13:59:35 CET)" (scheduled at 2025-02-10 13:58:35.711513+01:00)
+Running job "create_app.<locals>.obtener_recursos (trigger: interval[0:01:00], next run at: 2025-02-10 13:59:35 CET)" (scheduled at 2025-02-10 13:58:35.711513+01:00)
+2025-02-10 13:58:36 - CPU: 24.6% | Memoria: 85.0% | Disco: 97.0%
+CPU: 24.6% | Memoria: 85.0% | Disco: 97.0%
+2025-02-10 13:58:36 - Job "create_app.<locals>.obtener_recursos (trigger: interval[0:01:00], next run at: 2025-02-10 13:59:35 CET)" executed successfully
+Job "create_app.<locals>.obtener_recursos (trigger: interval[0:01:00], next run at: 2025-02-10 13:59:35 CET)" executed successfully
+2025-02-10 13:58:49 - Looking for jobs to run
+Looking for jobs to run
+2025-02-10 13:58:49 - Next wakeup is due at 2025-02-10 13:59:49.173403+01:00 (in 59.997366 seconds)
+Next wakeup is due at 2025-02-10 13:59:49.173403+01:00 (in 59.997366 seconds)
+2025-02-10 13:58:49 - Running job "create_app.<locals>.obtener_recursos (trigger: interval[0:01:00], next run at: 2025-02-10 13:59:49 CET)" (scheduled at 2025-02-10 13:58:49.173403+01:00)
+Running job "create_app.<locals>.obtener_recursos (trigger: interval[0:01:00], next run at: 2025-02-10 13:59:49 CET)" (scheduled at 2025-02-10 13:58:49.173403+01:00)
+2025-02-10 13:58:50 - CPU: 9.3% | Memoria: 85.0% | Disco: 97.0%
+CPU: 9.3% | Memoria: 85.0% | Disco: 97.0%
+2025-02-10 13:58:50 - Job "create_app.<locals>.obtener_recursos (trigger: interval[0:01:00], next run at: 2025-02-10 13:59:49 CET)" executed successfully
+Job "create_app.<locals>.obtener_recursos (trigger: interval[0:01:00], next run at: 2025-02-10 13:59:49 CET)" executed successfully
+2025-02-10 13:59:35 - Looking for jobs to run
+Looking for jobs to run
+2025-02-10 13:59:35 - Next wakeup is due at 2025-02-10 14:00:35.711513+01:00 (in 59.997300 seconds)
+Next wakeup is due at 2025-02-10 14:00:35.711513+01:00 (in 59.997300 seconds)
+2025-02-10 13:59:35 - Running job "create_app.<locals>.obtener_recursos (trigger: interval[0:01:00], next run at: 2025-02-10 14:00:35 CET)" (scheduled at 2025-02-10 13:59:35.711513+01:00)
+Running job "create_app.<locals>.obtener_recursos (trigger: interval[0:01:00], next run at: 2025-02-10 14:00:35 CET)" (scheduled at 2025-02-10 13:59:35.711513+01:00)
+2025-02-10 13:59:36 - CPU: 21.8% | Memoria: 84.9% | Disco: 97.0%
+CPU: 21.8% | Memoria: 84.9% | Disco: 97.0%
+2025-02-10 13:59:36 - Job "create_app.<locals>.obtener_recursos (trigger: interval[0:01:00], next run at: 2025-02-10 14:00:35 CET)" executed successfully
+Job "create_app.<locals>.obtener_recursos (trigger: interval[0:01:00], next run at: 2025-02-10 14:00:35 CET)" executed successfully
+2025-02-10 13:59:49 - Looking for jobs to run
+Looking for jobs to run
+2025-02-10 13:59:49 - Next wakeup is due at 2025-02-10 14:00:49.173403+01:00 (in 59.992440 seconds)
+Next wakeup is due at 2025-02-10 14:00:49.173403+01:00 (in 59.992440 seconds)
+2025-02-10 13:59:49 - Running job "create_app.<locals>.obtener_recursos (trigger: interval[0:01:00], next run at: 2025-02-10 14:00:49 CET)" (scheduled at 2025-02-10 13:59:49.173403+01:00)
+Running job "create_app.<locals>.obtener_recursos (trigger: interval[0:01:00], next run at: 2025-02-10 14:00:49 CET)" (scheduled at 2025-02-10 13:59:49.173403+01:00)
+2025-02-10 13:59:50 - CPU: 19.4% | Memoria: 84.8% | Disco: 97.0%
+CPU: 19.4% | Memoria: 84.8% | Disco: 97.0%
+2025-02-10 13:59:50 - Job "create_app.<locals>.obtener_recursos (trigger: interval[0:01:00], next run at: 2025-02-10 14:00:49 CET)" executed successfully
+Job "create_app.<locals>.obtener_recursos (trigger: interval[0:01:00], next run at: 2025-02-10 14:00:49 CET)" executed successfully
+2025-02-10 13:59:57 - 127.0.0.1 - - [10/Feb/2025 13:59:57] "[35m[1mGET /monitoreo HTTP/1.1[0m" 500 -
+127.0.0.1 - - [10/Feb/2025 13:59:57] "[35m[1mGET /monitoreo HTTP/1.1[0m" 500 -
+2025-02-10 13:59:57 - 127.0.0.1 - - [10/Feb/2025 13:59:57] "[36mGET /monitoreo?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+127.0.0.1 - - [10/Feb/2025 13:59:57] "[36mGET /monitoreo?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2025-02-10 13:59:57 - 127.0.0.1 - - [10/Feb/2025 13:59:57] "[36mGET /monitoreo?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+127.0.0.1 - - [10/Feb/2025 13:59:57] "[36mGET /monitoreo?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2025-02-10 13:59:57 - 127.0.0.1 - - [10/Feb/2025 13:59:57] "GET /monitoreo?__debugger__=yes&cmd=resource&f=console.png&s=SNBlHb8wg94WFTtjKZ7Z HTTP/1.1" 200 -
+127.0.0.1 - - [10/Feb/2025 13:59:57] "GET /monitoreo?__debugger__=yes&cmd=resource&f=console.png&s=SNBlHb8wg94WFTtjKZ7Z HTTP/1.1" 200 -
+2025-02-10 13:59:57 - 127.0.0.1 - - [10/Feb/2025 13:59:57] "[36mGET /monitoreo?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+127.0.0.1 - - [10/Feb/2025 13:59:57] "[36mGET /monitoreo?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2025-02-10 14:00:35 - Looking for jobs to run
+Looking for jobs to run
+2025-02-10 14:00:35 - Next wakeup is due at 2025-02-10 14:01:35.711513+01:00 (in 59.987363 seconds)
+Next wakeup is due at 2025-02-10 14:01:35.711513+01:00 (in 59.987363 seconds)
+2025-02-10 14:00:35 - Running job "create_app.<locals>.obtener_recursos (trigger: interval[0:01:00], next run at: 2025-02-10 14:01:35 CET)" (scheduled at 2025-02-10 14:00:35.711513+01:00)
+Running job "create_app.<locals>.obtener_recursos (trigger: interval[0:01:00], next run at: 2025-02-10 14:01:35 CET)" (scheduled at 2025-02-10 14:00:35.711513+01:00)
+2025-02-10 14:00:36 - CPU: 14.2% | Memoria: 85.6% | Disco: 97.0%
+CPU: 14.2% | Memoria: 85.6% | Disco: 97.0%
+2025-02-10 14:00:36 - Job "create_app.<locals>.obtener_recursos (trigger: interval[0:01:00], next run at: 2025-02-10 14:01:35 CET)" executed successfully
+Job "create_app.<locals>.obtener_recursos (trigger: interval[0:01:00], next run at: 2025-02-10 14:01:35 CET)" executed successfully
+2025-02-10 14:00:49 - Looking for jobs to run
+Looking for jobs to run
+2025-02-10 14:00:49 - Next wakeup is due at 2025-02-10 14:01:49.173403+01:00 (in 59.996941 seconds)
+Next wakeup is due at 2025-02-10 14:01:49.173403+01:00 (in 59.996941 seconds)
+2025-02-10 14:00:49 - Running job "create_app.<locals>.obtener_recursos (trigger: interval[0:01:00], next run at: 2025-02-10 14:01:49 CET)" (scheduled at 2025-02-10 14:00:49.173403+01:00)
+Running job "create_app.<locals>.obtener_recursos (trigger: interval[0:01:00], next run at: 2025-02-10 14:01:49 CET)" (scheduled at 2025-02-10 14:00:49.173403+01:00)
+2025-02-10 14:00:50 - CPU: 33.9% | Memoria: 86.9% | Disco: 97.0%
+CPU: 33.9% | Memoria: 86.9% | Disco: 97.0%
+2025-02-10 14:00:50 - Job "create_app.<locals>.obtener_recursos (trigger: interval[0:01:00], next run at: 2025-02-10 14:01:49 CET)" executed successfully
+Job "create_app.<locals>.obtener_recursos (trigger: interval[0:01:00], next run at: 2025-02-10 14:01:49 CET)" executed successfully
+2025-02-10 14:00:53 - Looking up time zone info from registry
+Looking up time zone info from registry
+2025-02-10 14:00:53 - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-02-10 14:00:53 - Added job "create_app.<locals>.obtener_recursos" to job store "default"
+Added job "create_app.<locals>.obtener_recursos" to job store "default"
+2025-02-10 14:00:53 - Scheduler started
+Scheduler started
+2025-02-10 14:00:53 - Looking for jobs to run
+Looking for jobs to run
+2025-02-10 14:00:53 - Next wakeup is due at 2025-02-10 14:01:53.207470+01:00 (in 60.000000 seconds)
+Next wakeup is due at 2025-02-10 14:01:53.207470+01:00 (in 60.000000 seconds)
+2025-02-10 14:00:53 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-02-10 14:00:53 - [33mPress CTRL+C to quit[0m
+[33mPress CTRL+C to quit[0m
+2025-02-10 14:00:53 -  * Restarting with stat
+ * Restarting with stat
+2025-02-10 14:00:54 - Looking up time zone info from registry
+Looking up time zone info from registry
+2025-02-10 14:00:54 - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-02-10 14:00:54 - Added job "create_app.<locals>.obtener_recursos" to job store "default"
+Added job "create_app.<locals>.obtener_recursos" to job store "default"
+2025-02-10 14:00:54 - Scheduler started
+Scheduler started
+2025-02-10 14:00:54 - Looking for jobs to run
+Looking for jobs to run
+2025-02-10 14:00:54 - Next wakeup is due at 2025-02-10 14:01:54.166793+01:00 (in 60.000000 seconds)
+Next wakeup is due at 2025-02-10 14:01:54.166793+01:00 (in 60.000000 seconds)
+2025-02-10 14:00:54 -  * Debugger is active!
+ * Debugger is active!
+2025-02-10 14:00:54 -  * Debugger PIN: 587-271-109
+ * Debugger PIN: 587-271-109
+2025-02-10 14:01:04 - 127.0.0.1 - - [10/Feb/2025 14:01:04] "[35m[1mGET /monitoreo HTTP/1.1[0m" 500 -
+127.0.0.1 - - [10/Feb/2025 14:01:04] "[35m[1mGET /monitoreo HTTP/1.1[0m" 500 -
+2025-02-10 14:01:04 - 127.0.0.1 - - [10/Feb/2025 14:01:04] "[36mGET /monitoreo?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+127.0.0.1 - - [10/Feb/2025 14:01:04] "[36mGET /monitoreo?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2025-02-10 14:01:04 - 127.0.0.1 - - [10/Feb/2025 14:01:04] "[36mGET /monitoreo?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+127.0.0.1 - - [10/Feb/2025 14:01:04] "[36mGET /monitoreo?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2025-02-10 14:01:04 - 127.0.0.1 - - [10/Feb/2025 14:01:04] "GET /monitoreo?__debugger__=yes&cmd=resource&f=console.png&s=LtziJOwiObASK5noMr3u HTTP/1.1" 200 -
+127.0.0.1 - - [10/Feb/2025 14:01:04] "GET /monitoreo?__debugger__=yes&cmd=resource&f=console.png&s=LtziJOwiObASK5noMr3u HTTP/1.1" 200 -
+2025-02-10 14:01:04 - 127.0.0.1 - - [10/Feb/2025 14:01:04] "[36mGET /monitoreo?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+127.0.0.1 - - [10/Feb/2025 14:01:04] "[36mGET /monitoreo?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2025-02-10 14:01:53 - Looking for jobs to run
+Looking for jobs to run
+2025-02-10 14:01:53 - Running job "create_app.<locals>.obtener_recursos (trigger: interval[0:01:00], next run at: 2025-02-10 14:01:53 CET)" (scheduled at 2025-02-10 14:01:53.207470+01:00)
+Running job "create_app.<locals>.obtener_recursos (trigger: interval[0:01:00], next run at: 2025-02-10 14:02:53 CET)" (scheduled at 2025-02-10 14:01:53.207470+01:00)
+2025-02-10 14:01:53 - Next wakeup is due at 2025-02-10 14:02:53.207470+01:00 (in 59.978049 seconds)
+Next wakeup is due at 2025-02-10 14:02:53.207470+01:00 (in 59.978049 seconds)
+2025-02-10 14:01:54 - Looking for jobs to run
+Looking for jobs to run
+2025-02-10 14:01:54 - Running job "create_app.<locals>.obtener_recursos (trigger: interval[0:01:00], next run at: 2025-02-10 14:01:54 CET)" (scheduled at 2025-02-10 14:01:54.166793+01:00)
+Running job "create_app.<locals>.obtener_recursos (trigger: interval[0:01:00], next run at: 2025-02-10 14:02:54 CET)" (scheduled at 2025-02-10 14:01:54.166793+01:00)
+2025-02-10 14:01:54 - Next wakeup is due at 2025-02-10 14:02:54.166793+01:00 (in 59.991054 seconds)
+Next wakeup is due at 2025-02-10 14:02:54.166793+01:00 (in 59.991054 seconds)
+2025-02-10 14:01:54 - CPU: 3.2% | Memoria: 86.0% | Disco: 97.0%
+CPU: 3.2% | Memoria: 86.0% | Disco: 97.0%
+2025-02-10 14:01:54 - Job "create_app.<locals>.obtener_recursos (trigger: interval[0:01:00], next run at: 2025-02-10 14:02:53 CET)" executed successfully
+Job "create_app.<locals>.obtener_recursos (trigger: interval[0:01:00], next run at: 2025-02-10 14:02:53 CET)" executed successfully
+2025-02-10 14:01:55 - CPU: 11.9% | Memoria: 86.0% | Disco: 97.0%
+CPU: 11.9% | Memoria: 86.0% | Disco: 97.0%
+2025-02-10 14:01:55 - Job "create_app.<locals>.obtener_recursos (trigger: interval[0:01:00], next run at: 2025-02-10 14:02:54 CET)" executed successfully
+Job "create_app.<locals>.obtener_recursos (trigger: interval[0:01:00], next run at: 2025-02-10 14:02:54 CET)" executed successfully
+2025-02-10 14:02:53 - Looking for jobs to run
+Looking for jobs to run
+2025-02-10 14:02:53 - Next wakeup is due at 2025-02-10 14:03:53.207470+01:00 (in 59.975441 seconds)
+Next wakeup is due at 2025-02-10 14:03:53.207470+01:00 (in 59.975441 seconds)
+2025-02-10 14:02:53 - Running job "create_app.<locals>.obtener_recursos (trigger: interval[0:01:00], next run at: 2025-02-10 14:03:53 CET)" (scheduled at 2025-02-10 14:02:53.207470+01:00)
+Running job "create_app.<locals>.obtener_recursos (trigger: interval[0:01:00], next run at: 2025-02-10 14:03:53 CET)" (scheduled at 2025-02-10 14:02:53.207470+01:00)
+2025-02-10 14:02:54 - Looking for jobs to run
+Looking for jobs to run
+2025-02-10 14:02:54 - Next wakeup is due at 2025-02-10 14:03:54.166793+01:00 (in 59.985811 seconds)
+Next wakeup is due at 2025-02-10 14:03:54.166793+01:00 (in 59.985811 seconds)
+2025-02-10 14:02:54 - Running job "create_app.<locals>.obtener_recursos (trigger: interval[0:01:00], next run at: 2025-02-10 14:03:54 CET)" (scheduled at 2025-02-10 14:02:54.166793+01:00)
+Running job "create_app.<locals>.obtener_recursos (trigger: interval[0:01:00], next run at: 2025-02-10 14:03:54 CET)" (scheduled at 2025-02-10 14:02:54.166793+01:00)
+2025-02-10 14:02:54 - CPU: 13.2% | Memoria: 86.1% | Disco: 97.0%
+CPU: 13.2% | Memoria: 86.1% | Disco: 97.0%
+2025-02-10 14:02:54 - Job "create_app.<locals>.obtener_recursos (trigger: interval[0:01:00], next run at: 2025-02-10 14:03:53 CET)" executed successfully
+Job "create_app.<locals>.obtener_recursos (trigger: interval[0:01:00], next run at: 2025-02-10 14:03:53 CET)" executed successfully
+2025-02-10 14:02:55 - CPU: 14.1% | Memoria: 86.1% | Disco: 97.0%
+CPU: 14.1% | Memoria: 86.1% | Disco: 97.0%
+2025-02-10 14:02:55 - Job "create_app.<locals>.obtener_recursos (trigger: interval[0:01:00], next run at: 2025-02-10 14:03:54 CET)" executed successfully
+Job "create_app.<locals>.obtener_recursos (trigger: interval[0:01:00], next run at: 2025-02-10 14:03:54 CET)" executed successfully
+2025-02-10 14:03:28 - Looking up time zone info from registry
+Looking up time zone info from registry
+2025-02-10 14:03:28 - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-02-10 14:03:28 - Added job "create_app.<locals>.obtener_recursos" to job store "default"
+Added job "create_app.<locals>.obtener_recursos" to job store "default"
+2025-02-10 14:03:28 - Scheduler started
+Scheduler started
+2025-02-10 14:03:28 - Looking for jobs to run
+Looking for jobs to run
+2025-02-10 14:03:28 - Next wakeup is due at 2025-02-10 14:04:28.746875+01:00 (in 60.000000 seconds)
+Next wakeup is due at 2025-02-10 14:04:28.746875+01:00 (in 60.000000 seconds)
+2025-02-10 14:03:28 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-02-10 14:03:28 - [33mPress CTRL+C to quit[0m
+[33mPress CTRL+C to quit[0m
+2025-02-10 14:03:28 -  * Restarting with stat
+ * Restarting with stat

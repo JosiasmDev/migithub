@@ -22,6 +22,25 @@ body {
   border-radius: 30px;
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.8);
   border: 1px solid #555;
+  text-align: center; /* Centra el contenido */
+}
+
+/* Contenedores pequeños para cada URL */
+.url-container {
+  display: inline-block;
+  width: 100%;
+  max-width: 200px;
+  margin: 10px;
+  padding: 10px;
+  background-color: #dccfcf;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(211, 199, 199, 0.6);
+  transition: transform 0.3s ease;
+}
+
+/* Cambiar estilo en hover */
+.url-container:hover {
+  transform: scale(1.05);
 }
 
 /* Encabezado */
@@ -186,7 +205,7 @@ footer {
 
 /* Estilo adicional para la interfaz con fondo oscuro */
 body {
-  background: linear-gradient(135deg, #0f0f0f, #1a1a1a);
+  background: linear-gradient(135deg, #7f92ba, #83c884);
   color: #d1d1d1;
 }
 
@@ -289,7 +308,7 @@ form input, form select, form textarea {
   border: 2px solid #ff0000;
   border-radius: 30px;
   margin-bottom: 20px;
-  background: #1a1a1a;
+  background: #ded2d2;
   color: #d1d1d1;
   transition: all 0.2s ease;
 }
@@ -313,13 +332,13 @@ form input:focus, form select:focus, form textarea:focus {
   font-weight: bold;
   text-transform: uppercase;
   transition: transform 0.2s ease, background 0.2s ease;
-  box-shadow: 0 8px 20px rgba(0, 0, 0, 1);
+  box-shadow: 0 8px 20px rgb(210, 196, 196);
 }
 
 .button:hover {
   transform: scale(1.1);
   background: #ff0000;
-  color: #000;
+  color: #a49393;
 }
 
 /* Alertas */
@@ -369,10 +388,18 @@ footer {
 }
 
 
+/* Ajustes responsivos */
 @media (max-width: 768px) {
-  nav {
-    flex-direction: column;
+  .url-container {
+    width: 80%; /* Más grande en pantallas pequeñas */
   }
+}
+
+@media (max-width: 480px) {
+  .url-container {
+    width: 100%; /* Ocupa el 100% en pantallas muy pequeñas */
+  }
+}
 
   nav a {
     margin: 10px 0;
