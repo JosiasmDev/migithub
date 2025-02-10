@@ -7,7 +7,7 @@
   }
   
   body {
-    background: linear-gradient(135deg, #1f1c2c, #928dab);
+    background: linear-gradient(135deg, #7da92c, #928dab);
     color: #e0e0e0;
     line-height: 1.6;
   }
@@ -18,19 +18,19 @@
     margin: 20px auto;
     padding: 20px;
     background: rgba(30, 30, 30, 0.9);
-    border-radius: 15px;
+    border-radius: 30px;
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.8);
     border: 1px solid #555;
   }
   
   /* Encabezado */
   header {
-    background: linear-gradient(135deg, #0f0c29, #302b63, #24243e);
+    background: linear-gradient(135deg, #0f0c29, #a7a5bd, #a3a3b0);
     color: #f1c40f;
     padding: 25px 0;
     text-align: center;
     font-size: 2.5rem;
-    border-radius: 0 0 20px 20px;
+    border-radius: 30px 30px 30px 30px;
     box-shadow: 0 6px 12px rgba(0, 0, 0, 0.9);
     text-transform: uppercase;
     letter-spacing: 2px;
@@ -40,9 +40,9 @@
   nav {
     display: flex;
     justify-content: space-around;
-    background: linear-gradient(135deg, #434343, #000000);
+    background: linear-gradient(135deg, #e4d5d5, #cfcaca);
     padding: 20px 0;
-    border-radius: 15px;
+    border-radius: 30px;
     margin: 20px 0;
     box-shadow: 0 6px 15px rgba(0, 0, 0, 0.9);
   }
@@ -52,12 +52,12 @@
     text-decoration: none;
     font-weight: bold;
     padding: 12px 25px;
-    border-radius: 8px;
+    border-radius: 30px;
     transition: background-color 0.3s ease, color 0.3s ease;
   }
   
   nav a:hover {
-    background: linear-gradient(135deg, #ff512f, #dd2476);
+    background: linear-gradient(135deg, #d3d1df, #e7d5dd);
     color: #fff;
   }
   
@@ -72,25 +72,25 @@
   table th, table td {
     padding: 15px;
     text-align: left;
-    background-color: rgba(50, 50, 50, 0.95);
+    background-color: rgba(156, 122, 122, 0.95);
     color: #e0e0e0;
-    border-radius: 10px;
+    border-radius: 30px;
     border: 1px solid #555;
   }
   
   table th {
-    background: linear-gradient(135deg, #3a1c71, #d76d77, #ffaf7b);
+    background: linear-gradient(135deg, #b7b1c3, #d76d77, #ffaf7b);
     color: #fff;
     text-transform: uppercase;
     letter-spacing: 1px;
   }
   
   tr:nth-child(even) td {
-    background-color: rgba(70, 70, 70, 0.9);
+    background-color: rgba(186, 211, 220, 0.9);
   }
   
   tr:hover td {
-    background-color: rgba(255, 87, 34, 0.8);
+    background-color: rgba(189, 208, 220, 0.8);
     cursor: pointer;
     color: #fff;
   }
@@ -111,9 +111,9 @@
   form input, form select, form textarea {
     padding: 15px;
     border: 1px solid #555;
-    border-radius: 10px;
+    border-radius: 30px;
     margin-bottom: 20px;
-    background: #2c2c2c;
+    background: #aa9c9c;
     color: #e0e0e0;
     transition: all 0.3s ease;
   }
@@ -130,7 +130,7 @@
     color: #d3c0c0;
     padding: 15px 30px;
     border: none;
-    border-radius: 20px;
+    border-radius: 30px;
     cursor: pointer;
     font-weight: bold;
     text-transform: uppercase;
@@ -145,7 +145,7 @@
   }
   
   .button-danger {
-    background: linear-gradient(135deg, #8e0e00, #1f1c18);
+    background: linear-gradient(135deg, #cebebc, #1f1c18);
     color: #fff;
   }
   
@@ -158,7 +158,7 @@
   .alert {
     padding: 20px;
     margin: 20px 0;
-    border-radius: 15px;
+    border-radius: 30px;
     font-weight: bold;
     box-shadow: 0 6px 15px rgba(0, 0, 0, 0.9);
     text-transform: uppercase;
@@ -186,7 +186,7 @@
     margin-top: 20px;
     background: linear-gradient(135deg, #000000, #434343);
     color: #e0e0e0;
-    border-radius: 20px;
+    border-radius: 30px;
     box-shadow: 0 6px 15px rgba(0, 0, 0, 0.9);
     text-transform: uppercase;
   }
