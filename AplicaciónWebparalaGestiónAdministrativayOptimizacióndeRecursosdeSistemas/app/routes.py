@@ -2,6 +2,8 @@ from flask import Blueprint, render_template, redirect, url_for, flash, request,
 from app.models import User
 from app import db
 from app.utils.system_monitor import get_system_usage, check_system_usage
+import os
+from datetime import datetime  # Importar datetime
 
 main_routes = Blueprint('main', __name__)
 
@@ -10,7 +12,6 @@ def index():
     print(session.get('username', 'Usuario'))
     username = session.get('username', 'Usuario')  # Si no hay sesión, muestra 'Usuario' por defecto
     return render_template('index.html', username=username)
-
 
 @main_routes.route('/login', methods=['GET', 'POST'])
 def login():
@@ -35,12 +36,10 @@ def login():
     
     return render_template('login.html')
 
-
 @main_routes.route('/usuarios', methods=['GET'])
 def listar_usuarios():
     usuarios = User.query.all()
     return render_template('usuarios.html', usuarios=usuarios)
-
 
 @main_routes.route('/editar_usuario/<int:id>', methods=['GET', 'POST'])
 def editar_usuario(id):
@@ -73,10 +72,6 @@ def editar_usuario(id):
             
     return render_template('editar_usuario.html', usuario=usuario)
 
-    #return redirect(url_for('main.usuarios'))  # Redirigir a la lista de usuarios
-
-    #return render_template('editar_usuario.html', usuario=usuario)
-
 @main_routes.route('/usuarios/eliminar/<int:id>')
 def eliminar_usuario(id):
     usuario = User.query.get_or_404(id)
@@ -84,7 +79,6 @@ def eliminar_usuario(id):
     db.session.commit()
     flash('Usuario eliminado correctamente.', 'success')
     return redirect(url_for('main.listar_usuarios'))  # Redirigir a la lista actualizada
-
 
 @main_routes.route('/monitoreo')
 def monitoreo():
@@ -118,4 +112,31 @@ def registro():
     
     return render_template('registro.html')
 
+@main_routes.route('/logs')
+def ver_logs():
+    log_file = os.path.join(os.path.dirname(__file__), '../logs/recursos.log')
 
+    try:
+        with open(log_file, 'r') as f:
+            logs = f.readlines()
+    except FileNotFoundError:
+        logs = ["No se encuentran logs disponibles"]
+
+    # Agrupar logs por fecha
+    logs_grouped_by_day = {}
+
+    for log in logs:
+        try:
+            timestamp = log.split(" - ")[0]
+            log_datetime = datetime.strptime(timestamp, '%Y-%m-%d %H:%M:%S')
+            day = log_datetime.date()
+
+            if day not in logs_grouped_by_day:
+                logs_grouped_by_day[day] = []
+
+            logs_grouped_by_day[day].append(log)
+
+        except ValueError:
+            continue
+
+    return render_template('logs.html', logs_grouped_by_day=logs_grouped_by_day)

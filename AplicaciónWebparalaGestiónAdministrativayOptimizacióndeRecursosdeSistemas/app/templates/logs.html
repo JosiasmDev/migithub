@@ -1,0 +1,54 @@
+{% extends "base.html" %}
+
+{% block content %}
+    <div class="logs-container">
+        <h1>Logs de Monitoreo de Recursos</h1>
+
+        {% if logs_grouped_by_day %}
+            <div class="log-list">
+                {% for day, day_logs in logs_grouped_by_day.items() %}
+                    <div class="log-day">
+                        <h2>{{ day }}</h2>  <!-- Mostrar el día -->
+
+                        {% for log in day_logs %}
+                            <div class="log-entry">
+                                {% if 'CPU' in log %}
+                                    {% set cpu_usage = log.split('CPU: ')[1].split('%')[0] | int %}
+                                    {% if cpu_usage < 60 %}
+                                        <div class="log low">{{ log }}</div>
+                                    {% elif cpu_usage < 85 %}
+                                        <div class="log medium">{{ log }}</div>
+                                    {% else %}
+                                        <div class="log high">{{ log }}</div>
+                                    {% endif %}
+                                {% elif 'Memoria' in log %}
+                                    {% set mem_usage = log.split('Memoria: ')[1].split('%')[0] | int %}
+                                    {% if mem_usage < 60 %}
+                                        <div class="log low">{{ log }}</div>
+                                    {% elif mem_usage < 85 %}
+                                        <div class="log medium">{{ log }}</div>
+                                    {% else %}
+                                        <div class="log high">{{ log }}</div>
+                                    {% endif %}
+                                {% elif 'Disco' in log %}
+                                    {% set disk_usage = log.split('Disco: ')[1].split('%')[0] | int %}
+                                    {% if disk_usage < 60 %}
+                                        <div class="log low">{{ log }}</div>
+                                    {% elif disk_usage < 85 %}
+                                        <div class="log medium">{{ log }}</div>
+                                    {% else %}
+                                        <div class="log high">{{ log }}</div>
+                                    {% endif %}
+                                {% else %}
+                                    <div class="log">{{ log }}</div>
+                                {% endif %}
+                            </div>
+                        {% endfor %}
+                    </div>
+                {% endfor %}
+            </div>
+        {% else %}
+            <p class="text-center">No se encontraron logs disponibles.</p>
+        {% endif %}
+    </div>
+{% endblock %}

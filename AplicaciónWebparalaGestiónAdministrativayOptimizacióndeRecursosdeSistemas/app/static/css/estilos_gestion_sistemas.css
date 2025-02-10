@@ -1,202 +1,185 @@
 /* Reset general */
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: 'Roboto', sans-serif;
-  }
-  
-  body {
-    background: linear-gradient(135deg, #7da92c, #928dab);
-    color: #e0e0e0;
-    line-height: 1.6;
-  }
-  
-  .container {
-    width: 90%;
-    max-width: 1200px;
-    margin: 20px auto;
-    padding: 20px;
-    background: rgba(30, 30, 30, 0.9);
-    border-radius: 30px;
-    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.8);
-    border: 1px solid #555;
-  }
-  
-  /* Encabezado */
-  header {
-    background: linear-gradient(135deg, #0f0c29, #a7a5bd, #a3a3b0);
-    color: #f1c40f;
-    padding: 25px 0;
-    text-align: center;
-    font-size: 2.5rem;
-    border-radius: 30px 30px 30px 30px;
-    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.9);
-    text-transform: uppercase;
-    letter-spacing: 2px;
-  }
-  
-  /* Navegación */
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+}
+
+body {
+  background: linear-gradient(135deg, #7da92c, #928dab);
+  color: #e0e0e0;
+  line-height: 1.6;
+}
+
+/* Contenedor principal */
+.container {
+  width: 90%;
+  max-width: 1200px;
+  margin: 20px auto;
+  padding: 20px;
+  background: rgba(30, 30, 30, 0.9);
+  border-radius: 30px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.8);
+  border: 1px solid #555;
+}
+
+/* Encabezado */
+header {
+  background: linear-gradient(135deg, #0f0c29, #a7a5bd, #a3a3b0);
+  color: #f1c40f;
+  padding: 25px 0;
+  text-align: center;
+  font-size: 2.5rem;
+  border-radius: 30px;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.9);
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+/* Navegación */
+nav {
+  display: flex;
+  justify-content: space-around;
+  background: linear-gradient(135deg, #e4d5d5, #cfcaca);
+  padding: 20px 0;
+  border-radius: 30px;
+  margin: 20px 0;
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.9);
+}
+
+nav a {
+  color: #e0e0e0;
+  text-decoration: none;
+  font-weight: bold;
+  padding: 12px 25px;
+  border-radius: 30px;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+nav a:hover {
+  background: linear-gradient(135deg, #d3d1df, #e7d5dd);
+  color: #fff;
+}
+
+/* Alertas */
+.alert {
+  padding: 20px;
+  margin: 20px 0;
+  border-radius: 30px;
+  font-weight: bold;
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.9);
+  text-transform: uppercase;
+}
+
+.alert-success {
+  background: linear-gradient(135deg, #00b09b, #96c93d);
+  color: #1e1e1e;
+}
+
+.alert-warning {
+  background: linear-gradient(135deg, #ffb347, #ffcc33);
+  color: #1e1e1e;
+}
+
+.alert-danger {
+  background: linear-gradient(135deg, #cb2d3e, #ef473a);
+  color: #fff;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  padding: 20px;
+  margin-top: 20px;
+  background: linear-gradient(135deg, #000000, #434343);
+  color: #e0e0e0;
+  border-radius: 30px;
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.9);
+  text-transform: uppercase;
+}
+
+@media (max-width: 768px) {
   nav {
-    display: flex;
-    justify-content: space-around;
-    background: linear-gradient(135deg, #e4d5d5, #cfcaca);
-    padding: 20px 0;
-    border-radius: 30px;
-    margin: 20px 0;
-    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.9);
-  }
-  
-  nav a {
-    color: #e0e0e0;
-    text-decoration: none;
-    font-weight: bold;
-    padding: 12px 25px;
-    border-radius: 30px;
-    transition: background-color 0.3s ease, color 0.3s ease;
-  }
-  
-  nav a:hover {
-    background: linear-gradient(135deg, #d3d1df, #e7d5dd);
-    color: #fff;
-  }
-  
-  /* Tablas */
-  table {
-    width: 100%;
-    border-collapse: separate;
-    border-spacing: 0 12px;
-    margin-bottom: 20px;
-  }
-  
-  table th, table td {
-    padding: 15px;
-    text-align: left;
-    background-color: rgba(156, 122, 122, 0.95);
-    color: #e0e0e0;
-    border-radius: 30px;
-    border: 1px solid #555;
-  }
-  
-  table th {
-    background: linear-gradient(135deg, #b7b1c3, #d76d77, #ffaf7b);
-    color: #fff;
-    text-transform: uppercase;
-    letter-spacing: 1px;
-  }
-  
-  tr:nth-child(even) td {
-    background-color: rgba(186, 211, 220, 0.9);
-  }
-  
-  tr:hover td {
-    background-color: rgba(189, 208, 220, 0.8);
-    cursor: pointer;
-    color: #fff;
-  }
-  
-  /* Formularios */
-  form {
-    display: flex;
-    flex-direction: column;
-  }
-  
-  form label {
-    margin: 10px 0 5px;
-    font-weight: bold;
-    color: #f1c40f;
-    text-transform: uppercase;
-  }
-  
-  form input, form select, form textarea {
-    padding: 15px;
-    border: 1px solid #555;
-    border-radius: 30px;
-    margin-bottom: 20px;
-    background: #aa9c9c;
-    color: #e0e0e0;
-    transition: all 0.3s ease;
-  }
-  
-  form input:focus, form select:focus, form textarea:focus {
-    outline: none;
-    border-color: #ff512f;
-    box-shadow: 0 0 12px rgba(255, 81, 47, 0.8);
-  }
-  
-  /* Botones */
-  .button {
-    background: linear-gradient(135deg, #11998e, #38ef7d);
-    color: #d3c0c0;
-    padding: 15px 30px;
-    border: none;
-    border-radius: 30px;
-    cursor: pointer;
-    font-weight: bold;
-    text-transform: uppercase;
-    transition: transform 0.3s ease, background 0.3s ease;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.9);
-  }
-  
-  .button:hover {
-    transform: scale(1.1);
-    background: linear-gradient(135deg, #0f9b0f, #00b09b);
-    color: #fff;
-  }
-  
-  .button-danger {
-    background: linear-gradient(135deg, #cebebc, #1f1c18);
-    color: #fff;
-  }
-  
-  .button-danger:hover {
-    background: linear-gradient(135deg, #d31027, #ea384d);
-    transform: scale(1.1);
-  }
-  
-  /* Alertas */
-  .alert {
-    padding: 20px;
-    margin: 20px 0;
-    border-radius: 30px;
-    font-weight: bold;
-    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.9);
-    text-transform: uppercase;
-  }
-  
-  .alert-success {
-    background: linear-gradient(135deg, #00b09b, #96c93d);
-    color: #1e1e1e;
-  }
-  
-  .alert-warning {
-    background: linear-gradient(135deg, #ffb347, #ffcc33);
-    color: #1e1e1e;
-  }
-  
-  .alert-danger {
-    background: linear-gradient(135deg, #cb2d3e, #ef473a);
-    color: #fff;
-  }
-  
-  /* Footer */
-  footer {
-    text-align: center;
-    padding: 20px;
-    margin-top: 20px;
-    background: linear-gradient(135deg, #000000, #434343);
-    color: #e0e0e0;
-    border-radius: 30px;
-    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.9);
-    text-transform: uppercase;
-  }
-  
-  @media (max-width: 768px) {
-    nav {
       flex-direction: column;
-    }
-  
-    nav a {
+  }
+
+  nav a {
       margin: 10px 0;
-    }
-  } 
+  }
+}
+
+/* Estilo para el contenedor de logs */
+.logs-container {
+  margin: 20px auto;
+  padding: 30px;
+  background-color: #f7f7f7;
+  border-radius: 15px;
+  box-shadow: 0 10px 15px rgba(0, 0, 0, 0.1);
+  max-width: 1200px;
+}
+
+/* Título */
+.logs-container h1 {
+  text-align: center;
+  font-size: 2rem;
+  margin-bottom: 30px;
+  color: #333;
+}
+
+/* Estilo para el listado de logs */
+.log-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 15px;
+}
+
+/* Estilo general para cada entrada de log */
+.log-entry {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s ease;
+}
+
+/* Efecto hover para las entradas de log */
+.log-entry:hover {
+  transform: translateY(-5px);
+}
+
+/* Base de estilo para los logs */
+.log {
+  font-size: 14px;
+  line-height: 1.6;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+/* Logs con recursos bajos (verde) */
+.low {
+  background-color: #d4edda; /* Verde */
+  border-left: 5px solid #28a745;
+  color: #155724;
+}
+
+/* Logs con recursos medios (amarillo) */
+.medium {
+  background-color: #fff3cd; /* Amarillo */
+  border-left: 5px solid #ffc107;
+  color: #856404;
+}
+
+/* Logs con recursos altos (rojo) */
+.high {
+  background-color: #f8d7da; /* Rojo */
+  border-left: 5px solid #dc3545;
+  color: #721c24;
+}
+
+/* Estilo para mensaje cuando no hay logs */
+.text-center {
+  text-align: center;
+  color: #666;
+  font-size: 1.2rem;
+}
