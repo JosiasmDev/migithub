@@ -3845,3 +3845,1451 @@ Next wakeup is due at 2025-02-10 14:04:28.746875+01:00 (in 60.000000 seconds)
 [33mPress CTRL+C to quit[0m
 2025-02-10 14:03:28 -  * Restarting with stat
  * Restarting with stat
+2025-02-10 14:03:29 - Looking up time zone info from registry
+Looking up time zone info from registry
+2025-02-10 14:03:29 - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-02-10 14:03:29 - Added job "create_app.<locals>.obtener_recursos" to job store "default"
+Added job "create_app.<locals>.obtener_recursos" to job store "default"
+2025-02-10 14:03:29 - Scheduler started
+Scheduler started
+2025-02-10 14:03:29 - Looking for jobs to run
+Looking for jobs to run
+2025-02-10 14:03:29 - Next wakeup is due at 2025-02-10 14:04:29.713049+01:00 (in 59.995650 seconds)
+Next wakeup is due at 2025-02-10 14:04:29.713049+01:00 (in 59.995650 seconds)
+2025-02-10 14:03:29 -  * Debugger is active!
+ * Debugger is active!
+2025-02-10 14:03:29 -  * Debugger PIN: 587-271-109
+ * Debugger PIN: 587-271-109
+2025-02-10 14:03:35 - 127.0.0.1 - - [10/Feb/2025 14:03:35] "GET /monitoreo HTTP/1.1" 200 -
+127.0.0.1 - - [10/Feb/2025 14:03:35] "GET /monitoreo HTTP/1.1" 200 -
+2025-02-10 14:03:35 - 127.0.0.1 - - [10/Feb/2025 14:03:35] "[36mGET /static/css/estilos_gestion_sistemas.css HTTP/1.1[0m" 304 -
+127.0.0.1 - - [10/Feb/2025 14:03:35] "[36mGET /static/css/estilos_gestion_sistemas.css HTTP/1.1[0m" 304 -
+2025-02-10 14:03:43 - 127.0.0.1 - - [10/Feb/2025 14:03:43] "GET /descargar_pdf HTTP/1.1" 200 -
+127.0.0.1 - - [10/Feb/2025 14:03:43] "GET /descargar_pdf HTTP/1.1" 200 -
+2025-02-10 14:04:28 - Looking for jobs to run
+Looking for jobs to run
+2025-02-10 14:04:28 - Running job "create_app.<locals>.obtener_recursos (trigger: interval[0:01:00], next run at: 2025-02-10 14:04:28 CET)" (scheduled at 2025-02-10 14:04:28.746875+01:00)
+Running job "create_app.<locals>.obtener_recursos (trigger: interval[0:01:00], next run at: 2025-02-10 14:05:28 CET)" (scheduled at 2025-02-10 14:04:28.746875+01:00)
+2025-02-10 14:04:28 - Next wakeup is due at 2025-02-10 14:05:28.746875+01:00 (in 59.983976 seconds)
+Next wakeup is due at 2025-02-10 14:05:28.746875+01:00 (in 59.983976 seconds)
+2025-02-10 14:04:29 - Looking for jobs to run
+Looking for jobs to run
+2025-02-10 14:04:29 - Running job "create_app.<locals>.obtener_recursos (trigger: interval[0:01:00], next run at: 2025-02-10 14:04:29 CET)" (scheduled at 2025-02-10 14:04:29.713049+01:00)
+Running job "create_app.<locals>.obtener_recursos (trigger: interval[0:01:00], next run at: 2025-02-10 14:05:29 CET)" (scheduled at 2025-02-10 14:04:29.713049+01:00)
+2025-02-10 14:04:29 - Next wakeup is due at 2025-02-10 14:05:29.713049+01:00 (in 59.987279 seconds)
+Next wakeup is due at 2025-02-10 14:05:29.713049+01:00 (in 59.987279 seconds)
+2025-02-10 14:04:29 - CPU: 13.9% | Memoria: 85.5% | Disco: 97.0%
+CPU: 13.9% | Memoria: 85.5% | Disco: 97.0%
+2025-02-10 14:04:29 - Job "create_app.<locals>.obtener_recursos (trigger: interval[0:01:00], next run at: 2025-02-10 14:05:28 CET)" executed successfully
+Job "create_app.<locals>.obtener_recursos (trigger: interval[0:01:00], next run at: 2025-02-10 14:05:28 CET)" executed successfully
+2025-02-10 14:04:30 - CPU: 22.6% | Memoria: 85.3% | Disco: 97.0%
+CPU: 22.6% | Memoria: 85.3% | Disco: 97.0%
+2025-02-10 14:04:30 - Job "create_app.<locals>.obtener_recursos (trigger: interval[0:01:00], next run at: 2025-02-10 14:05:29 CET)" executed successfully
+Job "create_app.<locals>.obtener_recursos (trigger: interval[0:01:00], next run at: 2025-02-10 14:05:29 CET)" executed successfully
+2025-02-10 14:05:28 - Looking for jobs to run
+Looking for jobs to run
+2025-02-10 14:05:28 - Next wakeup is due at 2025-02-10 14:06:28.746875+01:00 (in 59.985181 seconds)
+Next wakeup is due at 2025-02-10 14:06:28.746875+01:00 (in 59.985181 seconds)
+2025-02-10 14:05:28 - Running job "create_app.<locals>.obtener_recursos (trigger: interval[0:01:00], next run at: 2025-02-10 14:06:28 CET)" (scheduled at 2025-02-10 14:05:28.746875+01:00)
+Running job "create_app.<locals>.obtener_recursos (trigger: interval[0:01:00], next run at: 2025-02-10 14:06:28 CET)" (scheduled at 2025-02-10 14:05:28.746875+01:00)
+2025-02-10 14:05:29 - Looking for jobs to run
+Looking for jobs to run
+2025-02-10 14:05:29 - Next wakeup is due at 2025-02-10 14:06:29.713049+01:00 (in 59.997985 seconds)
+Next wakeup is due at 2025-02-10 14:06:29.713049+01:00 (in 59.997985 seconds)
+2025-02-10 14:05:29 - Running job "create_app.<locals>.obtener_recursos (trigger: interval[0:01:00], next run at: 2025-02-10 14:06:29 CET)" (scheduled at 2025-02-10 14:05:29.713049+01:00)
+Running job "create_app.<locals>.obtener_recursos (trigger: interval[0:01:00], next run at: 2025-02-10 14:06:29 CET)" (scheduled at 2025-02-10 14:05:29.713049+01:00)
+2025-02-10 14:05:29 - CPU: 5.5% | Memoria: 85.3% | Disco: 97.0%
+CPU: 5.5% | Memoria: 85.3% | Disco: 97.0%
+2025-02-10 14:05:29 - Job "create_app.<locals>.obtener_recursos (trigger: interval[0:01:00], next run at: 2025-02-10 14:06:28 CET)" executed successfully
+Job "create_app.<locals>.obtener_recursos (trigger: interval[0:01:00], next run at: 2025-02-10 14:06:28 CET)" executed successfully
+2025-02-10 14:05:30 - CPU: 13.1% | Memoria: 85.3% | Disco: 97.0%
+CPU: 13.1% | Memoria: 85.3% | Disco: 97.0%
+2025-02-10 14:05:30 - Job "create_app.<locals>.obtener_recursos (trigger: interval[0:01:00], next run at: 2025-02-10 14:06:29 CET)" executed successfully
+Job "create_app.<locals>.obtener_recursos (trigger: interval[0:01:00], next run at: 2025-02-10 14:06:29 CET)" executed successfully
+2025-02-10 14:06:28 - Looking for jobs to run
+Looking for jobs to run
+2025-02-10 14:06:28 - Next wakeup is due at 2025-02-10 14:07:28.746875+01:00 (in 59.982386 seconds)
+Next wakeup is due at 2025-02-10 14:07:28.746875+01:00 (in 59.982386 seconds)
+2025-02-10 14:06:28 - Running job "create_app.<locals>.obtener_recursos (trigger: interval[0:01:00], next run at: 2025-02-10 14:07:28 CET)" (scheduled at 2025-02-10 14:06:28.746875+01:00)
+Running job "create_app.<locals>.obtener_recursos (trigger: interval[0:01:00], next run at: 2025-02-10 14:07:28 CET)" (scheduled at 2025-02-10 14:06:28.746875+01:00)
+2025-02-10 14:06:29 - Looking for jobs to run
+Looking for jobs to run
+2025-02-10 14:06:29 - Next wakeup is due at 2025-02-10 14:07:29.713049+01:00 (in 59.997027 seconds)
+Next wakeup is due at 2025-02-10 14:07:29.713049+01:00 (in 59.997027 seconds)
+2025-02-10 14:06:29 - Running job "create_app.<locals>.obtener_recursos (trigger: interval[0:01:00], next run at: 2025-02-10 14:07:29 CET)" (scheduled at 2025-02-10 14:06:29.713049+01:00)
+Running job "create_app.<locals>.obtener_recursos (trigger: interval[0:01:00], next run at: 2025-02-10 14:07:29 CET)" (scheduled at 2025-02-10 14:06:29.713049+01:00)
+2025-02-10 14:06:29 - CPU: 19.1% | Memoria: 85.1% | Disco: 97.0%
+CPU: 19.1% | Memoria: 85.1% | Disco: 97.0%
+2025-02-10 14:06:29 - Job "create_app.<locals>.obtener_recursos (trigger: interval[0:01:00], next run at: 2025-02-10 14:07:28 CET)" executed successfully
+Job "create_app.<locals>.obtener_recursos (trigger: interval[0:01:00], next run at: 2025-02-10 14:07:28 CET)" executed successfully
+2025-02-10 14:06:30 - CPU: 17.1% | Memoria: 85.2% | Disco: 97.0%
+CPU: 17.1% | Memoria: 85.2% | Disco: 97.0%
+2025-02-10 14:06:30 - Job "create_app.<locals>.obtener_recursos (trigger: interval[0:01:00], next run at: 2025-02-10 14:07:29 CET)" executed successfully
+Job "create_app.<locals>.obtener_recursos (trigger: interval[0:01:00], next run at: 2025-02-10 14:07:29 CET)" executed successfully
+2025-02-10 14:07:00 - 127.0.0.1 - - [10/Feb/2025 14:07:00] "GET /monitoreo HTTP/1.1" 200 -
+127.0.0.1 - - [10/Feb/2025 14:07:00] "GET /monitoreo HTTP/1.1" 200 -
+2025-02-10 14:07:00 - 127.0.0.1 - - [10/Feb/2025 14:07:00] "[36mGET /static/css/estilos_gestion_sistemas.css HTTP/1.1[0m" 304 -
+127.0.0.1 - - [10/Feb/2025 14:07:00] "[36mGET /static/css/estilos_gestion_sistemas.css HTTP/1.1[0m" 304 -
+2025-02-10 14:07:01 - 127.0.0.1 - - [10/Feb/2025 14:07:01] "[33mGET /editar_usuario/*.html HTTP/1.1[0m" 404 -
+127.0.0.1 - - [10/Feb/2025 14:07:01] "[33mGET /editar_usuario/*.html HTTP/1.1[0m" 404 -
+2025-02-10 14:07:17 - 127.0.0.1 - - [10/Feb/2025 14:07:17] "[33mGET /editar_usuario/*.html HTTP/1.1[0m" 404 -
+127.0.0.1 - - [10/Feb/2025 14:07:17] "[33mGET /editar_usuario/*.html HTTP/1.1[0m" 404 -
+2025-02-10 14:07:28 - Looking for jobs to run
+Looking for jobs to run
+2025-02-10 14:07:28 - Next wakeup is due at 2025-02-10 14:08:28.746875+01:00 (in 59.995465 seconds)
+Next wakeup is due at 2025-02-10 14:08:28.746875+01:00 (in 59.995465 seconds)
+2025-02-10 14:07:28 - Running job "create_app.<locals>.obtener_recursos (trigger: interval[0:01:00], next run at: 2025-02-10 14:08:28 CET)" (scheduled at 2025-02-10 14:07:28.746875+01:00)
+Running job "create_app.<locals>.obtener_recursos (trigger: interval[0:01:00], next run at: 2025-02-10 14:08:28 CET)" (scheduled at 2025-02-10 14:07:28.746875+01:00)
+2025-02-10 14:07:29 - Looking for jobs to run
+Looking for jobs to run
+2025-02-10 14:07:29 - Next wakeup is due at 2025-02-10 14:08:29.713049+01:00 (in 59.983431 seconds)
+Next wakeup is due at 2025-02-10 14:08:29.713049+01:00 (in 59.983431 seconds)
+2025-02-10 14:07:29 - Running job "create_app.<locals>.obtener_recursos (trigger: interval[0:01:00], next run at: 2025-02-10 14:08:29 CET)" (scheduled at 2025-02-10 14:07:29.713049+01:00)
+Running job "create_app.<locals>.obtener_recursos (trigger: interval[0:01:00], next run at: 2025-02-10 14:08:29 CET)" (scheduled at 2025-02-10 14:07:29.713049+01:00)
+2025-02-10 14:07:29 - CPU: 19.8% | Memoria: 84.9% | Disco: 97.0%
+CPU: 19.8% | Memoria: 84.9% | Disco: 97.0%
+2025-02-10 14:07:29 - Job "create_app.<locals>.obtener_recursos (trigger: interval[0:01:00], next run at: 2025-02-10 14:08:28 CET)" executed successfully
+Job "create_app.<locals>.obtener_recursos (trigger: interval[0:01:00], next run at: 2025-02-10 14:08:28 CET)" executed successfully
+2025-02-10 14:07:30 - CPU: 8.7% | Memoria: 84.9% | Disco: 97.0%
+CPU: 8.7% | Memoria: 84.9% | Disco: 97.0%
+2025-02-10 14:07:30 - Job "create_app.<locals>.obtener_recursos (trigger: interval[0:01:00], next run at: 2025-02-10 14:08:29 CET)" executed successfully
+Job "create_app.<locals>.obtener_recursos (trigger: interval[0:01:00], next run at: 2025-02-10 14:08:29 CET)" executed successfully
+2025-02-10 14:08:28 - Looking for jobs to run
+Looking for jobs to run
+2025-02-10 14:08:28 - Next wakeup is due at 2025-02-10 14:09:28.746875+01:00 (in 59.987760 seconds)
+Next wakeup is due at 2025-02-10 14:09:28.746875+01:00 (in 59.987760 seconds)
+2025-02-10 14:08:28 - Running job "create_app.<locals>.obtener_recursos (trigger: interval[0:01:00], next run at: 2025-02-10 14:09:28 CET)" (scheduled at 2025-02-10 14:08:28.746875+01:00)
+Running job "create_app.<locals>.obtener_recursos (trigger: interval[0:01:00], next run at: 2025-02-10 14:09:28 CET)" (scheduled at 2025-02-10 14:08:28.746875+01:00)
+2025-02-10 14:08:29 - 127.0.0.1 - - [10/Feb/2025 14:08:29] "GET /monitoreo HTTP/1.1" 200 -
+127.0.0.1 - - [10/Feb/2025 14:08:29] "GET /monitoreo HTTP/1.1" 200 -
+2025-02-10 14:08:29 - 127.0.0.1 - - [10/Feb/2025 14:08:29] "[36mGET /static/css/estilos_gestion_sistemas.css HTTP/1.1[0m" 304 -
+127.0.0.1 - - [10/Feb/2025 14:08:29] "[36mGET /static/css/estilos_gestion_sistemas.css HTTP/1.1[0m" 304 -
+2025-02-10 14:08:29 - Looking for jobs to run
+Looking for jobs to run
+2025-02-10 14:08:29 - Next wakeup is due at 2025-02-10 14:09:29.713049+01:00 (in 59.991772 seconds)
+Next wakeup is due at 2025-02-10 14:09:29.713049+01:00 (in 59.991772 seconds)
+2025-02-10 14:08:29 - Running job "create_app.<locals>.obtener_recursos (trigger: interval[0:01:00], next run at: 2025-02-10 14:09:29 CET)" (scheduled at 2025-02-10 14:08:29.713049+01:00)
+Running job "create_app.<locals>.obtener_recursos (trigger: interval[0:01:00], next run at: 2025-02-10 14:09:29 CET)" (scheduled at 2025-02-10 14:08:29.713049+01:00)
+2025-02-10 14:08:29 - CPU: 14.4% | Memoria: 85.2% | Disco: 97.0%
+CPU: 14.4% | Memoria: 85.2% | Disco: 97.0%
+2025-02-10 14:08:29 - Job "create_app.<locals>.obtener_recursos (trigger: interval[0:01:00], next run at: 2025-02-10 14:09:28 CET)" executed successfully
+Job "create_app.<locals>.obtener_recursos (trigger: interval[0:01:00], next run at: 2025-02-10 14:09:28 CET)" executed successfully
+2025-02-10 14:08:30 - CPU: 19.5% | Memoria: 85.1% | Disco: 97.0%
+CPU: 19.5% | Memoria: 85.1% | Disco: 97.0%
+2025-02-10 14:08:30 - Job "create_app.<locals>.obtener_recursos (trigger: interval[0:01:00], next run at: 2025-02-10 14:09:29 CET)" executed successfully
+Job "create_app.<locals>.obtener_recursos (trigger: interval[0:01:00], next run at: 2025-02-10 14:09:29 CET)" executed successfully
+2025-02-10 14:08:33 - 127.0.0.1 - - [10/Feb/2025 14:08:33] "GET /monitoreo HTTP/1.1" 200 -
+127.0.0.1 - - [10/Feb/2025 14:08:33] "GET /monitoreo HTTP/1.1" 200 -
+2025-02-10 14:08:33 - 127.0.0.1 - - [10/Feb/2025 14:08:33] "[36mGET /static/css/estilos_gestion_sistemas.css HTTP/1.1[0m" 304 -
+127.0.0.1 - - [10/Feb/2025 14:08:33] "[36mGET /static/css/estilos_gestion_sistemas.css HTTP/1.1[0m" 304 -
+2025-02-10 14:08:34 - 127.0.0.1 - - [10/Feb/2025 14:08:34] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [10/Feb/2025 14:08:34] "GET / HTTP/1.1" 200 -
+2025-02-10 14:08:34 - 127.0.0.1 - - [10/Feb/2025 14:08:34] "[36mGET /static/css/estilos_gestion_sistemas.css HTTP/1.1[0m" 304 -
+127.0.0.1 - - [10/Feb/2025 14:08:34] "[36mGET /static/css/estilos_gestion_sistemas.css HTTP/1.1[0m" 304 -
+2025-02-10 14:08:41 - 127.0.0.1 - - [10/Feb/2025 14:08:41] "GET /monitoreo HTTP/1.1" 200 -
+127.0.0.1 - - [10/Feb/2025 14:08:41] "GET /monitoreo HTTP/1.1" 200 -
+2025-02-10 14:08:41 - 127.0.0.1 - - [10/Feb/2025 14:08:41] "[36mGET /static/css/estilos_gestion_sistemas.css HTTP/1.1[0m" 304 -
+127.0.0.1 - - [10/Feb/2025 14:08:41] "[36mGET /static/css/estilos_gestion_sistemas.css HTTP/1.1[0m" 304 -
+2025-02-10 14:09:09 - 127.0.0.1 - - [10/Feb/2025 14:09:09] "[33mGET /index.html HTTP/1.1[0m" 404 -
+127.0.0.1 - - [10/Feb/2025 14:09:09] "[33mGET /index.html HTTP/1.1[0m" 404 -
+2025-02-10 14:09:23 - 127.0.0.1 - - [10/Feb/2025 14:09:23] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [10/Feb/2025 14:09:23] "GET / HTTP/1.1" 200 -
+2025-02-10 14:09:23 - 127.0.0.1 - - [10/Feb/2025 14:09:23] "[36mGET /static/css/estilos_gestion_sistemas.css HTTP/1.1[0m" 304 -
+127.0.0.1 - - [10/Feb/2025 14:09:23] "[36mGET /static/css/estilos_gestion_sistemas.css HTTP/1.1[0m" 304 -
+2025-02-10 14:09:28 - Looking for jobs to run
+Looking for jobs to run
+2025-02-10 14:09:28 - Next wakeup is due at 2025-02-10 14:10:28.746875+01:00 (in 59.988454 seconds)
+Next wakeup is due at 2025-02-10 14:10:28.746875+01:00 (in 59.988454 seconds)
+2025-02-10 14:09:28 - Running job "create_app.<locals>.obtener_recursos (trigger: interval[0:01:00], next run at: 2025-02-10 14:10:28 CET)" (scheduled at 2025-02-10 14:09:28.746875+01:00)
+Running job "create_app.<locals>.obtener_recursos (trigger: interval[0:01:00], next run at: 2025-02-10 14:10:28 CET)" (scheduled at 2025-02-10 14:09:28.746875+01:00)
+2025-02-10 14:09:29 - Looking for jobs to run
+Looking for jobs to run
+2025-02-10 14:09:29 - Next wakeup is due at 2025-02-10 14:10:29.713049+01:00 (in 59.990821 seconds)
+Next wakeup is due at 2025-02-10 14:10:29.713049+01:00 (in 59.990821 seconds)
+2025-02-10 14:09:29 - Running job "create_app.<locals>.obtener_recursos (trigger: interval[0:01:00], next run at: 2025-02-10 14:10:29 CET)" (scheduled at 2025-02-10 14:09:29.713049+01:00)
+Running job "create_app.<locals>.obtener_recursos (trigger: interval[0:01:00], next run at: 2025-02-10 14:10:29 CET)" (scheduled at 2025-02-10 14:09:29.713049+01:00)
+2025-02-10 14:09:29 - CPU: 28.3% | Memoria: 85.2% | Disco: 97.0%
+CPU: 28.3% | Memoria: 85.2% | Disco: 97.0%
+2025-02-10 14:09:29 - Job "create_app.<locals>.obtener_recursos (trigger: interval[0:01:00], next run at: 2025-02-10 14:10:28 CET)" executed successfully
+Job "create_app.<locals>.obtener_recursos (trigger: interval[0:01:00], next run at: 2025-02-10 14:10:28 CET)" executed successfully
+2025-02-10 14:09:30 - CPU: 11.8% | Memoria: 85.4% | Disco: 97.0%
+CPU: 11.8% | Memoria: 85.4% | Disco: 97.0%
+2025-02-10 14:09:30 - Job "create_app.<locals>.obtener_recursos (trigger: interval[0:01:00], next run at: 2025-02-10 14:10:29 CET)" executed successfully
+Job "create_app.<locals>.obtener_recursos (trigger: interval[0:01:00], next run at: 2025-02-10 14:10:29 CET)" executed successfully
+2025-02-10 14:09:44 - 127.0.0.1 - - [10/Feb/2025 14:09:44] "[33mGET /index.html HTTP/1.1[0m" 404 -
+127.0.0.1 - - [10/Feb/2025 14:09:44] "[33mGET /index.html HTTP/1.1[0m" 404 -
+2025-02-10 14:10:19 - 127.0.0.1 - - [10/Feb/2025 14:10:19] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [10/Feb/2025 14:10:19] "GET / HTTP/1.1" 200 -
+2025-02-10 14:10:19 - 127.0.0.1 - - [10/Feb/2025 14:10:19] "[36mGET /static/css/estilos_gestion_sistemas.css HTTP/1.1[0m" 304 -
+127.0.0.1 - - [10/Feb/2025 14:10:19] "[36mGET /static/css/estilos_gestion_sistemas.css HTTP/1.1[0m" 304 -
+2025-02-10 14:10:22 - 127.0.0.1 - - [10/Feb/2025 14:10:22] "[33mGET /index.html HTTP/1.1[0m" 404 -
+127.0.0.1 - - [10/Feb/2025 14:10:22] "[33mGET /index.html HTTP/1.1[0m" 404 -
+2025-02-10 14:10:28 - Looking for jobs to run
+Looking for jobs to run
+2025-02-10 14:10:28 - Next wakeup is due at 2025-02-10 14:11:28.746875+01:00 (in 59.997138 seconds)
+Next wakeup is due at 2025-02-10 14:11:28.746875+01:00 (in 59.997138 seconds)
+2025-02-10 14:10:28 - Running job "create_app.<locals>.obtener_recursos (trigger: interval[0:01:00], next run at: 2025-02-10 14:11:28 CET)" (scheduled at 2025-02-10 14:10:28.746875+01:00)
+Running job "create_app.<locals>.obtener_recursos (trigger: interval[0:01:00], next run at: 2025-02-10 14:11:28 CET)" (scheduled at 2025-02-10 14:10:28.746875+01:00)
+2025-02-10 14:10:29 - Looking for jobs to run
+Looking for jobs to run
+2025-02-10 14:10:29 - Next wakeup is due at 2025-02-10 14:11:29.713049+01:00 (in 59.996392 seconds)
+Next wakeup is due at 2025-02-10 14:11:29.713049+01:00 (in 59.996392 seconds)
+2025-02-10 14:10:29 - Running job "create_app.<locals>.obtener_recursos (trigger: interval[0:01:00], next run at: 2025-02-10 14:11:29 CET)" (scheduled at 2025-02-10 14:10:29.713049+01:00)
+Running job "create_app.<locals>.obtener_recursos (trigger: interval[0:01:00], next run at: 2025-02-10 14:11:29 CET)" (scheduled at 2025-02-10 14:10:29.713049+01:00)
+2025-02-10 14:10:29 - CPU: 21.2% | Memoria: 84.5% | Disco: 97.0%
+CPU: 21.2% | Memoria: 84.5% | Disco: 97.0%
+2025-02-10 14:10:29 - Job "create_app.<locals>.obtener_recursos (trigger: interval[0:01:00], next run at: 2025-02-10 14:11:28 CET)" executed successfully
+Job "create_app.<locals>.obtener_recursos (trigger: interval[0:01:00], next run at: 2025-02-10 14:11:28 CET)" executed successfully
+2025-02-10 14:10:30 - CPU: 11.3% | Memoria: 84.6% | Disco: 97.0%
+CPU: 11.3% | Memoria: 84.6% | Disco: 97.0%
+2025-02-10 14:10:30 - Job "create_app.<locals>.obtener_recursos (trigger: interval[0:01:00], next run at: 2025-02-10 14:11:29 CET)" executed successfully
+Job "create_app.<locals>.obtener_recursos (trigger: interval[0:01:00], next run at: 2025-02-10 14:11:29 CET)" executed successfully
+2025-02-10 14:11:09 - 127.0.0.1 - - [10/Feb/2025 14:11:09] "GET /monitoreo HTTP/1.1" 200 -
+127.0.0.1 - - [10/Feb/2025 14:11:09] "GET /monitoreo HTTP/1.1" 200 -
+2025-02-10 14:11:09 - 127.0.0.1 - - [10/Feb/2025 14:11:09] "[36mGET /static/css/estilos_gestion_sistemas.css HTTP/1.1[0m" 304 -
+127.0.0.1 - - [10/Feb/2025 14:11:09] "[36mGET /static/css/estilos_gestion_sistemas.css HTTP/1.1[0m" 304 -
+2025-02-10 14:11:09 - 127.0.0.1 - - [10/Feb/2025 14:11:09] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [10/Feb/2025 14:11:09] "GET / HTTP/1.1" 200 -
+2025-02-10 14:11:10 - 127.0.0.1 - - [10/Feb/2025 14:11:10] "[36mGET /static/css/estilos_gestion_sistemas.css HTTP/1.1[0m" 304 -
+127.0.0.1 - - [10/Feb/2025 14:11:10] "[36mGET /static/css/estilos_gestion_sistemas.css HTTP/1.1[0m" 304 -
+2025-02-10 14:11:15 - 127.0.0.1 - - [10/Feb/2025 14:11:15] "[33mGET /monitoreo.html HTTP/1.1[0m" 404 -
+127.0.0.1 - - [10/Feb/2025 14:11:15] "[33mGET /monitoreo.html HTTP/1.1[0m" 404 -
+2025-02-10 14:11:28 - Looking for jobs to run
+Looking for jobs to run
+2025-02-10 14:11:28 - Next wakeup is due at 2025-02-10 14:12:28.746875+01:00 (in 59.985386 seconds)
+Next wakeup is due at 2025-02-10 14:12:28.746875+01:00 (in 59.985386 seconds)
+2025-02-10 14:11:28 - Running job "create_app.<locals>.obtener_recursos (trigger: interval[0:01:00], next run at: 2025-02-10 14:12:28 CET)" (scheduled at 2025-02-10 14:11:28.746875+01:00)
+Running job "create_app.<locals>.obtener_recursos (trigger: interval[0:01:00], next run at: 2025-02-10 14:12:28 CET)" (scheduled at 2025-02-10 14:11:28.746875+01:00)
+2025-02-10 14:11:29 - Looking for jobs to run
+Looking for jobs to run
+2025-02-10 14:11:29 - Next wakeup is due at 2025-02-10 14:12:29.713049+01:00 (in 59.986169 seconds)
+Next wakeup is due at 2025-02-10 14:12:29.713049+01:00 (in 59.986169 seconds)
+2025-02-10 14:11:29 - Running job "create_app.<locals>.obtener_recursos (trigger: interval[0:01:00], next run at: 2025-02-10 14:12:29 CET)" (scheduled at 2025-02-10 14:11:29.713049+01:00)
+Running job "create_app.<locals>.obtener_recursos (trigger: interval[0:01:00], next run at: 2025-02-10 14:12:29 CET)" (scheduled at 2025-02-10 14:11:29.713049+01:00)
+2025-02-10 14:11:29 - CPU: 12.0% | Memoria: 84.6% | Disco: 97.0%
+CPU: 12.0% | Memoria: 84.6% | Disco: 97.0%
+2025-02-10 14:11:29 - Job "create_app.<locals>.obtener_recursos (trigger: interval[0:01:00], next run at: 2025-02-10 14:12:28 CET)" executed successfully
+Job "create_app.<locals>.obtener_recursos (trigger: interval[0:01:00], next run at: 2025-02-10 14:12:28 CET)" executed successfully
+2025-02-10 14:11:30 - CPU: 28.1% | Memoria: 84.5% | Disco: 97.0%
+CPU: 28.1% | Memoria: 84.5% | Disco: 97.0%
+2025-02-10 14:11:30 - Job "create_app.<locals>.obtener_recursos (trigger: interval[0:01:00], next run at: 2025-02-10 14:12:29 CET)" executed successfully
+Job "create_app.<locals>.obtener_recursos (trigger: interval[0:01:00], next run at: 2025-02-10 14:12:29 CET)" executed successfully
+2025-02-10 14:11:57 - 127.0.0.1 - - [10/Feb/2025 14:11:57] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [10/Feb/2025 14:11:57] "GET / HTTP/1.1" 200 -
+2025-02-10 14:11:57 - 127.0.0.1 - - [10/Feb/2025 14:11:57] "[36mGET /static/css/estilos_gestion_sistemas.css HTTP/1.1[0m" 304 -
+127.0.0.1 - - [10/Feb/2025 14:11:57] "[36mGET /static/css/estilos_gestion_sistemas.css HTTP/1.1[0m" 304 -
+2025-02-10 14:12:01 - 127.0.0.1 - - [10/Feb/2025 14:12:01] "GET /monitoreo HTTP/1.1" 200 -
+127.0.0.1 - - [10/Feb/2025 14:12:01] "GET /monitoreo HTTP/1.1" 200 -
+2025-02-10 14:12:01 - 127.0.0.1 - - [10/Feb/2025 14:12:01] "[36mGET /static/css/estilos_gestion_sistemas.css HTTP/1.1[0m" 304 -
+127.0.0.1 - - [10/Feb/2025 14:12:01] "[36mGET /static/css/estilos_gestion_sistemas.css HTTP/1.1[0m" 304 -
+2025-02-10 14:12:03 - 127.0.0.1 - - [10/Feb/2025 14:12:03] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [10/Feb/2025 14:12:03] "GET / HTTP/1.1" 200 -
+2025-02-10 14:12:03 - 127.0.0.1 - - [10/Feb/2025 14:12:03] "[36mGET /static/css/estilos_gestion_sistemas.css HTTP/1.1[0m" 304 -
+127.0.0.1 - - [10/Feb/2025 14:12:03] "[36mGET /static/css/estilos_gestion_sistemas.css HTTP/1.1[0m" 304 -
+2025-02-10 14:12:08 - 127.0.0.1 - - [10/Feb/2025 14:12:08] "GET /usuarios HTTP/1.1" 200 -
+127.0.0.1 - - [10/Feb/2025 14:12:08] "GET /usuarios HTTP/1.1" 200 -
+2025-02-10 14:12:08 - 127.0.0.1 - - [10/Feb/2025 14:12:08] "[36mGET /static/css/estilos_gestion_sistemas.css HTTP/1.1[0m" 304 -
+127.0.0.1 - - [10/Feb/2025 14:12:08] "[36mGET /static/css/estilos_gestion_sistemas.css HTTP/1.1[0m" 304 -
+2025-02-10 14:12:11 - 127.0.0.1 - - [10/Feb/2025 14:12:11] "[33mGET /usuarios.html HTTP/1.1[0m" 404 -
+127.0.0.1 - - [10/Feb/2025 14:12:11] "[33mGET /usuarios.html HTTP/1.1[0m" 404 -
+2025-02-10 14:12:28 - Looking for jobs to run
+Looking for jobs to run
+2025-02-10 14:12:28 - Next wakeup is due at 2025-02-10 14:13:28.746875+01:00 (in 59.987406 seconds)
+Next wakeup is due at 2025-02-10 14:13:28.746875+01:00 (in 59.987406 seconds)
+2025-02-10 14:12:28 - Running job "create_app.<locals>.obtener_recursos (trigger: interval[0:01:00], next run at: 2025-02-10 14:13:28 CET)" (scheduled at 2025-02-10 14:12:28.746875+01:00)
+Running job "create_app.<locals>.obtener_recursos (trigger: interval[0:01:00], next run at: 2025-02-10 14:13:28 CET)" (scheduled at 2025-02-10 14:12:28.746875+01:00)
+2025-02-10 14:12:29 - Looking for jobs to run
+Looking for jobs to run
+2025-02-10 14:12:29 - Next wakeup is due at 2025-02-10 14:13:29.713049+01:00 (in 59.996207 seconds)
+Next wakeup is due at 2025-02-10 14:13:29.713049+01:00 (in 59.996207 seconds)
+2025-02-10 14:12:29 - Running job "create_app.<locals>.obtener_recursos (trigger: interval[0:01:00], next run at: 2025-02-10 14:13:29 CET)" (scheduled at 2025-02-10 14:12:29.713049+01:00)
+Running job "create_app.<locals>.obtener_recursos (trigger: interval[0:01:00], next run at: 2025-02-10 14:13:29 CET)" (scheduled at 2025-02-10 14:12:29.713049+01:00)
+2025-02-10 14:12:29 - CPU: 27.9% | Memoria: 84.2% | Disco: 97.0%
+CPU: 27.9% | Memoria: 84.2% | Disco: 97.0%
+2025-02-10 14:12:29 - Job "create_app.<locals>.obtener_recursos (trigger: interval[0:01:00], next run at: 2025-02-10 14:13:28 CET)" executed successfully
+Job "create_app.<locals>.obtener_recursos (trigger: interval[0:01:00], next run at: 2025-02-10 14:13:28 CET)" executed successfully
+2025-02-10 14:12:30 - CPU: 12.1% | Memoria: 84.2% | Disco: 97.0%
+CPU: 12.1% | Memoria: 84.2% | Disco: 97.0%
+2025-02-10 14:12:30 - Job "create_app.<locals>.obtener_recursos (trigger: interval[0:01:00], next run at: 2025-02-10 14:13:29 CET)" executed successfully
+Job "create_app.<locals>.obtener_recursos (trigger: interval[0:01:00], next run at: 2025-02-10 14:13:29 CET)" executed successfully
+2025-02-10 14:12:45 - 127.0.0.1 - - [10/Feb/2025 14:12:45] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [10/Feb/2025 14:12:45] "GET / HTTP/1.1" 200 -
+2025-02-10 14:12:45 - 127.0.0.1 - - [10/Feb/2025 14:12:45] "[36mGET /static/css/estilos_gestion_sistemas.css HTTP/1.1[0m" 304 -
+127.0.0.1 - - [10/Feb/2025 14:12:45] "[36mGET /static/css/estilos_gestion_sistemas.css HTTP/1.1[0m" 304 -
+2025-02-10 14:12:51 - 127.0.0.1 - - [10/Feb/2025 14:12:51] "GET /usuarios HTTP/1.1" 200 -
+127.0.0.1 - - [10/Feb/2025 14:12:51] "GET /usuarios HTTP/1.1" 200 -
+2025-02-10 14:12:51 - 127.0.0.1 - - [10/Feb/2025 14:12:51] "[36mGET /static/css/estilos_gestion_sistemas.css HTTP/1.1[0m" 304 -
+127.0.0.1 - - [10/Feb/2025 14:12:51] "[36mGET /static/css/estilos_gestion_sistemas.css HTTP/1.1[0m" 304 -
+2025-02-10 14:13:17 - 127.0.0.1 - - [10/Feb/2025 14:13:17] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [10/Feb/2025 14:13:17] "GET / HTTP/1.1" 200 -
+2025-02-10 14:13:17 - 127.0.0.1 - - [10/Feb/2025 14:13:17] "[36mGET /static/css/estilos_gestion_sistemas.css HTTP/1.1[0m" 304 -
+127.0.0.1 - - [10/Feb/2025 14:13:17] "[36mGET /static/css/estilos_gestion_sistemas.css HTTP/1.1[0m" 304 -
+2025-02-10 14:13:21 - 127.0.0.1 - - [10/Feb/2025 14:13:21] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [10/Feb/2025 14:13:21] "GET / HTTP/1.1" 200 -
+2025-02-10 14:13:21 - 127.0.0.1 - - [10/Feb/2025 14:13:21] "[36mGET /static/css/estilos_gestion_sistemas.css HTTP/1.1[0m" 304 -
+127.0.0.1 - - [10/Feb/2025 14:13:21] "[36mGET /static/css/estilos_gestion_sistemas.css HTTP/1.1[0m" 304 -
+2025-02-10 14:13:22 - 127.0.0.1 - - [10/Feb/2025 14:13:22] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [10/Feb/2025 14:13:22] "GET / HTTP/1.1" 200 -
+2025-02-10 14:13:22 - 127.0.0.1 - - [10/Feb/2025 14:13:22] "[36mGET /static/css/estilos_gestion_sistemas.css HTTP/1.1[0m" 304 -
+127.0.0.1 - - [10/Feb/2025 14:13:22] "[36mGET /static/css/estilos_gestion_sistemas.css HTTP/1.1[0m" 304 -
+2025-02-10 14:13:23 - 127.0.0.1 - - [10/Feb/2025 14:13:23] "GET /usuarios HTTP/1.1" 200 -
+127.0.0.1 - - [10/Feb/2025 14:13:23] "GET /usuarios HTTP/1.1" 200 -
+2025-02-10 14:13:23 - 127.0.0.1 - - [10/Feb/2025 14:13:23] "[36mGET /static/css/estilos_gestion_sistemas.css HTTP/1.1[0m" 304 -
+127.0.0.1 - - [10/Feb/2025 14:13:23] "[36mGET /static/css/estilos_gestion_sistemas.css HTTP/1.1[0m" 304 -
+2025-02-10 14:13:28 - 127.0.0.1 - - [10/Feb/2025 14:13:28] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [10/Feb/2025 14:13:28] "GET / HTTP/1.1" 200 -
+2025-02-10 14:13:28 - 127.0.0.1 - - [10/Feb/2025 14:13:28] "[36mGET /static/css/estilos_gestion_sistemas.css HTTP/1.1[0m" 304 -
+127.0.0.1 - - [10/Feb/2025 14:13:28] "[36mGET /static/css/estilos_gestion_sistemas.css HTTP/1.1[0m" 304 -
+2025-02-10 14:13:28 - Looking for jobs to run
+Looking for jobs to run
+2025-02-10 14:13:28 - Next wakeup is due at 2025-02-10 14:14:28.746875+01:00 (in 59.990630 seconds)
+Next wakeup is due at 2025-02-10 14:14:28.746875+01:00 (in 59.990630 seconds)
+2025-02-10 14:13:28 - Running job "create_app.<locals>.obtener_recursos (trigger: interval[0:01:00], next run at: 2025-02-10 14:14:28 CET)" (scheduled at 2025-02-10 14:13:28.746875+01:00)
+Running job "create_app.<locals>.obtener_recursos (trigger: interval[0:01:00], next run at: 2025-02-10 14:14:28 CET)" (scheduled at 2025-02-10 14:13:28.746875+01:00)
+2025-02-10 14:13:29 - Looking for jobs to run
+Looking for jobs to run
+2025-02-10 14:13:29 - Next wakeup is due at 2025-02-10 14:14:29.713049+01:00 (in 59.992977 seconds)
+Next wakeup is due at 2025-02-10 14:14:29.713049+01:00 (in 59.992977 seconds)
+2025-02-10 14:13:29 - Running job "create_app.<locals>.obtener_recursos (trigger: interval[0:01:00], next run at: 2025-02-10 14:14:29 CET)" (scheduled at 2025-02-10 14:13:29.713049+01:00)
+Running job "create_app.<locals>.obtener_recursos (trigger: interval[0:01:00], next run at: 2025-02-10 14:14:29 CET)" (scheduled at 2025-02-10 14:13:29.713049+01:00)
+2025-02-10 14:13:29 - CPU: 13.5% | Memoria: 85.1% | Disco: 97.0%
+CPU: 13.5% | Memoria: 85.1% | Disco: 97.0%
+2025-02-10 14:13:29 - Job "create_app.<locals>.obtener_recursos (trigger: interval[0:01:00], next run at: 2025-02-10 14:14:28 CET)" executed successfully
+Job "create_app.<locals>.obtener_recursos (trigger: interval[0:01:00], next run at: 2025-02-10 14:14:28 CET)" executed successfully
+2025-02-10 14:13:30 - CPU: 15.7% | Memoria: 84.9% | Disco: 97.0%
+CPU: 15.7% | Memoria: 84.9% | Disco: 97.0%
+2025-02-10 14:13:30 - Job "create_app.<locals>.obtener_recursos (trigger: interval[0:01:00], next run at: 2025-02-10 14:14:29 CET)" executed successfully
+Job "create_app.<locals>.obtener_recursos (trigger: interval[0:01:00], next run at: 2025-02-10 14:14:29 CET)" executed successfully
+2025-02-10 14:13:31 - 127.0.0.1 - - [10/Feb/2025 14:13:31] "GET /descargar_csv HTTP/1.1" 200 -
+127.0.0.1 - - [10/Feb/2025 14:13:31] "GET /descargar_csv HTTP/1.1" 200 -
+2025-02-10 14:13:36 - 127.0.0.1 - - [10/Feb/2025 14:13:36] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [10/Feb/2025 14:13:36] "GET / HTTP/1.1" 200 -
+2025-02-10 14:13:36 - 127.0.0.1 - - [10/Feb/2025 14:13:36] "[36mGET /static/css/estilos_gestion_sistemas.css HTTP/1.1[0m" 304 -
+127.0.0.1 - - [10/Feb/2025 14:13:36] "[36mGET /static/css/estilos_gestion_sistemas.css HTTP/1.1[0m" 304 -
+2025-02-10 14:13:42 - 127.0.0.1 - - [10/Feb/2025 14:13:42] "GET /monitoreo HTTP/1.1" 200 -
+127.0.0.1 - - [10/Feb/2025 14:13:42] "GET /monitoreo HTTP/1.1" 200 -
+2025-02-10 14:13:42 - 127.0.0.1 - - [10/Feb/2025 14:13:42] "[36mGET /static/css/estilos_gestion_sistemas.css HTTP/1.1[0m" 304 -
+127.0.0.1 - - [10/Feb/2025 14:13:42] "[36mGET /static/css/estilos_gestion_sistemas.css HTTP/1.1[0m" 304 -
+2025-02-10 14:14:00 - 127.0.0.1 - - [10/Feb/2025 14:14:00] "GET /monitoreo HTTP/1.1" 200 -
+127.0.0.1 - - [10/Feb/2025 14:14:00] "GET /monitoreo HTTP/1.1" 200 -
+2025-02-10 14:14:00 - 127.0.0.1 - - [10/Feb/2025 14:14:00] "[36mGET /static/css/estilos_gestion_sistemas.css HTTP/1.1[0m" 304 -
+127.0.0.1 - - [10/Feb/2025 14:14:00] "[36mGET /static/css/estilos_gestion_sistemas.css HTTP/1.1[0m" 304 -
+2025-02-10 14:14:07 - 127.0.0.1 - - [10/Feb/2025 14:14:07] "GET /usuarios HTTP/1.1" 200 -
+127.0.0.1 - - [10/Feb/2025 14:14:07] "GET /usuarios HTTP/1.1" 200 -
+2025-02-10 14:14:07 - 127.0.0.1 - - [10/Feb/2025 14:14:07] "[36mGET /static/css/estilos_gestion_sistemas.css HTTP/1.1[0m" 304 -
+127.0.0.1 - - [10/Feb/2025 14:14:07] "[36mGET /static/css/estilos_gestion_sistemas.css HTTP/1.1[0m" 304 -
+2025-02-10 14:14:28 - Looking for jobs to run
+Looking for jobs to run
+2025-02-10 14:14:28 - Next wakeup is due at 2025-02-10 14:15:28.746875+01:00 (in 59.984061 seconds)
+Next wakeup is due at 2025-02-10 14:15:28.746875+01:00 (in 59.984061 seconds)
+2025-02-10 14:14:28 - Running job "create_app.<locals>.obtener_recursos (trigger: interval[0:01:00], next run at: 2025-02-10 14:15:28 CET)" (scheduled at 2025-02-10 14:14:28.746875+01:00)
+Running job "create_app.<locals>.obtener_recursos (trigger: interval[0:01:00], next run at: 2025-02-10 14:15:28 CET)" (scheduled at 2025-02-10 14:14:28.746875+01:00)
+2025-02-10 14:14:29 - Looking for jobs to run
+Looking for jobs to run
+2025-02-10 14:14:29 - Next wakeup is due at 2025-02-10 14:15:29.713049+01:00 (in 59.987843 seconds)
+Next wakeup is due at 2025-02-10 14:15:29.713049+01:00 (in 59.987843 seconds)
+2025-02-10 14:14:29 - Running job "create_app.<locals>.obtener_recursos (trigger: interval[0:01:00], next run at: 2025-02-10 14:15:29 CET)" (scheduled at 2025-02-10 14:14:29.713049+01:00)
+Running job "create_app.<locals>.obtener_recursos (trigger: interval[0:01:00], next run at: 2025-02-10 14:15:29 CET)" (scheduled at 2025-02-10 14:14:29.713049+01:00)
+2025-02-10 14:14:29 - CPU: 23.0% | Memoria: 86.1% | Disco: 97.0%
+CPU: 23.0% | Memoria: 86.1% | Disco: 97.0%
+2025-02-10 14:14:29 - Job "create_app.<locals>.obtener_recursos (trigger: interval[0:01:00], next run at: 2025-02-10 14:15:28 CET)" executed successfully
+Job "create_app.<locals>.obtener_recursos (trigger: interval[0:01:00], next run at: 2025-02-10 14:15:28 CET)" executed successfully
+2025-02-10 14:14:29 - 127.0.0.1 - - [10/Feb/2025 14:14:29] "GET /usuarios HTTP/1.1" 200 -
+127.0.0.1 - - [10/Feb/2025 14:14:29] "GET /usuarios HTTP/1.1" 200 -
+2025-02-10 14:14:29 - 127.0.0.1 - - [10/Feb/2025 14:14:29] "[36mGET /static/css/estilos_gestion_sistemas.css HTTP/1.1[0m" 304 -
+127.0.0.1 - - [10/Feb/2025 14:14:29] "[36mGET /static/css/estilos_gestion_sistemas.css HTTP/1.1[0m" 304 -
+2025-02-10 14:14:30 - CPU: 20.8% | Memoria: 86.1% | Disco: 97.0%
+CPU: 20.8% | Memoria: 86.1% | Disco: 97.0%
+2025-02-10 14:14:30 - Job "create_app.<locals>.obtener_recursos (trigger: interval[0:01:00], next run at: 2025-02-10 14:15:29 CET)" executed successfully
+Job "create_app.<locals>.obtener_recursos (trigger: interval[0:01:00], next run at: 2025-02-10 14:15:29 CET)" executed successfully
+2025-02-10 14:14:32 - 127.0.0.1 - - [10/Feb/2025 14:14:32] "[33mGET /logs.html HTTP/1.1[0m" 404 -
+127.0.0.1 - - [10/Feb/2025 14:14:32] "[33mGET /logs.html HTTP/1.1[0m" 404 -
+2025-02-10 14:14:58 - 127.0.0.1 - - [10/Feb/2025 14:14:58] "[33mGET /logs.html HTTP/1.1[0m" 404 -
+127.0.0.1 - - [10/Feb/2025 14:14:58] "[33mGET /logs.html HTTP/1.1[0m" 404 -
+2025-02-10 14:15:02 - 127.0.0.1 - - [10/Feb/2025 14:15:02] "GET /usuarios HTTP/1.1" 200 -
+127.0.0.1 - - [10/Feb/2025 14:15:02] "GET /usuarios HTTP/1.1" 200 -
+2025-02-10 14:15:02 - 127.0.0.1 - - [10/Feb/2025 14:15:02] "[36mGET /static/css/estilos_gestion_sistemas.css HTTP/1.1[0m" 304 -
+127.0.0.1 - - [10/Feb/2025 14:15:02] "[36mGET /static/css/estilos_gestion_sistemas.css HTTP/1.1[0m" 304 -
+2025-02-10 14:15:04 - 127.0.0.1 - - [10/Feb/2025 14:15:04] "GET /logs HTTP/1.1" 200 -
+127.0.0.1 - - [10/Feb/2025 14:15:04] "GET /logs HTTP/1.1" 200 -
+2025-02-10 14:15:04 - 127.0.0.1 - - [10/Feb/2025 14:15:04] "[36mGET /static/css/estilos_gestion_sistemas.css HTTP/1.1[0m" 304 -
+127.0.0.1 - - [10/Feb/2025 14:15:04] "[36mGET /static/css/estilos_gestion_sistemas.css HTTP/1.1[0m" 304 -
+2025-02-10 14:15:09 - 127.0.0.1 - - [10/Feb/2025 14:15:09] "[33mGET /login.html HTTP/1.1[0m" 404 -
+127.0.0.1 - - [10/Feb/2025 14:15:09] "[33mGET /login.html HTTP/1.1[0m" 404 -
+2025-02-10 14:15:28 - Looking for jobs to run
+Looking for jobs to run
+2025-02-10 14:15:28 - Next wakeup is due at 2025-02-10 14:16:28.746875+01:00 (in 59.995419 seconds)
+Next wakeup is due at 2025-02-10 14:16:28.746875+01:00 (in 59.995419 seconds)
+2025-02-10 14:15:28 - Running job "create_app.<locals>.obtener_recursos (trigger: interval[0:01:00], next run at: 2025-02-10 14:16:28 CET)" (scheduled at 2025-02-10 14:15:28.746875+01:00)
+Running job "create_app.<locals>.obtener_recursos (trigger: interval[0:01:00], next run at: 2025-02-10 14:16:28 CET)" (scheduled at 2025-02-10 14:15:28.746875+01:00)
+2025-02-10 14:15:29 - Looking for jobs to run
+Looking for jobs to run
+2025-02-10 14:15:29 - Next wakeup is due at 2025-02-10 14:16:29.713049+01:00 (in 59.992161 seconds)
+Next wakeup is due at 2025-02-10 14:16:29.713049+01:00 (in 59.992161 seconds)
+2025-02-10 14:15:29 - Running job "create_app.<locals>.obtener_recursos (trigger: interval[0:01:00], next run at: 2025-02-10 14:16:29 CET)" (scheduled at 2025-02-10 14:15:29.713049+01:00)
+Running job "create_app.<locals>.obtener_recursos (trigger: interval[0:01:00], next run at: 2025-02-10 14:16:29 CET)" (scheduled at 2025-02-10 14:15:29.713049+01:00)
+2025-02-10 14:15:29 - CPU: 25.9% | Memoria: 81.7% | Disco: 97.0%
+CPU: 25.9% | Memoria: 81.7% | Disco: 97.0%
+2025-02-10 14:15:29 - Job "create_app.<locals>.obtener_recursos (trigger: interval[0:01:00], next run at: 2025-02-10 14:16:28 CET)" executed successfully
+Job "create_app.<locals>.obtener_recursos (trigger: interval[0:01:00], next run at: 2025-02-10 14:16:28 CET)" executed successfully
+2025-02-10 14:15:30 - CPU: 19.7% | Memoria: 81.7% | Disco: 97.0%
+CPU: 19.7% | Memoria: 81.7% | Disco: 97.0%
+2025-02-10 14:15:30 - Job "create_app.<locals>.obtener_recursos (trigger: interval[0:01:00], next run at: 2025-02-10 14:16:29 CET)" executed successfully
+Job "create_app.<locals>.obtener_recursos (trigger: interval[0:01:00], next run at: 2025-02-10 14:16:29 CET)" executed successfully
+2025-02-10 14:15:54 - 127.0.0.1 - - [10/Feb/2025 14:15:54] "[33mGET /login.html HTTP/1.1[0m" 404 -
+127.0.0.1 - - [10/Feb/2025 14:15:54] "[33mGET /login.html HTTP/1.1[0m" 404 -
+2025-02-10 14:15:56 - 127.0.0.1 - - [10/Feb/2025 14:15:56] "GET /usuarios HTTP/1.1" 200 -
+127.0.0.1 - - [10/Feb/2025 14:15:56] "GET /usuarios HTTP/1.1" 200 -
+2025-02-10 14:15:56 - 127.0.0.1 - - [10/Feb/2025 14:15:56] "[36mGET /static/css/estilos_gestion_sistemas.css HTTP/1.1[0m" 304 -
+127.0.0.1 - - [10/Feb/2025 14:15:56] "[36mGET /static/css/estilos_gestion_sistemas.css HTTP/1.1[0m" 304 -
+2025-02-10 14:16:28 - Looking for jobs to run
+Looking for jobs to run
+2025-02-10 14:16:28 - Next wakeup is due at 2025-02-10 14:17:28.746875+01:00 (in 59.988793 seconds)
+Next wakeup is due at 2025-02-10 14:17:28.746875+01:00 (in 59.988793 seconds)
+2025-02-10 14:16:28 - Running job "create_app.<locals>.obtener_recursos (trigger: interval[0:01:00], next run at: 2025-02-10 14:17:28 CET)" (scheduled at 2025-02-10 14:16:28.746875+01:00)
+Running job "create_app.<locals>.obtener_recursos (trigger: interval[0:01:00], next run at: 2025-02-10 14:17:28 CET)" (scheduled at 2025-02-10 14:16:28.746875+01:00)
+2025-02-10 14:16:29 - Looking for jobs to run
+Looking for jobs to run
+2025-02-10 14:16:29 - Next wakeup is due at 2025-02-10 14:17:29.713049+01:00 (in 59.986974 seconds)
+Next wakeup is due at 2025-02-10 14:17:29.713049+01:00 (in 59.986974 seconds)
+2025-02-10 14:16:29 - Running job "create_app.<locals>.obtener_recursos (trigger: interval[0:01:00], next run at: 2025-02-10 14:17:29 CET)" (scheduled at 2025-02-10 14:16:29.713049+01:00)
+Running job "create_app.<locals>.obtener_recursos (trigger: interval[0:01:00], next run at: 2025-02-10 14:17:29 CET)" (scheduled at 2025-02-10 14:16:29.713049+01:00)
+2025-02-10 14:16:29 - CPU: 15.2% | Memoria: 81.6% | Disco: 97.0%
+CPU: 15.2% | Memoria: 81.6% | Disco: 97.0%
+2025-02-10 14:16:29 - Job "create_app.<locals>.obtener_recursos (trigger: interval[0:01:00], next run at: 2025-02-10 14:17:28 CET)" executed successfully
+Job "create_app.<locals>.obtener_recursos (trigger: interval[0:01:00], next run at: 2025-02-10 14:17:28 CET)" executed successfully
+2025-02-10 14:16:30 - CPU: 18.8% | Memoria: 81.7% | Disco: 97.0%
+CPU: 18.8% | Memoria: 81.7% | Disco: 97.0%
+2025-02-10 14:16:30 - Job "create_app.<locals>.obtener_recursos (trigger: interval[0:01:00], next run at: 2025-02-10 14:17:29 CET)" executed successfully
+Job "create_app.<locals>.obtener_recursos (trigger: interval[0:01:00], next run at: 2025-02-10 14:17:29 CET)" executed successfully
+2025-02-10 14:16:41 - 127.0.0.1 - - [10/Feb/2025 14:16:41] "GET /usuarios HTTP/1.1" 200 -
+127.0.0.1 - - [10/Feb/2025 14:16:41] "GET /usuarios HTTP/1.1" 200 -
+2025-02-10 14:16:41 - 127.0.0.1 - - [10/Feb/2025 14:16:41] "[36mGET /static/css/estilos_gestion_sistemas.css HTTP/1.1[0m" 304 -
+127.0.0.1 - - [10/Feb/2025 14:16:41] "[36mGET /static/css/estilos_gestion_sistemas.css HTTP/1.1[0m" 304 -
+2025-02-10 14:16:42 - 127.0.0.1 - - [10/Feb/2025 14:16:42] "GET /registro HTTP/1.1" 200 -
+127.0.0.1 - - [10/Feb/2025 14:16:42] "GET /registro HTTP/1.1" 200 -
+2025-02-10 14:16:42 - 127.0.0.1 - - [10/Feb/2025 14:16:42] "[36mGET /static/css/estilos_gestion_sistemas.css HTTP/1.1[0m" 304 -
+127.0.0.1 - - [10/Feb/2025 14:16:42] "[36mGET /static/css/estilos_gestion_sistemas.css HTTP/1.1[0m" 304 -
+2025-02-10 14:16:48 - 127.0.0.1 - - [10/Feb/2025 14:16:48] "[33mGET /registro.html HTTP/1.1[0m" 404 -
+127.0.0.1 - - [10/Feb/2025 14:16:48] "[33mGET /registro.html HTTP/1.1[0m" 404 -
+2025-02-10 14:17:28 - Looking for jobs to run
+Looking for jobs to run
+2025-02-10 14:17:28 - Next wakeup is due at 2025-02-10 14:18:28.746875+01:00 (in 59.992428 seconds)
+Next wakeup is due at 2025-02-10 14:18:28.746875+01:00 (in 59.992428 seconds)
+2025-02-10 14:17:28 - Running job "create_app.<locals>.obtener_recursos (trigger: interval[0:01:00], next run at: 2025-02-10 14:18:28 CET)" (scheduled at 2025-02-10 14:17:28.746875+01:00)
+Running job "create_app.<locals>.obtener_recursos (trigger: interval[0:01:00], next run at: 2025-02-10 14:18:28 CET)" (scheduled at 2025-02-10 14:17:28.746875+01:00)
+2025-02-10 14:17:29 - Looking for jobs to run
+Looking for jobs to run
+2025-02-10 14:17:29 - Next wakeup is due at 2025-02-10 14:18:29.713049+01:00 (in 59.987196 seconds)
+Next wakeup is due at 2025-02-10 14:18:29.713049+01:00 (in 59.987196 seconds)
+2025-02-10 14:17:29 - Running job "create_app.<locals>.obtener_recursos (trigger: interval[0:01:00], next run at: 2025-02-10 14:18:29 CET)" (scheduled at 2025-02-10 14:17:29.713049+01:00)
+Running job "create_app.<locals>.obtener_recursos (trigger: interval[0:01:00], next run at: 2025-02-10 14:18:29 CET)" (scheduled at 2025-02-10 14:17:29.713049+01:00)
+2025-02-10 14:17:29 - CPU: 12.6% | Memoria: 82.0% | Disco: 97.0%
+CPU: 12.6% | Memoria: 82.0% | Disco: 97.0%
+2025-02-10 14:17:29 - Job "create_app.<locals>.obtener_recursos (trigger: interval[0:01:00], next run at: 2025-02-10 14:18:28 CET)" executed successfully
+Job "create_app.<locals>.obtener_recursos (trigger: interval[0:01:00], next run at: 2025-02-10 14:18:28 CET)" executed successfully
+2025-02-10 14:17:30 - CPU: 18.6% | Memoria: 82.0% | Disco: 97.0%
+CPU: 18.6% | Memoria: 82.0% | Disco: 97.0%
+2025-02-10 14:17:30 - Job "create_app.<locals>.obtener_recursos (trigger: interval[0:01:00], next run at: 2025-02-10 14:18:29 CET)" executed successfully
+Job "create_app.<locals>.obtener_recursos (trigger: interval[0:01:00], next run at: 2025-02-10 14:18:29 CET)" executed successfully
+2025-02-10 14:18:28 - Looking for jobs to run
+Looking for jobs to run
+2025-02-10 14:18:28 - Next wakeup is due at 2025-02-10 14:19:28.746875+01:00 (in 59.978063 seconds)
+Next wakeup is due at 2025-02-10 14:19:28.746875+01:00 (in 59.978063 seconds)
+2025-02-10 14:18:28 - Running job "create_app.<locals>.obtener_recursos (trigger: interval[0:01:00], next run at: 2025-02-10 14:19:28 CET)" (scheduled at 2025-02-10 14:18:28.746875+01:00)
+Running job "create_app.<locals>.obtener_recursos (trigger: interval[0:01:00], next run at: 2025-02-10 14:19:28 CET)" (scheduled at 2025-02-10 14:18:28.746875+01:00)
+2025-02-10 14:18:29 - Looking for jobs to run
+Looking for jobs to run
+2025-02-10 14:18:29 - Next wakeup is due at 2025-02-10 14:19:29.713049+01:00 (in 59.987072 seconds)
+Next wakeup is due at 2025-02-10 14:19:29.713049+01:00 (in 59.987072 seconds)
+2025-02-10 14:18:29 - Running job "create_app.<locals>.obtener_recursos (trigger: interval[0:01:00], next run at: 2025-02-10 14:19:29 CET)" (scheduled at 2025-02-10 14:18:29.713049+01:00)
+Running job "create_app.<locals>.obtener_recursos (trigger: interval[0:01:00], next run at: 2025-02-10 14:19:29 CET)" (scheduled at 2025-02-10 14:18:29.713049+01:00)
+2025-02-10 14:18:29 - CPU: 13.7% | Memoria: 81.8% | Disco: 97.0%
+CPU: 13.7% | Memoria: 81.8% | Disco: 97.0%
+2025-02-10 14:18:29 - Job "create_app.<locals>.obtener_recursos (trigger: interval[0:01:00], next run at: 2025-02-10 14:19:28 CET)" executed successfully
+Job "create_app.<locals>.obtener_recursos (trigger: interval[0:01:00], next run at: 2025-02-10 14:19:28 CET)" executed successfully
+2025-02-10 14:18:30 - CPU: 13.7% | Memoria: 81.8% | Disco: 97.0%
+CPU: 13.7% | Memoria: 81.8% | Disco: 97.0%
+2025-02-10 14:18:30 - Job "create_app.<locals>.obtener_recursos (trigger: interval[0:01:00], next run at: 2025-02-10 14:19:29 CET)" executed successfully
+Job "create_app.<locals>.obtener_recursos (trigger: interval[0:01:00], next run at: 2025-02-10 14:19:29 CET)" executed successfully
+2025-02-10 14:18:37 - 127.0.0.1 - - [10/Feb/2025 14:18:37] "GET /registro HTTP/1.1" 200 -
+127.0.0.1 - - [10/Feb/2025 14:18:37] "GET /registro HTTP/1.1" 200 -
+2025-02-10 14:18:37 - 127.0.0.1 - - [10/Feb/2025 14:18:37] "[36mGET /static/css/estilos_gestion_sistemas.css HTTP/1.1[0m" 304 -
+127.0.0.1 - - [10/Feb/2025 14:18:37] "[36mGET /static/css/estilos_gestion_sistemas.css HTTP/1.1[0m" 304 -
+2025-02-10 14:18:39 - 127.0.0.1 - - [10/Feb/2025 14:18:39] "GET /registro HTTP/1.1" 200 -
+127.0.0.1 - - [10/Feb/2025 14:18:39] "GET /registro HTTP/1.1" 200 -
+2025-02-10 14:18:39 - 127.0.0.1 - - [10/Feb/2025 14:18:39] "[36mGET /static/css/estilos_gestion_sistemas.css HTTP/1.1[0m" 304 -
+127.0.0.1 - - [10/Feb/2025 14:18:39] "[36mGET /static/css/estilos_gestion_sistemas.css HTTP/1.1[0m" 304 -
+2025-02-10 14:18:41 - 127.0.0.1 - - [10/Feb/2025 14:18:41] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [10/Feb/2025 14:18:41] "GET / HTTP/1.1" 200 -
+2025-02-10 14:18:41 - 127.0.0.1 - - [10/Feb/2025 14:18:41] "[36mGET /static/css/estilos_gestion_sistemas.css HTTP/1.1[0m" 304 -
+127.0.0.1 - - [10/Feb/2025 14:18:41] "[36mGET /static/css/estilos_gestion_sistemas.css HTTP/1.1[0m" 304 -
+2025-02-10 14:18:46 - 127.0.0.1 - - [10/Feb/2025 14:18:46] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [10/Feb/2025 14:18:46] "GET / HTTP/1.1" 200 -
+2025-02-10 14:18:47 - 127.0.0.1 - - [10/Feb/2025 14:18:47] "[36mGET /static/css/estilos_gestion_sistemas.css HTTP/1.1[0m" 304 -
+127.0.0.1 - - [10/Feb/2025 14:18:47] "[36mGET /static/css/estilos_gestion_sistemas.css HTTP/1.1[0m" 304 -
+2025-02-10 14:18:48 - 127.0.0.1 - - [10/Feb/2025 14:18:48] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [10/Feb/2025 14:18:48] "GET / HTTP/1.1" 200 -
+2025-02-10 14:18:48 - 127.0.0.1 - - [10/Feb/2025 14:18:48] "[36mGET /static/css/estilos_gestion_sistemas.css HTTP/1.1[0m" 304 -
+127.0.0.1 - - [10/Feb/2025 14:18:48] "[36mGET /static/css/estilos_gestion_sistemas.css HTTP/1.1[0m" 304 -
+2025-02-10 14:18:51 - 127.0.0.1 - - [10/Feb/2025 14:18:51] "GET /monitoreo HTTP/1.1" 200 -
+127.0.0.1 - - [10/Feb/2025 14:18:51] "GET /monitoreo HTTP/1.1" 200 -
+2025-02-10 14:18:51 - 127.0.0.1 - - [10/Feb/2025 14:18:51] "[36mGET /static/css/estilos_gestion_sistemas.css HTTP/1.1[0m" 304 -
+127.0.0.1 - - [10/Feb/2025 14:18:51] "[36mGET /static/css/estilos_gestion_sistemas.css HTTP/1.1[0m" 304 -
+2025-02-10 14:18:54 - 127.0.0.1 - - [10/Feb/2025 14:18:54] "GET /usuarios HTTP/1.1" 200 -
+127.0.0.1 - - [10/Feb/2025 14:18:54] "GET /usuarios HTTP/1.1" 200 -
+2025-02-10 14:18:54 - 127.0.0.1 - - [10/Feb/2025 14:18:54] "[36mGET /static/css/estilos_gestion_sistemas.css HTTP/1.1[0m" 304 -
+127.0.0.1 - - [10/Feb/2025 14:18:54] "[36mGET /static/css/estilos_gestion_sistemas.css HTTP/1.1[0m" 304 -
+2025-02-10 14:19:00 - 127.0.0.1 - - [10/Feb/2025 14:19:00] "GET /logs HTTP/1.1" 200 -
+127.0.0.1 - - [10/Feb/2025 14:19:00] "GET /logs HTTP/1.1" 200 -
+2025-02-10 14:19:00 - 127.0.0.1 - - [10/Feb/2025 14:19:00] "[36mGET /static/css/estilos_gestion_sistemas.css HTTP/1.1[0m" 304 -
+127.0.0.1 - - [10/Feb/2025 14:19:00] "[36mGET /static/css/estilos_gestion_sistemas.css HTTP/1.1[0m" 304 -
+2025-02-10 14:19:09 - 127.0.0.1 - - [10/Feb/2025 14:19:09] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [10/Feb/2025 14:19:09] "GET / HTTP/1.1" 200 -
+2025-02-10 14:19:09 - 127.0.0.1 - - [10/Feb/2025 14:19:09] "[36mGET /static/css/estilos_gestion_sistemas.css HTTP/1.1[0m" 304 -
+127.0.0.1 - - [10/Feb/2025 14:19:09] "[36mGET /static/css/estilos_gestion_sistemas.css HTTP/1.1[0m" 304 -
+2025-02-10 14:19:12 - 127.0.0.1 - - [10/Feb/2025 14:19:12] "GET /registro HTTP/1.1" 200 -
+127.0.0.1 - - [10/Feb/2025 14:19:12] "GET /registro HTTP/1.1" 200 -
+2025-02-10 14:19:12 - 127.0.0.1 - - [10/Feb/2025 14:19:12] "[36mGET /static/css/estilos_gestion_sistemas.css HTTP/1.1[0m" 304 -
+127.0.0.1 - - [10/Feb/2025 14:19:12] "[36mGET /static/css/estilos_gestion_sistemas.css HTTP/1.1[0m" 304 -
+2025-02-10 14:19:28 - Looking for jobs to run
+Looking for jobs to run
+2025-02-10 14:19:28 - Next wakeup is due at 2025-02-10 14:20:28.746875+01:00 (in 59.984936 seconds)
+Next wakeup is due at 2025-02-10 14:20:28.746875+01:00 (in 59.984936 seconds)
+2025-02-10 14:19:28 - Running job "create_app.<locals>.obtener_recursos (trigger: interval[0:01:00], next run at: 2025-02-10 14:20:28 CET)" (scheduled at 2025-02-10 14:19:28.746875+01:00)
+Running job "create_app.<locals>.obtener_recursos (trigger: interval[0:01:00], next run at: 2025-02-10 14:20:28 CET)" (scheduled at 2025-02-10 14:19:28.746875+01:00)
+2025-02-10 14:19:29 - Looking for jobs to run
+Looking for jobs to run
+2025-02-10 14:19:29 - Next wakeup is due at 2025-02-10 14:20:29.713049+01:00 (in 59.996007 seconds)
+Next wakeup is due at 2025-02-10 14:20:29.713049+01:00 (in 59.996007 seconds)
+2025-02-10 14:19:29 - Running job "create_app.<locals>.obtener_recursos (trigger: interval[0:01:00], next run at: 2025-02-10 14:20:29 CET)" (scheduled at 2025-02-10 14:19:29.713049+01:00)
+Running job "create_app.<locals>.obtener_recursos (trigger: interval[0:01:00], next run at: 2025-02-10 14:20:29 CET)" (scheduled at 2025-02-10 14:19:29.713049+01:00)
+2025-02-10 14:19:29 - CPU: 14.9% | Memoria: 81.9% | Disco: 97.0%
+CPU: 14.9% | Memoria: 81.9% | Disco: 97.0%
+2025-02-10 14:19:29 - Job "create_app.<locals>.obtener_recursos (trigger: interval[0:01:00], next run at: 2025-02-10 14:20:28 CET)" executed successfully
+Job "create_app.<locals>.obtener_recursos (trigger: interval[0:01:00], next run at: 2025-02-10 14:20:28 CET)" executed successfully
+2025-02-10 14:19:30 - CPU: 35.4% | Memoria: 81.9% | Disco: 97.0%
+CPU: 35.4% | Memoria: 81.9% | Disco: 97.0%
+2025-02-10 14:19:30 - Job "create_app.<locals>.obtener_recursos (trigger: interval[0:01:00], next run at: 2025-02-10 14:20:29 CET)" executed successfully
+Job "create_app.<locals>.obtener_recursos (trigger: interval[0:01:00], next run at: 2025-02-10 14:20:29 CET)" executed successfully
+2025-02-10 14:20:28 - Looking for jobs to run
+Looking for jobs to run
+2025-02-10 14:20:28 - Next wakeup is due at 2025-02-10 14:21:28.746875+01:00 (in 59.997204 seconds)
+Next wakeup is due at 2025-02-10 14:21:28.746875+01:00 (in 59.997204 seconds)
+2025-02-10 14:20:28 - Running job "create_app.<locals>.obtener_recursos (trigger: interval[0:01:00], next run at: 2025-02-10 14:21:28 CET)" (scheduled at 2025-02-10 14:20:28.746875+01:00)
+Running job "create_app.<locals>.obtener_recursos (trigger: interval[0:01:00], next run at: 2025-02-10 14:21:28 CET)" (scheduled at 2025-02-10 14:20:28.746875+01:00)
+2025-02-10 14:20:29 - Looking for jobs to run
+Looking for jobs to run
+2025-02-10 14:20:29 - Next wakeup is due at 2025-02-10 14:21:29.713049+01:00 (in 59.994825 seconds)
+Next wakeup is due at 2025-02-10 14:21:29.713049+01:00 (in 59.994825 seconds)
+2025-02-10 14:20:29 - Running job "create_app.<locals>.obtener_recursos (trigger: interval[0:01:00], next run at: 2025-02-10 14:21:29 CET)" (scheduled at 2025-02-10 14:20:29.713049+01:00)
+Running job "create_app.<locals>.obtener_recursos (trigger: interval[0:01:00], next run at: 2025-02-10 14:21:29 CET)" (scheduled at 2025-02-10 14:20:29.713049+01:00)
+2025-02-10 14:20:29 - CPU: 16.3% | Memoria: 81.4% | Disco: 97.0%
+CPU: 16.3% | Memoria: 81.4% | Disco: 97.0%
+2025-02-10 14:20:29 - Job "create_app.<locals>.obtener_recursos (trigger: interval[0:01:00], next run at: 2025-02-10 14:21:28 CET)" executed successfully
+Job "create_app.<locals>.obtener_recursos (trigger: interval[0:01:00], next run at: 2025-02-10 14:21:28 CET)" executed successfully
+2025-02-10 14:20:30 - CPU: 19.5% | Memoria: 81.4% | Disco: 97.0%
+CPU: 19.5% | Memoria: 81.4% | Disco: 97.0%
+2025-02-10 14:20:30 - Job "create_app.<locals>.obtener_recursos (trigger: interval[0:01:00], next run at: 2025-02-10 14:21:29 CET)" executed successfully
+Job "create_app.<locals>.obtener_recursos (trigger: interval[0:01:00], next run at: 2025-02-10 14:21:29 CET)" executed successfully
+2025-02-10 14:20:41 - 127.0.0.1 - - [10/Feb/2025 14:20:41] "GET /registro HTTP/1.1" 200 -
+127.0.0.1 - - [10/Feb/2025 14:20:41] "GET /registro HTTP/1.1" 200 -
+2025-02-10 14:20:41 - 127.0.0.1 - - [10/Feb/2025 14:20:41] "[36mGET /static/css/estilos_gestion_sistemas.css HTTP/1.1[0m" 304 -
+127.0.0.1 - - [10/Feb/2025 14:20:41] "[36mGET /static/css/estilos_gestion_sistemas.css HTTP/1.1[0m" 304 -
+2025-02-10 14:21:28 - Looking for jobs to run
+Looking for jobs to run
+2025-02-10 14:21:28 - Next wakeup is due at 2025-02-10 14:22:28.746875+01:00 (in 59.993215 seconds)
+Next wakeup is due at 2025-02-10 14:22:28.746875+01:00 (in 59.993215 seconds)
+2025-02-10 14:21:28 - Running job "create_app.<locals>.obtener_recursos (trigger: interval[0:01:00], next run at: 2025-02-10 14:22:28 CET)" (scheduled at 2025-02-10 14:21:28.746875+01:00)
+Running job "create_app.<locals>.obtener_recursos (trigger: interval[0:01:00], next run at: 2025-02-10 14:22:28 CET)" (scheduled at 2025-02-10 14:21:28.746875+01:00)
+2025-02-10 14:21:29 - Looking for jobs to run
+Looking for jobs to run
+2025-02-10 14:21:29 - Next wakeup is due at 2025-02-10 14:22:29.713049+01:00 (in 59.995890 seconds)
+Next wakeup is due at 2025-02-10 14:22:29.713049+01:00 (in 59.995890 seconds)
+2025-02-10 14:21:29 - Running job "create_app.<locals>.obtener_recursos (trigger: interval[0:01:00], next run at: 2025-02-10 14:22:29 CET)" (scheduled at 2025-02-10 14:21:29.713049+01:00)
+Running job "create_app.<locals>.obtener_recursos (trigger: interval[0:01:00], next run at: 2025-02-10 14:22:29 CET)" (scheduled at 2025-02-10 14:21:29.713049+01:00)
+2025-02-10 14:21:29 - CPU: 18.8% | Memoria: 82.7% | Disco: 97.0%
+CPU: 18.8% | Memoria: 82.7% | Disco: 97.0%
+2025-02-10 14:21:29 - Job "create_app.<locals>.obtener_recursos (trigger: interval[0:01:00], next run at: 2025-02-10 14:22:28 CET)" executed successfully
+Job "create_app.<locals>.obtener_recursos (trigger: interval[0:01:00], next run at: 2025-02-10 14:22:28 CET)" executed successfully
+2025-02-10 14:21:30 - CPU: 16.4% | Memoria: 82.7% | Disco: 97.0%
+CPU: 16.4% | Memoria: 82.7% | Disco: 97.0%
+2025-02-10 14:21:30 - Job "create_app.<locals>.obtener_recursos (trigger: interval[0:01:00], next run at: 2025-02-10 14:22:29 CET)" executed successfully
+Job "create_app.<locals>.obtener_recursos (trigger: interval[0:01:00], next run at: 2025-02-10 14:22:29 CET)" executed successfully
+2025-02-10 14:22:28 - Looking for jobs to run
+Looking for jobs to run
+2025-02-10 14:22:28 - Next wakeup is due at 2025-02-10 14:23:28.746875+01:00 (in 59.996445 seconds)
+Next wakeup is due at 2025-02-10 14:23:28.746875+01:00 (in 59.996445 seconds)
+2025-02-10 14:22:28 - Running job "create_app.<locals>.obtener_recursos (trigger: interval[0:01:00], next run at: 2025-02-10 14:23:28 CET)" (scheduled at 2025-02-10 14:22:28.746875+01:00)
+Running job "create_app.<locals>.obtener_recursos (trigger: interval[0:01:00], next run at: 2025-02-10 14:23:28 CET)" (scheduled at 2025-02-10 14:22:28.746875+01:00)
+2025-02-10 14:22:29 - Looking for jobs to run
+Looking for jobs to run
+2025-02-10 14:22:29 - Next wakeup is due at 2025-02-10 14:23:29.713049+01:00 (in 59.983165 seconds)
+Next wakeup is due at 2025-02-10 14:23:29.713049+01:00 (in 59.983165 seconds)
+2025-02-10 14:22:29 - Running job "create_app.<locals>.obtener_recursos (trigger: interval[0:01:00], next run at: 2025-02-10 14:23:29 CET)" (scheduled at 2025-02-10 14:22:29.713049+01:00)
+Running job "create_app.<locals>.obtener_recursos (trigger: interval[0:01:00], next run at: 2025-02-10 14:23:29 CET)" (scheduled at 2025-02-10 14:22:29.713049+01:00)
+2025-02-10 14:22:29 - CPU: 12.8% | Memoria: 82.2% | Disco: 97.0%
+CPU: 12.8% | Memoria: 82.2% | Disco: 97.0%
+2025-02-10 14:22:29 - Job "create_app.<locals>.obtener_recursos (trigger: interval[0:01:00], next run at: 2025-02-10 14:23:28 CET)" executed successfully
+Job "create_app.<locals>.obtener_recursos (trigger: interval[0:01:00], next run at: 2025-02-10 14:23:28 CET)" executed successfully
+2025-02-10 14:22:30 - CPU: 10.1% | Memoria: 82.2% | Disco: 97.0%
+CPU: 10.1% | Memoria: 82.2% | Disco: 97.0%
+2025-02-10 14:22:30 - Job "create_app.<locals>.obtener_recursos (trigger: interval[0:01:00], next run at: 2025-02-10 14:23:29 CET)" executed successfully
+Job "create_app.<locals>.obtener_recursos (trigger: interval[0:01:00], next run at: 2025-02-10 14:23:29 CET)" executed successfully
+2025-02-10 14:23:28 - Looking for jobs to run
+Looking for jobs to run
+2025-02-10 14:23:28 - Next wakeup is due at 2025-02-10 14:24:28.746875+01:00 (in 59.996049 seconds)
+Next wakeup is due at 2025-02-10 14:24:28.746875+01:00 (in 59.996049 seconds)
+2025-02-10 14:23:28 - Running job "create_app.<locals>.obtener_recursos (trigger: interval[0:01:00], next run at: 2025-02-10 14:24:28 CET)" (scheduled at 2025-02-10 14:23:28.746875+01:00)
+Running job "create_app.<locals>.obtener_recursos (trigger: interval[0:01:00], next run at: 2025-02-10 14:24:28 CET)" (scheduled at 2025-02-10 14:23:28.746875+01:00)
+2025-02-10 14:23:29 - Looking for jobs to run
+Looking for jobs to run
+2025-02-10 14:23:29 - Next wakeup is due at 2025-02-10 14:24:29.713049+01:00 (in 59.990328 seconds)
+Next wakeup is due at 2025-02-10 14:24:29.713049+01:00 (in 59.990328 seconds)
+2025-02-10 14:23:29 - Running job "create_app.<locals>.obtener_recursos (trigger: interval[0:01:00], next run at: 2025-02-10 14:24:29 CET)" (scheduled at 2025-02-10 14:23:29.713049+01:00)
+Running job "create_app.<locals>.obtener_recursos (trigger: interval[0:01:00], next run at: 2025-02-10 14:24:29 CET)" (scheduled at 2025-02-10 14:23:29.713049+01:00)
+2025-02-10 14:23:29 - CPU: 12.6% | Memoria: 82.4% | Disco: 97.0%
+CPU: 12.6% | Memoria: 82.4% | Disco: 97.0%
+2025-02-10 14:23:29 - Job "create_app.<locals>.obtener_recursos (trigger: interval[0:01:00], next run at: 2025-02-10 14:24:28 CET)" executed successfully
+Job "create_app.<locals>.obtener_recursos (trigger: interval[0:01:00], next run at: 2025-02-10 14:24:28 CET)" executed successfully
+2025-02-10 14:23:30 - CPU: 24.1% | Memoria: 82.6% | Disco: 97.0%
+CPU: 24.1% | Memoria: 82.6% | Disco: 97.0%
+2025-02-10 14:23:30 - Job "create_app.<locals>.obtener_recursos (trigger: interval[0:01:00], next run at: 2025-02-10 14:24:29 CET)" executed successfully
+Job "create_app.<locals>.obtener_recursos (trigger: interval[0:01:00], next run at: 2025-02-10 14:24:29 CET)" executed successfully
+2025-02-10 14:24:20 - 127.0.0.1 - - [10/Feb/2025 14:24:20] "GET /registro HTTP/1.1" 200 -
+127.0.0.1 - - [10/Feb/2025 14:24:20] "GET /registro HTTP/1.1" 200 -
+2025-02-10 14:24:20 - 127.0.0.1 - - [10/Feb/2025 14:24:20] "GET /static/css/estilos_gestion_sistemas.css HTTP/1.1" 200 -
+127.0.0.1 - - [10/Feb/2025 14:24:20] "GET /static/css/estilos_gestion_sistemas.css HTTP/1.1" 200 -
+2025-02-10 14:24:21 - 127.0.0.1 - - [10/Feb/2025 14:24:21] "GET /registro HTTP/1.1" 200 -
+127.0.0.1 - - [10/Feb/2025 14:24:21] "GET /registro HTTP/1.1" 200 -
+2025-02-10 14:24:21 - 127.0.0.1 - - [10/Feb/2025 14:24:21] "[36mGET /static/css/estilos_gestion_sistemas.css HTTP/1.1[0m" 304 -
+127.0.0.1 - - [10/Feb/2025 14:24:21] "[36mGET /static/css/estilos_gestion_sistemas.css HTTP/1.1[0m" 304 -
+2025-02-10 14:24:28 - Looking for jobs to run
+Looking for jobs to run
+2025-02-10 14:24:28 - Next wakeup is due at 2025-02-10 14:25:28.746875+01:00 (in 59.990103 seconds)
+Next wakeup is due at 2025-02-10 14:25:28.746875+01:00 (in 59.990103 seconds)
+2025-02-10 14:24:28 - Running job "create_app.<locals>.obtener_recursos (trigger: interval[0:01:00], next run at: 2025-02-10 14:25:28 CET)" (scheduled at 2025-02-10 14:24:28.746875+01:00)
+Running job "create_app.<locals>.obtener_recursos (trigger: interval[0:01:00], next run at: 2025-02-10 14:25:28 CET)" (scheduled at 2025-02-10 14:24:28.746875+01:00)
+2025-02-10 14:24:29 - Looking for jobs to run
+Looking for jobs to run
+2025-02-10 14:24:29 - Next wakeup is due at 2025-02-10 14:25:29.713049+01:00 (in 59.992633 seconds)
+Next wakeup is due at 2025-02-10 14:25:29.713049+01:00 (in 59.992633 seconds)
+2025-02-10 14:24:29 - Running job "create_app.<locals>.obtener_recursos (trigger: interval[0:01:00], next run at: 2025-02-10 14:25:29 CET)" (scheduled at 2025-02-10 14:24:29.713049+01:00)
+Running job "create_app.<locals>.obtener_recursos (trigger: interval[0:01:00], next run at: 2025-02-10 14:25:29 CET)" (scheduled at 2025-02-10 14:24:29.713049+01:00)
+2025-02-10 14:24:29 - CPU: 28.1% | Memoria: 83.2% | Disco: 97.0%
+CPU: 28.1% | Memoria: 83.2% | Disco: 97.0%
+2025-02-10 14:24:29 - Job "create_app.<locals>.obtener_recursos (trigger: interval[0:01:00], next run at: 2025-02-10 14:25:28 CET)" executed successfully
+Job "create_app.<locals>.obtener_recursos (trigger: interval[0:01:00], next run at: 2025-02-10 14:25:28 CET)" executed successfully
+2025-02-10 14:24:30 - CPU: 28.5% | Memoria: 83.1% | Disco: 97.0%
+CPU: 28.5% | Memoria: 83.1% | Disco: 97.0%
+2025-02-10 14:24:30 - Job "create_app.<locals>.obtener_recursos (trigger: interval[0:01:00], next run at: 2025-02-10 14:25:29 CET)" executed successfully
+Job "create_app.<locals>.obtener_recursos (trigger: interval[0:01:00], next run at: 2025-02-10 14:25:29 CET)" executed successfully
+2025-02-10 14:25:28 - Looking for jobs to run
+Looking for jobs to run
+2025-02-10 14:25:28 - Next wakeup is due at 2025-02-10 14:26:28.746875+01:00 (in 59.990842 seconds)
+Next wakeup is due at 2025-02-10 14:26:28.746875+01:00 (in 59.990842 seconds)
+2025-02-10 14:25:28 - Running job "create_app.<locals>.obtener_recursos (trigger: interval[0:01:00], next run at: 2025-02-10 14:26:28 CET)" (scheduled at 2025-02-10 14:25:28.746875+01:00)
+Running job "create_app.<locals>.obtener_recursos (trigger: interval[0:01:00], next run at: 2025-02-10 14:26:28 CET)" (scheduled at 2025-02-10 14:25:28.746875+01:00)
+2025-02-10 14:25:29 - Looking for jobs to run
+Looking for jobs to run
+2025-02-10 14:25:29 - Next wakeup is due at 2025-02-10 14:26:29.713049+01:00 (in 59.988450 seconds)
+Next wakeup is due at 2025-02-10 14:26:29.713049+01:00 (in 59.988450 seconds)
+2025-02-10 14:25:29 - Running job "create_app.<locals>.obtener_recursos (trigger: interval[0:01:00], next run at: 2025-02-10 14:26:29 CET)" (scheduled at 2025-02-10 14:25:29.713049+01:00)
+Running job "create_app.<locals>.obtener_recursos (trigger: interval[0:01:00], next run at: 2025-02-10 14:26:29 CET)" (scheduled at 2025-02-10 14:25:29.713049+01:00)
+2025-02-10 14:25:29 - CPU: 15.0% | Memoria: 83.1% | Disco: 97.0%
+CPU: 15.0% | Memoria: 83.1% | Disco: 97.0%
+2025-02-10 14:25:29 - Job "create_app.<locals>.obtener_recursos (trigger: interval[0:01:00], next run at: 2025-02-10 14:26:28 CET)" executed successfully
+Job "create_app.<locals>.obtener_recursos (trigger: interval[0:01:00], next run at: 2025-02-10 14:26:28 CET)" executed successfully
+2025-02-10 14:25:30 - CPU: 20.2% | Memoria: 83.1% | Disco: 97.0%
+CPU: 20.2% | Memoria: 83.1% | Disco: 97.0%
+2025-02-10 14:25:30 - Job "create_app.<locals>.obtener_recursos (trigger: interval[0:01:00], next run at: 2025-02-10 14:26:29 CET)" executed successfully
+Job "create_app.<locals>.obtener_recursos (trigger: interval[0:01:00], next run at: 2025-02-10 14:26:29 CET)" executed successfully
+2025-02-10 14:25:38 - 127.0.0.1 - - [10/Feb/2025 14:25:38] "GET /registro HTTP/1.1" 200 -
+127.0.0.1 - - [10/Feb/2025 14:25:38] "GET /registro HTTP/1.1" 200 -
+2025-02-10 14:25:38 - 127.0.0.1 - - [10/Feb/2025 14:25:38] "[36mGET /static/css/estilos_gestion_sistemas.css HTTP/1.1[0m" 304 -
+127.0.0.1 - - [10/Feb/2025 14:25:38] "[36mGET /static/css/estilos_gestion_sistemas.css HTTP/1.1[0m" 304 -
+2025-02-10 14:26:28 - Looking for jobs to run
+Looking for jobs to run
+2025-02-10 14:26:28 - Next wakeup is due at 2025-02-10 14:27:28.746875+01:00 (in 59.991310 seconds)
+Next wakeup is due at 2025-02-10 14:27:28.746875+01:00 (in 59.991310 seconds)
+2025-02-10 14:26:28 - Running job "create_app.<locals>.obtener_recursos (trigger: interval[0:01:00], next run at: 2025-02-10 14:27:28 CET)" (scheduled at 2025-02-10 14:26:28.746875+01:00)
+Running job "create_app.<locals>.obtener_recursos (trigger: interval[0:01:00], next run at: 2025-02-10 14:27:28 CET)" (scheduled at 2025-02-10 14:26:28.746875+01:00)
+2025-02-10 14:26:29 - Looking for jobs to run
+Looking for jobs to run
+2025-02-10 14:26:29 - Next wakeup is due at 2025-02-10 14:27:29.713049+01:00 (in 59.989818 seconds)
+Next wakeup is due at 2025-02-10 14:27:29.713049+01:00 (in 59.989818 seconds)
+2025-02-10 14:26:29 - Running job "create_app.<locals>.obtener_recursos (trigger: interval[0:01:00], next run at: 2025-02-10 14:27:29 CET)" (scheduled at 2025-02-10 14:26:29.713049+01:00)
+Running job "create_app.<locals>.obtener_recursos (trigger: interval[0:01:00], next run at: 2025-02-10 14:27:29 CET)" (scheduled at 2025-02-10 14:26:29.713049+01:00)
+2025-02-10 14:26:29 - CPU: 8.3% | Memoria: 82.1% | Disco: 97.0%
+CPU: 8.3% | Memoria: 82.1% | Disco: 97.0%
+2025-02-10 14:26:29 - Job "create_app.<locals>.obtener_recursos (trigger: interval[0:01:00], next run at: 2025-02-10 14:27:28 CET)" executed successfully
+Job "create_app.<locals>.obtener_recursos (trigger: interval[0:01:00], next run at: 2025-02-10 14:27:28 CET)" executed successfully
+2025-02-10 14:26:30 - CPU: 5.7% | Memoria: 82.2% | Disco: 97.0%
+CPU: 5.7% | Memoria: 82.2% | Disco: 97.0%
+2025-02-10 14:26:30 - Job "create_app.<locals>.obtener_recursos (trigger: interval[0:01:00], next run at: 2025-02-10 14:27:29 CET)" executed successfully
+Job "create_app.<locals>.obtener_recursos (trigger: interval[0:01:00], next run at: 2025-02-10 14:27:29 CET)" executed successfully
+2025-02-10 14:27:07 - 127.0.0.1 - - [10/Feb/2025 14:27:07] "GET /registro HTTP/1.1" 200 -
+127.0.0.1 - - [10/Feb/2025 14:27:07] "GET /registro HTTP/1.1" 200 -
+2025-02-10 14:27:07 - 127.0.0.1 - - [10/Feb/2025 14:27:07] "GET /static/css/estilos_gestion_sistemas.css HTTP/1.1" 200 -
+127.0.0.1 - - [10/Feb/2025 14:27:07] "GET /static/css/estilos_gestion_sistemas.css HTTP/1.1" 200 -
+2025-02-10 14:27:28 - Looking for jobs to run
+Looking for jobs to run
+2025-02-10 14:27:28 - Next wakeup is due at 2025-02-10 14:28:28.746875+01:00 (in 59.990609 seconds)
+Next wakeup is due at 2025-02-10 14:28:28.746875+01:00 (in 59.990609 seconds)
+2025-02-10 14:27:28 - Running job "create_app.<locals>.obtener_recursos (trigger: interval[0:01:00], next run at: 2025-02-10 14:28:28 CET)" (scheduled at 2025-02-10 14:27:28.746875+01:00)
+Running job "create_app.<locals>.obtener_recursos (trigger: interval[0:01:00], next run at: 2025-02-10 14:28:28 CET)" (scheduled at 2025-02-10 14:27:28.746875+01:00)
+2025-02-10 14:27:29 - Looking for jobs to run
+Looking for jobs to run
+2025-02-10 14:27:29 - Next wakeup is due at 2025-02-10 14:28:29.713049+01:00 (in 59.985454 seconds)
+Next wakeup is due at 2025-02-10 14:28:29.713049+01:00 (in 59.985454 seconds)
+2025-02-10 14:27:29 - Running job "create_app.<locals>.obtener_recursos (trigger: interval[0:01:00], next run at: 2025-02-10 14:28:29 CET)" (scheduled at 2025-02-10 14:27:29.713049+01:00)
+Running job "create_app.<locals>.obtener_recursos (trigger: interval[0:01:00], next run at: 2025-02-10 14:28:29 CET)" (scheduled at 2025-02-10 14:27:29.713049+01:00)
+2025-02-10 14:27:29 - CPU: 9.3% | Memoria: 83.1% | Disco: 97.0%
+CPU: 9.3% | Memoria: 83.1% | Disco: 97.0%
+2025-02-10 14:27:29 - Job "create_app.<locals>.obtener_recursos (trigger: interval[0:01:00], next run at: 2025-02-10 14:28:28 CET)" executed successfully
+Job "create_app.<locals>.obtener_recursos (trigger: interval[0:01:00], next run at: 2025-02-10 14:28:28 CET)" executed successfully
+2025-02-10 14:27:30 - CPU: 10.3% | Memoria: 83.1% | Disco: 97.0%
+CPU: 10.3% | Memoria: 83.1% | Disco: 97.0%
+2025-02-10 14:27:30 - Job "create_app.<locals>.obtener_recursos (trigger: interval[0:01:00], next run at: 2025-02-10 14:28:29 CET)" executed successfully
+Job "create_app.<locals>.obtener_recursos (trigger: interval[0:01:00], next run at: 2025-02-10 14:28:29 CET)" executed successfully
+2025-02-10 14:27:56 - 127.0.0.1 - - [10/Feb/2025 14:27:56] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [10/Feb/2025 14:27:56] "GET / HTTP/1.1" 200 -
+2025-02-10 14:27:56 - 127.0.0.1 - - [10/Feb/2025 14:27:56] "[36mGET /static/css/estilos_gestion_sistemas.css HTTP/1.1[0m" 304 -
+127.0.0.1 - - [10/Feb/2025 14:27:56] "[36mGET /static/css/estilos_gestion_sistemas.css HTTP/1.1[0m" 304 -
+2025-02-10 14:28:00 - 127.0.0.1 - - [10/Feb/2025 14:28:00] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [10/Feb/2025 14:28:00] "GET / HTTP/1.1" 200 -
+2025-02-10 14:28:00 - 127.0.0.1 - - [10/Feb/2025 14:28:00] "[36mGET /static/css/estilos_gestion_sistemas.css HTTP/1.1[0m" 304 -
+127.0.0.1 - - [10/Feb/2025 14:28:00] "[36mGET /static/css/estilos_gestion_sistemas.css HTTP/1.1[0m" 304 -
+2025-02-10 14:28:02 - 127.0.0.1 - - [10/Feb/2025 14:28:02] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [10/Feb/2025 14:28:02] "GET / HTTP/1.1" 200 -
+2025-02-10 14:28:02 - 127.0.0.1 - - [10/Feb/2025 14:28:02] "[36mGET /static/css/estilos_gestion_sistemas.css HTTP/1.1[0m" 304 -
+127.0.0.1 - - [10/Feb/2025 14:28:02] "[36mGET /static/css/estilos_gestion_sistemas.css HTTP/1.1[0m" 304 -
+2025-02-10 14:28:02 - 127.0.0.1 - - [10/Feb/2025 14:28:02] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [10/Feb/2025 14:28:02] "GET / HTTP/1.1" 200 -
+2025-02-10 14:28:02 - 127.0.0.1 - - [10/Feb/2025 14:28:02] "[36mGET /static/css/estilos_gestion_sistemas.css HTTP/1.1[0m" 304 -
+127.0.0.1 - - [10/Feb/2025 14:28:02] "[36mGET /static/css/estilos_gestion_sistemas.css HTTP/1.1[0m" 304 -
+2025-02-10 14:28:03 - 127.0.0.1 - - [10/Feb/2025 14:28:03] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [10/Feb/2025 14:28:03] "GET / HTTP/1.1" 200 -
+2025-02-10 14:28:03 - 127.0.0.1 - - [10/Feb/2025 14:28:03] "[36mGET /static/css/estilos_gestion_sistemas.css HTTP/1.1[0m" 304 -
+127.0.0.1 - - [10/Feb/2025 14:28:03] "[36mGET /static/css/estilos_gestion_sistemas.css HTTP/1.1[0m" 304 -
+2025-02-10 14:28:04 - 127.0.0.1 - - [10/Feb/2025 14:28:04] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [10/Feb/2025 14:28:04] "GET / HTTP/1.1" 200 -
+2025-02-10 14:28:04 - 127.0.0.1 - - [10/Feb/2025 14:28:04] "[36mGET /static/css/estilos_gestion_sistemas.css HTTP/1.1[0m" 304 -
+127.0.0.1 - - [10/Feb/2025 14:28:04] "[36mGET /static/css/estilos_gestion_sistemas.css HTTP/1.1[0m" 304 -
+2025-02-10 14:28:10 - 127.0.0.1 - - [10/Feb/2025 14:28:10] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [10/Feb/2025 14:28:10] "GET / HTTP/1.1" 200 -
+2025-02-10 14:28:10 - 127.0.0.1 - - [10/Feb/2025 14:28:10] "[36mGET /static/css/estilos_gestion_sistemas.css HTTP/1.1[0m" 304 -
+127.0.0.1 - - [10/Feb/2025 14:28:10] "[36mGET /static/css/estilos_gestion_sistemas.css HTTP/1.1[0m" 304 -
+2025-02-10 14:28:17 - 127.0.0.1 - - [10/Feb/2025 14:28:17] "GET /login HTTP/1.1" 200 -
+127.0.0.1 - - [10/Feb/2025 14:28:17] "GET /login HTTP/1.1" 200 -
+2025-02-10 14:28:17 - 127.0.0.1 - - [10/Feb/2025 14:28:17] "[36mGET /static/css/estilos_gestion_sistemas.css HTTP/1.1[0m" 304 -
+127.0.0.1 - - [10/Feb/2025 14:28:17] "[36mGET /static/css/estilos_gestion_sistemas.css HTTP/1.1[0m" 304 -
+2025-02-10 14:28:28 - Looking for jobs to run
+Looking for jobs to run
+2025-02-10 14:28:28 - Next wakeup is due at 2025-02-10 14:29:28.746875+01:00 (in 59.995530 seconds)
+Next wakeup is due at 2025-02-10 14:29:28.746875+01:00 (in 59.995530 seconds)
+2025-02-10 14:28:28 - Running job "create_app.<locals>.obtener_recursos (trigger: interval[0:01:00], next run at: 2025-02-10 14:29:28 CET)" (scheduled at 2025-02-10 14:28:28.746875+01:00)
+Running job "create_app.<locals>.obtener_recursos (trigger: interval[0:01:00], next run at: 2025-02-10 14:29:28 CET)" (scheduled at 2025-02-10 14:28:28.746875+01:00)
+2025-02-10 14:28:29 - Looking for jobs to run
+Looking for jobs to run
+2025-02-10 14:28:29 - Next wakeup is due at 2025-02-10 14:29:29.713049+01:00 (in 59.992032 seconds)
+Next wakeup is due at 2025-02-10 14:29:29.713049+01:00 (in 59.992032 seconds)
+2025-02-10 14:28:29 - Running job "create_app.<locals>.obtener_recursos (trigger: interval[0:01:00], next run at: 2025-02-10 14:29:29 CET)" (scheduled at 2025-02-10 14:28:29.713049+01:00)
+Running job "create_app.<locals>.obtener_recursos (trigger: interval[0:01:00], next run at: 2025-02-10 14:29:29 CET)" (scheduled at 2025-02-10 14:28:29.713049+01:00)
+2025-02-10 14:28:29 - CPU: 14.7% | Memoria: 83.2% | Disco: 97.0%
+CPU: 14.7% | Memoria: 83.2% | Disco: 97.0%
+2025-02-10 14:28:29 - Job "create_app.<locals>.obtener_recursos (trigger: interval[0:01:00], next run at: 2025-02-10 14:29:28 CET)" executed successfully
+Job "create_app.<locals>.obtener_recursos (trigger: interval[0:01:00], next run at: 2025-02-10 14:29:28 CET)" executed successfully
+2025-02-10 14:28:30 - CPU: 16.2% | Memoria: 82.9% | Disco: 97.0%
+CPU: 16.2% | Memoria: 82.9% | Disco: 97.0%
+2025-02-10 14:28:30 - Job "create_app.<locals>.obtener_recursos (trigger: interval[0:01:00], next run at: 2025-02-10 14:29:29 CET)" executed successfully
+Job "create_app.<locals>.obtener_recursos (trigger: interval[0:01:00], next run at: 2025-02-10 14:29:29 CET)" executed successfully
+2025-02-10 14:28:39 - 127.0.0.1 - - [10/Feb/2025 14:28:39] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [10/Feb/2025 14:28:39] "GET / HTTP/1.1" 200 -
+2025-02-10 14:28:39 - 127.0.0.1 - - [10/Feb/2025 14:28:39] "[36mGET /static/css/estilos_gestion_sistemas.css HTTP/1.1[0m" 304 -
+127.0.0.1 - - [10/Feb/2025 14:28:39] "[36mGET /static/css/estilos_gestion_sistemas.css HTTP/1.1[0m" 304 -
+2025-02-10 14:28:41 - 127.0.0.1 - - [10/Feb/2025 14:28:41] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [10/Feb/2025 14:28:41] "GET / HTTP/1.1" 200 -
+2025-02-10 14:28:41 - 127.0.0.1 - - [10/Feb/2025 14:28:41] "[36mGET /static/css/estilos_gestion_sistemas.css HTTP/1.1[0m" 304 -
+127.0.0.1 - - [10/Feb/2025 14:28:41] "[36mGET /static/css/estilos_gestion_sistemas.css HTTP/1.1[0m" 304 -
+2025-02-10 14:28:41 - 127.0.0.1 - - [10/Feb/2025 14:28:41] "GET /login HTTP/1.1" 200 -
+127.0.0.1 - - [10/Feb/2025 14:28:41] "GET /login HTTP/1.1" 200 -
+2025-02-10 14:28:41 - 127.0.0.1 - - [10/Feb/2025 14:28:41] "[36mGET /static/css/estilos_gestion_sistemas.css HTTP/1.1[0m" 304 -
+127.0.0.1 - - [10/Feb/2025 14:28:41] "[36mGET /static/css/estilos_gestion_sistemas.css HTTP/1.1[0m" 304 -
+2025-02-10 14:28:44 - 127.0.0.1 - - [10/Feb/2025 14:28:44] "GET /registro HTTP/1.1" 200 -
+127.0.0.1 - - [10/Feb/2025 14:28:44] "GET /registro HTTP/1.1" 200 -
+2025-02-10 14:28:44 - 127.0.0.1 - - [10/Feb/2025 14:28:44] "[36mGET /static/css/estilos_gestion_sistemas.css HTTP/1.1[0m" 304 -
+127.0.0.1 - - [10/Feb/2025 14:28:44] "[36mGET /static/css/estilos_gestion_sistemas.css HTTP/1.1[0m" 304 -
+2025-02-10 14:28:47 - 127.0.0.1 - - [10/Feb/2025 14:28:47] "GET /login HTTP/1.1" 200 -
+127.0.0.1 - - [10/Feb/2025 14:28:47] "GET /login HTTP/1.1" 200 -
+2025-02-10 14:28:47 - 127.0.0.1 - - [10/Feb/2025 14:28:47] "[36mGET /static/css/estilos_gestion_sistemas.css HTTP/1.1[0m" 304 -
+127.0.0.1 - - [10/Feb/2025 14:28:47] "[36mGET /static/css/estilos_gestion_sistemas.css HTTP/1.1[0m" 304 -
+2025-02-10 14:28:48 - 127.0.0.1 - - [10/Feb/2025 14:28:48] "GET /registro HTTP/1.1" 200 -
+127.0.0.1 - - [10/Feb/2025 14:28:48] "GET /registro HTTP/1.1" 200 -
+2025-02-10 14:28:48 - 127.0.0.1 - - [10/Feb/2025 14:28:48] "[36mGET /static/css/estilos_gestion_sistemas.css HTTP/1.1[0m" 304 -
+127.0.0.1 - - [10/Feb/2025 14:28:48] "[36mGET /static/css/estilos_gestion_sistemas.css HTTP/1.1[0m" 304 -
+2025-02-10 14:28:52 - 127.0.0.1 - - [10/Feb/2025 14:28:52] "GET /login HTTP/1.1" 200 -
+127.0.0.1 - - [10/Feb/2025 14:28:52] "GET /login HTTP/1.1" 200 -
+2025-02-10 14:28:52 - 127.0.0.1 - - [10/Feb/2025 14:28:52] "[36mGET /static/css/estilos_gestion_sistemas.css HTTP/1.1[0m" 304 -
+127.0.0.1 - - [10/Feb/2025 14:28:52] "[36mGET /static/css/estilos_gestion_sistemas.css HTTP/1.1[0m" 304 -
+2025-02-10 14:28:54 - 127.0.0.1 - - [10/Feb/2025 14:28:54] "GET /registro HTTP/1.1" 200 -
+127.0.0.1 - - [10/Feb/2025 14:28:54] "GET /registro HTTP/1.1" 200 -
+2025-02-10 14:28:54 - 127.0.0.1 - - [10/Feb/2025 14:28:54] "[36mGET /static/css/estilos_gestion_sistemas.css HTTP/1.1[0m" 304 -
+127.0.0.1 - - [10/Feb/2025 14:28:54] "[36mGET /static/css/estilos_gestion_sistemas.css HTTP/1.1[0m" 304 -
+2025-02-10 14:28:58 - 127.0.0.1 - - [10/Feb/2025 14:28:58] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [10/Feb/2025 14:28:58] "GET / HTTP/1.1" 200 -
+2025-02-10 14:28:58 - 127.0.0.1 - - [10/Feb/2025 14:28:58] "[36mGET /static/css/estilos_gestion_sistemas.css HTTP/1.1[0m" 304 -
+127.0.0.1 - - [10/Feb/2025 14:28:58] "[36mGET /static/css/estilos_gestion_sistemas.css HTTP/1.1[0m" 304 -
+2025-02-10 14:29:18 - 127.0.0.1 - - [10/Feb/2025 14:29:18] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [10/Feb/2025 14:29:18] "GET / HTTP/1.1" 200 -
+2025-02-10 14:29:18 - 127.0.0.1 - - [10/Feb/2025 14:29:18] "[36mGET /static/css/estilos_gestion_sistemas.css HTTP/1.1[0m" 304 -
+127.0.0.1 - - [10/Feb/2025 14:29:18] "[36mGET /static/css/estilos_gestion_sistemas.css HTTP/1.1[0m" 304 -
+2025-02-10 14:29:19 - 127.0.0.1 - - [10/Feb/2025 14:29:19] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [10/Feb/2025 14:29:19] "GET / HTTP/1.1" 200 -
+2025-02-10 14:29:19 - 127.0.0.1 - - [10/Feb/2025 14:29:19] "[36mGET /static/css/estilos_gestion_sistemas.css HTTP/1.1[0m" 304 -
+127.0.0.1 - - [10/Feb/2025 14:29:19] "[36mGET /static/css/estilos_gestion_sistemas.css HTTP/1.1[0m" 304 -
+2025-02-10 14:29:20 - 127.0.0.1 - - [10/Feb/2025 14:29:20] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [10/Feb/2025 14:29:20] "GET / HTTP/1.1" 200 -
+2025-02-10 14:29:20 - 127.0.0.1 - - [10/Feb/2025 14:29:20] "[36mGET /static/css/estilos_gestion_sistemas.css HTTP/1.1[0m" 304 -
+127.0.0.1 - - [10/Feb/2025 14:29:20] "[36mGET /static/css/estilos_gestion_sistemas.css HTTP/1.1[0m" 304 -
+2025-02-10 14:29:21 - 127.0.0.1 - - [10/Feb/2025 14:29:21] "GET /login HTTP/1.1" 200 -
+127.0.0.1 - - [10/Feb/2025 14:29:21] "GET /login HTTP/1.1" 200 -
+2025-02-10 14:29:21 - 127.0.0.1 - - [10/Feb/2025 14:29:21] "[36mGET /static/css/estilos_gestion_sistemas.css HTTP/1.1[0m" 304 -
+127.0.0.1 - - [10/Feb/2025 14:29:21] "[36mGET /static/css/estilos_gestion_sistemas.css HTTP/1.1[0m" 304 -
+2025-02-10 14:29:28 - Looking for jobs to run
+Looking for jobs to run
+2025-02-10 14:29:28 - Next wakeup is due at 2025-02-10 14:30:28.746875+01:00 (in 59.984667 seconds)
+Next wakeup is due at 2025-02-10 14:30:28.746875+01:00 (in 59.984667 seconds)
+2025-02-10 14:29:28 - Running job "create_app.<locals>.obtener_recursos (trigger: interval[0:01:00], next run at: 2025-02-10 14:30:28 CET)" (scheduled at 2025-02-10 14:29:28.746875+01:00)
+Running job "create_app.<locals>.obtener_recursos (trigger: interval[0:01:00], next run at: 2025-02-10 14:30:28 CET)" (scheduled at 2025-02-10 14:29:28.746875+01:00)
+2025-02-10 14:29:29 - Looking for jobs to run
+Looking for jobs to run
+2025-02-10 14:29:29 - Next wakeup is due at 2025-02-10 14:30:29.713049+01:00 (in 59.990753 seconds)
+Next wakeup is due at 2025-02-10 14:30:29.713049+01:00 (in 59.990753 seconds)
+2025-02-10 14:29:29 - Running job "create_app.<locals>.obtener_recursos (trigger: interval[0:01:00], next run at: 2025-02-10 14:30:29 CET)" (scheduled at 2025-02-10 14:29:29.713049+01:00)
+Running job "create_app.<locals>.obtener_recursos (trigger: interval[0:01:00], next run at: 2025-02-10 14:30:29 CET)" (scheduled at 2025-02-10 14:29:29.713049+01:00)
+2025-02-10 14:29:29 - CPU: 4.7% | Memoria: 82.8% | Disco: 97.0%
+CPU: 4.7% | Memoria: 82.8% | Disco: 97.0%
+2025-02-10 14:29:29 - Job "create_app.<locals>.obtener_recursos (trigger: interval[0:01:00], next run at: 2025-02-10 14:30:28 CET)" executed successfully
+Job "create_app.<locals>.obtener_recursos (trigger: interval[0:01:00], next run at: 2025-02-10 14:30:28 CET)" executed successfully
+2025-02-10 14:29:30 - CPU: 13.9% | Memoria: 83.1% | Disco: 97.0%
+CPU: 13.9% | Memoria: 83.1% | Disco: 97.0%
+2025-02-10 14:29:30 - Job "create_app.<locals>.obtener_recursos (trigger: interval[0:01:00], next run at: 2025-02-10 14:30:29 CET)" executed successfully
+Job "create_app.<locals>.obtener_recursos (trigger: interval[0:01:00], next run at: 2025-02-10 14:30:29 CET)" executed successfully
+2025-02-10 14:30:09 - 127.0.0.1 - - [10/Feb/2025 14:30:09] "GET /login HTTP/1.1" 200 -
+127.0.0.1 - - [10/Feb/2025 14:30:09] "GET /login HTTP/1.1" 200 -
+2025-02-10 14:30:09 - 127.0.0.1 - - [10/Feb/2025 14:30:09] "GET /static/css/estilos_gestion_sistemas.css HTTP/1.1" 200 -
+127.0.0.1 - - [10/Feb/2025 14:30:09] "GET /static/css/estilos_gestion_sistemas.css HTTP/1.1" 200 -
+2025-02-10 14:30:10 - 127.0.0.1 - - [10/Feb/2025 14:30:10] "GET /login HTTP/1.1" 200 -
+127.0.0.1 - - [10/Feb/2025 14:30:10] "GET /login HTTP/1.1" 200 -
+2025-02-10 14:30:10 - 127.0.0.1 - - [10/Feb/2025 14:30:10] "[36mGET /static/css/estilos_gestion_sistemas.css HTTP/1.1[0m" 304 -
+127.0.0.1 - - [10/Feb/2025 14:30:10] "[36mGET /static/css/estilos_gestion_sistemas.css HTTP/1.1[0m" 304 -
+2025-02-10 14:30:28 - Looking for jobs to run
+Looking for jobs to run
+2025-02-10 14:30:28 - Next wakeup is due at 2025-02-10 14:31:28.746875+01:00 (in 59.983868 seconds)
+Next wakeup is due at 2025-02-10 14:31:28.746875+01:00 (in 59.983868 seconds)
+2025-02-10 14:30:28 - Running job "create_app.<locals>.obtener_recursos (trigger: interval[0:01:00], next run at: 2025-02-10 14:31:28 CET)" (scheduled at 2025-02-10 14:30:28.746875+01:00)
+Running job "create_app.<locals>.obtener_recursos (trigger: interval[0:01:00], next run at: 2025-02-10 14:31:28 CET)" (scheduled at 2025-02-10 14:30:28.746875+01:00)
+2025-02-10 14:30:29 - 127.0.0.1 - - [10/Feb/2025 14:30:29] "GET /login HTTP/1.1" 200 -
+127.0.0.1 - - [10/Feb/2025 14:30:29] "GET /login HTTP/1.1" 200 -
+2025-02-10 14:30:29 - 127.0.0.1 - - [10/Feb/2025 14:30:29] "GET /static/css/estilos_gestion_sistemas.css HTTP/1.1" 200 -
+127.0.0.1 - - [10/Feb/2025 14:30:29] "GET /static/css/estilos_gestion_sistemas.css HTTP/1.1" 200 -
+2025-02-10 14:30:29 - Looking for jobs to run
+Looking for jobs to run
+2025-02-10 14:30:29 - Next wakeup is due at 2025-02-10 14:31:29.713049+01:00 (in 59.982310 seconds)
+Next wakeup is due at 2025-02-10 14:31:29.713049+01:00 (in 59.982310 seconds)
+2025-02-10 14:30:29 - Running job "create_app.<locals>.obtener_recursos (trigger: interval[0:01:00], next run at: 2025-02-10 14:31:29 CET)" (scheduled at 2025-02-10 14:30:29.713049+01:00)
+Running job "create_app.<locals>.obtener_recursos (trigger: interval[0:01:00], next run at: 2025-02-10 14:31:29 CET)" (scheduled at 2025-02-10 14:30:29.713049+01:00)
+2025-02-10 14:30:29 - CPU: 20.6% | Memoria: 82.4% | Disco: 97.0%
+CPU: 20.6% | Memoria: 82.4% | Disco: 97.0%
+2025-02-10 14:30:29 - Job "create_app.<locals>.obtener_recursos (trigger: interval[0:01:00], next run at: 2025-02-10 14:31:28 CET)" executed successfully
+Job "create_app.<locals>.obtener_recursos (trigger: interval[0:01:00], next run at: 2025-02-10 14:31:28 CET)" executed successfully
+2025-02-10 14:30:30 - CPU: 12.1% | Memoria: 82.3% | Disco: 97.0%
+CPU: 12.1% | Memoria: 82.3% | Disco: 97.0%
+2025-02-10 14:30:30 - Job "create_app.<locals>.obtener_recursos (trigger: interval[0:01:00], next run at: 2025-02-10 14:31:29 CET)" executed successfully
+Job "create_app.<locals>.obtener_recursos (trigger: interval[0:01:00], next run at: 2025-02-10 14:31:29 CET)" executed successfully
+2025-02-10 14:30:37 - 127.0.0.1 - - [10/Feb/2025 14:30:37] "GET /login HTTP/1.1" 200 -
+127.0.0.1 - - [10/Feb/2025 14:30:37] "GET /login HTTP/1.1" 200 -
+2025-02-10 14:30:37 - 127.0.0.1 - - [10/Feb/2025 14:30:37] "[36mGET /static/css/estilos_gestion_sistemas.css HTTP/1.1[0m" 304 -
+127.0.0.1 - - [10/Feb/2025 14:30:37] "[36mGET /static/css/estilos_gestion_sistemas.css HTTP/1.1[0m" 304 -
+2025-02-10 14:30:39 - 127.0.0.1 - - [10/Feb/2025 14:30:39] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [10/Feb/2025 14:30:39] "GET / HTTP/1.1" 200 -
+2025-02-10 14:30:39 - 127.0.0.1 - - [10/Feb/2025 14:30:39] "[36mGET /static/css/estilos_gestion_sistemas.css HTTP/1.1[0m" 304 -
+127.0.0.1 - - [10/Feb/2025 14:30:39] "[36mGET /static/css/estilos_gestion_sistemas.css HTTP/1.1[0m" 304 -
+2025-02-10 14:30:40 - 127.0.0.1 - - [10/Feb/2025 14:30:40] "GET /login HTTP/1.1" 200 -
+127.0.0.1 - - [10/Feb/2025 14:30:40] "GET /login HTTP/1.1" 200 -
+2025-02-10 14:30:40 - 127.0.0.1 - - [10/Feb/2025 14:30:40] "[36mGET /static/css/estilos_gestion_sistemas.css HTTP/1.1[0m" 304 -
+127.0.0.1 - - [10/Feb/2025 14:30:40] "[36mGET /static/css/estilos_gestion_sistemas.css HTTP/1.1[0m" 304 -
+2025-02-10 14:30:41 - 127.0.0.1 - - [10/Feb/2025 14:30:41] "GET /registro HTTP/1.1" 200 -
+127.0.0.1 - - [10/Feb/2025 14:30:41] "GET /registro HTTP/1.1" 200 -
+2025-02-10 14:30:41 - 127.0.0.1 - - [10/Feb/2025 14:30:41] "[36mGET /static/css/estilos_gestion_sistemas.css HTTP/1.1[0m" 304 -
+127.0.0.1 - - [10/Feb/2025 14:30:41] "[36mGET /static/css/estilos_gestion_sistemas.css HTTP/1.1[0m" 304 -
+2025-02-10 14:30:55 - 127.0.0.1 - - [10/Feb/2025 14:30:55] "[32mPOST /registro HTTP/1.1[0m" 302 -
+127.0.0.1 - - [10/Feb/2025 14:30:55] "[32mPOST /registro HTTP/1.1[0m" 302 -
+2025-02-10 14:30:55 - 127.0.0.1 - - [10/Feb/2025 14:30:55] "GET /registro HTTP/1.1" 200 -
+127.0.0.1 - - [10/Feb/2025 14:30:55] "GET /registro HTTP/1.1" 200 -
+2025-02-10 14:30:55 - 127.0.0.1 - - [10/Feb/2025 14:30:55] "[36mGET /static/css/estilos_gestion_sistemas.css HTTP/1.1[0m" 304 -
+127.0.0.1 - - [10/Feb/2025 14:30:55] "[36mGET /static/css/estilos_gestion_sistemas.css HTTP/1.1[0m" 304 -
+2025-02-10 14:31:11 - 127.0.0.1 - - [10/Feb/2025 14:31:11] "GET /registro HTTP/1.1" 200 -
+127.0.0.1 - - [10/Feb/2025 14:31:11] "GET /registro HTTP/1.1" 200 -
+2025-02-10 14:31:11 - 127.0.0.1 - - [10/Feb/2025 14:31:11] "[36mGET /static/css/estilos_gestion_sistemas.css HTTP/1.1[0m" 304 -
+127.0.0.1 - - [10/Feb/2025 14:31:11] "[36mGET /static/css/estilos_gestion_sistemas.css HTTP/1.1[0m" 304 -
+2025-02-10 14:31:15 - 127.0.0.1 - - [10/Feb/2025 14:31:15] "[32mPOST /registro HTTP/1.1[0m" 302 -
+127.0.0.1 - - [10/Feb/2025 14:31:15] "[32mPOST /registro HTTP/1.1[0m" 302 -
+2025-02-10 14:31:15 - 127.0.0.1 - - [10/Feb/2025 14:31:15] "GET /registro HTTP/1.1" 200 -
+127.0.0.1 - - [10/Feb/2025 14:31:15] "GET /registro HTTP/1.1" 200 -
+2025-02-10 14:31:15 - 127.0.0.1 - - [10/Feb/2025 14:31:15] "[36mGET /static/css/estilos_gestion_sistemas.css HTTP/1.1[0m" 304 -
+127.0.0.1 - - [10/Feb/2025 14:31:15] "[36mGET /static/css/estilos_gestion_sistemas.css HTTP/1.1[0m" 304 -
+2025-02-10 14:31:21 - 127.0.0.1 - - [10/Feb/2025 14:31:21] "[32mPOST /registro HTTP/1.1[0m" 302 -
+127.0.0.1 - - [10/Feb/2025 14:31:21] "[32mPOST /registro HTTP/1.1[0m" 302 -
+2025-02-10 14:31:21 - 127.0.0.1 - - [10/Feb/2025 14:31:21] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [10/Feb/2025 14:31:21] "GET / HTTP/1.1" 200 -
+2025-02-10 14:31:21 - 127.0.0.1 - - [10/Feb/2025 14:31:21] "[36mGET /static/css/estilos_gestion_sistemas.css HTTP/1.1[0m" 304 -
+127.0.0.1 - - [10/Feb/2025 14:31:21] "[36mGET /static/css/estilos_gestion_sistemas.css HTTP/1.1[0m" 304 -
+2025-02-10 14:31:24 - 127.0.0.1 - - [10/Feb/2025 14:31:24] "GET /registro HTTP/1.1" 200 -
+127.0.0.1 - - [10/Feb/2025 14:31:24] "GET /registro HTTP/1.1" 200 -
+2025-02-10 14:31:24 - 127.0.0.1 - - [10/Feb/2025 14:31:24] "[36mGET /static/css/estilos_gestion_sistemas.css HTTP/1.1[0m" 304 -
+127.0.0.1 - - [10/Feb/2025 14:31:24] "[36mGET /static/css/estilos_gestion_sistemas.css HTTP/1.1[0m" 304 -
+2025-02-10 14:31:28 - Looking for jobs to run
+Looking for jobs to run
+2025-02-10 14:31:28 - Next wakeup is due at 2025-02-10 14:32:28.746875+01:00 (in 59.986712 seconds)
+Next wakeup is due at 2025-02-10 14:32:28.746875+01:00 (in 59.986712 seconds)
+2025-02-10 14:31:28 - Running job "create_app.<locals>.obtener_recursos (trigger: interval[0:01:00], next run at: 2025-02-10 14:32:28 CET)" (scheduled at 2025-02-10 14:31:28.746875+01:00)
+Running job "create_app.<locals>.obtener_recursos (trigger: interval[0:01:00], next run at: 2025-02-10 14:32:28 CET)" (scheduled at 2025-02-10 14:31:28.746875+01:00)
+2025-02-10 14:31:29 - Looking for jobs to run
+Looking for jobs to run
+2025-02-10 14:31:29 - Next wakeup is due at 2025-02-10 14:32:29.713049+01:00 (in 59.997406 seconds)
+Next wakeup is due at 2025-02-10 14:32:29.713049+01:00 (in 59.997406 seconds)
+2025-02-10 14:31:29 - Running job "create_app.<locals>.obtener_recursos (trigger: interval[0:01:00], next run at: 2025-02-10 14:32:29 CET)" (scheduled at 2025-02-10 14:31:29.713049+01:00)
+Running job "create_app.<locals>.obtener_recursos (trigger: interval[0:01:00], next run at: 2025-02-10 14:32:29 CET)" (scheduled at 2025-02-10 14:31:29.713049+01:00)
+2025-02-10 14:31:29 - CPU: 14.0% | Memoria: 81.8% | Disco: 97.0%
+CPU: 14.0% | Memoria: 81.8% | Disco: 97.0%
+2025-02-10 14:31:29 - Job "create_app.<locals>.obtener_recursos (trigger: interval[0:01:00], next run at: 2025-02-10 14:32:28 CET)" executed successfully
+Job "create_app.<locals>.obtener_recursos (trigger: interval[0:01:00], next run at: 2025-02-10 14:32:28 CET)" executed successfully
+2025-02-10 14:31:30 - CPU: 19.0% | Memoria: 81.9% | Disco: 97.0%
+CPU: 19.0% | Memoria: 81.9% | Disco: 97.0%
+2025-02-10 14:31:30 - Job "create_app.<locals>.obtener_recursos (trigger: interval[0:01:00], next run at: 2025-02-10 14:32:29 CET)" executed successfully
+Job "create_app.<locals>.obtener_recursos (trigger: interval[0:01:00], next run at: 2025-02-10 14:32:29 CET)" executed successfully
+2025-02-10 14:32:28 - Looking for jobs to run
+Looking for jobs to run
+2025-02-10 14:32:28 - Next wakeup is due at 2025-02-10 14:33:28.746875+01:00 (in 59.997172 seconds)
+Next wakeup is due at 2025-02-10 14:33:28.746875+01:00 (in 59.997172 seconds)
+2025-02-10 14:32:28 - Running job "create_app.<locals>.obtener_recursos (trigger: interval[0:01:00], next run at: 2025-02-10 14:33:28 CET)" (scheduled at 2025-02-10 14:32:28.746875+01:00)
+Running job "create_app.<locals>.obtener_recursos (trigger: interval[0:01:00], next run at: 2025-02-10 14:33:28 CET)" (scheduled at 2025-02-10 14:32:28.746875+01:00)
+2025-02-10 14:32:29 - Looking for jobs to run
+Looking for jobs to run
+2025-02-10 14:32:29 - Next wakeup is due at 2025-02-10 14:33:29.713049+01:00 (in 59.986748 seconds)
+Next wakeup is due at 2025-02-10 14:33:29.713049+01:00 (in 59.986748 seconds)
+2025-02-10 14:32:29 - Running job "create_app.<locals>.obtener_recursos (trigger: interval[0:01:00], next run at: 2025-02-10 14:33:29 CET)" (scheduled at 2025-02-10 14:32:29.713049+01:00)
+Running job "create_app.<locals>.obtener_recursos (trigger: interval[0:01:00], next run at: 2025-02-10 14:33:29 CET)" (scheduled at 2025-02-10 14:32:29.713049+01:00)
+2025-02-10 14:32:29 - CPU: 20.7% | Memoria: 82.1% | Disco: 97.0%
+CPU: 20.7% | Memoria: 82.1% | Disco: 97.0%
+2025-02-10 14:32:29 - Job "create_app.<locals>.obtener_recursos (trigger: interval[0:01:00], next run at: 2025-02-10 14:33:28 CET)" executed successfully
+Job "create_app.<locals>.obtener_recursos (trigger: interval[0:01:00], next run at: 2025-02-10 14:33:28 CET)" executed successfully
+2025-02-10 14:32:30 - CPU: 16.1% | Memoria: 82.2% | Disco: 97.0%
+CPU: 16.1% | Memoria: 82.2% | Disco: 97.0%
+2025-02-10 14:32:30 - Job "create_app.<locals>.obtener_recursos (trigger: interval[0:01:00], next run at: 2025-02-10 14:33:29 CET)" executed successfully
+Job "create_app.<locals>.obtener_recursos (trigger: interval[0:01:00], next run at: 2025-02-10 14:33:29 CET)" executed successfully
+2025-02-10 14:33:20 - 127.0.0.1 - - [10/Feb/2025 14:33:20] "GET /registro HTTP/1.1" 200 -
+127.0.0.1 - - [10/Feb/2025 14:33:20] "GET /registro HTTP/1.1" 200 -
+2025-02-10 14:33:20 - 127.0.0.1 - - [10/Feb/2025 14:33:20] "GET /static/css/estilos_gestion_sistemas.css HTTP/1.1" 200 -
+127.0.0.1 - - [10/Feb/2025 14:33:20] "GET /static/css/estilos_gestion_sistemas.css HTTP/1.1" 200 -
+2025-02-10 14:33:27 - 127.0.0.1 - - [10/Feb/2025 14:33:27] "GET /registro HTTP/1.1" 200 -
+127.0.0.1 - - [10/Feb/2025 14:33:27] "GET /registro HTTP/1.1" 200 -
+2025-02-10 14:33:27 - 127.0.0.1 - - [10/Feb/2025 14:33:27] "GET /static/css/estilos_gestion_sistemas.css HTTP/1.1" 200 -
+127.0.0.1 - - [10/Feb/2025 14:33:27] "GET /static/css/estilos_gestion_sistemas.css HTTP/1.1" 200 -
+2025-02-10 14:33:28 - Looking for jobs to run
+Looking for jobs to run
+2025-02-10 14:33:28 - Next wakeup is due at 2025-02-10 14:34:28.746875+01:00 (in 59.994806 seconds)
+Next wakeup is due at 2025-02-10 14:34:28.746875+01:00 (in 59.994806 seconds)
+2025-02-10 14:33:28 - Running job "create_app.<locals>.obtener_recursos (trigger: interval[0:01:00], next run at: 2025-02-10 14:34:28 CET)" (scheduled at 2025-02-10 14:33:28.746875+01:00)
+Running job "create_app.<locals>.obtener_recursos (trigger: interval[0:01:00], next run at: 2025-02-10 14:34:28 CET)" (scheduled at 2025-02-10 14:33:28.746875+01:00)
+2025-02-10 14:33:29 - Looking for jobs to run
+Looking for jobs to run
+2025-02-10 14:33:29 - Next wakeup is due at 2025-02-10 14:34:29.713049+01:00 (in 59.990923 seconds)
+2025-02-10 14:33:29 - Running job "create_app.<locals>.obtener_recursos (trigger: interval[0:01:00], next run at: 2025-02-10 14:34:29 CET)" (scheduled at 2025-02-10 14:33:29.713049+01:00)
+Next wakeup is due at 2025-02-10 14:34:29.713049+01:00 (in 59.990923 seconds)
+Running job "create_app.<locals>.obtener_recursos (trigger: interval[0:01:00], next run at: 2025-02-10 14:34:29 CET)" (scheduled at 2025-02-10 14:33:29.713049+01:00)
+2025-02-10 14:33:29 - CPU: 42.0% | Memoria: 82.5% | Disco: 97.0%
+CPU: 42.0% | Memoria: 82.5% | Disco: 97.0%
+2025-02-10 14:33:29 - Job "create_app.<locals>.obtener_recursos (trigger: interval[0:01:00], next run at: 2025-02-10 14:34:28 CET)" executed successfully
+Job "create_app.<locals>.obtener_recursos (trigger: interval[0:01:00], next run at: 2025-02-10 14:34:28 CET)" executed successfully
+2025-02-10 14:33:30 - CPU: 37.8% | Memoria: 82.5% | Disco: 97.0%
+CPU: 37.8% | Memoria: 82.5% | Disco: 97.0%
+2025-02-10 14:33:30 - Job "create_app.<locals>.obtener_recursos (trigger: interval[0:01:00], next run at: 2025-02-10 14:34:29 CET)" executed successfully
+Job "create_app.<locals>.obtener_recursos (trigger: interval[0:01:00], next run at: 2025-02-10 14:34:29 CET)" executed successfully
+2025-02-10 14:33:53 - 127.0.0.1 - - [10/Feb/2025 14:33:53] "GET /registro HTTP/1.1" 200 -
+127.0.0.1 - - [10/Feb/2025 14:33:53] "GET /registro HTTP/1.1" 200 -
+2025-02-10 14:33:53 - 127.0.0.1 - - [10/Feb/2025 14:33:53] "GET /static/css/estilos_gestion_sistemas.css HTTP/1.1" 200 -
+127.0.0.1 - - [10/Feb/2025 14:33:53] "GET /static/css/estilos_gestion_sistemas.css HTTP/1.1" 200 -
+2025-02-10 14:33:53 - 127.0.0.1 - - [10/Feb/2025 14:33:53] "GET /registro HTTP/1.1" 200 -
+127.0.0.1 - - [10/Feb/2025 14:33:53] "GET /registro HTTP/1.1" 200 -
+2025-02-10 14:33:53 - 127.0.0.1 - - [10/Feb/2025 14:33:53] "[36mGET /static/css/estilos_gestion_sistemas.css HTTP/1.1[0m" 304 -
+127.0.0.1 - - [10/Feb/2025 14:33:53] "[36mGET /static/css/estilos_gestion_sistemas.css HTTP/1.1[0m" 304 -
+2025-02-10 14:33:54 - 127.0.0.1 - - [10/Feb/2025 14:33:54] "GET /registro HTTP/1.1" 200 -
+127.0.0.1 - - [10/Feb/2025 14:33:54] "GET /registro HTTP/1.1" 200 -
+2025-02-10 14:33:54 - 127.0.0.1 - - [10/Feb/2025 14:33:54] "[36mGET /static/css/estilos_gestion_sistemas.css HTTP/1.1[0m" 304 -
+127.0.0.1 - - [10/Feb/2025 14:33:54] "[36mGET /static/css/estilos_gestion_sistemas.css HTTP/1.1[0m" 304 -
+2025-02-10 14:33:55 - 127.0.0.1 - - [10/Feb/2025 14:33:55] "GET /registro HTTP/1.1" 200 -
+127.0.0.1 - - [10/Feb/2025 14:33:55] "GET /registro HTTP/1.1" 200 -
+2025-02-10 14:33:55 - 127.0.0.1 - - [10/Feb/2025 14:33:55] "[36mGET /static/css/estilos_gestion_sistemas.css HTTP/1.1[0m" 304 -
+127.0.0.1 - - [10/Feb/2025 14:33:55] "[36mGET /static/css/estilos_gestion_sistemas.css HTTP/1.1[0m" 304 -
+2025-02-10 14:34:07 - 127.0.0.1 - - [10/Feb/2025 14:34:07] "GET /registro HTTP/1.1" 200 -
+127.0.0.1 - - [10/Feb/2025 14:34:07] "GET /registro HTTP/1.1" 200 -
+2025-02-10 14:34:07 - 127.0.0.1 - - [10/Feb/2025 14:34:07] "GET /static/css/estilos_gestion_sistemas.css HTTP/1.1" 200 -
+127.0.0.1 - - [10/Feb/2025 14:34:07] "GET /static/css/estilos_gestion_sistemas.css HTTP/1.1" 200 -
+2025-02-10 14:34:08 - 127.0.0.1 - - [10/Feb/2025 14:34:08] "GET /registro HTTP/1.1" 200 -
+127.0.0.1 - - [10/Feb/2025 14:34:08] "GET /registro HTTP/1.1" 200 -
+2025-02-10 14:34:08 - 127.0.0.1 - - [10/Feb/2025 14:34:08] "[36mGET /static/css/estilos_gestion_sistemas.css HTTP/1.1[0m" 304 -
+127.0.0.1 - - [10/Feb/2025 14:34:08] "[36mGET /static/css/estilos_gestion_sistemas.css HTTP/1.1[0m" 304 -
+2025-02-10 14:34:09 - 127.0.0.1 - - [10/Feb/2025 14:34:09] "GET /registro HTTP/1.1" 200 -
+127.0.0.1 - - [10/Feb/2025 14:34:09] "GET /registro HTTP/1.1" 200 -
+2025-02-10 14:34:09 - 127.0.0.1 - - [10/Feb/2025 14:34:09] "[36mGET /static/css/estilos_gestion_sistemas.css HTTP/1.1[0m" 304 -
+127.0.0.1 - - [10/Feb/2025 14:34:09] "[36mGET /static/css/estilos_gestion_sistemas.css HTTP/1.1[0m" 304 -
+2025-02-10 14:34:09 - 127.0.0.1 - - [10/Feb/2025 14:34:09] "GET /registro HTTP/1.1" 200 -
+127.0.0.1 - - [10/Feb/2025 14:34:09] "GET /registro HTTP/1.1" 200 -
+2025-02-10 14:34:09 - 127.0.0.1 - - [10/Feb/2025 14:34:09] "[36mGET /static/css/estilos_gestion_sistemas.css HTTP/1.1[0m" 304 -
+127.0.0.1 - - [10/Feb/2025 14:34:09] "[36mGET /static/css/estilos_gestion_sistemas.css HTTP/1.1[0m" 304 -
+2025-02-10 14:34:09 - 127.0.0.1 - - [10/Feb/2025 14:34:09] "GET /registro HTTP/1.1" 200 -
+127.0.0.1 - - [10/Feb/2025 14:34:09] "GET /registro HTTP/1.1" 200 -
+2025-02-10 14:34:09 - 127.0.0.1 - - [10/Feb/2025 14:34:09] "[36mGET /static/css/estilos_gestion_sistemas.css HTTP/1.1[0m" 304 -
+127.0.0.1 - - [10/Feb/2025 14:34:09] "[36mGET /static/css/estilos_gestion_sistemas.css HTTP/1.1[0m" 304 -
+2025-02-10 14:34:09 - 127.0.0.1 - - [10/Feb/2025 14:34:09] "GET /registro HTTP/1.1" 200 -
+127.0.0.1 - - [10/Feb/2025 14:34:09] "GET /registro HTTP/1.1" 200 -
+2025-02-10 14:34:09 - 127.0.0.1 - - [10/Feb/2025 14:34:09] "[36mGET /static/css/estilos_gestion_sistemas.css HTTP/1.1[0m" 304 -
+127.0.0.1 - - [10/Feb/2025 14:34:09] "[36mGET /static/css/estilos_gestion_sistemas.css HTTP/1.1[0m" 304 -
+2025-02-10 14:34:10 - 127.0.0.1 - - [10/Feb/2025 14:34:10] "GET /registro HTTP/1.1" 200 -
+127.0.0.1 - - [10/Feb/2025 14:34:10] "GET /registro HTTP/1.1" 200 -
+2025-02-10 14:34:10 - 127.0.0.1 - - [10/Feb/2025 14:34:10] "[36mGET /static/css/estilos_gestion_sistemas.css HTTP/1.1[0m" 304 -
+127.0.0.1 - - [10/Feb/2025 14:34:10] "[36mGET /static/css/estilos_gestion_sistemas.css HTTP/1.1[0m" 304 -
+2025-02-10 14:34:25 - 127.0.0.1 - - [10/Feb/2025 14:34:25] "GET /registro HTTP/1.1" 200 -
+127.0.0.1 - - [10/Feb/2025 14:34:25] "GET /registro HTTP/1.1" 200 -
+2025-02-10 14:34:25 - 127.0.0.1 - - [10/Feb/2025 14:34:25] "GET /static/css/estilos_gestion_sistemas.css HTTP/1.1" 200 -
+127.0.0.1 - - [10/Feb/2025 14:34:25] "GET /static/css/estilos_gestion_sistemas.css HTTP/1.1" 200 -
+2025-02-10 14:34:28 - Looking for jobs to run
+Looking for jobs to run
+2025-02-10 14:34:28 - Next wakeup is due at 2025-02-10 14:35:28.746875+01:00 (in 59.984113 seconds)
+Next wakeup is due at 2025-02-10 14:35:28.746875+01:00 (in 59.984113 seconds)
+2025-02-10 14:34:28 - Running job "create_app.<locals>.obtener_recursos (trigger: interval[0:01:00], next run at: 2025-02-10 14:35:28 CET)" (scheduled at 2025-02-10 14:34:28.746875+01:00)
+Running job "create_app.<locals>.obtener_recursos (trigger: interval[0:01:00], next run at: 2025-02-10 14:35:28 CET)" (scheduled at 2025-02-10 14:34:28.746875+01:00)
+2025-02-10 14:34:29 - Looking for jobs to run
+Looking for jobs to run
+2025-02-10 14:34:29 - Next wakeup is due at 2025-02-10 14:35:29.713049+01:00 (in 59.984816 seconds)
+Next wakeup is due at 2025-02-10 14:35:29.713049+01:00 (in 59.984816 seconds)
+2025-02-10 14:34:29 - Running job "create_app.<locals>.obtener_recursos (trigger: interval[0:01:00], next run at: 2025-02-10 14:35:29 CET)" (scheduled at 2025-02-10 14:34:29.713049+01:00)
+Running job "create_app.<locals>.obtener_recursos (trigger: interval[0:01:00], next run at: 2025-02-10 14:35:29 CET)" (scheduled at 2025-02-10 14:34:29.713049+01:00)
+2025-02-10 14:34:29 - CPU: 17.4% | Memoria: 81.5% | Disco: 97.0%
+CPU: 17.4% | Memoria: 81.5% | Disco: 97.0%
+2025-02-10 14:34:29 - Job "create_app.<locals>.obtener_recursos (trigger: interval[0:01:00], next run at: 2025-02-10 14:35:28 CET)" executed successfully
+Job "create_app.<locals>.obtener_recursos (trigger: interval[0:01:00], next run at: 2025-02-10 14:35:28 CET)" executed successfully
+2025-02-10 14:34:29 - 127.0.0.1 - - [10/Feb/2025 14:34:29] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [10/Feb/2025 14:34:29] "GET / HTTP/1.1" 200 -
+2025-02-10 14:34:29 - 127.0.0.1 - - [10/Feb/2025 14:34:29] "[36mGET /static/css/estilos_gestion_sistemas.css HTTP/1.1[0m" 304 -
+127.0.0.1 - - [10/Feb/2025 14:34:29] "[36mGET /static/css/estilos_gestion_sistemas.css HTTP/1.1[0m" 304 -
+2025-02-10 14:34:30 - CPU: 18.9% | Memoria: 81.6% | Disco: 97.0%
+CPU: 18.9% | Memoria: 81.6% | Disco: 97.0%
+2025-02-10 14:34:30 - Job "create_app.<locals>.obtener_recursos (trigger: interval[0:01:00], next run at: 2025-02-10 14:35:29 CET)" executed successfully
+Job "create_app.<locals>.obtener_recursos (trigger: interval[0:01:00], next run at: 2025-02-10 14:35:29 CET)" executed successfully
+2025-02-10 14:34:31 - 127.0.0.1 - - [10/Feb/2025 14:34:31] "GET /login HTTP/1.1" 200 -
+127.0.0.1 - - [10/Feb/2025 14:34:31] "GET /login HTTP/1.1" 200 -
+2025-02-10 14:34:31 - 127.0.0.1 - - [10/Feb/2025 14:34:31] "[36mGET /static/css/estilos_gestion_sistemas.css HTTP/1.1[0m" 304 -
+127.0.0.1 - - [10/Feb/2025 14:34:31] "[36mGET /static/css/estilos_gestion_sistemas.css HTTP/1.1[0m" 304 -
+2025-02-10 14:34:32 - 127.0.0.1 - - [10/Feb/2025 14:34:32] "GET /registro HTTP/1.1" 200 -
+127.0.0.1 - - [10/Feb/2025 14:34:32] "GET /registro HTTP/1.1" 200 -
+2025-02-10 14:34:32 - 127.0.0.1 - - [10/Feb/2025 14:34:32] "[36mGET /static/css/estilos_gestion_sistemas.css HTTP/1.1[0m" 304 -
+127.0.0.1 - - [10/Feb/2025 14:34:32] "[36mGET /static/css/estilos_gestion_sistemas.css HTTP/1.1[0m" 304 -
+2025-02-10 14:34:37 - 127.0.0.1 - - [10/Feb/2025 14:34:37] "GET /logs HTTP/1.1" 200 -
+127.0.0.1 - - [10/Feb/2025 14:34:37] "GET /logs HTTP/1.1" 200 -
+2025-02-10 14:34:37 - 127.0.0.1 - - [10/Feb/2025 14:34:37] "[36mGET /static/css/estilos_gestion_sistemas.css HTTP/1.1[0m" 304 -
+127.0.0.1 - - [10/Feb/2025 14:34:37] "[36mGET /static/css/estilos_gestion_sistemas.css HTTP/1.1[0m" 304 -
+2025-02-10 14:34:39 - 127.0.0.1 - - [10/Feb/2025 14:34:39] "GET /monitoreo HTTP/1.1" 200 -
+127.0.0.1 - - [10/Feb/2025 14:34:39] "GET /monitoreo HTTP/1.1" 200 -
+2025-02-10 14:34:42 - 127.0.0.1 - - [10/Feb/2025 14:34:42] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [10/Feb/2025 14:34:42] "GET / HTTP/1.1" 200 -
+2025-02-10 14:34:42 - 127.0.0.1 - - [10/Feb/2025 14:34:42] "[36mGET /static/css/estilos_gestion_sistemas.css HTTP/1.1[0m" 304 -
+127.0.0.1 - - [10/Feb/2025 14:34:42] "[36mGET /static/css/estilos_gestion_sistemas.css HTTP/1.1[0m" 304 -
+2025-02-10 14:35:28 - Looking for jobs to run
+Looking for jobs to run
+2025-02-10 14:35:28 - Next wakeup is due at 2025-02-10 14:36:28.746875+01:00 (in 59.990609 seconds)
+Next wakeup is due at 2025-02-10 14:36:28.746875+01:00 (in 59.990609 seconds)
+2025-02-10 14:35:28 - Running job "create_app.<locals>.obtener_recursos (trigger: interval[0:01:00], next run at: 2025-02-10 14:36:28 CET)" (scheduled at 2025-02-10 14:35:28.746875+01:00)
+Running job "create_app.<locals>.obtener_recursos (trigger: interval[0:01:00], next run at: 2025-02-10 14:36:28 CET)" (scheduled at 2025-02-10 14:35:28.746875+01:00)
+2025-02-10 14:35:29 - Looking for jobs to run
+Looking for jobs to run
+2025-02-10 14:35:29 - Next wakeup is due at 2025-02-10 14:36:29.713049+01:00 (in 59.988382 seconds)
+Next wakeup is due at 2025-02-10 14:36:29.713049+01:00 (in 59.988382 seconds)
+2025-02-10 14:35:29 - Running job "create_app.<locals>.obtener_recursos (trigger: interval[0:01:00], next run at: 2025-02-10 14:36:29 CET)" (scheduled at 2025-02-10 14:35:29.713049+01:00)
+Running job "create_app.<locals>.obtener_recursos (trigger: interval[0:01:00], next run at: 2025-02-10 14:36:29 CET)" (scheduled at 2025-02-10 14:35:29.713049+01:00)
+2025-02-10 14:35:29 - CPU: 7.2% | Memoria: 80.4% | Disco: 97.0%
+CPU: 7.2% | Memoria: 80.4% | Disco: 97.0%
+2025-02-10 14:35:29 - Job "create_app.<locals>.obtener_recursos (trigger: interval[0:01:00], next run at: 2025-02-10 14:36:28 CET)" executed successfully
+Job "create_app.<locals>.obtener_recursos (trigger: interval[0:01:00], next run at: 2025-02-10 14:36:28 CET)" executed successfully
+2025-02-10 14:35:30 - CPU: 5.5% | Memoria: 80.2% | Disco: 97.0%
+CPU: 5.5% | Memoria: 80.2% | Disco: 97.0%
+2025-02-10 14:35:30 - Job "create_app.<locals>.obtener_recursos (trigger: interval[0:01:00], next run at: 2025-02-10 14:36:29 CET)" executed successfully
+Job "create_app.<locals>.obtener_recursos (trigger: interval[0:01:00], next run at: 2025-02-10 14:36:29 CET)" executed successfully
+2025-02-10 14:36:16 - 127.0.0.1 - - [10/Feb/2025 14:36:16] "GET /logs HTTP/1.1" 200 -
+127.0.0.1 - - [10/Feb/2025 14:36:16] "GET /logs HTTP/1.1" 200 -
+2025-02-10 14:36:16 - 127.0.0.1 - - [10/Feb/2025 14:36:16] "[36mGET /static/css/estilos_gestion_sistemas.css HTTP/1.1[0m" 304 -
+127.0.0.1 - - [10/Feb/2025 14:36:16] "[36mGET /static/css/estilos_gestion_sistemas.css HTTP/1.1[0m" 304 -
+2025-02-10 14:36:28 - Looking for jobs to run
+Looking for jobs to run
+2025-02-10 14:36:28 - Next wakeup is due at 2025-02-10 14:37:28.746875+01:00 (in 59.995639 seconds)
+Next wakeup is due at 2025-02-10 14:37:28.746875+01:00 (in 59.995639 seconds)
+2025-02-10 14:36:28 - Running job "create_app.<locals>.obtener_recursos (trigger: interval[0:01:00], next run at: 2025-02-10 14:37:28 CET)" (scheduled at 2025-02-10 14:36:28.746875+01:00)
+Running job "create_app.<locals>.obtener_recursos (trigger: interval[0:01:00], next run at: 2025-02-10 14:37:28 CET)" (scheduled at 2025-02-10 14:36:28.746875+01:00)
+2025-02-10 14:36:29 - Looking for jobs to run
+Looking for jobs to run
+2025-02-10 14:36:29 - Next wakeup is due at 2025-02-10 14:37:29.713049+01:00 (in 59.983606 seconds)
+Next wakeup is due at 2025-02-10 14:37:29.713049+01:00 (in 59.983606 seconds)
+2025-02-10 14:36:29 - Running job "create_app.<locals>.obtener_recursos (trigger: interval[0:01:00], next run at: 2025-02-10 14:37:29 CET)" (scheduled at 2025-02-10 14:36:29.713049+01:00)
+Running job "create_app.<locals>.obtener_recursos (trigger: interval[0:01:00], next run at: 2025-02-10 14:37:29 CET)" (scheduled at 2025-02-10 14:36:29.713049+01:00)
+2025-02-10 14:36:29 - CPU: 13.4% | Memoria: 81.7% | Disco: 97.0%
+CPU: 13.4% | Memoria: 81.7% | Disco: 97.0%
+2025-02-10 14:36:29 - Job "create_app.<locals>.obtener_recursos (trigger: interval[0:01:00], next run at: 2025-02-10 14:37:28 CET)" executed successfully
+Job "create_app.<locals>.obtener_recursos (trigger: interval[0:01:00], next run at: 2025-02-10 14:37:28 CET)" executed successfully
+2025-02-10 14:36:30 - CPU: 7.7% | Memoria: 81.7% | Disco: 97.0%
+CPU: 7.7% | Memoria: 81.7% | Disco: 97.0%
+2025-02-10 14:36:30 - Job "create_app.<locals>.obtener_recursos (trigger: interval[0:01:00], next run at: 2025-02-10 14:37:29 CET)" executed successfully
+Job "create_app.<locals>.obtener_recursos (trigger: interval[0:01:00], next run at: 2025-02-10 14:37:29 CET)" executed successfully
+2025-02-10 14:37:01 - 127.0.0.1 - - [10/Feb/2025 14:37:01] "GET /logs HTTP/1.1" 200 -
+127.0.0.1 - - [10/Feb/2025 14:37:01] "GET /logs HTTP/1.1" 200 -
+2025-02-10 14:37:01 - 127.0.0.1 - - [10/Feb/2025 14:37:01] "GET /static/css/estilos_gestion_sistemas.css HTTP/1.1" 200 -
+127.0.0.1 - - [10/Feb/2025 14:37:01] "GET /static/css/estilos_gestion_sistemas.css HTTP/1.1" 200 -
+2025-02-10 14:37:04 - 127.0.0.1 - - [10/Feb/2025 14:37:04] "GET /logs HTTP/1.1" 200 -
+127.0.0.1 - - [10/Feb/2025 14:37:04] "GET /logs HTTP/1.1" 200 -
+2025-02-10 14:37:04 - 127.0.0.1 - - [10/Feb/2025 14:37:04] "[36mGET /static/css/estilos_gestion_sistemas.css HTTP/1.1[0m" 304 -
+127.0.0.1 - - [10/Feb/2025 14:37:04] "[36mGET /static/css/estilos_gestion_sistemas.css HTTP/1.1[0m" 304 -
+2025-02-10 14:37:05 - 127.0.0.1 - - [10/Feb/2025 14:37:05] "GET /logs HTTP/1.1" 200 -
+127.0.0.1 - - [10/Feb/2025 14:37:05] "GET /logs HTTP/1.1" 200 -
+2025-02-10 14:37:05 - 127.0.0.1 - - [10/Feb/2025 14:37:05] "[36mGET /static/css/estilos_gestion_sistemas.css HTTP/1.1[0m" 304 -
+127.0.0.1 - - [10/Feb/2025 14:37:05] "[36mGET /static/css/estilos_gestion_sistemas.css HTTP/1.1[0m" 304 -
+2025-02-10 14:37:25 - 127.0.0.1 - - [10/Feb/2025 14:37:25] "GET /logs HTTP/1.1" 200 -
+127.0.0.1 - - [10/Feb/2025 14:37:25] "GET /logs HTTP/1.1" 200 -
+2025-02-10 14:37:25 - 127.0.0.1 - - [10/Feb/2025 14:37:25] "GET /static/css/estilos_gestion_sistemas.css HTTP/1.1" 200 -
+127.0.0.1 - - [10/Feb/2025 14:37:25] "GET /static/css/estilos_gestion_sistemas.css HTTP/1.1" 200 -
+2025-02-10 14:37:27 - 127.0.0.1 - - [10/Feb/2025 14:37:27] "GET /logs HTTP/1.1" 200 -
+127.0.0.1 - - [10/Feb/2025 14:37:27] "GET /logs HTTP/1.1" 200 -
+2025-02-10 14:37:27 - 127.0.0.1 - - [10/Feb/2025 14:37:27] "[36mGET /static/css/estilos_gestion_sistemas.css HTTP/1.1[0m" 304 -
+127.0.0.1 - - [10/Feb/2025 14:37:27] "[36mGET /static/css/estilos_gestion_sistemas.css HTTP/1.1[0m" 304 -
+2025-02-10 14:37:28 - 127.0.0.1 - - [10/Feb/2025 14:37:28] "GET /logs HTTP/1.1" 200 -
+127.0.0.1 - - [10/Feb/2025 14:37:28] "GET /logs HTTP/1.1" 200 -
+2025-02-10 14:37:28 - 127.0.0.1 - - [10/Feb/2025 14:37:28] "[36mGET /static/css/estilos_gestion_sistemas.css HTTP/1.1[0m" 304 -
+127.0.0.1 - - [10/Feb/2025 14:37:28] "[36mGET /static/css/estilos_gestion_sistemas.css HTTP/1.1[0m" 304 -
+2025-02-10 14:37:28 - Looking for jobs to run
+Looking for jobs to run
+2025-02-10 14:37:28 - Next wakeup is due at 2025-02-10 14:38:28.746875+01:00 (in 59.984474 seconds)
+Next wakeup is due at 2025-02-10 14:38:28.746875+01:00 (in 59.984474 seconds)
+2025-02-10 14:37:28 - Running job "create_app.<locals>.obtener_recursos (trigger: interval[0:01:00], next run at: 2025-02-10 14:38:28 CET)" (scheduled at 2025-02-10 14:37:28.746875+01:00)
+Running job "create_app.<locals>.obtener_recursos (trigger: interval[0:01:00], next run at: 2025-02-10 14:38:28 CET)" (scheduled at 2025-02-10 14:37:28.746875+01:00)
+2025-02-10 14:37:29 - 127.0.0.1 - - [10/Feb/2025 14:37:29] "GET /logs HTTP/1.1" 200 -
+127.0.0.1 - - [10/Feb/2025 14:37:29] "GET /logs HTTP/1.1" 200 -
+2025-02-10 14:37:29 - 127.0.0.1 - - [10/Feb/2025 14:37:29] "[36mGET /static/css/estilos_gestion_sistemas.css HTTP/1.1[0m" 304 -
+127.0.0.1 - - [10/Feb/2025 14:37:29] "[36mGET /static/css/estilos_gestion_sistemas.css HTTP/1.1[0m" 304 -
+2025-02-10 14:37:29 - Looking for jobs to run
+Looking for jobs to run
+2025-02-10 14:37:29 - Next wakeup is due at 2025-02-10 14:38:29.713049+01:00 (in 59.994964 seconds)
+Next wakeup is due at 2025-02-10 14:38:29.713049+01:00 (in 59.994964 seconds)
+2025-02-10 14:37:29 - Running job "create_app.<locals>.obtener_recursos (trigger: interval[0:01:00], next run at: 2025-02-10 14:38:29 CET)" (scheduled at 2025-02-10 14:37:29.713049+01:00)
+Running job "create_app.<locals>.obtener_recursos (trigger: interval[0:01:00], next run at: 2025-02-10 14:38:29 CET)" (scheduled at 2025-02-10 14:37:29.713049+01:00)
+2025-02-10 14:37:29 - CPU: 30.8% | Memoria: 81.8% | Disco: 97.0%
+CPU: 30.8% | Memoria: 81.8% | Disco: 97.0%
+2025-02-10 14:37:29 - Job "create_app.<locals>.obtener_recursos (trigger: interval[0:01:00], next run at: 2025-02-10 14:38:28 CET)" executed successfully
+Job "create_app.<locals>.obtener_recursos (trigger: interval[0:01:00], next run at: 2025-02-10 14:38:28 CET)" executed successfully
+2025-02-10 14:37:30 - CPU: 21.0% | Memoria: 81.9% | Disco: 97.0%
+CPU: 21.0% | Memoria: 81.9% | Disco: 97.0%
+2025-02-10 14:37:30 - Job "create_app.<locals>.obtener_recursos (trigger: interval[0:01:00], next run at: 2025-02-10 14:38:29 CET)" executed successfully
+Job "create_app.<locals>.obtener_recursos (trigger: interval[0:01:00], next run at: 2025-02-10 14:38:29 CET)" executed successfully
+2025-02-10 14:37:54 - 127.0.0.1 - - [10/Feb/2025 14:37:54] "GET /usuarios HTTP/1.1" 200 -
+127.0.0.1 - - [10/Feb/2025 14:37:54] "GET /usuarios HTTP/1.1" 200 -
+2025-02-10 14:37:54 - 127.0.0.1 - - [10/Feb/2025 14:37:54] "[36mGET /static/css/estilos_gestion_sistemas.css HTTP/1.1[0m" 304 -
+127.0.0.1 - - [10/Feb/2025 14:37:54] "[36mGET /static/css/estilos_gestion_sistemas.css HTTP/1.1[0m" 304 -
+2025-02-10 14:38:11 - 127.0.0.1 - - [10/Feb/2025 14:38:11] "GET /usuarios HTTP/1.1" 200 -
+127.0.0.1 - - [10/Feb/2025 14:38:11] "GET /usuarios HTTP/1.1" 200 -
+2025-02-10 14:38:11 - 127.0.0.1 - - [10/Feb/2025 14:38:11] "GET /static/css/estilos_gestion_sistemas.css HTTP/1.1" 200 -
+127.0.0.1 - - [10/Feb/2025 14:38:11] "GET /static/css/estilos_gestion_sistemas.css HTTP/1.1" 200 -
+2025-02-10 14:38:22 - 127.0.0.1 - - [10/Feb/2025 14:38:22] "GET /logs HTTP/1.1" 200 -
+127.0.0.1 - - [10/Feb/2025 14:38:22] "GET /logs HTTP/1.1" 200 -
+2025-02-10 14:38:22 - 127.0.0.1 - - [10/Feb/2025 14:38:22] "[36mGET /static/css/estilos_gestion_sistemas.css HTTP/1.1[0m" 304 -
+127.0.0.1 - - [10/Feb/2025 14:38:22] "[36mGET /static/css/estilos_gestion_sistemas.css HTTP/1.1[0m" 304 -
+2025-02-10 14:38:28 - Looking for jobs to run
+Looking for jobs to run
+2025-02-10 14:38:28 - Next wakeup is due at 2025-02-10 14:39:28.746875+01:00 (in 59.995768 seconds)
+Next wakeup is due at 2025-02-10 14:39:28.746875+01:00 (in 59.995768 seconds)
+2025-02-10 14:38:28 - Running job "create_app.<locals>.obtener_recursos (trigger: interval[0:01:00], next run at: 2025-02-10 14:39:28 CET)" (scheduled at 2025-02-10 14:38:28.746875+01:00)
+Running job "create_app.<locals>.obtener_recursos (trigger: interval[0:01:00], next run at: 2025-02-10 14:39:28 CET)" (scheduled at 2025-02-10 14:38:28.746875+01:00)
+2025-02-10 14:38:29 - Looking for jobs to run
+Looking for jobs to run
+2025-02-10 14:38:29 - Next wakeup is due at 2025-02-10 14:39:29.713049+01:00 (in 59.995137 seconds)
+Next wakeup is due at 2025-02-10 14:39:29.713049+01:00 (in 59.995137 seconds)
+2025-02-10 14:38:29 - Running job "create_app.<locals>.obtener_recursos (trigger: interval[0:01:00], next run at: 2025-02-10 14:39:29 CET)" (scheduled at 2025-02-10 14:38:29.713049+01:00)
+Running job "create_app.<locals>.obtener_recursos (trigger: interval[0:01:00], next run at: 2025-02-10 14:39:29 CET)" (scheduled at 2025-02-10 14:38:29.713049+01:00)
+2025-02-10 14:38:29 - CPU: 7.6% | Memoria: 81.3% | Disco: 97.0%
+CPU: 7.6% | Memoria: 81.3% | Disco: 97.0%
+2025-02-10 14:38:29 - Job "create_app.<locals>.obtener_recursos (trigger: interval[0:01:00], next run at: 2025-02-10 14:39:28 CET)" executed successfully
+Job "create_app.<locals>.obtener_recursos (trigger: interval[0:01:00], next run at: 2025-02-10 14:39:28 CET)" executed successfully
+2025-02-10 14:38:30 - CPU: 6.6% | Memoria: 81.3% | Disco: 97.0%
+CPU: 6.6% | Memoria: 81.3% | Disco: 97.0%
+2025-02-10 14:38:30 - Job "create_app.<locals>.obtener_recursos (trigger: interval[0:01:00], next run at: 2025-02-10 14:39:29 CET)" executed successfully
+Job "create_app.<locals>.obtener_recursos (trigger: interval[0:01:00], next run at: 2025-02-10 14:39:29 CET)" executed successfully
+2025-02-10 14:38:55 - 127.0.0.1 - - [10/Feb/2025 14:38:55] "GET /logs HTTP/1.1" 200 -
+127.0.0.1 - - [10/Feb/2025 14:38:55] "GET /logs HTTP/1.1" 200 -
+2025-02-10 14:38:55 - 127.0.0.1 - - [10/Feb/2025 14:38:55] "GET /static/css/estilos_gestion_sistemas.css HTTP/1.1" 200 -
+127.0.0.1 - - [10/Feb/2025 14:38:55] "GET /static/css/estilos_gestion_sistemas.css HTTP/1.1" 200 -
+2025-02-10 14:39:06 - 127.0.0.1 - - [10/Feb/2025 14:39:06] "GET /logs HTTP/1.1" 200 -
+127.0.0.1 - - [10/Feb/2025 14:39:06] "GET /logs HTTP/1.1" 200 -
+2025-02-10 14:39:06 - 127.0.0.1 - - [10/Feb/2025 14:39:06] "GET /static/css/estilos_gestion_sistemas.css HTTP/1.1" 200 -
+127.0.0.1 - - [10/Feb/2025 14:39:06] "GET /static/css/estilos_gestion_sistemas.css HTTP/1.1" 200 -
+2025-02-10 14:39:28 - Looking for jobs to run
+Looking for jobs to run
+2025-02-10 14:39:28 - Next wakeup is due at 2025-02-10 14:40:28.746875+01:00 (in 59.993372 seconds)
+Next wakeup is due at 2025-02-10 14:40:28.746875+01:00 (in 59.993372 seconds)
+2025-02-10 14:39:28 - Running job "create_app.<locals>.obtener_recursos (trigger: interval[0:01:00], next run at: 2025-02-10 14:40:28 CET)" (scheduled at 2025-02-10 14:39:28.746875+01:00)
+Running job "create_app.<locals>.obtener_recursos (trigger: interval[0:01:00], next run at: 2025-02-10 14:40:28 CET)" (scheduled at 2025-02-10 14:39:28.746875+01:00)
+2025-02-10 14:39:29 - Looking for jobs to run
+Looking for jobs to run
+2025-02-10 14:39:29 - Next wakeup is due at 2025-02-10 14:40:29.713049+01:00 (in 59.983348 seconds)
+Next wakeup is due at 2025-02-10 14:40:29.713049+01:00 (in 59.983348 seconds)
+2025-02-10 14:39:29 - Running job "create_app.<locals>.obtener_recursos (trigger: interval[0:01:00], next run at: 2025-02-10 14:40:29 CET)" (scheduled at 2025-02-10 14:39:29.713049+01:00)
+Running job "create_app.<locals>.obtener_recursos (trigger: interval[0:01:00], next run at: 2025-02-10 14:40:29 CET)" (scheduled at 2025-02-10 14:39:29.713049+01:00)
+2025-02-10 14:39:29 - CPU: 22.7% | Memoria: 80.9% | Disco: 97.0%
+CPU: 22.7% | Memoria: 80.9% | Disco: 97.0%
+2025-02-10 14:39:29 - Job "create_app.<locals>.obtener_recursos (trigger: interval[0:01:00], next run at: 2025-02-10 14:40:28 CET)" executed successfully
+Job "create_app.<locals>.obtener_recursos (trigger: interval[0:01:00], next run at: 2025-02-10 14:40:28 CET)" executed successfully
+2025-02-10 14:39:30 - CPU: 38.6% | Memoria: 81.3% | Disco: 97.0%
+CPU: 38.6% | Memoria: 81.3% | Disco: 97.0%
+2025-02-10 14:39:30 - Job "create_app.<locals>.obtener_recursos (trigger: interval[0:01:00], next run at: 2025-02-10 14:40:29 CET)" executed successfully
+Job "create_app.<locals>.obtener_recursos (trigger: interval[0:01:00], next run at: 2025-02-10 14:40:29 CET)" executed successfully
+2025-02-10 14:39:31 - 127.0.0.1 - - [10/Feb/2025 14:39:31] "GET /logs HTTP/1.1" 200 -
+127.0.0.1 - - [10/Feb/2025 14:39:31] "GET /logs HTTP/1.1" 200 -
+2025-02-10 14:39:31 - 127.0.0.1 - - [10/Feb/2025 14:39:31] "GET /static/css/estilos_gestion_sistemas.css HTTP/1.1" 200 -
+127.0.0.1 - - [10/Feb/2025 14:39:31] "GET /static/css/estilos_gestion_sistemas.css HTTP/1.1" 200 -
+2025-02-10 14:39:32 - 127.0.0.1 - - [10/Feb/2025 14:39:32] "GET /logs HTTP/1.1" 200 -
+127.0.0.1 - - [10/Feb/2025 14:39:32] "GET /logs HTTP/1.1" 200 -
+2025-02-10 14:39:32 - 127.0.0.1 - - [10/Feb/2025 14:39:32] "[36mGET /static/css/estilos_gestion_sistemas.css HTTP/1.1[0m" 304 -
+127.0.0.1 - - [10/Feb/2025 14:39:32] "[36mGET /static/css/estilos_gestion_sistemas.css HTTP/1.1[0m" 304 -
+2025-02-10 14:39:35 - 127.0.0.1 - - [10/Feb/2025 14:39:35] "GET /logs HTTP/1.1" 200 -
+127.0.0.1 - - [10/Feb/2025 14:39:35] "GET /logs HTTP/1.1" 200 -
+2025-02-10 14:39:35 - 127.0.0.1 - - [10/Feb/2025 14:39:35] "GET /static/css/estilos_gestion_sistemas.css HTTP/1.1" 200 -
+127.0.0.1 - - [10/Feb/2025 14:39:35] "GET /static/css/estilos_gestion_sistemas.css HTTP/1.1" 200 -
+2025-02-10 14:39:36 - 127.0.0.1 - - [10/Feb/2025 14:39:36] "GET /logs HTTP/1.1" 200 -
+127.0.0.1 - - [10/Feb/2025 14:39:36] "GET /logs HTTP/1.1" 200 -
+2025-02-10 14:39:36 - 127.0.0.1 - - [10/Feb/2025 14:39:36] "[36mGET /static/css/estilos_gestion_sistemas.css HTTP/1.1[0m" 304 -
+127.0.0.1 - - [10/Feb/2025 14:39:36] "[36mGET /static/css/estilos_gestion_sistemas.css HTTP/1.1[0m" 304 -
+2025-02-10 14:39:36 - 127.0.0.1 - - [10/Feb/2025 14:39:36] "GET /logs HTTP/1.1" 200 -
+127.0.0.1 - - [10/Feb/2025 14:39:36] "GET /logs HTTP/1.1" 200 -
+2025-02-10 14:39:36 - 127.0.0.1 - - [10/Feb/2025 14:39:36] "[36mGET /static/css/estilos_gestion_sistemas.css HTTP/1.1[0m" 304 -
+127.0.0.1 - - [10/Feb/2025 14:39:36] "[36mGET /static/css/estilos_gestion_sistemas.css HTTP/1.1[0m" 304 -
+2025-02-10 14:39:36 - 127.0.0.1 - - [10/Feb/2025 14:39:36] "GET /logs HTTP/1.1" 200 -
+127.0.0.1 - - [10/Feb/2025 14:39:36] "GET /logs HTTP/1.1" 200 -
+2025-02-10 14:39:36 - 127.0.0.1 - - [10/Feb/2025 14:39:36] "[36mGET /static/css/estilos_gestion_sistemas.css HTTP/1.1[0m" 304 -
+127.0.0.1 - - [10/Feb/2025 14:39:36] "[36mGET /static/css/estilos_gestion_sistemas.css HTTP/1.1[0m" 304 -
+2025-02-10 14:39:36 - 127.0.0.1 - - [10/Feb/2025 14:39:36] "GET /logs HTTP/1.1" 200 -
+127.0.0.1 - - [10/Feb/2025 14:39:36] "GET /logs HTTP/1.1" 200 -
+2025-02-10 14:39:36 - 127.0.0.1 - - [10/Feb/2025 14:39:36] "[36mGET /static/css/estilos_gestion_sistemas.css HTTP/1.1[0m" 304 -
+127.0.0.1 - - [10/Feb/2025 14:39:36] "[36mGET /static/css/estilos_gestion_sistemas.css HTTP/1.1[0m" 304 -
+2025-02-10 14:39:36 - 127.0.0.1 - - [10/Feb/2025 14:39:36] "GET /logs HTTP/1.1" 200 -
+127.0.0.1 - - [10/Feb/2025 14:39:36] "GET /logs HTTP/1.1" 200 -
+2025-02-10 14:39:37 - 127.0.0.1 - - [10/Feb/2025 14:39:37] "[36mGET /static/css/estilos_gestion_sistemas.css HTTP/1.1[0m" 304 -
+127.0.0.1 - - [10/Feb/2025 14:39:37] "[36mGET /static/css/estilos_gestion_sistemas.css HTTP/1.1[0m" 304 -
+2025-02-10 14:39:37 - 127.0.0.1 - - [10/Feb/2025 14:39:37] "GET /logs HTTP/1.1" 200 -
+127.0.0.1 - - [10/Feb/2025 14:39:37] "GET /logs HTTP/1.1" 200 -
+2025-02-10 14:39:37 - 127.0.0.1 - - [10/Feb/2025 14:39:37] "[36mGET /static/css/estilos_gestion_sistemas.css HTTP/1.1[0m" 304 -
+127.0.0.1 - - [10/Feb/2025 14:39:37] "[36mGET /static/css/estilos_gestion_sistemas.css HTTP/1.1[0m" 304 -
+2025-02-10 14:39:55 - 127.0.0.1 - - [10/Feb/2025 14:39:55] "GET /logs HTTP/1.1" 200 -
+127.0.0.1 - - [10/Feb/2025 14:39:55] "GET /logs HTTP/1.1" 200 -
+2025-02-10 14:39:55 - 127.0.0.1 - - [10/Feb/2025 14:39:55] "GET /static/css/estilos_gestion_sistemas.css HTTP/1.1" 200 -
+127.0.0.1 - - [10/Feb/2025 14:39:55] "GET /static/css/estilos_gestion_sistemas.css HTTP/1.1" 200 -
+2025-02-10 14:40:28 - Looking for jobs to run
+Looking for jobs to run
+2025-02-10 14:40:28 - Next wakeup is due at 2025-02-10 14:41:28.746875+01:00 (in 59.984416 seconds)
+Next wakeup is due at 2025-02-10 14:41:28.746875+01:00 (in 59.984416 seconds)
+2025-02-10 14:40:28 - Running job "create_app.<locals>.obtener_recursos (trigger: interval[0:01:00], next run at: 2025-02-10 14:41:28 CET)" (scheduled at 2025-02-10 14:40:28.746875+01:00)
+Running job "create_app.<locals>.obtener_recursos (trigger: interval[0:01:00], next run at: 2025-02-10 14:41:28 CET)" (scheduled at 2025-02-10 14:40:28.746875+01:00)
+2025-02-10 14:40:29 - Looking for jobs to run
+Looking for jobs to run
+2025-02-10 14:40:29 - Next wakeup is due at 2025-02-10 14:41:29.713049+01:00 (in 59.986753 seconds)
+Next wakeup is due at 2025-02-10 14:41:29.713049+01:00 (in 59.986753 seconds)
+2025-02-10 14:40:29 - Running job "create_app.<locals>.obtener_recursos (trigger: interval[0:01:00], next run at: 2025-02-10 14:41:29 CET)" (scheduled at 2025-02-10 14:40:29.713049+01:00)
+Running job "create_app.<locals>.obtener_recursos (trigger: interval[0:01:00], next run at: 2025-02-10 14:41:29 CET)" (scheduled at 2025-02-10 14:40:29.713049+01:00)
+2025-02-10 14:40:29 - CPU: 24.3% | Memoria: 80.9% | Disco: 97.0%
+CPU: 24.3% | Memoria: 80.9% | Disco: 97.0%
+2025-02-10 14:40:29 - Job "create_app.<locals>.obtener_recursos (trigger: interval[0:01:00], next run at: 2025-02-10 14:41:28 CET)" executed successfully
+Job "create_app.<locals>.obtener_recursos (trigger: interval[0:01:00], next run at: 2025-02-10 14:41:28 CET)" executed successfully
+2025-02-10 14:40:30 - CPU: 21.0% | Memoria: 81.0% | Disco: 97.0%
+CPU: 21.0% | Memoria: 81.0% | Disco: 97.0%
+2025-02-10 14:40:30 - Job "create_app.<locals>.obtener_recursos (trigger: interval[0:01:00], next run at: 2025-02-10 14:41:29 CET)" executed successfully
+Job "create_app.<locals>.obtener_recursos (trigger: interval[0:01:00], next run at: 2025-02-10 14:41:29 CET)" executed successfully
+2025-02-10 14:40:45 - 127.0.0.1 - - [10/Feb/2025 14:40:45] "GET /logs HTTP/1.1" 200 -
+127.0.0.1 - - [10/Feb/2025 14:40:45] "GET /logs HTTP/1.1" 200 -
+2025-02-10 14:40:45 - 127.0.0.1 - - [10/Feb/2025 14:40:45] "GET /static/css/estilos_gestion_sistemas.css HTTP/1.1" 200 -
+127.0.0.1 - - [10/Feb/2025 14:40:45] "GET /static/css/estilos_gestion_sistemas.css HTTP/1.1" 200 -
+2025-02-10 14:41:28 - Looking for jobs to run
+Looking for jobs to run
+2025-02-10 14:41:28 - Next wakeup is due at 2025-02-10 14:42:28.746875+01:00 (in 59.990749 seconds)
+Next wakeup is due at 2025-02-10 14:42:28.746875+01:00 (in 59.990749 seconds)
+2025-02-10 14:41:28 - Running job "create_app.<locals>.obtener_recursos (trigger: interval[0:01:00], next run at: 2025-02-10 14:42:28 CET)" (scheduled at 2025-02-10 14:41:28.746875+01:00)
+Running job "create_app.<locals>.obtener_recursos (trigger: interval[0:01:00], next run at: 2025-02-10 14:42:28 CET)" (scheduled at 2025-02-10 14:41:28.746875+01:00)
+2025-02-10 14:41:29 - Looking for jobs to run
+Looking for jobs to run
+2025-02-10 14:41:29 - Next wakeup is due at 2025-02-10 14:42:29.713049+01:00 (in 59.988247 seconds)
+Next wakeup is due at 2025-02-10 14:42:29.713049+01:00 (in 59.988247 seconds)
+2025-02-10 14:41:29 - Running job "create_app.<locals>.obtener_recursos (trigger: interval[0:01:00], next run at: 2025-02-10 14:42:29 CET)" (scheduled at 2025-02-10 14:41:29.713049+01:00)
+Running job "create_app.<locals>.obtener_recursos (trigger: interval[0:01:00], next run at: 2025-02-10 14:42:29 CET)" (scheduled at 2025-02-10 14:41:29.713049+01:00)
+2025-02-10 14:41:29 - CPU: 20.3% | Memoria: 80.7% | Disco: 97.0%
+CPU: 20.3% | Memoria: 80.7% | Disco: 97.0%
+2025-02-10 14:41:29 - Job "create_app.<locals>.obtener_recursos (trigger: interval[0:01:00], next run at: 2025-02-10 14:42:28 CET)" executed successfully
+Job "create_app.<locals>.obtener_recursos (trigger: interval[0:01:00], next run at: 2025-02-10 14:42:28 CET)" executed successfully
+2025-02-10 14:41:30 - CPU: 21.9% | Memoria: 80.6% | Disco: 97.0%
+CPU: 21.9% | Memoria: 80.6% | Disco: 97.0%
+2025-02-10 14:41:30 - Job "create_app.<locals>.obtener_recursos (trigger: interval[0:01:00], next run at: 2025-02-10 14:42:29 CET)" executed successfully
+Job "create_app.<locals>.obtener_recursos (trigger: interval[0:01:00], next run at: 2025-02-10 14:42:29 CET)" executed successfully
+2025-02-10 14:41:52 - 127.0.0.1 - - [10/Feb/2025 14:41:52] "GET /logs HTTP/1.1" 200 -
+127.0.0.1 - - [10/Feb/2025 14:41:52] "GET /logs HTTP/1.1" 200 -
+2025-02-10 14:41:52 - 127.0.0.1 - - [10/Feb/2025 14:41:52] "[36mGET /static/css/estilos_gestion_sistemas.css HTTP/1.1[0m" 304 -
+127.0.0.1 - - [10/Feb/2025 14:41:52] "[36mGET /static/css/estilos_gestion_sistemas.css HTTP/1.1[0m" 304 -
+2025-02-10 14:41:55 - 127.0.0.1 - - [10/Feb/2025 14:41:55] "GET /logs HTTP/1.1" 200 -
+127.0.0.1 - - [10/Feb/2025 14:41:55] "GET /logs HTTP/1.1" 200 -
+2025-02-10 14:41:55 - 127.0.0.1 - - [10/Feb/2025 14:41:55] "[36mGET /static/css/estilos_gestion_sistemas.css HTTP/1.1[0m" 304 -
+127.0.0.1 - - [10/Feb/2025 14:41:55] "[36mGET /static/css/estilos_gestion_sistemas.css HTTP/1.1[0m" 304 -
+2025-02-10 14:41:56 - 127.0.0.1 - - [10/Feb/2025 14:41:56] "GET /logs HTTP/1.1" 200 -
+127.0.0.1 - - [10/Feb/2025 14:41:56] "GET /logs HTTP/1.1" 200 -
+2025-02-10 14:41:56 - 127.0.0.1 - - [10/Feb/2025 14:41:56] "[36mGET /static/css/estilos_gestion_sistemas.css HTTP/1.1[0m" 304 -
+127.0.0.1 - - [10/Feb/2025 14:41:56] "[36mGET /static/css/estilos_gestion_sistemas.css HTTP/1.1[0m" 304 -
+2025-02-10 14:41:57 - 127.0.0.1 - - [10/Feb/2025 14:41:57] "GET /logs HTTP/1.1" 200 -
+127.0.0.1 - - [10/Feb/2025 14:41:57] "GET /logs HTTP/1.1" 200 -
+2025-02-10 14:41:57 - 127.0.0.1 - - [10/Feb/2025 14:41:57] "[36mGET /static/css/estilos_gestion_sistemas.css HTTP/1.1[0m" 304 -
+127.0.0.1 - - [10/Feb/2025 14:41:57] "[36mGET /static/css/estilos_gestion_sistemas.css HTTP/1.1[0m" 304 -
+2025-02-10 14:41:58 - 127.0.0.1 - - [10/Feb/2025 14:41:58] "GET /logs HTTP/1.1" 200 -
+127.0.0.1 - - [10/Feb/2025 14:41:58] "GET /logs HTTP/1.1" 200 -
+2025-02-10 14:41:58 - 127.0.0.1 - - [10/Feb/2025 14:41:58] "[36mGET /static/css/estilos_gestion_sistemas.css HTTP/1.1[0m" 304 -
+127.0.0.1 - - [10/Feb/2025 14:41:58] "[36mGET /static/css/estilos_gestion_sistemas.css HTTP/1.1[0m" 304 -
+2025-02-10 14:41:59 - 127.0.0.1 - - [10/Feb/2025 14:41:59] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [10/Feb/2025 14:41:59] "GET / HTTP/1.1" 200 -
+2025-02-10 14:41:59 - 127.0.0.1 - - [10/Feb/2025 14:41:59] "[36mGET /static/css/estilos_gestion_sistemas.css HTTP/1.1[0m" 304 -
+127.0.0.1 - - [10/Feb/2025 14:41:59] "[36mGET /static/css/estilos_gestion_sistemas.css HTTP/1.1[0m" 304 -
+2025-02-10 14:42:01 - 127.0.0.1 - - [10/Feb/2025 14:42:01] "GET /logs HTTP/1.1" 200 -
+127.0.0.1 - - [10/Feb/2025 14:42:01] "GET /logs HTTP/1.1" 200 -
+2025-02-10 14:42:01 - 127.0.0.1 - - [10/Feb/2025 14:42:01] "[36mGET /static/css/estilos_gestion_sistemas.css HTTP/1.1[0m" 304 -
+127.0.0.1 - - [10/Feb/2025 14:42:01] "[36mGET /static/css/estilos_gestion_sistemas.css HTTP/1.1[0m" 304 -
+2025-02-10 14:42:02 - 127.0.0.1 - - [10/Feb/2025 14:42:02] "GET /logs HTTP/1.1" 200 -
+127.0.0.1 - - [10/Feb/2025 14:42:02] "GET /logs HTTP/1.1" 200 -
+2025-02-10 14:42:02 - 127.0.0.1 - - [10/Feb/2025 14:42:02] "[36mGET /static/css/estilos_gestion_sistemas.css HTTP/1.1[0m" 304 -
+127.0.0.1 - - [10/Feb/2025 14:42:02] "[36mGET /static/css/estilos_gestion_sistemas.css HTTP/1.1[0m" 304 -
+2025-02-10 14:42:06 - 127.0.0.1 - - [10/Feb/2025 14:42:06] "GET /logs HTTP/1.1" 200 -
+127.0.0.1 - - [10/Feb/2025 14:42:06] "GET /logs HTTP/1.1" 200 -
+2025-02-10 14:42:06 - 127.0.0.1 - - [10/Feb/2025 14:42:06] "[36mGET /static/css/estilos_gestion_sistemas.css HTTP/1.1[0m" 304 -
+127.0.0.1 - - [10/Feb/2025 14:42:06] "[36mGET /static/css/estilos_gestion_sistemas.css HTTP/1.1[0m" 304 -
+2025-02-10 14:42:07 - 127.0.0.1 - - [10/Feb/2025 14:42:07] "GET /logs HTTP/1.1" 200 -
+127.0.0.1 - - [10/Feb/2025 14:42:07] "GET /logs HTTP/1.1" 200 -
+2025-02-10 14:42:07 - 127.0.0.1 - - [10/Feb/2025 14:42:07] "[36mGET /static/css/estilos_gestion_sistemas.css HTTP/1.1[0m" 304 -
+127.0.0.1 - - [10/Feb/2025 14:42:07] "[36mGET /static/css/estilos_gestion_sistemas.css HTTP/1.1[0m" 304 -
+2025-02-10 14:42:08 - 127.0.0.1 - - [10/Feb/2025 14:42:08] "GET /logs HTTP/1.1" 200 -
+127.0.0.1 - - [10/Feb/2025 14:42:08] "GET /logs HTTP/1.1" 200 -
+2025-02-10 14:42:08 - 127.0.0.1 - - [10/Feb/2025 14:42:08] "[36mGET /static/css/estilos_gestion_sistemas.css HTTP/1.1[0m" 304 -
+127.0.0.1 - - [10/Feb/2025 14:42:08] "[36mGET /static/css/estilos_gestion_sistemas.css HTTP/1.1[0m" 304 -
+2025-02-10 14:42:10 - 127.0.0.1 - - [10/Feb/2025 14:42:10] "GET /logs HTTP/1.1" 200 -
+127.0.0.1 - - [10/Feb/2025 14:42:10] "GET /logs HTTP/1.1" 200 -
+2025-02-10 14:42:10 - 127.0.0.1 - - [10/Feb/2025 14:42:10] "[36mGET /static/css/estilos_gestion_sistemas.css HTTP/1.1[0m" 304 -
+127.0.0.1 - - [10/Feb/2025 14:42:10] "[36mGET /static/css/estilos_gestion_sistemas.css HTTP/1.1[0m" 304 -
+2025-02-10 14:42:28 - Looking for jobs to run
+Looking for jobs to run
+2025-02-10 14:42:28 - Next wakeup is due at 2025-02-10 14:43:28.746875+01:00 (in 59.984748 seconds)
+Next wakeup is due at 2025-02-10 14:43:28.746875+01:00 (in 59.984748 seconds)
+2025-02-10 14:42:28 - Running job "create_app.<locals>.obtener_recursos (trigger: interval[0:01:00], next run at: 2025-02-10 14:43:28 CET)" (scheduled at 2025-02-10 14:42:28.746875+01:00)
+Running job "create_app.<locals>.obtener_recursos (trigger: interval[0:01:00], next run at: 2025-02-10 14:43:28 CET)" (scheduled at 2025-02-10 14:42:28.746875+01:00)
+2025-02-10 14:42:29 - Looking for jobs to run
+Looking for jobs to run
+2025-02-10 14:42:29 - Next wakeup is due at 2025-02-10 14:43:29.713049+01:00 (in 59.995406 seconds)
+Next wakeup is due at 2025-02-10 14:43:29.713049+01:00 (in 59.995406 seconds)
+2025-02-10 14:42:29 - Running job "create_app.<locals>.obtener_recursos (trigger: interval[0:01:00], next run at: 2025-02-10 14:43:29 CET)" (scheduled at 2025-02-10 14:42:29.713049+01:00)
+Running job "create_app.<locals>.obtener_recursos (trigger: interval[0:01:00], next run at: 2025-02-10 14:43:29 CET)" (scheduled at 2025-02-10 14:42:29.713049+01:00)
+2025-02-10 14:42:29 - CPU: 13.3% | Memoria: 80.4% | Disco: 97.0%
+CPU: 13.3% | Memoria: 80.4% | Disco: 97.0%
+2025-02-10 14:42:29 - Job "create_app.<locals>.obtener_recursos (trigger: interval[0:01:00], next run at: 2025-02-10 14:43:28 CET)" executed successfully
+Job "create_app.<locals>.obtener_recursos (trigger: interval[0:01:00], next run at: 2025-02-10 14:43:28 CET)" executed successfully
+2025-02-10 14:42:30 - CPU: 15.9% | Memoria: 80.5% | Disco: 97.0%
+CPU: 15.9% | Memoria: 80.5% | Disco: 97.0%
+2025-02-10 14:42:30 - Job "create_app.<locals>.obtener_recursos (trigger: interval[0:01:00], next run at: 2025-02-10 14:43:29 CET)" executed successfully
+Job "create_app.<locals>.obtener_recursos (trigger: interval[0:01:00], next run at: 2025-02-10 14:43:29 CET)" executed successfully
+2025-02-10 14:42:31 - 127.0.0.1 - - [10/Feb/2025 14:42:31] "GET /logs HTTP/1.1" 200 -
+127.0.0.1 - - [10/Feb/2025 14:42:31] "GET /logs HTTP/1.1" 200 -
+2025-02-10 14:42:31 - 127.0.0.1 - - [10/Feb/2025 14:42:31] "[36mGET /static/css/estilos_gestion_sistemas.css HTTP/1.1[0m" 304 -
+127.0.0.1 - - [10/Feb/2025 14:42:31] "[36mGET /static/css/estilos_gestion_sistemas.css HTTP/1.1[0m" 304 -
+2025-02-10 14:42:32 - 127.0.0.1 - - [10/Feb/2025 14:42:32] "GET /logs HTTP/1.1" 200 -
+127.0.0.1 - - [10/Feb/2025 14:42:32] "GET /logs HTTP/1.1" 200 -
+2025-02-10 14:42:32 - 127.0.0.1 - - [10/Feb/2025 14:42:32] "[36mGET /static/css/estilos_gestion_sistemas.css HTTP/1.1[0m" 304 -
+127.0.0.1 - - [10/Feb/2025 14:42:32] "[36mGET /static/css/estilos_gestion_sistemas.css HTTP/1.1[0m" 304 -
+2025-02-10 14:42:41 - 127.0.0.1 - - [10/Feb/2025 14:42:41] "GET /logs HTTP/1.1" 200 -
+127.0.0.1 - - [10/Feb/2025 14:42:41] "GET /logs HTTP/1.1" 200 -
+2025-02-10 14:42:41 - 127.0.0.1 - - [10/Feb/2025 14:42:41] "[36mGET /static/css/estilos_gestion_sistemas.css HTTP/1.1[0m" 304 -
+127.0.0.1 - - [10/Feb/2025 14:42:41] "[36mGET /static/css/estilos_gestion_sistemas.css HTTP/1.1[0m" 304 -
+2025-02-10 14:42:42 - 127.0.0.1 - - [10/Feb/2025 14:42:42] "GET /logs HTTP/1.1" 200 -
+127.0.0.1 - - [10/Feb/2025 14:42:42] "GET /logs HTTP/1.1" 200 -
+2025-02-10 14:42:43 - 127.0.0.1 - - [10/Feb/2025 14:42:43] "[36mGET /static/css/estilos_gestion_sistemas.css HTTP/1.1[0m" 304 -
+127.0.0.1 - - [10/Feb/2025 14:42:43] "[36mGET /static/css/estilos_gestion_sistemas.css HTTP/1.1[0m" 304 -
+2025-02-10 14:42:53 - 127.0.0.1 - - [10/Feb/2025 14:42:53] "GET /logs HTTP/1.1" 200 -
+127.0.0.1 - - [10/Feb/2025 14:42:53] "GET /logs HTTP/1.1" 200 -
+2025-02-10 14:42:53 - 127.0.0.1 - - [10/Feb/2025 14:42:53] "[36mGET /static/css/estilos_gestion_sistemas.css HTTP/1.1[0m" 304 -
+127.0.0.1 - - [10/Feb/2025 14:42:53] "[36mGET /static/css/estilos_gestion_sistemas.css HTTP/1.1[0m" 304 -
+2025-02-10 14:42:54 - 127.0.0.1 - - [10/Feb/2025 14:42:54] "GET /logs HTTP/1.1" 200 -
+127.0.0.1 - - [10/Feb/2025 14:42:54] "GET /logs HTTP/1.1" 200 -
+2025-02-10 14:42:54 - 127.0.0.1 - - [10/Feb/2025 14:42:54] "[36mGET /static/css/estilos_gestion_sistemas.css HTTP/1.1[0m" 304 -
+127.0.0.1 - - [10/Feb/2025 14:42:54] "[36mGET /static/css/estilos_gestion_sistemas.css HTTP/1.1[0m" 304 -
+2025-02-10 14:42:56 - 127.0.0.1 - - [10/Feb/2025 14:42:56] "GET /logs HTTP/1.1" 200 -
+127.0.0.1 - - [10/Feb/2025 14:42:56] "GET /logs HTTP/1.1" 200 -
+2025-02-10 14:42:56 - 127.0.0.1 - - [10/Feb/2025 14:42:56] "[36mGET /static/css/estilos_gestion_sistemas.css HTTP/1.1[0m" 304 -
+127.0.0.1 - - [10/Feb/2025 14:42:56] "[36mGET /static/css/estilos_gestion_sistemas.css HTTP/1.1[0m" 304 -
+2025-02-10 14:42:58 - 127.0.0.1 - - [10/Feb/2025 14:42:58] "GET /logs HTTP/1.1" 200 -
+127.0.0.1 - - [10/Feb/2025 14:42:58] "GET /logs HTTP/1.1" 200 -
+2025-02-10 14:42:58 - 127.0.0.1 - - [10/Feb/2025 14:42:58] "[36mGET /static/css/estilos_gestion_sistemas.css HTTP/1.1[0m" 304 -
+127.0.0.1 - - [10/Feb/2025 14:42:58] "[36mGET /static/css/estilos_gestion_sistemas.css HTTP/1.1[0m" 304 -
+2025-02-10 14:43:00 - 127.0.0.1 - - [10/Feb/2025 14:43:00] "GET /logs HTTP/1.1" 200 -
+127.0.0.1 - - [10/Feb/2025 14:43:00] "GET /logs HTTP/1.1" 200 -
+2025-02-10 14:43:00 - 127.0.0.1 - - [10/Feb/2025 14:43:00] "[36mGET /static/css/estilos_gestion_sistemas.css HTTP/1.1[0m" 304 -
+127.0.0.1 - - [10/Feb/2025 14:43:00] "[36mGET /static/css/estilos_gestion_sistemas.css HTTP/1.1[0m" 304 -
+2025-02-10 14:43:01 - 127.0.0.1 - - [10/Feb/2025 14:43:01] "GET /logs HTTP/1.1" 200 -
+127.0.0.1 - - [10/Feb/2025 14:43:01] "GET /logs HTTP/1.1" 200 -
+2025-02-10 14:43:01 - 127.0.0.1 - - [10/Feb/2025 14:43:01] "[36mGET /static/css/estilos_gestion_sistemas.css HTTP/1.1[0m" 304 -
+127.0.0.1 - - [10/Feb/2025 14:43:01] "[36mGET /static/css/estilos_gestion_sistemas.css HTTP/1.1[0m" 304 -
+2025-02-10 14:43:02 - 127.0.0.1 - - [10/Feb/2025 14:43:02] "GET /logs HTTP/1.1" 200 -
+127.0.0.1 - - [10/Feb/2025 14:43:02] "GET /logs HTTP/1.1" 200 -
+2025-02-10 14:43:02 - 127.0.0.1 - - [10/Feb/2025 14:43:02] "[36mGET /static/css/estilos_gestion_sistemas.css HTTP/1.1[0m" 304 -
+127.0.0.1 - - [10/Feb/2025 14:43:02] "[36mGET /static/css/estilos_gestion_sistemas.css HTTP/1.1[0m" 304 -
+2025-02-10 14:43:02 - 127.0.0.1 - - [10/Feb/2025 14:43:02] "GET /logs HTTP/1.1" 200 -
+127.0.0.1 - - [10/Feb/2025 14:43:02] "GET /logs HTTP/1.1" 200 -
+2025-02-10 14:43:02 - 127.0.0.1 - - [10/Feb/2025 14:43:02] "[36mGET /static/css/estilos_gestion_sistemas.css HTTP/1.1[0m" 304 -
+127.0.0.1 - - [10/Feb/2025 14:43:02] "[36mGET /static/css/estilos_gestion_sistemas.css HTTP/1.1[0m" 304 -
+2025-02-10 14:43:03 - 127.0.0.1 - - [10/Feb/2025 14:43:03] "GET /logs HTTP/1.1" 200 -
+127.0.0.1 - - [10/Feb/2025 14:43:03] "GET /logs HTTP/1.1" 200 -
+2025-02-10 14:43:03 - 127.0.0.1 - - [10/Feb/2025 14:43:03] "[36mGET /static/css/estilos_gestion_sistemas.css HTTP/1.1[0m" 304 -
+127.0.0.1 - - [10/Feb/2025 14:43:03] "[36mGET /static/css/estilos_gestion_sistemas.css HTTP/1.1[0m" 304 -
+2025-02-10 14:43:04 - 127.0.0.1 - - [10/Feb/2025 14:43:04] "GET /logs HTTP/1.1" 200 -
+127.0.0.1 - - [10/Feb/2025 14:43:04] "GET /logs HTTP/1.1" 200 -
+2025-02-10 14:43:04 - 127.0.0.1 - - [10/Feb/2025 14:43:04] "[36mGET /static/css/estilos_gestion_sistemas.css HTTP/1.1[0m" 304 -
+127.0.0.1 - - [10/Feb/2025 14:43:04] "[36mGET /static/css/estilos_gestion_sistemas.css HTTP/1.1[0m" 304 -
+2025-02-10 14:43:04 - 127.0.0.1 - - [10/Feb/2025 14:43:04] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [10/Feb/2025 14:43:04] "GET / HTTP/1.1" 200 -
+2025-02-10 14:43:05 - 127.0.0.1 - - [10/Feb/2025 14:43:05] "[36mGET /static/css/estilos_gestion_sistemas.css HTTP/1.1[0m" 304 -
+127.0.0.1 - - [10/Feb/2025 14:43:05] "[36mGET /static/css/estilos_gestion_sistemas.css HTTP/1.1[0m" 304 -
+2025-02-10 14:43:11 - Looking up time zone info from registry
+Looking up time zone info from registry
+2025-02-10 14:43:11 - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-02-10 14:43:11 - Added job "create_app.<locals>.obtener_recursos" to job store "default"
+Added job "create_app.<locals>.obtener_recursos" to job store "default"
+2025-02-10 14:43:11 - Scheduler started
+Scheduler started
+2025-02-10 14:43:11 - Looking for jobs to run
+Looking for jobs to run
+2025-02-10 14:43:11 - Next wakeup is due at 2025-02-10 14:44:11.872762+01:00 (in 60.000000 seconds)
+Next wakeup is due at 2025-02-10 14:44:11.872762+01:00 (in 60.000000 seconds)
+2025-02-10 14:43:11 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-02-10 14:43:11 - [33mPress CTRL+C to quit[0m
+[33mPress CTRL+C to quit[0m
+2025-02-10 14:43:11 -  * Restarting with stat
+ * Restarting with stat
