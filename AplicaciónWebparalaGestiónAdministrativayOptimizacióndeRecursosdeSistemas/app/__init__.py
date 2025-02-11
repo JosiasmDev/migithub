@@ -63,7 +63,8 @@ def create_app():
         backup_path = os.path.join(backup_dir, backup_filename)
 
         # Comando mysqldump
-        dump_command = f"mysqldump -u {db_user} -p{db_password} {db_name} > {backup_path}"
+        dump_command = f"C:\\xampp\\mysql\\bin\\mysqldump -u {db_user} {db_name} > {backup_path}"
+
 
         # Ejecuta el comando
         os.system(dump_command)
@@ -73,8 +74,8 @@ def create_app():
     scheduler = BackgroundScheduler()
 
     # Programar las tareas: obtener recursos cada minuto y backup cada minuto
-    scheduler.add_job(obtener_recursos, 'interval', minutes=1)
-    scheduler.add_job(backup_db, 'interval', minutes=1)
+    scheduler.add_job(obtener_recursos, 'interval', hours=1)
+    scheduler.add_job(backup_db, 'interval', hours=1)
 
     # Iniciar el scheduler
     scheduler.start()

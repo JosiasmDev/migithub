@@ -7,6 +7,7 @@ from datetime import datetime  # Importar datetime
 from .tools.informes import generar_informe_pdf, generar_informe_csv
 from .models import obtener_datos_rendimiento
 from datetime import datetime
+import subprocess
 
 main_routes = Blueprint('main', __name__)
 
@@ -186,9 +187,22 @@ def backup_db(app):
     backup_filename = f"{db_name}_backup_{datetime.now().strftime('%Y-%m-%d_%H-%M-%S')}.sql"
     backup_path = os.path.join(backup_dir, backup_filename)
 
-    # Comando mysqldump
-    dump_command = f"mysqldump -u {db_user} -p{db_password} {db_name} > {backup_path}"
+    # Asegúrate de que la carpeta de backup exista
+    if not os.path.exists(backup_dir):
+        os.makedirs(backup_dir)
 
-    # Ejecuta el comando
-    os.system(dump_command)
-    print(f"Backup de la base de datos completado: {backup_path}")
+     # Define el comando de backup
+    dump_command = [
+        "C:\\xampp\\mysql\\bin\\mysqldump",  # Ruta al ejecutable de mysqldump
+        "-u", db_user,  # Usuario
+        #"-p" + db_password,  # Contraseña (sin espacio entre -p y la contraseña)
+        db_name  # Nombre de la base de datos
+    ]
+
+    # Ejecuta el comando y guarda la salida en el archivo
+    try:
+        with open(backup_path, 'wb') as output_file:
+            subprocess.run(dump_command, stdout=output_file, stderr=subprocess.PIPE, check=True)
+        flash(f"Backup realizado correctamente: {backup_filename}", 'success')
+    except subprocess.CalledProcessError as e:
+        flash(f"Error al realizar el backup: {e}", 'danger')
