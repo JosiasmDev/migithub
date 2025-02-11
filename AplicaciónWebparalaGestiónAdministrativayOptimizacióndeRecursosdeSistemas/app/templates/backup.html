@@ -1,0 +1,12 @@
+{% extends "base.html" %}
+{% block content %}
+    <h1>Forzar Backup de la Base de Datos</h1>
+
+    <!-- Botón para forzar el backup -->
+    <form action="{{ url_for('main.force_backup') }}" method="get">
+        <button type="submit">Forzar Backup</button>
+    </form>
+
+    <!-- Opcional: Agregar un mensaje de éxito después del backup -->
+    <p>Presiona el botón para realizar el backup ahora.</p>
+{% endblock %}

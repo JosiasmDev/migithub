@@ -6,7 +6,7 @@ import os
 from datetime import datetime  # Importar datetime
 from .tools.informes import generar_informe_pdf, generar_informe_csv
 from .models import obtener_datos_rendimiento
-
+from datetime import datetime
 
 main_routes = Blueprint('main', __name__)
 
@@ -160,3 +160,35 @@ def descargar_csv():
     ruta_archivo = os.path.join(current_app.root_path, filename)  # Igualmente para el CSV
     generar_informe_csv(datos, ruta_archivo)
     return send_file(ruta_archivo, as_attachment=True)
+
+
+# Ruta principal donde se muestra el botón de backup
+@main_routes.route('/backup')
+def backup_page():
+    return render_template('backup.html')
+
+# Ruta para forzar el backup
+@main_routes.route('/force_backup')
+def force_backup():
+    # Llama a la función de backup directamente
+    backup_db(current_app)
+    return redirect(url_for('main.backup_page'))  # Redirige de nuevo a la página del backup
+
+# Función para realizar el backup de la base de datos
+def backup_db(app):
+    # Configura los parámetros de tu base de datos
+    db_user = app.config['DB_USER']
+    db_password = app.config['DB_PASSWORD']
+    db_name = app.config['DB_NAME']
+    backup_dir = app.config['BACKUP_DIR']
+
+    # Define el nombre del archivo de backup
+    backup_filename = f"{db_name}_backup_{datetime.now().strftime('%Y-%m-%d_%H-%M-%S')}.sql"
+    backup_path = os.path.join(backup_dir, backup_filename)
+
+    # Comando mysqldump
+    dump_command = f"mysqldump -u {db_user} -p{db_password} {db_name} > {backup_path}"
+
+    # Ejecuta el comando
+    os.system(dump_command)
+    print(f"Backup de la base de datos completado: {backup_path}")
