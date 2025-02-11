@@ -1,12 +1,11 @@
-from flask import Flask 
+from flask import Flask
 from flask_sqlalchemy import SQLAlchemy
 import logging
-import os  # Importar 'os' para manejar rutas de archivos
+import os
 from apscheduler.schedulers.background import BackgroundScheduler
 from logging.handlers import TimedRotatingFileHandler
-import psutil  # Necesario para la obtención de recursos del sistema
-
-
+import psutil
+from datetime import datetime
 
 # Inicializar la base de datos
 db = SQLAlchemy()
@@ -51,15 +50,36 @@ def create_app():
         disco = psutil.disk_usage('/').percent
         logging.info(f'CPU: {cpu}% | Memoria: {memoria}% | Disco: {disco}%')
 
-    # Iniciar el scheduler para ejecutar obtener_recursos cada minuto
-    def iniciar_scheduler():
-        scheduler = BackgroundScheduler()
-        scheduler.add_job(obtener_recursos, 'interval', minutes=1)
-        scheduler.start()
+    # Función para realizar el backup de la base de datos
+    def backup_db():
+        # Configura los parámetros de tu base de datos
+        db_user = app.config['DB_USER']
+        db_password = app.config['DB_PASSWORD']
+        db_name = app.config['DB_NAME']
+        backup_dir = app.config['BACKUP_DIR']
 
-    iniciar_scheduler()
+        # Define el nombre del archivo de backup
+        backup_filename = f"{db_name}_backup_{datetime.now().strftime('%Y-%m-%d_%H-%M-%S')}.sql"
+        backup_path = os.path.join(backup_dir, backup_filename)
 
-    
+        # Comando mysqldump
+        dump_command = f"mysqldump -u {db_user} -p{db_password} {db_name} > {backup_path}"
+
+        # Ejecuta el comando
+        os.system(dump_command)
+        print(f"Backup de la base de datos completado: {backup_path}")
+
+    # Iniciar el scheduler
+    scheduler = BackgroundScheduler()
+
+    # Programar las tareas: obtener recursos cada minuto y backup cada minuto
+    scheduler.add_job(obtener_recursos, 'interval', minutes=1)
+    scheduler.add_job(backup_db, 'interval', minutes=1)
+
+    # Iniciar el scheduler
+    scheduler.start()
+
+    # Importa las rutas después de definir la app
+    from . import routes
 
     return app
-
