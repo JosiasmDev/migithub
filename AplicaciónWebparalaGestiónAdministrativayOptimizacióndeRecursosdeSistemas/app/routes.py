@@ -6,7 +6,7 @@ import os
 from datetime import datetime  # Importar datetime
 from .tools.informes import generar_informe_pdf, generar_informe_csv
 from .models import obtener_datos_rendimiento
-from datetime import datetime
+from datetime import datetime, timedelta
 import subprocess
 
 main_routes = Blueprint('main', __name__)
@@ -191,6 +191,9 @@ def backup_db(app):
     if not os.path.exists(backup_dir):
         os.makedirs(backup_dir)
 
+    # Eliminar los backups que no sean de los últimos dos días
+    limpiar_backups_antiguos(backup_dir)
+
      # Define el comando de backup
     dump_command = [
         "C:\\xampp\\mysql\\bin\\mysqldump",  # Ruta al ejecutable de mysqldump
@@ -206,3 +209,22 @@ def backup_db(app):
         flash(f"Backup realizado correctamente: {backup_filename}", 'success')
     except subprocess.CalledProcessError as e:
         flash(f"Error al realizar el backup: {e}", 'danger')
+
+# Función para limpiar los backups antiguos
+def limpiar_backups_antiguos(backup_dir):
+    # Obtén la fecha límite (hace 2 días)
+    fecha_limite = datetime.now() - timedelta(days=2)
+
+    # Recorre los archivos en el directorio de backups
+    for archivo in os.listdir(backup_dir):
+        archivo_path = os.path.join(backup_dir, archivo)
+
+        # Verifica si el archivo es un archivo .sql
+        if os.path.isfile(archivo_path) and archivo.endswith('.sql'):
+            # Obtén la fecha de creación del archivo
+            fecha_creacion = datetime.fromtimestamp(os.path.getctime(archivo_path))
+
+            # Si el archivo es más antiguo que la fecha límite, elimínalo
+            if fecha_creacion < fecha_limite:
+                os.remove(archivo_path)
+                print(f"Backup eliminado: {archivo}")
