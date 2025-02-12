@@ -1,0 +1,27 @@
+{% extends "base.html" %}
+{% block content %}
+<h1>Gestión de Usuarios</h1>
+<table class="table">
+    <thead>
+        <tr>
+            <th>ID</th>
+            <th>Nombre de Usuario</th>
+            <th>Email</th>
+            <th>Acciones</th>
+        </tr>
+    </thead>
+    <tbody>
+        {% for user in users %}
+            <tr>
+                <td>{{ user.id }}</td>
+                <td>{{ user.username }}</td>
+                <td>{{ user.email }}</td>
+                <td>
+                    <a href="#" class="btn btn-warning">Editar</a>
+                    <a href="#" class="btn btn-danger">Borrar</a>
+                </td>
+            </tr>
+        {% endfor %}
+    </tbody>
+</table>
+{% endblock %}

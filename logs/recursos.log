@@ -12345,3 +12345,631 @@ Next wakeup is due at 2025-02-11 12:56:01.741292+01:00 (in 3600.000000 seconds)
 [33mPress CTRL+C to quit[0m
 2025-02-11 11:56:01 -  * Restarting with stat
  * Restarting with stat
+2025-02-12 09:02:37 - Looking up time zone info from registry
+Looking up time zone info from registry
+2025-02-12 09:02:37 - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-02-12 09:02:37 - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-02-12 09:02:37 - Added job "create_app.<locals>.obtener_recursos" to job store "default"
+Added job "create_app.<locals>.obtener_recursos" to job store "default"
+2025-02-12 09:02:37 - Added job "create_app.<locals>.backup_db" to job store "default"
+Added job "create_app.<locals>.backup_db" to job store "default"
+2025-02-12 09:02:37 - Scheduler started
+Scheduler started
+2025-02-12 09:02:37 - Looking for jobs to run
+Looking for jobs to run
+2025-02-12 09:02:37 - Next wakeup is due at 2025-02-12 10:02:37.411787+01:00 (in 3600.000000 seconds)
+Next wakeup is due at 2025-02-12 10:02:37.411787+01:00 (in 3600.000000 seconds)
+2025-02-12 09:02:37 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-02-12 09:02:37 - [33mPress CTRL+C to quit[0m
+[33mPress CTRL+C to quit[0m
+2025-02-12 09:02:37 -  * Restarting with stat
+ * Restarting with stat
+2025-02-12 09:02:41 - Looking up time zone info from registry
+Looking up time zone info from registry
+2025-02-12 09:02:41 - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-02-12 09:02:41 - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-02-12 09:02:41 - Added job "create_app.<locals>.obtener_recursos" to job store "default"
+Added job "create_app.<locals>.obtener_recursos" to job store "default"
+2025-02-12 09:02:41 - Added job "create_app.<locals>.backup_db" to job store "default"
+Added job "create_app.<locals>.backup_db" to job store "default"
+2025-02-12 09:02:41 - Scheduler started
+Scheduler started
+2025-02-12 09:02:41 - Looking for jobs to run
+Looking for jobs to run
+2025-02-12 09:02:41 - Next wakeup is due at 2025-02-12 10:02:41.408830+01:00 (in 3599.994402 seconds)
+Next wakeup is due at 2025-02-12 10:02:41.408830+01:00 (in 3599.994402 seconds)
+2025-02-12 09:02:41 -  * Debugger is active!
+ * Debugger is active!
+2025-02-12 09:02:41 -  * Debugger PIN: 587-271-109
+ * Debugger PIN: 587-271-109
+2025-02-12 09:05:27 - 127.0.0.1 - - [12/Feb/2025 09:05:27] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [12/Feb/2025 09:05:27] "GET / HTTP/1.1" 200 -
+2025-02-12 09:05:27 - 127.0.0.1 - - [12/Feb/2025 09:05:27] "GET /static/css/estilos_gestion_sistemas.css HTTP/1.1" 200 -
+127.0.0.1 - - [12/Feb/2025 09:05:27] "GET /static/css/estilos_gestion_sistemas.css HTTP/1.1" 200 -
+2025-02-12 09:05:27 - 127.0.0.1 - - [12/Feb/2025 09:05:27] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+127.0.0.1 - - [12/Feb/2025 09:05:27] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-02-12 09:05:28 - 127.0.0.1 - - [12/Feb/2025 09:05:28] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [12/Feb/2025 09:05:28] "GET / HTTP/1.1" 200 -
+2025-02-12 09:05:28 - 127.0.0.1 - - [12/Feb/2025 09:05:28] "[36mGET /static/css/estilos_gestion_sistemas.css HTTP/1.1[0m" 304 -
+127.0.0.1 - - [12/Feb/2025 09:05:28] "[36mGET /static/css/estilos_gestion_sistemas.css HTTP/1.1[0m" 304 -
+2025-02-12 09:05:49 - 127.0.0.1 - - [12/Feb/2025 09:05:49] "GET /login HTTP/1.1" 200 -
+127.0.0.1 - - [12/Feb/2025 09:05:49] "GET /login HTTP/1.1" 200 -
+2025-02-12 09:05:49 - 127.0.0.1 - - [12/Feb/2025 09:05:49] "[36mGET /static/css/estilos_gestion_sistemas.css HTTP/1.1[0m" 304 -
+127.0.0.1 - - [12/Feb/2025 09:05:49] "[36mGET /static/css/estilos_gestion_sistemas.css HTTP/1.1[0m" 304 -
+2025-02-12 09:06:00 - 127.0.0.1 - - [12/Feb/2025 09:06:00] "[35m[1mPOST /login HTTP/1.1[0m" 500 -
+127.0.0.1 - - [12/Feb/2025 09:06:00] "[35m[1mPOST /login HTTP/1.1[0m" 500 -
+2025-02-12 09:06:00 - 127.0.0.1 - - [12/Feb/2025 09:06:00] "GET /login?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+127.0.0.1 - - [12/Feb/2025 09:06:00] "GET /login?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2025-02-12 09:06:00 - 127.0.0.1 - - [12/Feb/2025 09:06:00] "GET /login?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+127.0.0.1 - - [12/Feb/2025 09:06:00] "GET /login?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2025-02-12 09:06:00 - 127.0.0.1 - - [12/Feb/2025 09:06:00] "GET /login?__debugger__=yes&cmd=resource&f=console.png&s=DwjfM2OQdEJRB6cuUkml HTTP/1.1" 200 -
+127.0.0.1 - - [12/Feb/2025 09:06:00] "GET /login?__debugger__=yes&cmd=resource&f=console.png&s=DwjfM2OQdEJRB6cuUkml HTTP/1.1" 200 -
+2025-02-12 09:06:00 - 127.0.0.1 - - [12/Feb/2025 09:06:00] "GET /login?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+127.0.0.1 - - [12/Feb/2025 09:06:00] "GET /login?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2025-02-12 09:06:09 - 127.0.0.1 - - [12/Feb/2025 09:06:09] "GET /registro HTTP/1.1" 200 -
+127.0.0.1 - - [12/Feb/2025 09:06:09] "GET /registro HTTP/1.1" 200 -
+2025-02-12 09:06:09 - 127.0.0.1 - - [12/Feb/2025 09:06:09] "[36mGET /static/css/estilos_gestion_sistemas.css HTTP/1.1[0m" 304 -
+127.0.0.1 - - [12/Feb/2025 09:06:09] "[36mGET /static/css/estilos_gestion_sistemas.css HTTP/1.1[0m" 304 -
+2025-02-12 09:06:28 - 127.0.0.1 - - [12/Feb/2025 09:06:28] "[35m[1mPOST /registro HTTP/1.1[0m" 500 -
+127.0.0.1 - - [12/Feb/2025 09:06:28] "[35m[1mPOST /registro HTTP/1.1[0m" 500 -
+2025-02-12 09:06:28 - 127.0.0.1 - - [12/Feb/2025 09:06:28] "GET /registro?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+127.0.0.1 - - [12/Feb/2025 09:06:28] "GET /registro?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2025-02-12 09:06:28 - 127.0.0.1 - - [12/Feb/2025 09:06:28] "GET /registro?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+127.0.0.1 - - [12/Feb/2025 09:06:28] "GET /registro?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2025-02-12 09:06:28 - 127.0.0.1 - - [12/Feb/2025 09:06:28] "GET /registro?__debugger__=yes&cmd=resource&f=console.png&s=DwjfM2OQdEJRB6cuUkml HTTP/1.1" 200 -
+127.0.0.1 - - [12/Feb/2025 09:06:28] "GET /registro?__debugger__=yes&cmd=resource&f=console.png&s=DwjfM2OQdEJRB6cuUkml HTTP/1.1" 200 -
+2025-02-12 09:06:28 - 127.0.0.1 - - [12/Feb/2025 09:06:28] "GET /registro?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+127.0.0.1 - - [12/Feb/2025 09:06:28] "GET /registro?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2025-02-12 09:07:23 - Looking up time zone info from registry
+Looking up time zone info from registry
+2025-02-12 09:07:23 - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-02-12 09:07:23 - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-02-12 09:07:23 - Added job "create_app.<locals>.obtener_recursos" to job store "default"
+Added job "create_app.<locals>.obtener_recursos" to job store "default"
+2025-02-12 09:07:23 - Added job "create_app.<locals>.backup_db" to job store "default"
+Added job "create_app.<locals>.backup_db" to job store "default"
+2025-02-12 09:07:23 - Scheduler started
+Scheduler started
+2025-02-12 09:07:23 - Looking for jobs to run
+Looking for jobs to run
+2025-02-12 09:07:23 - Next wakeup is due at 2025-02-12 10:07:23.311665+01:00 (in 3599.997034 seconds)
+Next wakeup is due at 2025-02-12 10:07:23.311665+01:00 (in 3599.997034 seconds)
+2025-02-12 09:07:23 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-02-12 09:07:23 - [33mPress CTRL+C to quit[0m
+[33mPress CTRL+C to quit[0m
+2025-02-12 09:07:23 -  * Restarting with stat
+ * Restarting with stat
+2025-02-12 09:07:24 - Looking up time zone info from registry
+Looking up time zone info from registry
+2025-02-12 09:07:24 - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-02-12 09:07:24 - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-02-12 09:07:24 - Added job "create_app.<locals>.obtener_recursos" to job store "default"
+Added job "create_app.<locals>.obtener_recursos" to job store "default"
+2025-02-12 09:07:24 - Added job "create_app.<locals>.backup_db" to job store "default"
+Added job "create_app.<locals>.backup_db" to job store "default"
+2025-02-12 09:07:24 - Scheduler started
+Scheduler started
+2025-02-12 09:07:24 - Looking for jobs to run
+Looking for jobs to run
+2025-02-12 09:07:24 - Next wakeup is due at 2025-02-12 10:07:24.302604+01:00 (in 3599.997124 seconds)
+Next wakeup is due at 2025-02-12 10:07:24.302604+01:00 (in 3599.997124 seconds)
+2025-02-12 09:07:24 -  * Debugger is active!
+ * Debugger is active!
+2025-02-12 09:07:24 -  * Debugger PIN: 587-271-109
+ * Debugger PIN: 587-271-109
+2025-02-12 09:07:50 - 127.0.0.1 - - [12/Feb/2025 09:07:50] "[32mPOST /registro HTTP/1.1[0m" 302 -
+127.0.0.1 - - [12/Feb/2025 09:07:50] "[32mPOST /registro HTTP/1.1[0m" 302 -
+2025-02-12 09:07:50 - 127.0.0.1 - - [12/Feb/2025 09:07:50] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [12/Feb/2025 09:07:50] "GET / HTTP/1.1" 200 -
+2025-02-12 09:07:50 - 127.0.0.1 - - [12/Feb/2025 09:07:50] "[36mGET /static/css/estilos_gestion_sistemas.css HTTP/1.1[0m" 304 -
+127.0.0.1 - - [12/Feb/2025 09:07:50] "[36mGET /static/css/estilos_gestion_sistemas.css HTTP/1.1[0m" 304 -
+2025-02-12 09:07:55 - 127.0.0.1 - - [12/Feb/2025 09:07:55] "GET /usuarios HTTP/1.1" 200 -
+127.0.0.1 - - [12/Feb/2025 09:07:55] "GET /usuarios HTTP/1.1" 200 -
+2025-02-12 09:07:55 - 127.0.0.1 - - [12/Feb/2025 09:07:55] "[36mGET /static/css/estilos_gestion_sistemas.css HTTP/1.1[0m" 304 -
+127.0.0.1 - - [12/Feb/2025 09:07:55] "[36mGET /static/css/estilos_gestion_sistemas.css HTTP/1.1[0m" 304 -
+2025-02-12 09:08:01 - 127.0.0.1 - - [12/Feb/2025 09:08:01] "GET /login HTTP/1.1" 200 -
+127.0.0.1 - - [12/Feb/2025 09:08:01] "GET /login HTTP/1.1" 200 -
+2025-02-12 09:08:01 - 127.0.0.1 - - [12/Feb/2025 09:08:01] "[36mGET /static/css/estilos_gestion_sistemas.css HTTP/1.1[0m" 304 -
+127.0.0.1 - - [12/Feb/2025 09:08:01] "[36mGET /static/css/estilos_gestion_sistemas.css HTTP/1.1[0m" 304 -
+2025-02-12 09:08:11 - 127.0.0.1 - - [12/Feb/2025 09:08:11] "POST /login HTTP/1.1" 200 -
+127.0.0.1 - - [12/Feb/2025 09:08:11] "POST /login HTTP/1.1" 200 -
+2025-02-12 09:08:11 - 127.0.0.1 - - [12/Feb/2025 09:08:11] "[36mGET /static/css/estilos_gestion_sistemas.css HTTP/1.1[0m" 304 -
+127.0.0.1 - - [12/Feb/2025 09:08:11] "[36mGET /static/css/estilos_gestion_sistemas.css HTTP/1.1[0m" 304 -
+2025-02-12 09:08:23 - 127.0.0.1 - - [12/Feb/2025 09:08:23] "[32mPOST /login HTTP/1.1[0m" 302 -
+127.0.0.1 - - [12/Feb/2025 09:08:23] "[32mPOST /login HTTP/1.1[0m" 302 -
+2025-02-12 09:08:23 - 127.0.0.1 - - [12/Feb/2025 09:08:23] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [12/Feb/2025 09:08:23] "GET / HTTP/1.1" 200 -
+2025-02-12 09:08:23 - 127.0.0.1 - - [12/Feb/2025 09:08:23] "[36mGET /static/css/estilos_gestion_sistemas.css HTTP/1.1[0m" 304 -
+127.0.0.1 - - [12/Feb/2025 09:08:23] "[36mGET /static/css/estilos_gestion_sistemas.css HTTP/1.1[0m" 304 -
+2025-02-12 09:08:55 - 127.0.0.1 - - [12/Feb/2025 09:08:55] "GET /usuarios HTTP/1.1" 200 -
+127.0.0.1 - - [12/Feb/2025 09:08:55] "GET /usuarios HTTP/1.1" 200 -
+2025-02-12 09:08:55 - 127.0.0.1 - - [12/Feb/2025 09:08:55] "[36mGET /static/css/estilos_gestion_sistemas.css HTTP/1.1[0m" 304 -
+127.0.0.1 - - [12/Feb/2025 09:08:55] "[36mGET /static/css/estilos_gestion_sistemas.css HTTP/1.1[0m" 304 -
+2025-02-12 09:14:09 -  * Detected change in 'C:\\xampp\\htdocs\\xampp\\migithub\\AplicaciónWebparalaGestiónAdministrativayOptimizacióndeRecursosdeSistemas\\app\\routes.py', reloading
+ * Detected change in 'C:\\xampp\\htdocs\\xampp\\migithub\\AplicaciónWebparalaGestiónAdministrativayOptimizacióndeRecursosdeSistemas\\app\\routes.py', reloading
+2025-02-12 09:14:09 -  * Restarting with stat
+ * Restarting with stat
+2025-02-12 09:14:11 - Looking up time zone info from registry
+Looking up time zone info from registry
+2025-02-12 09:14:11 - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-02-12 09:14:11 - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-02-12 09:14:11 - Added job "create_app.<locals>.obtener_recursos" to job store "default"
+Added job "create_app.<locals>.obtener_recursos" to job store "default"
+2025-02-12 09:14:11 - Added job "create_app.<locals>.backup_db" to job store "default"
+Added job "create_app.<locals>.backup_db" to job store "default"
+2025-02-12 09:14:11 - Scheduler started
+Scheduler started
+2025-02-12 09:14:11 - Looking for jobs to run
+Looking for jobs to run
+2025-02-12 09:14:11 - Next wakeup is due at 2025-02-12 10:14:11.480732+01:00 (in 3600.000000 seconds)
+Next wakeup is due at 2025-02-12 10:14:11.480732+01:00 (in 3600.000000 seconds)
+2025-02-12 09:14:11 -  * Debugger is active!
+ * Debugger is active!
+2025-02-12 09:14:11 -  * Debugger PIN: 587-271-109
+ * Debugger PIN: 587-271-109
+2025-02-12 09:15:37 - 127.0.0.1 - - [12/Feb/2025 09:15:37] "[35m[1mGET /usuarios HTTP/1.1[0m" 500 -
+127.0.0.1 - - [12/Feb/2025 09:15:37] "[35m[1mGET /usuarios HTTP/1.1[0m" 500 -
+2025-02-12 09:15:37 - 127.0.0.1 - - [12/Feb/2025 09:15:37] "GET /usuarios?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+127.0.0.1 - - [12/Feb/2025 09:15:37] "GET /usuarios?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2025-02-12 09:15:37 - 127.0.0.1 - - [12/Feb/2025 09:15:37] "GET /usuarios?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+127.0.0.1 - - [12/Feb/2025 09:15:37] "GET /usuarios?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2025-02-12 09:15:37 - 127.0.0.1 - - [12/Feb/2025 09:15:37] "GET /usuarios?__debugger__=yes&cmd=resource&f=console.png&s=RzrLOkTFPnumjjxJL9Fb HTTP/1.1" 200 -
+127.0.0.1 - - [12/Feb/2025 09:15:37] "GET /usuarios?__debugger__=yes&cmd=resource&f=console.png&s=RzrLOkTFPnumjjxJL9Fb HTTP/1.1" 200 -
+2025-02-12 09:15:37 - 127.0.0.1 - - [12/Feb/2025 09:15:37] "GET /usuarios?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+127.0.0.1 - - [12/Feb/2025 09:15:37] "GET /usuarios?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2025-02-12 09:16:32 -  * Detected change in 'C:\\xampp\\htdocs\\xampp\\migithub\\AplicaciónWebparalaGestiónAdministrativayOptimizacióndeRecursosdeSistemas\\app\\routes.py', reloading
+ * Detected change in 'C:\\xampp\\htdocs\\xampp\\migithub\\AplicaciónWebparalaGestiónAdministrativayOptimizacióndeRecursosdeSistemas\\app\\routes.py', reloading
+2025-02-12 09:16:32 -  * Restarting with stat
+ * Restarting with stat
+2025-02-12 09:16:34 - Looking up time zone info from registry
+Looking up time zone info from registry
+2025-02-12 09:16:34 - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-02-12 09:16:34 - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-02-12 09:16:34 - Added job "create_app.<locals>.obtener_recursos" to job store "default"
+Added job "create_app.<locals>.obtener_recursos" to job store "default"
+2025-02-12 09:16:34 - Added job "create_app.<locals>.backup_db" to job store "default"
+Added job "create_app.<locals>.backup_db" to job store "default"
+2025-02-12 09:16:34 - Scheduler started
+Scheduler started
+2025-02-12 09:16:34 - Looking for jobs to run
+Looking for jobs to run
+2025-02-12 09:16:34 - Next wakeup is due at 2025-02-12 10:16:34.206307+01:00 (in 3599.989656 seconds)
+Next wakeup is due at 2025-02-12 10:16:34.206307+01:00 (in 3599.989656 seconds)
+2025-02-12 09:16:34 -  * Debugger is active!
+ * Debugger is active!
+2025-02-12 09:16:34 -  * Debugger PIN: 587-271-109
+ * Debugger PIN: 587-271-109
+2025-02-12 09:16:39 - Looking up time zone info from registry
+Looking up time zone info from registry
+2025-02-12 09:16:39 - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-02-12 09:16:39 - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-02-12 09:16:39 - Added job "create_app.<locals>.obtener_recursos" to job store "default"
+Added job "create_app.<locals>.obtener_recursos" to job store "default"
+2025-02-12 09:16:39 - Added job "create_app.<locals>.backup_db" to job store "default"
+Added job "create_app.<locals>.backup_db" to job store "default"
+2025-02-12 09:16:39 - Scheduler started
+Scheduler started
+2025-02-12 09:16:39 - Looking for jobs to run
+Looking for jobs to run
+2025-02-12 09:16:39 - Next wakeup is due at 2025-02-12 10:16:39.112929+01:00 (in 3599.995709 seconds)
+Next wakeup is due at 2025-02-12 10:16:39.112929+01:00 (in 3599.995709 seconds)
+2025-02-12 09:16:39 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-02-12 09:16:39 - [33mPress CTRL+C to quit[0m
+[33mPress CTRL+C to quit[0m
+2025-02-12 09:16:39 -  * Restarting with stat
+ * Restarting with stat
+2025-02-12 09:16:40 - Looking up time zone info from registry
+Looking up time zone info from registry
+2025-02-12 09:16:40 - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-02-12 09:16:40 - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-02-12 09:16:40 - Added job "create_app.<locals>.obtener_recursos" to job store "default"
+Added job "create_app.<locals>.obtener_recursos" to job store "default"
+2025-02-12 09:16:40 - Added job "create_app.<locals>.backup_db" to job store "default"
+Added job "create_app.<locals>.backup_db" to job store "default"
+2025-02-12 09:16:40 - Scheduler started
+Scheduler started
+2025-02-12 09:16:40 - Looking for jobs to run
+Looking for jobs to run
+2025-02-12 09:16:40 - Next wakeup is due at 2025-02-12 10:16:40.092049+01:00 (in 3599.992406 seconds)
+Next wakeup is due at 2025-02-12 10:16:40.092049+01:00 (in 3599.992406 seconds)
+2025-02-12 09:16:40 -  * Debugger is active!
+ * Debugger is active!
+2025-02-12 09:16:40 -  * Debugger PIN: 587-271-109
+ * Debugger PIN: 587-271-109
+2025-02-12 09:16:44 - 127.0.0.1 - - [12/Feb/2025 09:16:44] "[35m[1mGET /usuarios HTTP/1.1[0m" 500 -
+127.0.0.1 - - [12/Feb/2025 09:16:44] "[35m[1mGET /usuarios HTTP/1.1[0m" 500 -
+2025-02-12 09:16:44 - 127.0.0.1 - - [12/Feb/2025 09:16:44] "[36mGET /usuarios?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+127.0.0.1 - - [12/Feb/2025 09:16:44] "[36mGET /usuarios?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2025-02-12 09:16:44 - 127.0.0.1 - - [12/Feb/2025 09:16:44] "[36mGET /usuarios?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+127.0.0.1 - - [12/Feb/2025 09:16:44] "[36mGET /usuarios?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2025-02-12 09:16:44 - 127.0.0.1 - - [12/Feb/2025 09:16:44] "GET /usuarios?__debugger__=yes&cmd=resource&f=console.png&s=ORgyvKYFe12QXtB7b3ZE HTTP/1.1" 200 -
+127.0.0.1 - - [12/Feb/2025 09:16:44] "GET /usuarios?__debugger__=yes&cmd=resource&f=console.png&s=ORgyvKYFe12QXtB7b3ZE HTTP/1.1" 200 -
+2025-02-12 09:18:36 -  * Detected change in 'C:\\xampp\\htdocs\\xampp\\migithub\\AplicaciónWebparalaGestiónAdministrativayOptimizacióndeRecursosdeSistemas\\app\\routes.py', reloading
+ * Detected change in 'C:\\xampp\\htdocs\\xampp\\migithub\\AplicaciónWebparalaGestiónAdministrativayOptimizacióndeRecursosdeSistemas\\app\\routes.py', reloading
+2025-02-12 09:18:36 -  * Restarting with stat
+ * Restarting with stat
+2025-02-12 09:18:56 - Looking up time zone info from registry
+Looking up time zone info from registry
+2025-02-12 09:18:56 - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-02-12 09:18:56 - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-02-12 09:18:56 - Added job "create_app.<locals>.obtener_recursos" to job store "default"
+Added job "create_app.<locals>.obtener_recursos" to job store "default"
+2025-02-12 09:18:56 - Added job "create_app.<locals>.backup_db" to job store "default"
+Added job "create_app.<locals>.backup_db" to job store "default"
+2025-02-12 09:18:56 - Scheduler started
+Scheduler started
+2025-02-12 09:18:56 - Looking for jobs to run
+Looking for jobs to run
+2025-02-12 09:18:56 - Next wakeup is due at 2025-02-12 10:18:56.505216+01:00 (in 3600.000000 seconds)
+Next wakeup is due at 2025-02-12 10:18:56.505216+01:00 (in 3600.000000 seconds)
+2025-02-12 09:18:56 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-02-12 09:18:56 - [33mPress CTRL+C to quit[0m
+[33mPress CTRL+C to quit[0m
+2025-02-12 09:18:56 -  * Restarting with stat
+ * Restarting with stat
+2025-02-12 09:18:57 - Looking up time zone info from registry
+Looking up time zone info from registry
+2025-02-12 09:18:57 - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-02-12 09:18:57 - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-02-12 09:18:57 - Added job "create_app.<locals>.obtener_recursos" to job store "default"
+Added job "create_app.<locals>.obtener_recursos" to job store "default"
+2025-02-12 09:18:57 - Added job "create_app.<locals>.backup_db" to job store "default"
+Added job "create_app.<locals>.backup_db" to job store "default"
+2025-02-12 09:18:57 - Scheduler started
+Scheduler started
+2025-02-12 09:18:57 - Looking for jobs to run
+Looking for jobs to run
+2025-02-12 09:18:57 - Next wakeup is due at 2025-02-12 10:18:57.662433+01:00 (in 3599.992634 seconds)
+Next wakeup is due at 2025-02-12 10:18:57.662433+01:00 (in 3599.992634 seconds)
+2025-02-12 09:18:57 -  * Debugger is active!
+ * Debugger is active!
+2025-02-12 09:18:57 -  * Debugger PIN: 587-271-109
+ * Debugger PIN: 587-271-109
+2025-02-12 09:19:01 - 127.0.0.1 - - [12/Feb/2025 09:19:01] "[35m[1mGET /usuarios HTTP/1.1[0m" 500 -
+127.0.0.1 - - [12/Feb/2025 09:19:01] "[35m[1mGET /usuarios HTTP/1.1[0m" 500 -
+2025-02-12 09:19:01 - 127.0.0.1 - - [12/Feb/2025 09:19:01] "[36mGET /usuarios?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+127.0.0.1 - - [12/Feb/2025 09:19:01] "[36mGET /usuarios?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2025-02-12 09:19:01 - 127.0.0.1 - - [12/Feb/2025 09:19:01] "[36mGET /usuarios?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+127.0.0.1 - - [12/Feb/2025 09:19:01] "[36mGET /usuarios?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2025-02-12 09:19:01 - 127.0.0.1 - - [12/Feb/2025 09:19:01] "GET /usuarios?__debugger__=yes&cmd=resource&f=console.png&s=5SU74CHk35kfPAEeQ2UD HTTP/1.1" 200 -
+127.0.0.1 - - [12/Feb/2025 09:19:01] "GET /usuarios?__debugger__=yes&cmd=resource&f=console.png&s=5SU74CHk35kfPAEeQ2UD HTTP/1.1" 200 -
+2025-02-12 09:20:34 -  * Detected change in 'C:\\xampp\\htdocs\\xampp\\migithub\\AplicaciónWebparalaGestiónAdministrativayOptimizacióndeRecursosdeSistemas\\app\\__init__.py', reloading
+ * Detected change in 'C:\\xampp\\htdocs\\xampp\\migithub\\AplicaciónWebparalaGestiónAdministrativayOptimizacióndeRecursosdeSistemas\\app\\__init__.py', reloading
+2025-02-12 09:20:34 -  * Restarting with stat
+ * Restarting with stat
+2025-02-12 09:24:59 - Looking up time zone info from registry
+Looking up time zone info from registry
+2025-02-12 09:24:59 - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-02-12 09:24:59 - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-02-12 09:24:59 - Added job "create_app.<locals>.obtener_recursos" to job store "default"
+Added job "create_app.<locals>.obtener_recursos" to job store "default"
+2025-02-12 09:24:59 - Added job "create_app.<locals>.backup_db" to job store "default"
+Added job "create_app.<locals>.backup_db" to job store "default"
+2025-02-12 09:24:59 - Scheduler started
+Scheduler started
+2025-02-12 09:24:59 - Looking for jobs to run
+Looking for jobs to run
+2025-02-12 09:24:59 - Next wakeup is due at 2025-02-12 10:24:59.850308+01:00 (in 3599.997994 seconds)
+Next wakeup is due at 2025-02-12 10:24:59.850308+01:00 (in 3599.997994 seconds)
+2025-02-12 09:24:59 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-02-12 09:24:59 - [33mPress CTRL+C to quit[0m
+[33mPress CTRL+C to quit[0m
+2025-02-12 09:24:59 -  * Restarting with stat
+ * Restarting with stat
+2025-02-12 09:25:00 - Looking up time zone info from registry
+Looking up time zone info from registry
+2025-02-12 09:25:00 - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-02-12 09:25:00 - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-02-12 09:25:00 - Added job "create_app.<locals>.obtener_recursos" to job store "default"
+Added job "create_app.<locals>.obtener_recursos" to job store "default"
+2025-02-12 09:25:00 - Added job "create_app.<locals>.backup_db" to job store "default"
+Added job "create_app.<locals>.backup_db" to job store "default"
+2025-02-12 09:25:00 - Scheduler started
+Scheduler started
+2025-02-12 09:25:00 - Looking for jobs to run
+Looking for jobs to run
+2025-02-12 09:25:00 - Next wakeup is due at 2025-02-12 10:25:00.816897+01:00 (in 3599.997995 seconds)
+Next wakeup is due at 2025-02-12 10:25:00.816897+01:00 (in 3599.997995 seconds)
+2025-02-12 09:25:00 -  * Debugger is active!
+ * Debugger is active!
+2025-02-12 09:25:00 -  * Debugger PIN: 587-271-109
+ * Debugger PIN: 587-271-109
+2025-02-12 09:25:05 - 127.0.0.1 - - [12/Feb/2025 09:25:05] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [12/Feb/2025 09:25:05] "GET / HTTP/1.1" 200 -
+2025-02-12 09:25:05 - 127.0.0.1 - - [12/Feb/2025 09:25:05] "[36mGET /static/css/estilos_gestion_sistemas.css HTTP/1.1[0m" 304 -
+127.0.0.1 - - [12/Feb/2025 09:25:05] "[36mGET /static/css/estilos_gestion_sistemas.css HTTP/1.1[0m" 304 -
+2025-02-12 09:25:12 - 127.0.0.1 - - [12/Feb/2025 09:25:12] "GET /login HTTP/1.1" 200 -
+127.0.0.1 - - [12/Feb/2025 09:25:12] "GET /login HTTP/1.1" 200 -
+2025-02-12 09:25:12 - 127.0.0.1 - - [12/Feb/2025 09:25:12] "[36mGET /static/css/estilos_gestion_sistemas.css HTTP/1.1[0m" 304 -
+127.0.0.1 - - [12/Feb/2025 09:25:12] "[36mGET /static/css/estilos_gestion_sistemas.css HTTP/1.1[0m" 304 -
+2025-02-12 09:25:20 - 127.0.0.1 - - [12/Feb/2025 09:25:20] "[32mPOST /login HTTP/1.1[0m" 302 -
+127.0.0.1 - - [12/Feb/2025 09:25:20] "[32mPOST /login HTTP/1.1[0m" 302 -
+2025-02-12 09:25:20 - 127.0.0.1 - - [12/Feb/2025 09:25:20] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [12/Feb/2025 09:25:20] "GET / HTTP/1.1" 200 -
+2025-02-12 09:25:20 - 127.0.0.1 - - [12/Feb/2025 09:25:20] "[36mGET /static/css/estilos_gestion_sistemas.css HTTP/1.1[0m" 304 -
+127.0.0.1 - - [12/Feb/2025 09:25:20] "[36mGET /static/css/estilos_gestion_sistemas.css HTTP/1.1[0m" 304 -
+2025-02-12 09:28:05 -  * Detected change in 'C:\\xampp\\htdocs\\xampp\\migithub\\AplicaciónWebparalaGestiónAdministrativayOptimizacióndeRecursosdeSistemas\\app\\__init__.py', reloading
+ * Detected change in 'C:\\xampp\\htdocs\\xampp\\migithub\\AplicaciónWebparalaGestiónAdministrativayOptimizacióndeRecursosdeSistemas\\app\\__init__.py', reloading
+2025-02-12 09:28:05 -  * Restarting with stat
+ * Restarting with stat
+2025-02-12 09:32:37 - Looking up time zone info from registry
+Looking up time zone info from registry
+2025-02-12 09:32:37 - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-02-12 09:32:37 - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-02-12 09:32:37 - Added job "create_app.<locals>.obtener_recursos" to job store "default"
+Added job "create_app.<locals>.obtener_recursos" to job store "default"
+2025-02-12 09:32:37 - Added job "create_app.<locals>.backup_db" to job store "default"
+Added job "create_app.<locals>.backup_db" to job store "default"
+2025-02-12 09:32:37 - Scheduler started
+Scheduler started
+2025-02-12 09:32:37 - Looking for jobs to run
+Looking for jobs to run
+2025-02-12 09:32:37 - Next wakeup is due at 2025-02-12 10:32:37.995549+01:00 (in 3599.997994 seconds)
+Next wakeup is due at 2025-02-12 10:32:37.995549+01:00 (in 3599.997994 seconds)
+2025-02-12 09:32:38 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-02-12 09:32:38 - [33mPress CTRL+C to quit[0m
+[33mPress CTRL+C to quit[0m
+2025-02-12 09:32:38 -  * Restarting with stat
+ * Restarting with stat
+2025-02-12 09:32:38 - Looking up time zone info from registry
+Looking up time zone info from registry
+2025-02-12 09:32:38 - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-02-12 09:32:38 - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-02-12 09:32:38 - Added job "create_app.<locals>.obtener_recursos" to job store "default"
+Added job "create_app.<locals>.obtener_recursos" to job store "default"
+2025-02-12 09:32:38 - Added job "create_app.<locals>.backup_db" to job store "default"
+Added job "create_app.<locals>.backup_db" to job store "default"
+2025-02-12 09:32:38 - Scheduler started
+Scheduler started
+2025-02-12 09:32:38 - Looking for jobs to run
+Looking for jobs to run
+2025-02-12 09:32:38 - Next wakeup is due at 2025-02-12 10:32:38.984345+01:00 (in 3600.000000 seconds)
+Next wakeup is due at 2025-02-12 10:32:38.984345+01:00 (in 3600.000000 seconds)
+2025-02-12 09:32:38 -  * Debugger is active!
+ * Debugger is active!
+2025-02-12 09:32:39 -  * Debugger PIN: 587-271-109
+ * Debugger PIN: 587-271-109
+2025-02-12 09:32:41 - 127.0.0.1 - - [12/Feb/2025 09:32:41] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [12/Feb/2025 09:32:41] "GET / HTTP/1.1" 200 -
+2025-02-12 09:32:41 - 127.0.0.1 - - [12/Feb/2025 09:32:41] "[36mGET /static/css/estilos_gestion_sistemas.css HTTP/1.1[0m" 304 -
+127.0.0.1 - - [12/Feb/2025 09:32:41] "[36mGET /static/css/estilos_gestion_sistemas.css HTTP/1.1[0m" 304 -
+2025-02-12 09:32:49 - 127.0.0.1 - - [12/Feb/2025 09:32:49] "GET /login HTTP/1.1" 200 -
+127.0.0.1 - - [12/Feb/2025 09:32:49] "GET /login HTTP/1.1" 200 -
+2025-02-12 09:32:49 - 127.0.0.1 - - [12/Feb/2025 09:32:49] "[36mGET /static/css/estilos_gestion_sistemas.css HTTP/1.1[0m" 304 -
+127.0.0.1 - - [12/Feb/2025 09:32:49] "[36mGET /static/css/estilos_gestion_sistemas.css HTTP/1.1[0m" 304 -
+2025-02-12 09:32:56 - 127.0.0.1 - - [12/Feb/2025 09:32:56] "POST /login HTTP/1.1" 200 -
+127.0.0.1 - - [12/Feb/2025 09:32:56] "POST /login HTTP/1.1" 200 -
+2025-02-12 09:32:56 - 127.0.0.1 - - [12/Feb/2025 09:32:56] "[36mGET /static/css/estilos_gestion_sistemas.css HTTP/1.1[0m" 304 -
+127.0.0.1 - - [12/Feb/2025 09:32:56] "[36mGET /static/css/estilos_gestion_sistemas.css HTTP/1.1[0m" 304 -
+2025-02-12 09:33:07 - 127.0.0.1 - - [12/Feb/2025 09:33:07] "[32mPOST /login HTTP/1.1[0m" 302 -
+127.0.0.1 - - [12/Feb/2025 09:33:07] "[32mPOST /login HTTP/1.1[0m" 302 -
+2025-02-12 09:33:07 - 127.0.0.1 - - [12/Feb/2025 09:33:07] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [12/Feb/2025 09:33:07] "GET / HTTP/1.1" 200 -
+2025-02-12 09:33:07 - 127.0.0.1 - - [12/Feb/2025 09:33:07] "[36mGET /static/css/estilos_gestion_sistemas.css HTTP/1.1[0m" 304 -
+127.0.0.1 - - [12/Feb/2025 09:33:07] "[36mGET /static/css/estilos_gestion_sistemas.css HTTP/1.1[0m" 304 -
+2025-02-12 09:40:24 - 127.0.0.1 - - [12/Feb/2025 09:40:24] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [12/Feb/2025 09:40:24] "GET / HTTP/1.1" 200 -
+2025-02-12 09:40:24 - 127.0.0.1 - - [12/Feb/2025 09:40:24] "[36mGET /static/css/estilos_gestion_sistemas.css HTTP/1.1[0m" 304 -
+127.0.0.1 - - [12/Feb/2025 09:40:24] "[36mGET /static/css/estilos_gestion_sistemas.css HTTP/1.1[0m" 304 -
+2025-02-12 09:40:46 - 127.0.0.1 - - [12/Feb/2025 09:40:46] "GET /login HTTP/1.1" 200 -
+127.0.0.1 - - [12/Feb/2025 09:40:46] "GET /login HTTP/1.1" 200 -
+2025-02-12 09:40:46 - 127.0.0.1 - - [12/Feb/2025 09:40:46] "[36mGET /static/css/estilos_gestion_sistemas.css HTTP/1.1[0m" 304 -
+127.0.0.1 - - [12/Feb/2025 09:40:46] "[36mGET /static/css/estilos_gestion_sistemas.css HTTP/1.1[0m" 304 -
+2025-02-12 09:40:48 - 127.0.0.1 - - [12/Feb/2025 09:40:48] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [12/Feb/2025 09:40:48] "GET / HTTP/1.1" 200 -
+2025-02-12 09:40:48 - 127.0.0.1 - - [12/Feb/2025 09:40:48] "[36mGET /static/css/estilos_gestion_sistemas.css HTTP/1.1[0m" 304 -
+127.0.0.1 - - [12/Feb/2025 09:40:48] "[36mGET /static/css/estilos_gestion_sistemas.css HTTP/1.1[0m" 304 -
+2025-02-12 09:41:11 - 127.0.0.1 - - [12/Feb/2025 09:41:11] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [12/Feb/2025 09:41:11] "GET / HTTP/1.1" 200 -
+2025-02-12 09:41:11 - 127.0.0.1 - - [12/Feb/2025 09:41:11] "[36mGET /static/css/estilos_gestion_sistemas.css HTTP/1.1[0m" 304 -
+127.0.0.1 - - [12/Feb/2025 09:41:11] "[36mGET /static/css/estilos_gestion_sistemas.css HTTP/1.1[0m" 304 -
+2025-02-12 09:42:05 - 127.0.0.1 - - [12/Feb/2025 09:42:05] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [12/Feb/2025 09:42:05] "GET / HTTP/1.1" 200 -
+2025-02-12 09:42:05 - 127.0.0.1 - - [12/Feb/2025 09:42:05] "[36mGET /static/css/estilos_gestion_sistemas.css HTTP/1.1[0m" 304 -
+127.0.0.1 - - [12/Feb/2025 09:42:05] "[36mGET /static/css/estilos_gestion_sistemas.css HTTP/1.1[0m" 304 -
+2025-02-12 09:43:04 - 127.0.0.1 - - [12/Feb/2025 09:43:04] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [12/Feb/2025 09:43:04] "GET / HTTP/1.1" 200 -
+2025-02-12 09:43:04 - 127.0.0.1 - - [12/Feb/2025 09:43:04] "[36mGET /static/css/estilos_gestion_sistemas.css HTTP/1.1[0m" 304 -
+127.0.0.1 - - [12/Feb/2025 09:43:04] "[36mGET /static/css/estilos_gestion_sistemas.css HTTP/1.1[0m" 304 -
+2025-02-12 09:43:35 - 127.0.0.1 - - [12/Feb/2025 09:43:35] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [12/Feb/2025 09:43:35] "GET / HTTP/1.1" 200 -
+2025-02-12 09:43:35 - 127.0.0.1 - - [12/Feb/2025 09:43:35] "[36mGET /static/css/estilos_gestion_sistemas.css HTTP/1.1[0m" 304 -
+127.0.0.1 - - [12/Feb/2025 09:43:35] "[36mGET /static/css/estilos_gestion_sistemas.css HTTP/1.1[0m" 304 -
+2025-02-12 09:43:36 - 127.0.0.1 - - [12/Feb/2025 09:43:36] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [12/Feb/2025 09:43:36] "GET / HTTP/1.1" 200 -
+2025-02-12 09:43:36 - 127.0.0.1 - - [12/Feb/2025 09:43:36] "[36mGET /static/css/estilos_gestion_sistemas.css HTTP/1.1[0m" 304 -
+127.0.0.1 - - [12/Feb/2025 09:43:36] "[36mGET /static/css/estilos_gestion_sistemas.css HTTP/1.1[0m" 304 -
+2025-02-12 09:43:36 - 127.0.0.1 - - [12/Feb/2025 09:43:36] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [12/Feb/2025 09:43:36] "GET / HTTP/1.1" 200 -
+2025-02-12 09:43:36 - 127.0.0.1 - - [12/Feb/2025 09:43:36] "[36mGET /static/css/estilos_gestion_sistemas.css HTTP/1.1[0m" 304 -
+127.0.0.1 - - [12/Feb/2025 09:43:36] "[36mGET /static/css/estilos_gestion_sistemas.css HTTP/1.1[0m" 304 -
+2025-02-12 09:43:36 - 127.0.0.1 - - [12/Feb/2025 09:43:36] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [12/Feb/2025 09:43:36] "GET / HTTP/1.1" 200 -
+2025-02-12 09:43:36 - 127.0.0.1 - - [12/Feb/2025 09:43:36] "[36mGET /static/css/estilos_gestion_sistemas.css HTTP/1.1[0m" 304 -
+127.0.0.1 - - [12/Feb/2025 09:43:36] "[36mGET /static/css/estilos_gestion_sistemas.css HTTP/1.1[0m" 304 -
+2025-02-12 09:44:08 - 127.0.0.1 - - [12/Feb/2025 09:44:08] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [12/Feb/2025 09:44:08] "GET / HTTP/1.1" 200 -
+2025-02-12 09:44:08 - 127.0.0.1 - - [12/Feb/2025 09:44:08] "[36mGET /static/css/estilos_gestion_sistemas.css HTTP/1.1[0m" 304 -
+127.0.0.1 - - [12/Feb/2025 09:44:08] "[36mGET /static/css/estilos_gestion_sistemas.css HTTP/1.1[0m" 304 -
+2025-02-12 09:44:34 - 127.0.0.1 - - [12/Feb/2025 09:44:34] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [12/Feb/2025 09:44:34] "GET / HTTP/1.1" 200 -
+2025-02-12 09:44:34 - 127.0.0.1 - - [12/Feb/2025 09:44:34] "[36mGET /static/css/estilos_gestion_sistemas.css HTTP/1.1[0m" 304 -
+127.0.0.1 - - [12/Feb/2025 09:44:34] "[36mGET /static/css/estilos_gestion_sistemas.css HTTP/1.1[0m" 304 -
+2025-02-12 09:44:34 - 127.0.0.1 - - [12/Feb/2025 09:44:34] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [12/Feb/2025 09:44:34] "GET / HTTP/1.1" 200 -
+2025-02-12 09:44:34 - 127.0.0.1 - - [12/Feb/2025 09:44:34] "[36mGET /static/css/estilos_gestion_sistemas.css HTTP/1.1[0m" 304 -
+127.0.0.1 - - [12/Feb/2025 09:44:34] "[36mGET /static/css/estilos_gestion_sistemas.css HTTP/1.1[0m" 304 -
+2025-02-12 09:44:35 - 127.0.0.1 - - [12/Feb/2025 09:44:35] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [12/Feb/2025 09:44:35] "GET / HTTP/1.1" 200 -
+2025-02-12 09:44:35 - 127.0.0.1 - - [12/Feb/2025 09:44:35] "[36mGET /static/css/estilos_gestion_sistemas.css HTTP/1.1[0m" 304 -
+127.0.0.1 - - [12/Feb/2025 09:44:35] "[36mGET /static/css/estilos_gestion_sistemas.css HTTP/1.1[0m" 304 -
+2025-02-12 09:44:35 - 127.0.0.1 - - [12/Feb/2025 09:44:35] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [12/Feb/2025 09:44:35] "GET / HTTP/1.1" 200 -
+2025-02-12 09:44:35 - 127.0.0.1 - - [12/Feb/2025 09:44:35] "[36mGET /static/css/estilos_gestion_sistemas.css HTTP/1.1[0m" 304 -
+127.0.0.1 - - [12/Feb/2025 09:44:35] "[36mGET /static/css/estilos_gestion_sistemas.css HTTP/1.1[0m" 304 -
+2025-02-12 09:45:16 - 127.0.0.1 - - [12/Feb/2025 09:45:16] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [12/Feb/2025 09:45:16] "GET / HTTP/1.1" 200 -
+2025-02-12 09:45:16 - 127.0.0.1 - - [12/Feb/2025 09:45:16] "[36mGET /static/css/estilos_gestion_sistemas.css HTTP/1.1[0m" 304 -
+127.0.0.1 - - [12/Feb/2025 09:45:16] "[36mGET /static/css/estilos_gestion_sistemas.css HTTP/1.1[0m" 304 -
+2025-02-12 09:45:57 - 127.0.0.1 - - [12/Feb/2025 09:45:57] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [12/Feb/2025 09:45:57] "GET / HTTP/1.1" 200 -
+2025-02-12 09:45:57 - 127.0.0.1 - - [12/Feb/2025 09:45:57] "[36mGET /static/css/estilos_gestion_sistemas.css HTTP/1.1[0m" 304 -
+127.0.0.1 - - [12/Feb/2025 09:45:57] "[36mGET /static/css/estilos_gestion_sistemas.css HTTP/1.1[0m" 304 -
+2025-02-12 09:46:40 - 127.0.0.1 - - [12/Feb/2025 09:46:40] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [12/Feb/2025 09:46:40] "GET / HTTP/1.1" 200 -
+2025-02-12 09:46:40 - 127.0.0.1 - - [12/Feb/2025 09:46:40] "[36mGET /static/css/estilos_gestion_sistemas.css HTTP/1.1[0m" 304 -
+127.0.0.1 - - [12/Feb/2025 09:46:40] "[36mGET /static/css/estilos_gestion_sistemas.css HTTP/1.1[0m" 304 -
+2025-02-12 09:47:51 - 127.0.0.1 - - [12/Feb/2025 09:47:51] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [12/Feb/2025 09:47:51] "GET / HTTP/1.1" 200 -
+2025-02-12 09:47:51 - 127.0.0.1 - - [12/Feb/2025 09:47:51] "[36mGET /static/css/estilos_gestion_sistemas.css HTTP/1.1[0m" 304 -
+127.0.0.1 - - [12/Feb/2025 09:47:51] "[36mGET /static/css/estilos_gestion_sistemas.css HTTP/1.1[0m" 304 -
+2025-02-12 09:48:11 - 127.0.0.1 - - [12/Feb/2025 09:48:11] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [12/Feb/2025 09:48:11] "GET / HTTP/1.1" 200 -
+2025-02-12 09:48:11 - 127.0.0.1 - - [12/Feb/2025 09:48:11] "[36mGET /static/css/estilos_gestion_sistemas.css HTTP/1.1[0m" 304 -
+127.0.0.1 - - [12/Feb/2025 09:48:11] "[36mGET /static/css/estilos_gestion_sistemas.css HTTP/1.1[0m" 304 -
+2025-02-12 09:48:12 - 127.0.0.1 - - [12/Feb/2025 09:48:12] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [12/Feb/2025 09:48:12] "GET / HTTP/1.1" 200 -
+2025-02-12 09:48:12 - 127.0.0.1 - - [12/Feb/2025 09:48:12] "[36mGET /static/css/estilos_gestion_sistemas.css HTTP/1.1[0m" 304 -
+127.0.0.1 - - [12/Feb/2025 09:48:12] "[36mGET /static/css/estilos_gestion_sistemas.css HTTP/1.1[0m" 304 -
+2025-02-12 09:48:12 - 127.0.0.1 - - [12/Feb/2025 09:48:12] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [12/Feb/2025 09:48:12] "GET / HTTP/1.1" 200 -
+2025-02-12 09:48:12 - 127.0.0.1 - - [12/Feb/2025 09:48:12] "[36mGET /static/css/estilos_gestion_sistemas.css HTTP/1.1[0m" 304 -
+127.0.0.1 - - [12/Feb/2025 09:48:12] "[36mGET /static/css/estilos_gestion_sistemas.css HTTP/1.1[0m" 304 -
+2025-02-12 09:48:12 - 127.0.0.1 - - [12/Feb/2025 09:48:12] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [12/Feb/2025 09:48:12] "GET / HTTP/1.1" 200 -
+2025-02-12 09:48:12 - 127.0.0.1 - - [12/Feb/2025 09:48:12] "[36mGET /static/css/estilos_gestion_sistemas.css HTTP/1.1[0m" 304 -
+127.0.0.1 - - [12/Feb/2025 09:48:12] "[36mGET /static/css/estilos_gestion_sistemas.css HTTP/1.1[0m" 304 -
+2025-02-12 09:48:12 - 127.0.0.1 - - [12/Feb/2025 09:48:12] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [12/Feb/2025 09:48:12] "GET / HTTP/1.1" 200 -
+2025-02-12 09:48:12 - 127.0.0.1 - - [12/Feb/2025 09:48:12] "[36mGET /static/css/estilos_gestion_sistemas.css HTTP/1.1[0m" 304 -
+127.0.0.1 - - [12/Feb/2025 09:48:12] "[36mGET /static/css/estilos_gestion_sistemas.css HTTP/1.1[0m" 304 -
+2025-02-12 09:48:48 - 127.0.0.1 - - [12/Feb/2025 09:48:48] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [12/Feb/2025 09:48:48] "GET / HTTP/1.1" 200 -
+2025-02-12 09:48:48 - 127.0.0.1 - - [12/Feb/2025 09:48:48] "[36mGET /static/css/estilos_gestion_sistemas.css HTTP/1.1[0m" 304 -
+127.0.0.1 - - [12/Feb/2025 09:48:48] "[36mGET /static/css/estilos_gestion_sistemas.css HTTP/1.1[0m" 304 -
+2025-02-12 09:49:10 - 127.0.0.1 - - [12/Feb/2025 09:49:10] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [12/Feb/2025 09:49:10] "GET / HTTP/1.1" 200 -
+2025-02-12 09:49:10 - 127.0.0.1 - - [12/Feb/2025 09:49:10] "[36mGET /static/css/estilos_gestion_sistemas.css HTTP/1.1[0m" 304 -
+127.0.0.1 - - [12/Feb/2025 09:49:10] "[36mGET /static/css/estilos_gestion_sistemas.css HTTP/1.1[0m" 304 -
+2025-02-12 09:49:21 - 127.0.0.1 - - [12/Feb/2025 09:49:21] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [12/Feb/2025 09:49:21] "GET / HTTP/1.1" 200 -
+2025-02-12 09:49:21 - 127.0.0.1 - - [12/Feb/2025 09:49:21] "[36mGET /static/css/estilos_gestion_sistemas.css HTTP/1.1[0m" 304 -
+127.0.0.1 - - [12/Feb/2025 09:49:21] "[36mGET /static/css/estilos_gestion_sistemas.css HTTP/1.1[0m" 304 -
+2025-02-12 09:49:34 - 127.0.0.1 - - [12/Feb/2025 09:49:34] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [12/Feb/2025 09:49:34] "GET / HTTP/1.1" 200 -
+2025-02-12 09:49:34 - 127.0.0.1 - - [12/Feb/2025 09:49:34] "[36mGET /static/css/estilos_gestion_sistemas.css HTTP/1.1[0m" 304 -
+127.0.0.1 - - [12/Feb/2025 09:49:34] "[36mGET /static/css/estilos_gestion_sistemas.css HTTP/1.1[0m" 304 -
+2025-02-12 10:01:32 - 127.0.0.1 - - [12/Feb/2025 10:01:32] "GET /login HTTP/1.1" 200 -
+127.0.0.1 - - [12/Feb/2025 10:01:32] "GET /login HTTP/1.1" 200 -
+2025-02-12 10:01:32 - 127.0.0.1 - - [12/Feb/2025 10:01:32] "[36mGET /static/css/estilos_gestion_sistemas.css HTTP/1.1[0m" 304 -
+127.0.0.1 - - [12/Feb/2025 10:01:32] "[36mGET /static/css/estilos_gestion_sistemas.css HTTP/1.1[0m" 304 -
+2025-02-12 10:01:36 - 127.0.0.1 - - [12/Feb/2025 10:01:36] "GET /registro HTTP/1.1" 200 -
+127.0.0.1 - - [12/Feb/2025 10:01:36] "GET /registro HTTP/1.1" 200 -
+2025-02-12 10:01:36 - 127.0.0.1 - - [12/Feb/2025 10:01:36] "[36mGET /static/css/estilos_gestion_sistemas.css HTTP/1.1[0m" 304 -
+127.0.0.1 - - [12/Feb/2025 10:01:36] "[36mGET /static/css/estilos_gestion_sistemas.css HTTP/1.1[0m" 304 -
+2025-02-12 10:01:52 - 127.0.0.1 - - [12/Feb/2025 10:01:52] "[32mPOST /registro HTTP/1.1[0m" 302 -
+127.0.0.1 - - [12/Feb/2025 10:01:52] "[32mPOST /registro HTTP/1.1[0m" 302 -
+2025-02-12 10:01:52 - 127.0.0.1 - - [12/Feb/2025 10:01:52] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [12/Feb/2025 10:01:52] "GET / HTTP/1.1" 200 -
+2025-02-12 10:01:52 - 127.0.0.1 - - [12/Feb/2025 10:01:52] "[36mGET /static/css/estilos_gestion_sistemas.css HTTP/1.1[0m" 304 -
+127.0.0.1 - - [12/Feb/2025 10:01:52] "[36mGET /static/css/estilos_gestion_sistemas.css HTTP/1.1[0m" 304 -
+2025-02-12 10:02:01 - 127.0.0.1 - - [12/Feb/2025 10:02:01] "GET /login HTTP/1.1" 200 -
+127.0.0.1 - - [12/Feb/2025 10:02:01] "GET /login HTTP/1.1" 200 -
+2025-02-12 10:02:01 - 127.0.0.1 - - [12/Feb/2025 10:02:01] "[36mGET /static/css/estilos_gestion_sistemas.css HTTP/1.1[0m" 304 -
+127.0.0.1 - - [12/Feb/2025 10:02:01] "[36mGET /static/css/estilos_gestion_sistemas.css HTTP/1.1[0m" 304 -
+2025-02-12 10:02:07 - 127.0.0.1 - - [12/Feb/2025 10:02:07] "[32mPOST /login HTTP/1.1[0m" 302 -
+127.0.0.1 - - [12/Feb/2025 10:02:07] "[32mPOST /login HTTP/1.1[0m" 302 -
+2025-02-12 10:02:07 - 127.0.0.1 - - [12/Feb/2025 10:02:07] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [12/Feb/2025 10:02:07] "GET / HTTP/1.1" 200 -
+2025-02-12 10:02:07 - 127.0.0.1 - - [12/Feb/2025 10:02:07] "[36mGET /static/css/estilos_gestion_sistemas.css HTTP/1.1[0m" 304 -
+127.0.0.1 - - [12/Feb/2025 10:02:07] "[36mGET /static/css/estilos_gestion_sistemas.css HTTP/1.1[0m" 304 -
+2025-02-12 10:02:15 - 127.0.0.1 - - [12/Feb/2025 10:02:15] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [12/Feb/2025 10:02:15] "GET / HTTP/1.1" 200 -
+2025-02-12 10:02:15 - 127.0.0.1 - - [12/Feb/2025 10:02:15] "[36mGET /static/css/estilos_gestion_sistemas.css HTTP/1.1[0m" 304 -
+127.0.0.1 - - [12/Feb/2025 10:02:15] "[36mGET /static/css/estilos_gestion_sistemas.css HTTP/1.1[0m" 304 -
+2025-02-12 10:02:16 - 127.0.0.1 - - [12/Feb/2025 10:02:16] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [12/Feb/2025 10:02:16] "GET / HTTP/1.1" 200 -
+2025-02-12 10:02:16 - 127.0.0.1 - - [12/Feb/2025 10:02:16] "[36mGET /static/css/estilos_gestion_sistemas.css HTTP/1.1[0m" 304 -
+127.0.0.1 - - [12/Feb/2025 10:02:16] "[36mGET /static/css/estilos_gestion_sistemas.css HTTP/1.1[0m" 304 -
+2025-02-12 10:02:17 - 127.0.0.1 - - [12/Feb/2025 10:02:17] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [12/Feb/2025 10:02:17] "GET / HTTP/1.1" 200 -
+2025-02-12 10:02:17 - 127.0.0.1 - - [12/Feb/2025 10:02:17] "[36mGET /static/css/estilos_gestion_sistemas.css HTTP/1.1[0m" 304 -
+127.0.0.1 - - [12/Feb/2025 10:02:17] "[36mGET /static/css/estilos_gestion_sistemas.css HTTP/1.1[0m" 304 -
+2025-02-12 10:02:18 - 127.0.0.1 - - [12/Feb/2025 10:02:18] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [12/Feb/2025 10:02:18] "GET / HTTP/1.1" 200 -
+2025-02-12 10:02:18 - 127.0.0.1 - - [12/Feb/2025 10:02:18] "[36mGET /static/css/estilos_gestion_sistemas.css HTTP/1.1[0m" 304 -
+127.0.0.1 - - [12/Feb/2025 10:02:18] "[36mGET /static/css/estilos_gestion_sistemas.css HTTP/1.1[0m" 304 -
+2025-02-12 10:02:18 - 127.0.0.1 - - [12/Feb/2025 10:02:18] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [12/Feb/2025 10:02:18] "GET / HTTP/1.1" 200 -
+2025-02-12 10:02:18 - 127.0.0.1 - - [12/Feb/2025 10:02:18] "[36mGET /static/css/estilos_gestion_sistemas.css HTTP/1.1[0m" 304 -
+127.0.0.1 - - [12/Feb/2025 10:02:18] "[36mGET /static/css/estilos_gestion_sistemas.css HTTP/1.1[0m" 304 -
+2025-02-12 10:02:18 - 127.0.0.1 - - [12/Feb/2025 10:02:18] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [12/Feb/2025 10:02:18] "GET / HTTP/1.1" 200 -
+2025-02-12 10:02:18 - 127.0.0.1 - - [12/Feb/2025 10:02:18] "[36mGET /static/css/estilos_gestion_sistemas.css HTTP/1.1[0m" 304 -
+127.0.0.1 - - [12/Feb/2025 10:02:18] "[36mGET /static/css/estilos_gestion_sistemas.css HTTP/1.1[0m" 304 -
+2025-02-12 10:02:18 - 127.0.0.1 - - [12/Feb/2025 10:02:18] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [12/Feb/2025 10:02:18] "GET / HTTP/1.1" 200 -
+2025-02-12 10:02:18 - 127.0.0.1 - - [12/Feb/2025 10:02:18] "[36mGET /static/css/estilos_gestion_sistemas.css HTTP/1.1[0m" 304 -
+127.0.0.1 - - [12/Feb/2025 10:02:18] "[36mGET /static/css/estilos_gestion_sistemas.css HTTP/1.1[0m" 304 -
+2025-02-12 10:02:19 - 127.0.0.1 - - [12/Feb/2025 10:02:19] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [12/Feb/2025 10:02:19] "GET / HTTP/1.1" 200 -
+2025-02-12 10:02:19 - 127.0.0.1 - - [12/Feb/2025 10:02:19] "[36mGET /static/css/estilos_gestion_sistemas.css HTTP/1.1[0m" 304 -
+127.0.0.1 - - [12/Feb/2025 10:02:19] "[36mGET /static/css/estilos_gestion_sistemas.css HTTP/1.1[0m" 304 -
+2025-02-12 10:02:19 - 127.0.0.1 - - [12/Feb/2025 10:02:19] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [12/Feb/2025 10:02:19] "GET / HTTP/1.1" 200 -
+2025-02-12 10:02:19 - 127.0.0.1 - - [12/Feb/2025 10:02:19] "[36mGET /static/css/estilos_gestion_sistemas.css HTTP/1.1[0m" 304 -
+127.0.0.1 - - [12/Feb/2025 10:02:19] "[36mGET /static/css/estilos_gestion_sistemas.css HTTP/1.1[0m" 304 -
+2025-02-12 10:02:19 - 127.0.0.1 - - [12/Feb/2025 10:02:19] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [12/Feb/2025 10:02:19] "GET / HTTP/1.1" 200 -
+2025-02-12 10:02:19 - 127.0.0.1 - - [12/Feb/2025 10:02:19] "[36mGET /static/css/estilos_gestion_sistemas.css HTTP/1.1[0m" 304 -
+127.0.0.1 - - [12/Feb/2025 10:02:19] "[36mGET /static/css/estilos_gestion_sistemas.css HTTP/1.1[0m" 304 -
+2025-02-12 10:42:25 - 127.0.0.1 - - [12/Feb/2025 10:42:25] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [12/Feb/2025 10:42:25] "GET / HTTP/1.1" 200 -
+2025-02-12 10:42:25 - 127.0.0.1 - - [12/Feb/2025 10:42:25] "[36mGET /static/css/estilos_gestion_sistemas.css HTTP/1.1[0m" 304 -
+127.0.0.1 - - [12/Feb/2025 10:42:25] "[36mGET /static/css/estilos_gestion_sistemas.css HTTP/1.1[0m" 304 -

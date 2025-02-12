@@ -5,19 +5,26 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Gestión de Sistemas</title>
     <link rel="stylesheet" href="{{ url_for('static', filename='css/estilos_gestion_sistemas.css') }}">
-    
-
 </head>
 <body>
     <div class="container">
-        <div class="url-container">
-            <a href="{{ url_for('main.index') }}">Inicio</a>
-        </div>
+        {% if usuario %}
+            <span>Bienvenido, {{ usuario }}!</span>
+            <a href="{{ url_for('main.logout') }}">Cerrar Sesión</a>
+        {% else %}
         <div class="url-container">
             <a href="{{ url_for('main.login') }}">Login</a>
         </div>
         <div class="url-container">
             <a href="{{ url_for('main.registro') }}">Registro</a>
+        </div>
+        {% endif %}
+    </div>
+
+
+    <div class="container">
+        <div class="url-container">
+            <a href="{{ url_for('main.index') }}">Inicio</a>
         </div>
         <div class="url-container">
             <a href="{{ url_for('main.listar_usuarios') }}">Usuarios</a>
@@ -26,23 +33,20 @@
             <a href="{{ url_for('main.monitoreo') }}">Monitoreo</a>
         </div>
         <div class="url-container">
-            <a href="/logs">Logs</a>     
+            <a href="/logs">Logs</a>
         </div>
         <div class="url-container">
-            <a href="/descargar_pdf">Descargar_pdf</a>
+            <a href="/descargar_pdf">Descargar PDF</a>
         </div>
         <div class="url-container">
-            <a href="/descargar_csv">Descargar_csv</a>  
+            <a href="/descargar_csv">Descargar CSV</a>
         </div>
         <div class="url-container">
             <a href="{{ url_for('main.backup_page') }}">Backup</a>
         </div>
     </div>
- 
-    </div>
-        {% block content %}{% endblock %}
 
-        
-               
+    {% block content %}{% endblock %}
+
 </body>
 </html>

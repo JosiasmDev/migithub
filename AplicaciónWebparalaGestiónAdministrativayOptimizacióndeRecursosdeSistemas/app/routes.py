@@ -40,6 +40,12 @@ def login():
     
     return render_template('login.html')
 
+
+@main_routes.route('/logout')
+def logout():
+    session.pop('usuario', None)  # Elimina el usuario de la sesión
+    return redirect(url_for('main.login'))  # Redirige a la página de login
+
 @main_routes.route('/usuarios', methods=['GET'])
 def listar_usuarios():
     usuarios = User.query.all()

@@ -6,6 +6,9 @@ from apscheduler.schedulers.background import BackgroundScheduler
 from logging.handlers import TimedRotatingFileHandler
 import psutil
 from datetime import datetime
+from flask import session
+
+
 
 # Inicializar la base de datos
 db = SQLAlchemy()
@@ -20,6 +23,10 @@ def create_app():
     # Registrar blueprint para las rutas principales
     from app.routes import main_routes
     app.register_blueprint(main_routes)
+
+    @app.context_processor
+    def inject_usuario():
+        return dict(usuario=session.get('usuario'))
 
     # Definir la carpeta de logs antes de usarla
     log_dir = os.path.join(os.path.dirname(__name__), '../logs')
