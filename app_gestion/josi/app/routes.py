@@ -1,9 +1,10 @@
-from flask import render_template, redirect, url_for, request, flash
-from app import app, db
+from flask import render_template, redirect, url_for, request, flash, send_file
+from app import app
 from app.models import User
 from passlib.hash import scrypt
 from flask_login import LoginManager, UserMixin, login_user, login_required, logout_user, current_user
 from passlib.hash import scrypt
+from app.db import db
 
 
 login_manager = LoginManager()
@@ -77,3 +78,16 @@ def monitor():
 @login_required
 def logs():
     return render_template('logs.html')
+
+
+@app.route('/generate_csv')
+@login_required
+def generate_csv():
+    generate_users_csv()
+    return send_file("users.csv", as_attachment=True)
+
+@app.route('/generate_pdf')
+@login_required
+def generate_pdf():
+    generate_users_pdf()
+    return send_file("users.pdf", as_attachment=True)
