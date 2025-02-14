@@ -14,8 +14,8 @@ def register():
     if form.validate_on_submit():
         # Cifrar la contraseña
         hashed_password = bcrypt.generate_password_hash(form.password.data).decode('utf-8')
-        # Crear un nuevo usuario
-        usuario = Usuario(nombre=form.username.data, email=form.email.data, password=hashed_password)
+        # Crear un nuevo usuario, asignando el rol por defecto
+        usuario = Usuario(nombre=form.username.data, email=form.email.data, password=hashed_password, role='usuario')
         db.session.add(usuario)
         db.session.commit()
         flash('Cuenta creada con éxito!', 'success')
