@@ -5487,3 +5487,1323 @@
 2025-02-14 12:45:09,791 -  * Detected change in 'C:\\xampp\\htdocs\\xampp\\migithub\\app_gestion_4.0\\app\\controllers\\recurso_controller.py', reloading
 2025-02-14 12:45:09,977 -  * Restarting with stat
 2025-02-14 12:45:10,082 - Running job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-14 12:45:15 CET)" (scheduled at 2025-02-14 12:45:10.071445+01:00)
+2025-02-14 14:05:51,115 - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-02-14 14:05:51,117 - Added job "monitorizar_recursos" to job store "default"
+2025-02-14 14:05:51,117 - Scheduler started
+2025-02-14 14:05:51,382 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-02-14 14:05:51,382 - [33mPress CTRL+C to quit[0m
+2025-02-14 14:05:51,405 -  * Restarting with stat
+2025-02-14 14:05:56,053 - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-02-14 14:05:56,053 - Added job "monitorizar_recursos" to job store "default"
+2025-02-14 14:05:56,053 - Scheduler started
+2025-02-14 14:05:56,134 - Running job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-14 14:05:56 CET)" (scheduled at 2025-02-14 14:05:56.115878+01:00)
+2025-02-14 14:05:56,164 -  * Debugger is active!
+2025-02-14 14:05:56,170 -  * Debugger PIN: 726-180-169
+2025-02-14 14:05:57,144 - CPU: 8.9%, RAM: 80.3%, Disco: 97.3%
+2025-02-14 14:05:57,144 - Job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-14 14:06:01 CET)" executed successfully
+2025-02-14 14:06:00,070 - 127.0.0.1 - - [14/Feb/2025 14:06:00] "GET /login HTTP/1.1" 200 -
+2025-02-14 14:06:01,062 - Running job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-14 14:06:01 CET)" (scheduled at 2025-02-14 14:06:01.053119+01:00)
+2025-02-14 14:06:01,121 - Running job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-14 14:06:06 CET)" (scheduled at 2025-02-14 14:06:01.115878+01:00)
+2025-02-14 14:06:02,073 - CPU: 14.2%, RAM: 80.6%, Disco: 97.3%
+2025-02-14 14:06:02,073 - Job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-14 14:06:06 CET)" executed successfully
+2025-02-14 14:06:02,124 - CPU: 13.2%, RAM: 80.6%, Disco: 97.3%
+2025-02-14 14:06:02,124 - Job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-14 14:06:06 CET)" executed successfully
+2025-02-14 14:06:06,061 - Running job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-14 14:06:11 CET)" (scheduled at 2025-02-14 14:06:06.053119+01:00)
+2025-02-14 14:06:06,131 - Running job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-14 14:06:11 CET)" (scheduled at 2025-02-14 14:06:06.115878+01:00)
+2025-02-14 14:06:06,239 - 127.0.0.1 - - [14/Feb/2025 14:06:06] "[32mPOST /login HTTP/1.1[0m" 302 -
+2025-02-14 14:06:06,258 - 127.0.0.1 - - [14/Feb/2025 14:06:06] "GET /dashboard HTTP/1.1" 200 -
+2025-02-14 14:06:07,068 - CPU: 17.3%, RAM: 80.8%, Disco: 97.3%
+2025-02-14 14:06:07,069 - Job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-14 14:06:11 CET)" executed successfully
+2025-02-14 14:06:07,137 - CPU: 17.0%, RAM: 80.8%, Disco: 97.3%
+2025-02-14 14:06:07,137 - Job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-14 14:06:11 CET)" executed successfully
+2025-02-14 14:06:08,824 - 127.0.0.1 - - [14/Feb/2025 14:06:08] "GET /recursos HTTP/1.1" 200 -
+2025-02-14 14:06:09,853 - 127.0.0.1 - - [14/Feb/2025 14:06:09] "GET /recursos_json HTTP/1.1" 200 -
+2025-02-14 14:06:11,065 - Running job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-14 14:06:16 CET)" (scheduled at 2025-02-14 14:06:11.053119+01:00)
+2025-02-14 14:06:11,119 - Running job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-14 14:06:16 CET)" (scheduled at 2025-02-14 14:06:11.115878+01:00)
+2025-02-14 14:06:12,077 - CPU: 19.5%, RAM: 80.7%, Disco: 97.3%
+2025-02-14 14:06:12,078 - Job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-14 14:06:16 CET)" executed successfully
+2025-02-14 14:06:12,134 - CPU: 19.9%, RAM: 80.7%, Disco: 97.3%
+2025-02-14 14:06:12,135 - Job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-14 14:06:16 CET)" executed successfully
+2025-02-14 14:06:12,170 - 127.0.0.1 - - [14/Feb/2025 14:06:12] "[35m[1mGET /usuarios HTTP/1.1[0m" 500 -
+2025-02-14 14:06:12,431 - 127.0.0.1 - - [14/Feb/2025 14:06:12] "GET /usuarios?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2025-02-14 14:06:12,448 - 127.0.0.1 - - [14/Feb/2025 14:06:12] "GET /usuarios?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2025-02-14 14:06:12,476 - 127.0.0.1 - - [14/Feb/2025 14:06:12] "GET /usuarios?__debugger__=yes&cmd=resource&f=console.png&s=nXNJjmoml1pXySPmlVij HTTP/1.1" 200 -
+2025-02-14 14:06:12,502 - 127.0.0.1 - - [14/Feb/2025 14:06:12] "GET /usuarios?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2025-02-14 14:06:16,065 - Running job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-14 14:06:21 CET)" (scheduled at 2025-02-14 14:06:16.053119+01:00)
+2025-02-14 14:06:16,129 - Running job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-14 14:06:21 CET)" (scheduled at 2025-02-14 14:06:16.115878+01:00)
+2025-02-14 14:06:17,067 - CPU: 16.8%, RAM: 80.6%, Disco: 97.3%
+2025-02-14 14:06:17,067 - Job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-14 14:06:21 CET)" executed successfully
+2025-02-14 14:06:17,133 - CPU: 16.8%, RAM: 80.6%, Disco: 97.3%
+2025-02-14 14:06:17,133 - Job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-14 14:06:21 CET)" executed successfully
+2025-02-14 14:06:21,056 - Running job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-14 14:06:26 CET)" (scheduled at 2025-02-14 14:06:21.053119+01:00)
+2025-02-14 14:06:21,131 - Running job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-14 14:06:26 CET)" (scheduled at 2025-02-14 14:06:21.115878+01:00)
+2025-02-14 14:06:22,061 - CPU: 10.3%, RAM: 80.6%, Disco: 97.3%
+2025-02-14 14:06:22,061 - Job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-14 14:06:26 CET)" executed successfully
+2025-02-14 14:06:22,132 - CPU: 11.5%, RAM: 80.5%, Disco: 97.3%
+2025-02-14 14:06:22,132 - Job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-14 14:06:26 CET)" executed successfully
+2025-02-14 14:06:26,062 - Running job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-14 14:06:31 CET)" (scheduled at 2025-02-14 14:06:26.053119+01:00)
+2025-02-14 14:06:26,127 - Running job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-14 14:06:31 CET)" (scheduled at 2025-02-14 14:06:26.115878+01:00)
+2025-02-14 14:06:27,074 - CPU: 13.1%, RAM: 80.8%, Disco: 97.3%
+2025-02-14 14:06:27,074 - Job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-14 14:06:31 CET)" executed successfully
+2025-02-14 14:06:27,138 - CPU: 11.8%, RAM: 80.8%, Disco: 97.3%
+2025-02-14 14:06:27,139 - Job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-14 14:06:31 CET)" executed successfully
+2025-02-14 14:06:31,058 - Running job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-14 14:06:36 CET)" (scheduled at 2025-02-14 14:06:31.053119+01:00)
+2025-02-14 14:06:31,121 - Running job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-14 14:06:36 CET)" (scheduled at 2025-02-14 14:06:31.115878+01:00)
+2025-02-14 14:06:32,068 - CPU: 20.4%, RAM: 81.4%, Disco: 97.3%
+2025-02-14 14:06:32,068 - Job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-14 14:06:36 CET)" executed successfully
+2025-02-14 14:06:32,123 - CPU: 16.6%, RAM: 81.4%, Disco: 97.3%
+2025-02-14 14:06:32,123 - Job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-14 14:06:36 CET)" executed successfully
+2025-02-14 14:06:36,058 - Running job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-14 14:06:41 CET)" (scheduled at 2025-02-14 14:06:36.053119+01:00)
+2025-02-14 14:06:36,122 - Running job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-14 14:06:41 CET)" (scheduled at 2025-02-14 14:06:36.115878+01:00)
+2025-02-14 14:06:37,062 - CPU: 18.1%, RAM: 80.9%, Disco: 97.3%
+2025-02-14 14:06:37,062 - Job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-14 14:06:41 CET)" executed successfully
+2025-02-14 14:06:37,132 - CPU: 16.3%, RAM: 80.9%, Disco: 97.3%
+2025-02-14 14:06:37,132 - Job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-14 14:06:41 CET)" executed successfully
+2025-02-14 14:06:41,059 - Running job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-14 14:06:46 CET)" (scheduled at 2025-02-14 14:06:41.053119+01:00)
+2025-02-14 14:06:41,124 - Running job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-14 14:06:46 CET)" (scheduled at 2025-02-14 14:06:41.115878+01:00)
+2025-02-14 14:06:42,060 - CPU: 7.4%, RAM: 80.7%, Disco: 97.3%
+2025-02-14 14:06:42,060 - Job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-14 14:06:46 CET)" executed successfully
+2025-02-14 14:06:42,126 - CPU: 10.7%, RAM: 80.6%, Disco: 97.3%
+2025-02-14 14:06:42,126 - Job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-14 14:06:46 CET)" executed successfully
+2025-02-14 14:06:46,064 - Running job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-14 14:06:51 CET)" (scheduled at 2025-02-14 14:06:46.053119+01:00)
+2025-02-14 14:06:46,129 - Running job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-14 14:06:51 CET)" (scheduled at 2025-02-14 14:06:46.115878+01:00)
+2025-02-14 14:06:47,066 - CPU: 7.0%, RAM: 80.8%, Disco: 97.3%
+2025-02-14 14:06:47,066 - Job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-14 14:06:51 CET)" executed successfully
+2025-02-14 14:06:47,131 - CPU: 7.0%, RAM: 80.8%, Disco: 97.3%
+2025-02-14 14:06:47,131 - Job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-14 14:06:51 CET)" executed successfully
+2025-02-14 14:06:51,066 - Running job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-14 14:06:56 CET)" (scheduled at 2025-02-14 14:06:51.053119+01:00)
+2025-02-14 14:06:51,129 - Running job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-14 14:06:56 CET)" (scheduled at 2025-02-14 14:06:51.115878+01:00)
+2025-02-14 14:06:52,071 - CPU: 14.5%, RAM: 80.6%, Disco: 97.3%
+2025-02-14 14:06:52,071 - Job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-14 14:06:56 CET)" executed successfully
+2025-02-14 14:06:52,136 - CPU: 13.8%, RAM: 80.6%, Disco: 97.3%
+2025-02-14 14:06:52,136 - Job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-14 14:06:56 CET)" executed successfully
+2025-02-14 14:06:56,067 - Running job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-14 14:07:01 CET)" (scheduled at 2025-02-14 14:06:56.053119+01:00)
+2025-02-14 14:06:56,116 - Running job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-14 14:07:01 CET)" (scheduled at 2025-02-14 14:06:56.115878+01:00)
+2025-02-14 14:06:57,073 - CPU: 8.5%, RAM: 80.5%, Disco: 97.3%
+2025-02-14 14:06:57,073 - Job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-14 14:07:01 CET)" executed successfully
+2025-02-14 14:06:57,119 - CPU: 8.2%, RAM: 80.5%, Disco: 97.3%
+2025-02-14 14:06:57,119 - Job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-14 14:07:01 CET)" executed successfully
+2025-02-14 14:07:01,067 - Running job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-14 14:07:06 CET)" (scheduled at 2025-02-14 14:07:01.053119+01:00)
+2025-02-14 14:07:01,132 - Running job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-14 14:07:06 CET)" (scheduled at 2025-02-14 14:07:01.115878+01:00)
+2025-02-14 14:07:02,075 - CPU: 9.7%, RAM: 80.4%, Disco: 97.3%
+2025-02-14 14:07:02,075 - Job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-14 14:07:06 CET)" executed successfully
+2025-02-14 14:07:02,141 - CPU: 10.9%, RAM: 80.5%, Disco: 97.3%
+2025-02-14 14:07:02,144 - Job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-14 14:07:06 CET)" executed successfully
+2025-02-14 14:07:06,055 - Running job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-14 14:07:11 CET)" (scheduled at 2025-02-14 14:07:06.053119+01:00)
+2025-02-14 14:07:06,118 - Running job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-14 14:07:11 CET)" (scheduled at 2025-02-14 14:07:06.115878+01:00)
+2025-02-14 14:07:07,062 - CPU: 42.6%, RAM: 78.4%, Disco: 97.3%
+2025-02-14 14:07:07,062 - Job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-14 14:07:11 CET)" executed successfully
+2025-02-14 14:07:07,131 - CPU: 43.7%, RAM: 78.3%, Disco: 97.3%
+2025-02-14 14:07:07,131 - Job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-14 14:07:11 CET)" executed successfully
+2025-02-14 14:07:11,066 - Running job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-14 14:07:16 CET)" (scheduled at 2025-02-14 14:07:11.053119+01:00)
+2025-02-14 14:07:11,129 - Running job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-14 14:07:16 CET)" (scheduled at 2025-02-14 14:07:11.115878+01:00)
+2025-02-14 14:07:12,076 - CPU: 41.4%, RAM: 81.8%, Disco: 97.3%
+2025-02-14 14:07:12,076 - Job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-14 14:07:16 CET)" executed successfully
+2025-02-14 14:07:12,136 - CPU: 45.5%, RAM: 82.0%, Disco: 97.3%
+2025-02-14 14:07:12,136 - Job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-14 14:07:16 CET)" executed successfully
+2025-02-14 14:07:16,064 - Running job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-14 14:07:21 CET)" (scheduled at 2025-02-14 14:07:16.053119+01:00)
+2025-02-14 14:07:16,127 - Running job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-14 14:07:21 CET)" (scheduled at 2025-02-14 14:07:16.115878+01:00)
+2025-02-14 14:07:17,068 - CPU: 96.7%, RAM: 78.7%, Disco: 97.3%
+2025-02-14 14:07:17,068 - Job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-14 14:07:21 CET)" executed successfully
+2025-02-14 14:07:17,152 - CPU: 98.3%, RAM: 78.8%, Disco: 97.3%
+2025-02-14 14:07:17,152 - Job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-14 14:07:21 CET)" executed successfully
+2025-02-14 14:07:21,061 - Running job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-14 14:07:26 CET)" (scheduled at 2025-02-14 14:07:21.053119+01:00)
+2025-02-14 14:07:21,125 - Running job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-14 14:07:26 CET)" (scheduled at 2025-02-14 14:07:21.115878+01:00)
+2025-02-14 14:07:22,077 - CPU: 61.1%, RAM: 86.1%, Disco: 97.3%
+2025-02-14 14:07:22,077 - Job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-14 14:07:26 CET)" executed successfully
+2025-02-14 14:07:22,136 - CPU: 57.3%, RAM: 86.1%, Disco: 97.3%
+2025-02-14 14:07:22,138 - Job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-14 14:07:26 CET)" executed successfully
+2025-02-14 14:07:26,074 - Running job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-14 14:07:31 CET)" (scheduled at 2025-02-14 14:07:26.053119+01:00)
+2025-02-14 14:07:26,140 - Running job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-14 14:07:31 CET)" (scheduled at 2025-02-14 14:07:26.115878+01:00)
+2025-02-14 14:07:27,091 - CPU: 94.7%, RAM: 86.1%, Disco: 97.4%
+2025-02-14 14:07:27,091 - Job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-14 14:07:31 CET)" executed successfully
+2025-02-14 14:07:27,170 - CPU: 94.7%, RAM: 86.1%, Disco: 97.4%
+2025-02-14 14:07:27,170 - Job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-14 14:07:31 CET)" executed successfully
+2025-02-14 14:07:31,061 - Running job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-14 14:07:36 CET)" (scheduled at 2025-02-14 14:07:31.053119+01:00)
+2025-02-14 14:07:31,123 - Running job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-14 14:07:36 CET)" (scheduled at 2025-02-14 14:07:31.115878+01:00)
+2025-02-14 14:07:32,067 - CPU: 84.7%, RAM: 87.5%, Disco: 97.3%
+2025-02-14 14:07:32,067 - Job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-14 14:07:36 CET)" executed successfully
+2025-02-14 14:07:32,138 - CPU: 81.2%, RAM: 87.5%, Disco: 97.3%
+2025-02-14 14:07:32,138 - Job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-14 14:07:36 CET)" executed successfully
+2025-02-14 14:07:36,057 - Running job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-14 14:07:41 CET)" (scheduled at 2025-02-14 14:07:36.053119+01:00)
+2025-02-14 14:07:36,121 - Running job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-14 14:07:41 CET)" (scheduled at 2025-02-14 14:07:36.115878+01:00)
+2025-02-14 14:07:37,067 - CPU: 15.6%, RAM: 87.9%, Disco: 97.3%
+2025-02-14 14:07:37,067 - Job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-14 14:07:41 CET)" executed successfully
+2025-02-14 14:07:37,133 - CPU: 15.8%, RAM: 87.9%, Disco: 97.3%
+2025-02-14 14:07:37,134 - Job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-14 14:07:41 CET)" executed successfully
+2025-02-14 14:07:41,066 - Running job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-14 14:07:46 CET)" (scheduled at 2025-02-14 14:07:41.053119+01:00)
+2025-02-14 14:07:41,131 - Running job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-14 14:07:46 CET)" (scheduled at 2025-02-14 14:07:41.115878+01:00)
+2025-02-14 14:07:42,074 - CPU: 6.0%, RAM: 86.7%, Disco: 97.3%
+2025-02-14 14:07:42,074 - Job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-14 14:07:46 CET)" executed successfully
+2025-02-14 14:07:42,138 - CPU: 7.2%, RAM: 86.7%, Disco: 97.3%
+2025-02-14 14:07:42,138 - Job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-14 14:07:46 CET)" executed successfully
+2025-02-14 14:07:46,055 - Running job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-14 14:07:51 CET)" (scheduled at 2025-02-14 14:07:46.053119+01:00)
+2025-02-14 14:07:46,119 - Running job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-14 14:07:51 CET)" (scheduled at 2025-02-14 14:07:46.115878+01:00)
+2025-02-14 14:07:47,059 - CPU: 11.0%, RAM: 85.2%, Disco: 97.3%
+2025-02-14 14:07:47,059 - Job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-14 14:07:51 CET)" executed successfully
+2025-02-14 14:07:47,127 - CPU: 10.2%, RAM: 85.2%, Disco: 97.3%
+2025-02-14 14:07:47,127 - Job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-14 14:07:51 CET)" executed successfully
+2025-02-14 14:07:51,068 - Running job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-14 14:07:56 CET)" (scheduled at 2025-02-14 14:07:51.053119+01:00)
+2025-02-14 14:07:51,117 - Running job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-14 14:07:56 CET)" (scheduled at 2025-02-14 14:07:51.115878+01:00)
+2025-02-14 14:07:52,079 - CPU: 6.2%, RAM: 85.0%, Disco: 97.3%
+2025-02-14 14:07:52,079 - Job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-14 14:07:56 CET)" executed successfully
+2025-02-14 14:07:52,123 - CPU: 8.5%, RAM: 85.0%, Disco: 97.3%
+2025-02-14 14:07:52,123 - Job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-14 14:07:56 CET)" executed successfully
+2025-02-14 14:07:56,056 - Running job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-14 14:08:01 CET)" (scheduled at 2025-02-14 14:07:56.053119+01:00)
+2025-02-14 14:07:56,124 - Running job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-14 14:08:01 CET)" (scheduled at 2025-02-14 14:07:56.115878+01:00)
+2025-02-14 14:07:57,066 - CPU: 14.4%, RAM: 84.6%, Disco: 97.3%
+2025-02-14 14:07:57,068 - Job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-14 14:08:01 CET)" executed successfully
+2025-02-14 14:07:57,133 - CPU: 11.6%, RAM: 84.6%, Disco: 97.3%
+2025-02-14 14:07:57,133 - Job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-14 14:08:01 CET)" executed successfully
+2025-02-14 14:08:01,060 - Running job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-14 14:08:06 CET)" (scheduled at 2025-02-14 14:08:01.053119+01:00)
+2025-02-14 14:08:01,123 - Running job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-14 14:08:06 CET)" (scheduled at 2025-02-14 14:08:01.115878+01:00)
+2025-02-14 14:08:02,065 - CPU: 5.3%, RAM: 84.2%, Disco: 97.3%
+2025-02-14 14:08:02,065 - Job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-14 14:08:06 CET)" executed successfully
+2025-02-14 14:08:02,125 - CPU: 4.7%, RAM: 84.2%, Disco: 97.3%
+2025-02-14 14:08:02,125 - Job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-14 14:08:06 CET)" executed successfully
+2025-02-14 14:08:06,065 - Running job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-14 14:08:11 CET)" (scheduled at 2025-02-14 14:08:06.053119+01:00)
+2025-02-14 14:08:06,130 - Running job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-14 14:08:11 CET)" (scheduled at 2025-02-14 14:08:06.115878+01:00)
+2025-02-14 14:08:07,067 - CPU: 18.5%, RAM: 83.9%, Disco: 97.3%
+2025-02-14 14:08:07,067 - Job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-14 14:08:11 CET)" executed successfully
+2025-02-14 14:08:07,133 - CPU: 18.3%, RAM: 83.9%, Disco: 97.3%
+2025-02-14 14:08:07,133 - Job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-14 14:08:11 CET)" executed successfully
+2025-02-14 14:08:11,067 - Running job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-14 14:08:16 CET)" (scheduled at 2025-02-14 14:08:11.053119+01:00)
+2025-02-14 14:08:11,119 - Running job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-14 14:08:16 CET)" (scheduled at 2025-02-14 14:08:11.115878+01:00)
+2025-02-14 14:08:12,070 - CPU: 11.2%, RAM: 83.7%, Disco: 97.3%
+2025-02-14 14:08:12,070 - Job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-14 14:08:16 CET)" executed successfully
+2025-02-14 14:08:12,130 - CPU: 10.3%, RAM: 83.7%, Disco: 97.3%
+2025-02-14 14:08:12,130 - Job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-14 14:08:16 CET)" executed successfully
+2025-02-14 14:08:16,055 - Running job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-14 14:08:21 CET)" (scheduled at 2025-02-14 14:08:16.053119+01:00)
+2025-02-14 14:08:16,118 - Running job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-14 14:08:21 CET)" (scheduled at 2025-02-14 14:08:16.115878+01:00)
+2025-02-14 14:08:17,061 - CPU: 13.4%, RAM: 83.8%, Disco: 97.3%
+2025-02-14 14:08:17,061 - Job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-14 14:08:21 CET)" executed successfully
+2025-02-14 14:08:17,130 - CPU: 14.1%, RAM: 83.8%, Disco: 97.3%
+2025-02-14 14:08:17,130 - Job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-14 14:08:21 CET)" executed successfully
+2025-02-14 14:08:21,060 - Running job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-14 14:08:26 CET)" (scheduled at 2025-02-14 14:08:21.053119+01:00)
+2025-02-14 14:08:21,125 - Running job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-14 14:08:26 CET)" (scheduled at 2025-02-14 14:08:21.115878+01:00)
+2025-02-14 14:08:22,063 - CPU: 10.2%, RAM: 83.7%, Disco: 97.3%
+2025-02-14 14:08:22,063 - Job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-14 14:08:26 CET)" executed successfully
+2025-02-14 14:08:22,127 - CPU: 10.2%, RAM: 83.7%, Disco: 97.3%
+2025-02-14 14:08:22,127 - Job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-14 14:08:26 CET)" executed successfully
+2025-02-14 14:08:26,064 - Running job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-14 14:08:31 CET)" (scheduled at 2025-02-14 14:08:26.053119+01:00)
+2025-02-14 14:08:26,130 - Running job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-14 14:08:31 CET)" (scheduled at 2025-02-14 14:08:26.115878+01:00)
+2025-02-14 14:08:27,066 - CPU: 5.6%, RAM: 83.5%, Disco: 97.3%
+2025-02-14 14:08:27,066 - Job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-14 14:08:31 CET)" executed successfully
+2025-02-14 14:08:27,132 - CPU: 5.8%, RAM: 83.5%, Disco: 97.3%
+2025-02-14 14:08:27,132 - Job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-14 14:08:31 CET)" executed successfully
+2025-02-14 14:08:31,060 - Running job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-14 14:08:36 CET)" (scheduled at 2025-02-14 14:08:31.053119+01:00)
+2025-02-14 14:08:31,117 - Running job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-14 14:08:36 CET)" (scheduled at 2025-02-14 14:08:31.115878+01:00)
+2025-02-14 14:08:32,064 - CPU: 13.5%, RAM: 83.5%, Disco: 97.3%
+2025-02-14 14:08:32,064 - Job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-14 14:08:36 CET)" executed successfully
+2025-02-14 14:08:32,126 - CPU: 11.8%, RAM: 83.5%, Disco: 97.3%
+2025-02-14 14:08:32,127 - Job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-14 14:08:36 CET)" executed successfully
+2025-02-14 14:08:36,061 - Running job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-14 14:08:41 CET)" (scheduled at 2025-02-14 14:08:36.053119+01:00)
+2025-02-14 14:08:36,126 - Running job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-14 14:08:41 CET)" (scheduled at 2025-02-14 14:08:36.115878+01:00)
+2025-02-14 14:08:37,067 - CPU: 6.4%, RAM: 83.3%, Disco: 97.3%
+2025-02-14 14:08:37,067 - Job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-14 14:08:41 CET)" executed successfully
+2025-02-14 14:08:37,135 - CPU: 6.4%, RAM: 83.3%, Disco: 97.3%
+2025-02-14 14:08:37,137 - Job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-14 14:08:41 CET)" executed successfully
+2025-02-14 14:08:41,060 - Running job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-14 14:08:46 CET)" (scheduled at 2025-02-14 14:08:41.053119+01:00)
+2025-02-14 14:08:41,128 - Running job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-14 14:08:46 CET)" (scheduled at 2025-02-14 14:08:41.115878+01:00)
+2025-02-14 14:08:42,071 - CPU: 7.3%, RAM: 83.4%, Disco: 97.3%
+2025-02-14 14:08:42,072 - Job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-14 14:08:46 CET)" executed successfully
+2025-02-14 14:08:42,132 - CPU: 8.5%, RAM: 83.4%, Disco: 97.3%
+2025-02-14 14:08:42,132 - Job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-14 14:08:46 CET)" executed successfully
+2025-02-14 14:08:46,060 - Running job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-14 14:08:51 CET)" (scheduled at 2025-02-14 14:08:46.053119+01:00)
+2025-02-14 14:08:46,125 - Running job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-14 14:08:51 CET)" (scheduled at 2025-02-14 14:08:46.115878+01:00)
+2025-02-14 14:08:47,070 - CPU: 9.8%, RAM: 83.3%, Disco: 97.3%
+2025-02-14 14:08:47,070 - Job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-14 14:08:51 CET)" executed successfully
+2025-02-14 14:08:47,127 - CPU: 9.3%, RAM: 83.4%, Disco: 97.3%
+2025-02-14 14:08:47,127 - Job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-14 14:08:51 CET)" executed successfully
+2025-02-14 14:08:51,057 - Running job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-14 14:08:56 CET)" (scheduled at 2025-02-14 14:08:51.053119+01:00)
+2025-02-14 14:08:51,122 - Running job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-14 14:08:56 CET)" (scheduled at 2025-02-14 14:08:51.115878+01:00)
+2025-02-14 14:08:52,068 - CPU: 9.2%, RAM: 83.5%, Disco: 97.3%
+2025-02-14 14:08:52,068 - Job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-14 14:08:56 CET)" executed successfully
+2025-02-14 14:08:52,133 - CPU: 9.1%, RAM: 83.5%, Disco: 97.3%
+2025-02-14 14:08:52,133 - Job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-14 14:08:56 CET)" executed successfully
+2025-02-14 14:08:56,065 - Running job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-14 14:09:01 CET)" (scheduled at 2025-02-14 14:08:56.053119+01:00)
+2025-02-14 14:08:56,126 - Running job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-14 14:09:01 CET)" (scheduled at 2025-02-14 14:08:56.115878+01:00)
+2025-02-14 14:08:57,067 - CPU: 5.3%, RAM: 83.2%, Disco: 97.3%
+2025-02-14 14:08:57,067 - Job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-14 14:09:01 CET)" executed successfully
+2025-02-14 14:08:57,130 - CPU: 5.1%, RAM: 83.3%, Disco: 97.3%
+2025-02-14 14:08:57,130 - Job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-14 14:09:01 CET)" executed successfully
+2025-02-14 14:09:01,055 - Running job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-14 14:09:06 CET)" (scheduled at 2025-02-14 14:09:01.053119+01:00)
+2025-02-14 14:09:01,119 - Running job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-14 14:09:06 CET)" (scheduled at 2025-02-14 14:09:01.115878+01:00)
+2025-02-14 14:09:02,062 - CPU: 2.7%, RAM: 83.3%, Disco: 97.3%
+2025-02-14 14:09:02,062 - Job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-14 14:09:06 CET)" executed successfully
+2025-02-14 14:09:02,124 - CPU: 2.9%, RAM: 83.3%, Disco: 97.3%
+2025-02-14 14:09:02,124 - Job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-14 14:09:06 CET)" executed successfully
+2025-02-14 14:09:06,063 - Running job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-14 14:09:11 CET)" (scheduled at 2025-02-14 14:09:06.053119+01:00)
+2025-02-14 14:09:06,127 - Running job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-14 14:09:11 CET)" (scheduled at 2025-02-14 14:09:06.115878+01:00)
+2025-02-14 14:09:07,066 - CPU: 6.6%, RAM: 83.2%, Disco: 97.3%
+2025-02-14 14:09:07,066 - Job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-14 14:09:11 CET)" executed successfully
+2025-02-14 14:09:07,129 - CPU: 5.8%, RAM: 83.2%, Disco: 97.3%
+2025-02-14 14:09:07,129 - Job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-14 14:09:11 CET)" executed successfully
+2025-02-14 14:09:11,064 - Running job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-14 14:09:16 CET)" (scheduled at 2025-02-14 14:09:11.053119+01:00)
+2025-02-14 14:09:11,130 - Running job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-14 14:09:16 CET)" (scheduled at 2025-02-14 14:09:11.115878+01:00)
+2025-02-14 14:09:12,072 - CPU: 5.1%, RAM: 83.3%, Disco: 97.3%
+2025-02-14 14:09:12,072 - Job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-14 14:09:16 CET)" executed successfully
+2025-02-14 14:09:12,140 - CPU: 4.7%, RAM: 83.3%, Disco: 97.3%
+2025-02-14 14:09:12,140 - Job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-14 14:09:16 CET)" executed successfully
+2025-02-14 14:09:16,054 - Running job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-14 14:09:21 CET)" (scheduled at 2025-02-14 14:09:16.053119+01:00)
+2025-02-14 14:09:16,121 - Running job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-14 14:09:21 CET)" (scheduled at 2025-02-14 14:09:16.115878+01:00)
+2025-02-14 14:09:17,059 - CPU: 20.9%, RAM: 83.9%, Disco: 97.3%
+2025-02-14 14:09:17,059 - Job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-14 14:09:21 CET)" executed successfully
+2025-02-14 14:09:17,126 - CPU: 22.2%, RAM: 83.9%, Disco: 97.3%
+2025-02-14 14:09:17,126 - Job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-14 14:09:21 CET)" executed successfully
+2025-02-14 14:09:21,068 - Running job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-14 14:09:26 CET)" (scheduled at 2025-02-14 14:09:21.053119+01:00)
+2025-02-14 14:09:21,119 - Running job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-14 14:09:26 CET)" (scheduled at 2025-02-14 14:09:21.115878+01:00)
+2025-02-14 14:09:22,069 - CPU: 41.3%, RAM: 85.1%, Disco: 97.3%
+2025-02-14 14:09:22,069 - Job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-14 14:09:26 CET)" executed successfully
+2025-02-14 14:09:22,120 - CPU: 37.6%, RAM: 85.1%, Disco: 97.3%
+2025-02-14 14:09:22,120 - Job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-14 14:09:26 CET)" executed successfully
+2025-02-14 14:09:23,799 -  * Detected change in 'C:\\xampp\\htdocs\\xampp\\migithub\\app_gestion_4.0\\app\\__init__.py', reloading
+2025-02-14 14:09:24,026 -  * Restarting with stat
+2025-02-14 14:09:25,166 - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-02-14 14:09:25,170 - Added job "monitorizar_recursos" to job store "default"
+2025-02-14 14:09:25,170 - Scheduler started
+2025-02-14 14:09:25,205 -  * Debugger is active!
+2025-02-14 14:09:25,209 -  * Debugger PIN: 726-180-169
+2025-02-14 14:09:26,120 - Running job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-14 14:09:31 CET)" (scheduled at 2025-02-14 14:09:26.115878+01:00)
+2025-02-14 14:09:27,127 - CPU: 43.8%, RAM: 83.2%, Disco: 97.3%
+2025-02-14 14:09:27,127 - Job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-14 14:09:31 CET)" executed successfully
+2025-02-14 14:09:30,167 - Running job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-14 14:09:30 CET)" (scheduled at 2025-02-14 14:09:30.166271+01:00)
+2025-02-14 14:09:31,131 - Running job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-14 14:09:36 CET)" (scheduled at 2025-02-14 14:09:31.115878+01:00)
+2025-02-14 14:09:31,169 - CPU: 17.9%, RAM: 82.4%, Disco: 97.3%
+2025-02-14 14:09:31,169 - Job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-14 14:09:35 CET)" executed successfully
+2025-02-14 14:09:32,132 - CPU: 14.2%, RAM: 82.4%, Disco: 97.3%
+2025-02-14 14:09:32,132 - Job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-14 14:09:36 CET)" executed successfully
+2025-02-14 14:09:35,179 - Running job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-14 14:09:40 CET)" (scheduled at 2025-02-14 14:09:35.166271+01:00)
+2025-02-14 14:09:36,117 - Running job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-14 14:09:41 CET)" (scheduled at 2025-02-14 14:09:36.115878+01:00)
+2025-02-14 14:09:36,187 - CPU: 14.9%, RAM: 82.3%, Disco: 97.3%
+2025-02-14 14:09:36,187 - Job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-14 14:09:40 CET)" executed successfully
+2025-02-14 14:09:37,131 - CPU: 11.5%, RAM: 82.3%, Disco: 97.3%
+2025-02-14 14:09:37,132 - Job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-14 14:09:41 CET)" executed successfully
+2025-02-14 14:09:40,171 - Running job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-14 14:09:45 CET)" (scheduled at 2025-02-14 14:09:40.166271+01:00)
+2025-02-14 14:09:41,117 - Running job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-14 14:09:46 CET)" (scheduled at 2025-02-14 14:09:41.115878+01:00)
+2025-02-14 14:09:41,187 - CPU: 45.0%, RAM: 82.3%, Disco: 97.3%
+2025-02-14 14:09:41,187 - Job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-14 14:09:45 CET)" executed successfully
+2025-02-14 14:09:42,122 - CPU: 44.0%, RAM: 82.5%, Disco: 97.3%
+2025-02-14 14:09:42,122 - Job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-14 14:09:46 CET)" executed successfully
+2025-02-14 14:09:45,168 - Running job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-14 14:09:50 CET)" (scheduled at 2025-02-14 14:09:45.166271+01:00)
+2025-02-14 14:09:46,124 - Running job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-14 14:09:51 CET)" (scheduled at 2025-02-14 14:09:46.115878+01:00)
+2025-02-14 14:09:46,173 - CPU: 15.3%, RAM: 82.3%, Disco: 97.3%
+2025-02-14 14:09:46,173 - Job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-14 14:09:50 CET)" executed successfully
+2025-02-14 14:09:47,127 - CPU: 9.5%, RAM: 82.4%, Disco: 97.3%
+2025-02-14 14:09:47,127 - Job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-14 14:09:51 CET)" executed successfully
+2025-02-14 14:09:50,178 - Running job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-14 14:09:55 CET)" (scheduled at 2025-02-14 14:09:50.166271+01:00)
+2025-02-14 14:09:51,117 - Running job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-14 14:09:56 CET)" (scheduled at 2025-02-14 14:09:51.115878+01:00)
+2025-02-14 14:09:51,185 - CPU: 4.7%, RAM: 82.3%, Disco: 97.3%
+2025-02-14 14:09:51,185 - Job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-14 14:09:55 CET)" executed successfully
+2025-02-14 14:09:52,125 - CPU: 10.2%, RAM: 82.3%, Disco: 97.3%
+2025-02-14 14:09:52,125 - Job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-14 14:09:56 CET)" executed successfully
+2025-02-14 14:09:55,175 - Running job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-14 14:10:00 CET)" (scheduled at 2025-02-14 14:09:55.166271+01:00)
+2025-02-14 14:09:56,125 - Running job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-14 14:10:01 CET)" (scheduled at 2025-02-14 14:09:56.115878+01:00)
+2025-02-14 14:09:56,180 - CPU: 5.2%, RAM: 82.0%, Disco: 97.3%
+2025-02-14 14:09:56,181 - Job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-14 14:10:00 CET)" executed successfully
+2025-02-14 14:09:57,129 - CPU: 9.6%, RAM: 81.9%, Disco: 97.3%
+2025-02-14 14:09:57,129 - Job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-14 14:10:01 CET)" executed successfully
+2025-02-14 14:10:00,179 - Running job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-14 14:10:05 CET)" (scheduled at 2025-02-14 14:10:00.166271+01:00)
+2025-02-14 14:10:01,130 - Running job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-14 14:10:06 CET)" (scheduled at 2025-02-14 14:10:01.115878+01:00)
+2025-02-14 14:10:01,189 - CPU: 23.1%, RAM: 81.8%, Disco: 97.3%
+2025-02-14 14:10:01,189 - Job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-14 14:10:05 CET)" executed successfully
+2025-02-14 14:10:02,139 - CPU: 12.9%, RAM: 81.7%, Disco: 97.3%
+2025-02-14 14:10:02,139 - Job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-14 14:10:06 CET)" executed successfully
+2025-02-14 14:10:05,168 - Running job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-14 14:10:10 CET)" (scheduled at 2025-02-14 14:10:05.166271+01:00)
+2025-02-14 14:10:06,109 -  * Detected change in 'C:\\xampp\\htdocs\\xampp\\migithub\\app_gestion_4.0\\app\\__init__.py', reloading
+2025-02-14 14:10:06,119 - Running job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-14 14:10:11 CET)" (scheduled at 2025-02-14 14:10:06.115878+01:00)
+2025-02-14 14:10:06,178 - CPU: 48.9%, RAM: 82.3%, Disco: 97.3%
+2025-02-14 14:10:06,178 - Job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-14 14:10:10 CET)" executed successfully
+2025-02-14 14:10:06,503 -  * Restarting with stat
+2025-02-14 14:10:07,124 - CPU: 49.5%, RAM: 82.6%, Disco: 97.3%
+2025-02-14 14:10:07,124 - Job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-14 14:10:11 CET)" executed successfully
+2025-02-14 14:10:07,673 - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-02-14 14:10:07,673 - Added job "monitorizar_recursos" to job store "default"
+2025-02-14 14:10:07,673 - Scheduler started
+2025-02-14 14:10:07,689 -  * Debugger is active!
+2025-02-14 14:10:07,689 -  * Debugger PIN: 726-180-169
+2025-02-14 14:10:11,126 - Running job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-14 14:10:16 CET)" (scheduled at 2025-02-14 14:10:11.115878+01:00)
+2025-02-14 14:10:12,128 - CPU: 29.6%, RAM: 82.4%, Disco: 97.3%
+2025-02-14 14:10:12,128 - Job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-14 14:10:16 CET)" executed successfully
+2025-02-14 14:10:12,683 - Running job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-14 14:10:12 CET)" (scheduled at 2025-02-14 14:10:12.673934+01:00)
+2025-02-14 14:10:13,688 - CPU: 13.8%, RAM: 82.2%, Disco: 97.3%
+2025-02-14 14:10:13,688 - Job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-14 14:10:17 CET)" executed successfully
+2025-02-14 14:10:16,122 - Running job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-14 14:10:21 CET)" (scheduled at 2025-02-14 14:10:16.115878+01:00)
+2025-02-14 14:10:17,124 - CPU: 22.1%, RAM: 82.4%, Disco: 97.3%
+2025-02-14 14:10:17,124 - Job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-14 14:10:21 CET)" executed successfully
+2025-02-14 14:10:17,678 - Running job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-14 14:10:22 CET)" (scheduled at 2025-02-14 14:10:17.673934+01:00)
+2025-02-14 14:10:18,687 - CPU: 28.2%, RAM: 82.4%, Disco: 97.3%
+2025-02-14 14:10:18,687 - Job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-14 14:10:22 CET)" executed successfully
+2025-02-14 14:10:21,157 - Running job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-14 14:10:26 CET)" (scheduled at 2025-02-14 14:10:21.115878+01:00)
+2025-02-14 14:10:22,165 - CPU: 44.7%, RAM: 82.5%, Disco: 97.3%
+2025-02-14 14:10:22,165 - Job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-14 14:10:26 CET)" executed successfully
+2025-02-14 14:10:22,683 - Running job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-14 14:10:27 CET)" (scheduled at 2025-02-14 14:10:22.673934+01:00)
+2025-02-14 14:10:23,696 - CPU: 36.5%, RAM: 82.5%, Disco: 97.3%
+2025-02-14 14:10:23,696 - Job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-14 14:10:27 CET)" executed successfully
+2025-02-14 14:10:26,119 - Running job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-14 14:10:31 CET)" (scheduled at 2025-02-14 14:10:26.115878+01:00)
+2025-02-14 14:10:27,128 - CPU: 11.5%, RAM: 82.8%, Disco: 97.3%
+2025-02-14 14:10:27,128 - Job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-14 14:10:31 CET)" executed successfully
+2025-02-14 14:10:27,679 - Running job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-14 14:10:32 CET)" (scheduled at 2025-02-14 14:10:27.673934+01:00)
+2025-02-14 14:10:28,692 - CPU: 18.8%, RAM: 82.7%, Disco: 97.3%
+2025-02-14 14:10:28,692 - Job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-14 14:10:32 CET)" executed successfully
+2025-02-14 14:10:31,117 - Running job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-14 14:10:36 CET)" (scheduled at 2025-02-14 14:10:31.115878+01:00)
+2025-02-14 14:10:32,128 - CPU: 3.1%, RAM: 82.6%, Disco: 97.3%
+2025-02-14 14:10:32,130 - Job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-14 14:10:36 CET)" executed successfully
+2025-02-14 14:10:32,683 - Running job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-14 14:10:37 CET)" (scheduled at 2025-02-14 14:10:32.673934+01:00)
+2025-02-14 14:10:33,692 - CPU: 7.9%, RAM: 82.5%, Disco: 97.3%
+2025-02-14 14:10:33,692 - Job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-14 14:10:37 CET)" executed successfully
+2025-02-14 14:10:36,125 - Running job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-14 14:10:41 CET)" (scheduled at 2025-02-14 14:10:36.115878+01:00)
+2025-02-14 14:10:37,126 - CPU: 6.1%, RAM: 81.9%, Disco: 97.3%
+2025-02-14 14:10:37,126 - Job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-14 14:10:41 CET)" executed successfully
+2025-02-14 14:10:37,682 - Running job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-14 14:10:42 CET)" (scheduled at 2025-02-14 14:10:37.673934+01:00)
+2025-02-14 14:10:38,693 - CPU: 10.6%, RAM: 81.9%, Disco: 97.3%
+2025-02-14 14:10:38,694 - Job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-14 14:10:42 CET)" executed successfully
+2025-02-14 14:10:41,117 - Running job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-14 14:10:46 CET)" (scheduled at 2025-02-14 14:10:41.115878+01:00)
+2025-02-14 14:10:42,129 - CPU: 19.5%, RAM: 81.9%, Disco: 97.3%
+2025-02-14 14:10:42,131 - Job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-14 14:10:46 CET)" executed successfully
+2025-02-14 14:10:42,679 - Running job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-14 14:10:47 CET)" (scheduled at 2025-02-14 14:10:42.673934+01:00)
+2025-02-14 14:10:43,681 - CPU: 7.6%, RAM: 81.9%, Disco: 97.3%
+2025-02-14 14:10:43,681 - Job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-14 14:10:47 CET)" executed successfully
+2025-02-14 14:10:46,119 - Running job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-14 14:10:51 CET)" (scheduled at 2025-02-14 14:10:46.115878+01:00)
+2025-02-14 14:10:47,130 - CPU: 32.0%, RAM: 81.9%, Disco: 97.3%
+2025-02-14 14:10:47,130 - Job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-14 14:10:51 CET)" executed successfully
+2025-02-14 14:10:47,688 - Running job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-14 14:10:52 CET)" (scheduled at 2025-02-14 14:10:47.673934+01:00)
+2025-02-14 14:10:48,702 - CPU: 24.2%, RAM: 81.8%, Disco: 97.3%
+2025-02-14 14:10:48,702 - Job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-14 14:10:52 CET)" executed successfully
+2025-02-14 14:10:51,128 - Running job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-14 14:10:56 CET)" (scheduled at 2025-02-14 14:10:51.115878+01:00)
+2025-02-14 14:10:52,133 - CPU: 14.6%, RAM: 82.3%, Disco: 97.3%
+2025-02-14 14:10:52,134 - Job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-14 14:10:56 CET)" executed successfully
+2025-02-14 14:10:52,312 -  * Detected change in 'C:\\xampp\\htdocs\\xampp\\migithub\\app_gestion_4.0\\app\\forms.py', reloading
+2025-02-14 14:10:52,469 -  * Restarting with stat
+2025-02-14 14:10:53,640 - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-02-14 14:10:53,641 - Added job "monitorizar_recursos" to job store "default"
+2025-02-14 14:10:53,642 - Scheduler started
+2025-02-14 14:10:53,677 -  * Debugger is active!
+2025-02-14 14:10:53,684 -  * Debugger PIN: 726-180-169
+2025-02-14 14:10:56,116 - Running job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-14 14:11:01 CET)" (scheduled at 2025-02-14 14:10:56.115878+01:00)
+2025-02-14 14:10:57,130 - CPU: 30.2%, RAM: 82.8%, Disco: 97.3%
+2025-02-14 14:10:57,130 - Job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-14 14:11:01 CET)" executed successfully
+2025-02-14 14:10:58,647 - Running job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-14 14:10:58 CET)" (scheduled at 2025-02-14 14:10:58.639636+01:00)
+2025-02-14 14:10:59,652 - CPU: 49.5%, RAM: 82.7%, Disco: 97.3%
+2025-02-14 14:10:59,652 - Job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-14 14:11:03 CET)" executed successfully
+2025-02-14 14:11:01,124 - Running job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-14 14:11:06 CET)" (scheduled at 2025-02-14 14:11:01.115878+01:00)
+2025-02-14 14:11:02,138 - CPU: 18.2%, RAM: 82.8%, Disco: 97.3%
+2025-02-14 14:11:02,139 - Job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-14 14:11:06 CET)" executed successfully
+2025-02-14 14:11:03,657 - Running job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-14 14:11:08 CET)" (scheduled at 2025-02-14 14:11:03.639636+01:00)
+2025-02-14 14:11:04,666 - CPU: 6.7%, RAM: 83.0%, Disco: 97.3%
+2025-02-14 14:11:04,667 - Job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-14 14:11:08 CET)" executed successfully
+2025-02-14 14:11:06,125 - Running job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-14 14:11:11 CET)" (scheduled at 2025-02-14 14:11:06.115878+01:00)
+2025-02-14 14:11:07,130 - CPU: 6.9%, RAM: 82.9%, Disco: 97.3%
+2025-02-14 14:11:07,130 - Job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-14 14:11:11 CET)" executed successfully
+2025-02-14 14:11:08,643 - Running job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-14 14:11:13 CET)" (scheduled at 2025-02-14 14:11:08.639636+01:00)
+2025-02-14 14:11:09,646 - CPU: 8.3%, RAM: 82.7%, Disco: 97.3%
+2025-02-14 14:11:09,646 - Job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-14 14:11:13 CET)" executed successfully
+2025-02-14 14:11:11,125 - Running job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-14 14:11:16 CET)" (scheduled at 2025-02-14 14:11:11.115878+01:00)
+2025-02-14 14:11:12,127 - CPU: 12.5%, RAM: 82.3%, Disco: 97.3%
+2025-02-14 14:11:12,127 - Job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-14 14:11:16 CET)" executed successfully
+2025-02-14 14:11:13,641 - Running job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-14 14:11:18 CET)" (scheduled at 2025-02-14 14:11:13.639636+01:00)
+2025-02-14 14:11:14,648 - CPU: 22.0%, RAM: 82.5%, Disco: 97.3%
+2025-02-14 14:11:14,649 - Job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-14 14:11:18 CET)" executed successfully
+2025-02-14 14:11:16,129 - Running job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-14 14:11:21 CET)" (scheduled at 2025-02-14 14:11:16.115878+01:00)
+2025-02-14 14:11:17,130 - CPU: 15.3%, RAM: 82.7%, Disco: 97.3%
+2025-02-14 14:11:17,130 - Job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-14 14:11:21 CET)" executed successfully
+2025-02-14 14:11:18,655 - Running job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-14 14:11:23 CET)" (scheduled at 2025-02-14 14:11:18.639636+01:00)
+2025-02-14 14:11:19,658 - CPU: 19.4%, RAM: 82.8%, Disco: 97.3%
+2025-02-14 14:11:19,658 - Job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-14 14:11:23 CET)" executed successfully
+2025-02-14 14:11:21,126 - Running job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-14 14:11:26 CET)" (scheduled at 2025-02-14 14:11:21.115878+01:00)
+2025-02-14 14:11:22,139 - CPU: 17.2%, RAM: 82.8%, Disco: 97.3%
+2025-02-14 14:11:22,139 - Job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-14 14:11:26 CET)" executed successfully
+2025-02-14 14:11:23,654 - Running job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-14 14:11:28 CET)" (scheduled at 2025-02-14 14:11:23.639636+01:00)
+2025-02-14 14:11:24,660 - CPU: 12.2%, RAM: 82.8%, Disco: 97.3%
+2025-02-14 14:11:24,660 - Job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-14 14:11:28 CET)" executed successfully
+2025-02-14 14:11:26,122 - Running job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-14 14:11:31 CET)" (scheduled at 2025-02-14 14:11:26.115878+01:00)
+2025-02-14 14:11:27,127 - CPU: 8.3%, RAM: 82.8%, Disco: 97.3%
+2025-02-14 14:11:27,127 - Job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-14 14:11:31 CET)" executed successfully
+2025-02-14 14:11:28,641 - Running job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-14 14:11:33 CET)" (scheduled at 2025-02-14 14:11:28.639636+01:00)
+2025-02-14 14:11:29,646 - CPU: 25.4%, RAM: 82.9%, Disco: 97.3%
+2025-02-14 14:11:29,646 - Job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-14 14:11:33 CET)" executed successfully
+2025-02-14 14:11:31,123 - Running job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-14 14:11:36 CET)" (scheduled at 2025-02-14 14:11:31.115878+01:00)
+2025-02-14 14:11:31,206 -  * Detected change in 'C:\\xampp\\htdocs\\xampp\\migithub\\app_gestion_4.0\\app\\utils.py', reloading
+2025-02-14 14:11:31,389 -  * Restarting with stat
+2025-02-14 14:11:32,124 - CPU: 48.6%, RAM: 82.7%, Disco: 97.3%
+2025-02-14 14:11:32,124 - Job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-14 14:11:36 CET)" executed successfully
+2025-02-14 14:11:32,733 - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-02-14 14:11:32,735 - Added job "monitorizar_recursos" to job store "default"
+2025-02-14 14:11:32,735 - Scheduler started
+2025-02-14 14:11:32,761 -  * Debugger is active!
+2025-02-14 14:11:32,771 -  * Debugger PIN: 726-180-169
+2025-02-14 14:11:36,120 - Running job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-14 14:11:41 CET)" (scheduled at 2025-02-14 14:11:36.115878+01:00)
+2025-02-14 14:11:37,125 - CPU: 33.1%, RAM: 83.0%, Disco: 97.3%
+2025-02-14 14:11:37,125 - Job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-14 14:11:41 CET)" executed successfully
+2025-02-14 14:11:37,749 - Running job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-14 14:11:37 CET)" (scheduled at 2025-02-14 14:11:37.733320+01:00)
+2025-02-14 14:11:38,751 - CPU: 5.7%, RAM: 83.0%, Disco: 97.3%
+2025-02-14 14:11:38,758 - Job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-14 14:11:42 CET)" executed successfully
+2025-02-14 14:11:41,130 - Running job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-14 14:11:46 CET)" (scheduled at 2025-02-14 14:11:41.115878+01:00)
+2025-02-14 14:11:42,145 - CPU: 12.8%, RAM: 82.9%, Disco: 97.3%
+2025-02-14 14:11:42,145 - Job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-14 14:11:46 CET)" executed successfully
+2025-02-14 14:11:42,745 - Running job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-14 14:11:47 CET)" (scheduled at 2025-02-14 14:11:42.733320+01:00)
+2025-02-14 14:11:43,751 - CPU: 11.5%, RAM: 82.9%, Disco: 97.3%
+2025-02-14 14:11:43,751 - Job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-14 14:11:47 CET)" executed successfully
+2025-02-14 14:11:46,117 - Running job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-14 14:11:51 CET)" (scheduled at 2025-02-14 14:11:46.115878+01:00)
+2025-02-14 14:11:47,119 - CPU: 27.6%, RAM: 82.7%, Disco: 97.3%
+2025-02-14 14:11:47,119 - Job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-14 14:11:51 CET)" executed successfully
+2025-02-14 14:11:47,743 - Running job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-14 14:11:52 CET)" (scheduled at 2025-02-14 14:11:47.733320+01:00)
+2025-02-14 14:11:48,751 - CPU: 18.4%, RAM: 82.7%, Disco: 97.3%
+2025-02-14 14:11:48,751 - Job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-14 14:11:52 CET)" executed successfully
+2025-02-14 14:11:51,118 - Running job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-14 14:11:56 CET)" (scheduled at 2025-02-14 14:11:51.115878+01:00)
+2025-02-14 14:11:52,119 - CPU: 61.5%, RAM: 83.2%, Disco: 97.3%
+2025-02-14 14:11:52,119 - Job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-14 14:11:56 CET)" executed successfully
+2025-02-14 14:11:52,749 - Running job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-14 14:11:57 CET)" (scheduled at 2025-02-14 14:11:52.733320+01:00)
+2025-02-14 14:11:53,649 -  * Detected change in 'C:\\xampp\\htdocs\\xampp\\migithub\\app_gestion_4.0\\config.py', reloading
+2025-02-14 14:11:53,759 - CPU: 14.1%, RAM: 83.2%, Disco: 97.3%
+2025-02-14 14:11:53,759 - Job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-14 14:11:57 CET)" executed successfully
+2025-02-14 14:11:53,969 -  * Restarting with stat
+2025-02-14 14:11:55,062 - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-02-14 14:11:55,067 - Added job "monitorizar_recursos" to job store "default"
+2025-02-14 14:11:55,067 - Scheduler started
+2025-02-14 14:11:55,086 -  * Debugger is active!
+2025-02-14 14:11:55,091 -  * Debugger PIN: 726-180-169
+2025-02-14 14:11:56,117 - Running job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-14 14:12:01 CET)" (scheduled at 2025-02-14 14:11:56.115878+01:00)
+2025-02-14 14:11:57,119 - CPU: 44.5%, RAM: 83.9%, Disco: 97.3%
+2025-02-14 14:11:57,119 - Job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-14 14:12:01 CET)" executed successfully
+2025-02-14 14:12:00,065 - Running job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-14 14:12:00 CET)" (scheduled at 2025-02-14 14:12:00.062877+01:00)
+2025-02-14 14:12:01,072 - CPU: 15.7%, RAM: 83.6%, Disco: 97.3%
+2025-02-14 14:12:01,072 - Job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-14 14:12:05 CET)" executed successfully
+2025-02-14 14:12:01,126 - Running job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-14 14:12:06 CET)" (scheduled at 2025-02-14 14:12:01.115878+01:00)
+2025-02-14 14:12:02,139 - CPU: 3.9%, RAM: 83.5%, Disco: 97.3%
+2025-02-14 14:12:02,140 - Job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-14 14:12:06 CET)" executed successfully
+2025-02-14 14:12:05,067 - Running job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-14 14:12:10 CET)" (scheduled at 2025-02-14 14:12:05.062877+01:00)
+2025-02-14 14:12:06,072 - CPU: 9.3%, RAM: 83.3%, Disco: 97.3%
+2025-02-14 14:12:06,072 - Job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-14 14:12:10 CET)" executed successfully
+2025-02-14 14:12:06,127 - Running job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-14 14:12:11 CET)" (scheduled at 2025-02-14 14:12:06.115878+01:00)
+2025-02-14 14:12:07,131 - CPU: 7.9%, RAM: 83.3%, Disco: 97.3%
+2025-02-14 14:12:07,131 - Job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-14 14:12:11 CET)" executed successfully
+2025-02-14 14:12:10,077 - Running job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-14 14:12:15 CET)" (scheduled at 2025-02-14 14:12:10.062877+01:00)
+2025-02-14 14:12:11,079 - CPU: 34.0%, RAM: 83.6%, Disco: 97.3%
+2025-02-14 14:12:11,079 - Job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-14 14:12:15 CET)" executed successfully
+2025-02-14 14:12:11,128 - Running job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-14 14:12:16 CET)" (scheduled at 2025-02-14 14:12:11.115878+01:00)
+2025-02-14 14:12:12,139 - CPU: 42.6%, RAM: 83.5%, Disco: 97.3%
+2025-02-14 14:12:12,139 - Job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-14 14:12:16 CET)" executed successfully
+2025-02-14 14:12:15,075 - Running job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-14 14:12:20 CET)" (scheduled at 2025-02-14 14:12:15.062877+01:00)
+2025-02-14 14:12:16,078 - CPU: 19.3%, RAM: 83.5%, Disco: 97.3%
+2025-02-14 14:12:16,078 - Job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-14 14:12:20 CET)" executed successfully
+2025-02-14 14:12:16,129 - Running job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-14 14:12:21 CET)" (scheduled at 2025-02-14 14:12:16.115878+01:00)
+2025-02-14 14:12:17,134 - CPU: 20.7%, RAM: 83.4%, Disco: 97.3%
+2025-02-14 14:12:17,134 - Job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-14 14:12:21 CET)" executed successfully
+2025-02-14 14:12:19,248 -  * Detected change in 'C:\\xampp\\htdocs\\xampp\\migithub\\app_gestion_4.0\\run.py', reloading
+2025-02-14 14:12:19,422 -  * Restarting with stat
+2025-02-14 14:12:20,468 - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-02-14 14:12:20,468 - Added job "monitorizar_recursos" to job store "default"
+2025-02-14 14:12:20,468 - Scheduler started
+2025-02-14 14:12:20,490 -  * Debugger is active!
+2025-02-14 14:12:20,490 -  * Debugger PIN: 726-180-169
+2025-02-14 14:12:21,123 - Running job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-14 14:12:26 CET)" (scheduled at 2025-02-14 14:12:21.115878+01:00)
+2025-02-14 14:12:22,139 - CPU: 32.4%, RAM: 83.6%, Disco: 97.3%
+2025-02-14 14:12:22,140 - Job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-14 14:12:26 CET)" executed successfully
+2025-02-14 14:12:25,484 - Running job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-14 14:12:25 CET)" (scheduled at 2025-02-14 14:12:25.468853+01:00)
+2025-02-14 14:12:26,124 - Running job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-14 14:12:31 CET)" (scheduled at 2025-02-14 14:12:26.115878+01:00)
+2025-02-14 14:12:26,493 - CPU: 21.3%, RAM: 83.5%, Disco: 97.3%
+2025-02-14 14:12:26,493 - Job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-14 14:12:30 CET)" executed successfully
+2025-02-14 14:12:27,126 - CPU: 32.2%, RAM: 83.5%, Disco: 97.3%
+2025-02-14 14:12:27,126 - Job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-14 14:12:31 CET)" executed successfully
+2025-02-14 14:12:30,484 - Running job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-14 14:12:35 CET)" (scheduled at 2025-02-14 14:12:30.468853+01:00)
+2025-02-14 14:12:31,119 - Running job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-14 14:12:36 CET)" (scheduled at 2025-02-14 14:12:31.115878+01:00)
+2025-02-14 14:12:31,488 - CPU: 9.4%, RAM: 83.3%, Disco: 97.3%
+2025-02-14 14:12:31,488 - Job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-14 14:12:35 CET)" executed successfully
+2025-02-14 14:12:32,130 - CPU: 14.7%, RAM: 83.3%, Disco: 97.3%
+2025-02-14 14:12:32,130 - Job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-14 14:12:36 CET)" executed successfully
+2025-02-14 14:12:35,475 - Running job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-14 14:12:40 CET)" (scheduled at 2025-02-14 14:12:35.468853+01:00)
+2025-02-14 14:12:36,122 - Running job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-14 14:12:41 CET)" (scheduled at 2025-02-14 14:12:36.115878+01:00)
+2025-02-14 14:12:36,481 - CPU: 19.6%, RAM: 83.4%, Disco: 97.3%
+2025-02-14 14:12:36,481 - Job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-14 14:12:40 CET)" executed successfully
+2025-02-14 14:12:37,134 - CPU: 21.6%, RAM: 83.6%, Disco: 97.3%
+2025-02-14 14:12:37,134 - Job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-14 14:12:41 CET)" executed successfully
+2025-02-14 14:12:40,471 - Running job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-14 14:12:45 CET)" (scheduled at 2025-02-14 14:12:40.468853+01:00)
+2025-02-14 14:12:41,131 - Running job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-14 14:12:46 CET)" (scheduled at 2025-02-14 14:12:41.115878+01:00)
+2025-02-14 14:12:41,473 - CPU: 24.2%, RAM: 83.9%, Disco: 97.3%
+2025-02-14 14:12:41,473 - Job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-14 14:12:45 CET)" executed successfully
+2025-02-14 14:12:42,140 - CPU: 17.6%, RAM: 83.9%, Disco: 97.3%
+2025-02-14 14:12:42,140 - Job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-14 14:12:46 CET)" executed successfully
+2025-02-14 14:12:45,471 - Running job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-14 14:12:50 CET)" (scheduled at 2025-02-14 14:12:45.468853+01:00)
+2025-02-14 14:12:46,118 - Running job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-14 14:12:51 CET)" (scheduled at 2025-02-14 14:12:46.115878+01:00)
+2025-02-14 14:12:46,473 - CPU: 13.6%, RAM: 83.8%, Disco: 97.3%
+2025-02-14 14:12:46,473 - Job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-14 14:12:50 CET)" executed successfully
+2025-02-14 14:12:47,123 - CPU: 18.3%, RAM: 83.9%, Disco: 97.3%
+2025-02-14 14:12:47,123 - Job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-14 14:12:51 CET)" executed successfully
+2025-02-14 14:12:50,471 - Running job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-14 14:12:55 CET)" (scheduled at 2025-02-14 14:12:50.468853+01:00)
+2025-02-14 14:12:51,120 - Running job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-14 14:12:56 CET)" (scheduled at 2025-02-14 14:12:51.115878+01:00)
+2025-02-14 14:12:51,474 - CPU: 23.4%, RAM: 84.0%, Disco: 97.3%
+2025-02-14 14:12:51,474 - Job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-14 14:12:55 CET)" executed successfully
+2025-02-14 14:12:52,134 - CPU: 29.9%, RAM: 84.1%, Disco: 97.3%
+2025-02-14 14:12:52,136 - Job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-14 14:12:56 CET)" executed successfully
+2025-02-14 14:12:55,482 - Running job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-14 14:13:00 CET)" (scheduled at 2025-02-14 14:12:55.468853+01:00)
+2025-02-14 14:12:56,128 - Running job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-14 14:13:01 CET)" (scheduled at 2025-02-14 14:12:56.115878+01:00)
+2025-02-14 14:12:56,494 - CPU: 16.4%, RAM: 84.1%, Disco: 97.3%
+2025-02-14 14:12:56,494 - Job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-14 14:13:00 CET)" executed successfully
+2025-02-14 14:12:57,139 - CPU: 13.6%, RAM: 84.0%, Disco: 97.3%
+2025-02-14 14:12:57,140 - Job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-14 14:13:01 CET)" executed successfully
+2025-02-14 14:13:00,468 - Running job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-14 14:13:05 CET)" (scheduled at 2025-02-14 14:13:00.468853+01:00)
+2025-02-14 14:13:01,117 - Running job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-14 14:13:06 CET)" (scheduled at 2025-02-14 14:13:01.115878+01:00)
+2025-02-14 14:13:01,477 - CPU: 8.0%, RAM: 83.9%, Disco: 97.3%
+2025-02-14 14:13:01,477 - Job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-14 14:13:05 CET)" executed successfully
+2025-02-14 14:13:02,125 - CPU: 4.9%, RAM: 83.9%, Disco: 97.3%
+2025-02-14 14:13:02,127 - Job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-14 14:13:06 CET)" executed successfully
+2025-02-14 14:13:05,479 - Running job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-14 14:13:10 CET)" (scheduled at 2025-02-14 14:13:05.468853+01:00)
+2025-02-14 14:13:06,130 - Running job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-14 14:13:11 CET)" (scheduled at 2025-02-14 14:13:06.115878+01:00)
+2025-02-14 14:13:06,493 - CPU: 12.0%, RAM: 84.0%, Disco: 97.3%
+2025-02-14 14:13:06,493 - Job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-14 14:13:10 CET)" executed successfully
+2025-02-14 14:13:07,144 - CPU: 8.5%, RAM: 84.0%, Disco: 97.3%
+2025-02-14 14:13:07,144 - Job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-14 14:13:11 CET)" executed successfully
+2025-02-14 14:13:10,478 - Running job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-14 14:13:15 CET)" (scheduled at 2025-02-14 14:13:10.468853+01:00)
+2025-02-14 14:13:11,132 - Running job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-14 14:13:16 CET)" (scheduled at 2025-02-14 14:13:11.115878+01:00)
+2025-02-14 14:13:11,488 - CPU: 13.1%, RAM: 83.8%, Disco: 97.3%
+2025-02-14 14:13:11,488 - Job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-14 14:13:15 CET)" executed successfully
+2025-02-14 14:13:12,142 - CPU: 13.6%, RAM: 83.8%, Disco: 97.3%
+2025-02-14 14:13:12,142 - Job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-14 14:13:16 CET)" executed successfully
+2025-02-14 14:13:15,477 - Running job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-14 14:13:20 CET)" (scheduled at 2025-02-14 14:13:15.468853+01:00)
+2025-02-14 14:13:16,124 - Running job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-14 14:13:21 CET)" (scheduled at 2025-02-14 14:13:16.115878+01:00)
+2025-02-14 14:13:16,487 - CPU: 6.0%, RAM: 83.5%, Disco: 97.3%
+2025-02-14 14:13:16,487 - Job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-14 14:13:20 CET)" executed successfully
+2025-02-14 14:13:17,135 - CPU: 8.3%, RAM: 83.5%, Disco: 97.3%
+2025-02-14 14:13:17,136 - Job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-14 14:13:21 CET)" executed successfully
+2025-02-14 14:13:20,476 - Running job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-14 14:13:25 CET)" (scheduled at 2025-02-14 14:13:20.468853+01:00)
+2025-02-14 14:13:21,118 - Running job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-14 14:13:26 CET)" (scheduled at 2025-02-14 14:13:21.115878+01:00)
+2025-02-14 14:13:21,487 - CPU: 35.5%, RAM: 84.1%, Disco: 97.3%
+2025-02-14 14:13:21,488 - Job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-14 14:13:25 CET)" executed successfully
+2025-02-14 14:13:22,126 - CPU: 35.2%, RAM: 84.2%, Disco: 97.3%
+2025-02-14 14:13:22,126 - Job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-14 14:13:26 CET)" executed successfully
+2025-02-14 14:13:25,476 - Running job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-14 14:13:30 CET)" (scheduled at 2025-02-14 14:13:25.468853+01:00)
+2025-02-14 14:13:26,124 - Running job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-14 14:13:31 CET)" (scheduled at 2025-02-14 14:13:26.115878+01:00)
+2025-02-14 14:13:26,480 - CPU: 18.9%, RAM: 84.2%, Disco: 97.3%
+2025-02-14 14:13:26,480 - Job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-14 14:13:30 CET)" executed successfully
+2025-02-14 14:13:27,125 - CPU: 23.7%, RAM: 84.2%, Disco: 97.3%
+2025-02-14 14:13:27,125 - Job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-14 14:13:31 CET)" executed successfully
+2025-02-14 14:13:30,472 - Running job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-14 14:13:35 CET)" (scheduled at 2025-02-14 14:13:30.468853+01:00)
+2025-02-14 14:13:31,123 - Running job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-14 14:13:36 CET)" (scheduled at 2025-02-14 14:13:31.115878+01:00)
+2025-02-14 14:13:31,477 - CPU: 28.4%, RAM: 84.0%, Disco: 97.3%
+2025-02-14 14:13:31,477 - Job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-14 14:13:35 CET)" executed successfully
+2025-02-14 14:13:32,125 - CPU: 29.4%, RAM: 84.1%, Disco: 97.3%
+2025-02-14 14:13:32,125 - Job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-14 14:13:36 CET)" executed successfully
+2025-02-14 14:13:35,474 - Running job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-14 14:13:40 CET)" (scheduled at 2025-02-14 14:13:35.468853+01:00)
+2025-02-14 14:13:36,123 - Running job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-14 14:13:41 CET)" (scheduled at 2025-02-14 14:13:36.115878+01:00)
+2025-02-14 14:13:36,479 - CPU: 19.1%, RAM: 83.9%, Disco: 97.3%
+2025-02-14 14:13:36,479 - Job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-14 14:13:40 CET)" executed successfully
+2025-02-14 14:13:37,127 - CPU: 16.1%, RAM: 83.9%, Disco: 97.3%
+2025-02-14 14:13:37,128 - Job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-14 14:13:41 CET)" executed successfully
+2025-02-14 14:13:40,475 - Running job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-14 14:13:45 CET)" (scheduled at 2025-02-14 14:13:40.468853+01:00)
+2025-02-14 14:13:40,506 -  * Detected change in 'C:\\xampp\\htdocs\\xampp\\migithub\\app_gestion_4.0\\app\\controllers\\recurso_controller.py', reloading
+2025-02-14 14:13:41,128 - Running job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-14 14:13:46 CET)" (scheduled at 2025-02-14 14:13:41.115878+01:00)
+2025-02-14 14:13:41,478 - CPU: 34.5%, RAM: 84.4%, Disco: 97.3%
+2025-02-14 14:13:41,479 - Job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-14 14:13:45 CET)" executed successfully
+2025-02-14 14:13:41,642 -  * Restarting with stat
+2025-02-14 14:13:42,143 - CPU: 52.9%, RAM: 84.0%, Disco: 97.3%
+2025-02-14 14:13:42,144 - Job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-14 14:13:46 CET)" executed successfully
+2025-02-14 14:13:43,277 - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-02-14 14:13:43,277 - Added job "monitorizar_recursos" to job store "default"
+2025-02-14 14:13:43,277 - Scheduler started
+2025-02-14 14:13:43,302 -  * Debugger is active!
+2025-02-14 14:13:43,307 -  * Debugger PIN: 726-180-169
+2025-02-14 14:13:46,117 - Running job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-14 14:13:51 CET)" (scheduled at 2025-02-14 14:13:46.115878+01:00)
+2025-02-14 14:13:47,138 - CPU: 9.6%, RAM: 84.2%, Disco: 97.3%
+2025-02-14 14:13:47,138 - Job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-14 14:13:51 CET)" executed successfully
+2025-02-14 14:13:48,282 - Running job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-14 14:13:48 CET)" (scheduled at 2025-02-14 14:13:48.277100+01:00)
+2025-02-14 14:13:49,286 - CPU: 12.4%, RAM: 86.3%, Disco: 97.3%
+2025-02-14 14:13:49,286 - Job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-14 14:13:53 CET)" executed successfully
+2025-02-14 14:13:51,118 - Running job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-14 14:13:56 CET)" (scheduled at 2025-02-14 14:13:51.115878+01:00)
+2025-02-14 14:13:52,122 - CPU: 11.9%, RAM: 86.3%, Disco: 97.3%
+2025-02-14 14:13:52,122 - Job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-14 14:13:56 CET)" executed successfully
+2025-02-14 14:13:53,291 - Running job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-14 14:13:58 CET)" (scheduled at 2025-02-14 14:13:53.277100+01:00)
+2025-02-14 14:13:54,293 - CPU: 22.9%, RAM: 86.5%, Disco: 97.3%
+2025-02-14 14:13:54,293 - Job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-14 14:13:58 CET)" executed successfully
+2025-02-14 14:13:56,123 - Running job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-14 14:14:01 CET)" (scheduled at 2025-02-14 14:13:56.115878+01:00)
+2025-02-14 14:13:57,130 - CPU: 17.8%, RAM: 87.3%, Disco: 97.3%
+2025-02-14 14:13:57,130 - Job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-14 14:14:01 CET)" executed successfully
+2025-02-14 14:13:58,286 - Running job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-14 14:14:03 CET)" (scheduled at 2025-02-14 14:13:58.277100+01:00)
+2025-02-14 14:13:59,291 - CPU: 37.4%, RAM: 87.6%, Disco: 97.3%
+2025-02-14 14:13:59,291 - Job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-14 14:14:03 CET)" executed successfully
+2025-02-14 14:14:01,119 - Running job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-14 14:14:06 CET)" (scheduled at 2025-02-14 14:14:01.115878+01:00)
+2025-02-14 14:14:02,122 - CPU: 14.0%, RAM: 87.3%, Disco: 97.3%
+2025-02-14 14:14:02,122 - Job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-14 14:14:06 CET)" executed successfully
+2025-02-14 14:14:03,284 - Running job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-14 14:14:08 CET)" (scheduled at 2025-02-14 14:14:03.277100+01:00)
+2025-02-14 14:14:04,292 - CPU: 23.8%, RAM: 87.3%, Disco: 97.3%
+2025-02-14 14:14:04,292 - Job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-14 14:14:08 CET)" executed successfully
+2025-02-14 14:14:06,117 - Running job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-14 14:14:11 CET)" (scheduled at 2025-02-14 14:14:06.115878+01:00)
+2025-02-14 14:14:07,129 - CPU: 18.8%, RAM: 87.3%, Disco: 97.3%
+2025-02-14 14:14:07,130 - Job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-14 14:14:11 CET)" executed successfully
+2025-02-14 14:14:08,282 - Running job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-14 14:14:13 CET)" (scheduled at 2025-02-14 14:14:08.277100+01:00)
+2025-02-14 14:14:09,288 - CPU: 20.8%, RAM: 87.2%, Disco: 97.3%
+2025-02-14 14:14:09,288 - Job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-14 14:14:13 CET)" executed successfully
+2025-02-14 14:14:11,116 - Running job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-14 14:14:16 CET)" (scheduled at 2025-02-14 14:14:11.115878+01:00)
+2025-02-14 14:14:12,120 - CPU: 24.3%, RAM: 86.5%, Disco: 97.3%
+2025-02-14 14:14:12,120 - Job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-14 14:14:16 CET)" executed successfully
+2025-02-14 14:14:13,293 - Running job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-14 14:14:18 CET)" (scheduled at 2025-02-14 14:14:13.277100+01:00)
+2025-02-14 14:14:13,968 -  * Detected change in 'C:\\xampp\\htdocs\\xampp\\migithub\\app_gestion_4.0\\app\\controllers\\usuario_controller.py', reloading
+2025-02-14 14:14:14,294 - CPU: 31.8%, RAM: 87.0%, Disco: 97.3%
+2025-02-14 14:14:14,294 - Job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-14 14:14:18 CET)" executed successfully
+2025-02-14 14:14:14,462 -  * Restarting with stat
+2025-02-14 14:14:15,528 - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-02-14 14:14:15,530 - Added job "monitorizar_recursos" to job store "default"
+2025-02-14 14:14:15,530 - Scheduler started
+2025-02-14 14:14:15,548 -  * Debugger is active!
+2025-02-14 14:14:15,548 -  * Debugger PIN: 726-180-169
+2025-02-14 14:14:16,128 - Running job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-14 14:14:21 CET)" (scheduled at 2025-02-14 14:14:16.115878+01:00)
+2025-02-14 14:14:17,135 - CPU: 56.2%, RAM: 87.3%, Disco: 97.3%
+2025-02-14 14:14:17,136 - Job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-14 14:14:21 CET)" executed successfully
+2025-02-14 14:14:20,532 - Running job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-14 14:14:20 CET)" (scheduled at 2025-02-14 14:14:20.528696+01:00)
+2025-02-14 14:14:21,123 - Running job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-14 14:14:26 CET)" (scheduled at 2025-02-14 14:14:21.115878+01:00)
+2025-02-14 14:14:21,536 - CPU: 23.2%, RAM: 86.8%, Disco: 97.3%
+2025-02-14 14:14:21,536 - Job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-14 14:14:25 CET)" executed successfully
+2025-02-14 14:14:22,124 - CPU: 19.2%, RAM: 86.8%, Disco: 97.3%
+2025-02-14 14:14:22,124 - Job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-14 14:14:26 CET)" executed successfully
+2025-02-14 14:14:25,541 - Running job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-14 14:14:30 CET)" (scheduled at 2025-02-14 14:14:25.528696+01:00)
+2025-02-14 14:14:26,126 - Running job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-14 14:14:31 CET)" (scheduled at 2025-02-14 14:14:26.115878+01:00)
+2025-02-14 14:14:26,544 - CPU: 18.1%, RAM: 86.8%, Disco: 97.3%
+2025-02-14 14:14:26,544 - Job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-14 14:14:30 CET)" executed successfully
+2025-02-14 14:14:27,127 - CPU: 15.2%, RAM: 86.6%, Disco: 97.3%
+2025-02-14 14:14:27,127 - Job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-14 14:14:31 CET)" executed successfully
+2025-02-14 14:14:30,529 - Running job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-14 14:14:35 CET)" (scheduled at 2025-02-14 14:14:30.528696+01:00)
+2025-02-14 14:14:31,123 - Running job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-14 14:14:36 CET)" (scheduled at 2025-02-14 14:14:31.115878+01:00)
+2025-02-14 14:14:31,541 - CPU: 17.0%, RAM: 85.2%, Disco: 97.3%
+2025-02-14 14:14:31,541 - Job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-14 14:14:35 CET)" executed successfully
+2025-02-14 14:14:32,130 - CPU: 35.6%, RAM: 85.3%, Disco: 97.3%
+2025-02-14 14:14:32,131 - Job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-14 14:14:36 CET)" executed successfully
+2025-02-14 14:14:35,529 - Running job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-14 14:14:40 CET)" (scheduled at 2025-02-14 14:14:35.528696+01:00)
+2025-02-14 14:14:36,126 - Running job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-14 14:14:41 CET)" (scheduled at 2025-02-14 14:14:36.115878+01:00)
+2025-02-14 14:14:36,536 - CPU: 14.7%, RAM: 85.6%, Disco: 97.3%
+2025-02-14 14:14:36,536 - Job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-14 14:14:40 CET)" executed successfully
+2025-02-14 14:14:37,136 - CPU: 9.1%, RAM: 85.5%, Disco: 97.3%
+2025-02-14 14:14:37,136 - Job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-14 14:14:41 CET)" executed successfully
+2025-02-14 14:14:40,536 - Running job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-14 14:14:45 CET)" (scheduled at 2025-02-14 14:14:40.528696+01:00)
+2025-02-14 14:14:41,121 - Running job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-14 14:14:46 CET)" (scheduled at 2025-02-14 14:14:41.115878+01:00)
+2025-02-14 14:14:41,541 - CPU: 5.8%, RAM: 85.3%, Disco: 97.3%
+2025-02-14 14:14:41,541 - Job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-14 14:14:45 CET)" executed successfully
+2025-02-14 14:14:42,129 - CPU: 6.2%, RAM: 85.3%, Disco: 97.3%
+2025-02-14 14:14:42,129 - Job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-14 14:14:46 CET)" executed successfully
+2025-02-14 14:14:45,541 - Running job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-14 14:14:50 CET)" (scheduled at 2025-02-14 14:14:45.528696+01:00)
+2025-02-14 14:14:46,124 - Running job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-14 14:14:51 CET)" (scheduled at 2025-02-14 14:14:46.115878+01:00)
+2025-02-14 14:14:46,545 - CPU: 7.6%, RAM: 85.1%, Disco: 97.3%
+2025-02-14 14:14:46,545 - Job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-14 14:14:50 CET)" executed successfully
+2025-02-14 14:14:47,135 - CPU: 11.5%, RAM: 84.9%, Disco: 97.3%
+2025-02-14 14:14:47,136 - Job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-14 14:14:51 CET)" executed successfully
+2025-02-14 14:14:50,544 - Running job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-14 14:14:55 CET)" (scheduled at 2025-02-14 14:14:50.528696+01:00)
+2025-02-14 14:14:51,117 - Running job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-14 14:14:56 CET)" (scheduled at 2025-02-14 14:14:51.115878+01:00)
+2025-02-14 14:14:51,560 - CPU: 32.5%, RAM: 85.2%, Disco: 97.3%
+2025-02-14 14:14:51,561 - Job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-14 14:14:55 CET)" executed successfully
+2025-02-14 14:14:52,119 - CPU: 19.4%, RAM: 85.3%, Disco: 97.3%
+2025-02-14 14:14:52,119 - Job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-14 14:14:56 CET)" executed successfully
+2025-02-14 14:14:55,537 - Running job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-14 14:15:00 CET)" (scheduled at 2025-02-14 14:14:55.528696+01:00)
+2025-02-14 14:14:56,122 - Running job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-14 14:15:01 CET)" (scheduled at 2025-02-14 14:14:56.115878+01:00)
+2025-02-14 14:14:56,544 - CPU: 20.2%, RAM: 85.5%, Disco: 97.3%
+2025-02-14 14:14:56,544 - Job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-14 14:15:00 CET)" executed successfully
+2025-02-14 14:14:57,125 - CPU: 31.3%, RAM: 85.5%, Disco: 97.3%
+2025-02-14 14:14:57,125 - Job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-14 14:15:01 CET)" executed successfully
+2025-02-14 14:15:00,544 - Running job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-14 14:15:05 CET)" (scheduled at 2025-02-14 14:15:00.528696+01:00)
+2025-02-14 14:15:01,120 - Running job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-14 14:15:06 CET)" (scheduled at 2025-02-14 14:15:01.115878+01:00)
+2025-02-14 14:15:01,555 - CPU: 19.0%, RAM: 85.6%, Disco: 97.3%
+2025-02-14 14:15:01,556 - Job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-14 14:15:05 CET)" executed successfully
+2025-02-14 14:15:02,132 - CPU: 15.1%, RAM: 85.6%, Disco: 97.3%
+2025-02-14 14:15:02,133 - Job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-14 14:15:06 CET)" executed successfully
+2025-02-14 14:15:05,543 - Running job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-14 14:15:10 CET)" (scheduled at 2025-02-14 14:15:05.528696+01:00)
+2025-02-14 14:15:06,116 - Running job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-14 14:15:11 CET)" (scheduled at 2025-02-14 14:15:06.115878+01:00)
+2025-02-14 14:15:06,548 - CPU: 23.5%, RAM: 85.6%, Disco: 97.3%
+2025-02-14 14:15:06,548 - Job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-14 14:15:10 CET)" executed successfully
+2025-02-14 14:15:07,125 - CPU: 45.8%, RAM: 86.0%, Disco: 97.3%
+2025-02-14 14:15:07,125 - Job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-14 14:15:11 CET)" executed successfully
+2025-02-14 14:15:10,534 - Running job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-14 14:15:15 CET)" (scheduled at 2025-02-14 14:15:10.528696+01:00)
+2025-02-14 14:15:11,121 - Running job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-14 14:15:16 CET)" (scheduled at 2025-02-14 14:15:11.115878+01:00)
+2025-02-14 14:15:11,544 - CPU: 46.1%, RAM: 86.1%, Disco: 97.3%
+2025-02-14 14:15:11,544 - Job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-14 14:15:15 CET)" executed successfully
+2025-02-14 14:15:12,139 - CPU: 40.0%, RAM: 86.1%, Disco: 97.3%
+2025-02-14 14:15:12,139 - Job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-14 14:15:16 CET)" executed successfully
+2025-02-14 14:15:15,529 - Running job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-14 14:15:20 CET)" (scheduled at 2025-02-14 14:15:15.528696+01:00)
+2025-02-14 14:15:16,126 - Running job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-14 14:15:21 CET)" (scheduled at 2025-02-14 14:15:16.115878+01:00)
+2025-02-14 14:15:16,535 - CPU: 8.3%, RAM: 86.0%, Disco: 97.3%
+2025-02-14 14:15:16,536 - Job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-14 14:15:20 CET)" executed successfully
+2025-02-14 14:15:17,140 - CPU: 8.0%, RAM: 86.0%, Disco: 97.3%
+2025-02-14 14:15:17,140 - Job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-14 14:15:21 CET)" executed successfully
+2025-02-14 14:15:20,529 - Running job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-14 14:15:25 CET)" (scheduled at 2025-02-14 14:15:20.528696+01:00)
+2025-02-14 14:15:21,129 - Running job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-14 14:15:26 CET)" (scheduled at 2025-02-14 14:15:21.115878+01:00)
+2025-02-14 14:15:21,538 - CPU: 4.3%, RAM: 85.9%, Disco: 97.3%
+2025-02-14 14:15:21,539 - Job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-14 14:15:25 CET)" executed successfully
+2025-02-14 14:15:22,136 - CPU: 6.0%, RAM: 85.9%, Disco: 97.3%
+2025-02-14 14:15:22,138 - Job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-14 14:15:26 CET)" executed successfully
+2025-02-14 14:15:25,538 - Running job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-14 14:15:30 CET)" (scheduled at 2025-02-14 14:15:25.528696+01:00)
+2025-02-14 14:15:26,128 - Running job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-14 14:15:31 CET)" (scheduled at 2025-02-14 14:15:26.115878+01:00)
+2025-02-14 14:15:26,540 - CPU: 7.6%, RAM: 85.6%, Disco: 97.3%
+2025-02-14 14:15:26,540 - Job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-14 14:15:30 CET)" executed successfully
+2025-02-14 14:15:27,136 - CPU: 7.3%, RAM: 85.6%, Disco: 97.3%
+2025-02-14 14:15:27,136 - Job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-14 14:15:31 CET)" executed successfully
+2025-02-14 14:15:30,544 - Running job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-14 14:15:35 CET)" (scheduled at 2025-02-14 14:15:30.528696+01:00)
+2025-02-14 14:15:31,122 - Running job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-14 14:15:36 CET)" (scheduled at 2025-02-14 14:15:31.115878+01:00)
+2025-02-14 14:15:31,547 - CPU: 3.5%, RAM: 85.6%, Disco: 97.3%
+2025-02-14 14:15:31,547 - Job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-14 14:15:35 CET)" executed successfully
+2025-02-14 14:15:32,129 - CPU: 5.6%, RAM: 85.6%, Disco: 97.3%
+2025-02-14 14:15:32,129 - Job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-14 14:15:36 CET)" executed successfully
+2025-02-14 14:15:35,531 - Running job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-14 14:15:40 CET)" (scheduled at 2025-02-14 14:15:35.528696+01:00)
+2025-02-14 14:15:36,119 - Running job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-14 14:15:41 CET)" (scheduled at 2025-02-14 14:15:36.115878+01:00)
+2025-02-14 14:15:36,535 - CPU: 21.4%, RAM: 85.6%, Disco: 97.3%
+2025-02-14 14:15:36,535 - Job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-14 14:15:40 CET)" executed successfully
+2025-02-14 14:15:37,122 - CPU: 27.2%, RAM: 85.6%, Disco: 97.3%
+2025-02-14 14:15:37,122 - Job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-14 14:15:41 CET)" executed successfully
+2025-02-14 14:15:40,531 - Running job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-14 14:15:45 CET)" (scheduled at 2025-02-14 14:15:40.528696+01:00)
+2025-02-14 14:15:41,126 - Running job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-14 14:15:46 CET)" (scheduled at 2025-02-14 14:15:41.115878+01:00)
+2025-02-14 14:15:41,536 - CPU: 24.1%, RAM: 86.4%, Disco: 97.3%
+2025-02-14 14:15:41,537 - Job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-14 14:15:45 CET)" executed successfully
+2025-02-14 14:15:42,128 - CPU: 19.9%, RAM: 86.4%, Disco: 97.3%
+2025-02-14 14:15:42,128 - Job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-14 14:15:46 CET)" executed successfully
+2025-02-14 14:15:45,536 - Running job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-14 14:15:50 CET)" (scheduled at 2025-02-14 14:15:45.528696+01:00)
+2025-02-14 14:15:46,125 - Running job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-14 14:15:51 CET)" (scheduled at 2025-02-14 14:15:46.115878+01:00)
+2025-02-14 14:15:46,540 - CPU: 14.0%, RAM: 86.2%, Disco: 97.3%
+2025-02-14 14:15:46,540 - Job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-14 14:15:50 CET)" executed successfully
+2025-02-14 14:15:47,129 - CPU: 14.2%, RAM: 86.2%, Disco: 97.3%
+2025-02-14 14:15:47,129 - Job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-14 14:15:51 CET)" executed successfully
+2025-02-14 14:15:50,530 - Running job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-14 14:15:55 CET)" (scheduled at 2025-02-14 14:15:50.528696+01:00)
+2025-02-14 14:15:51,125 - Running job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-14 14:15:56 CET)" (scheduled at 2025-02-14 14:15:51.115878+01:00)
+2025-02-14 14:15:51,535 - CPU: 16.0%, RAM: 86.0%, Disco: 97.3%
+2025-02-14 14:15:51,535 - Job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-14 14:15:55 CET)" executed successfully
+2025-02-14 14:15:52,126 - CPU: 19.5%, RAM: 86.0%, Disco: 97.3%
+2025-02-14 14:15:52,126 - Job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-14 14:15:56 CET)" executed successfully
+2025-02-14 14:15:55,537 - Running job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-14 14:16:00 CET)" (scheduled at 2025-02-14 14:15:55.528696+01:00)
+2025-02-14 14:15:56,118 - Running job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-14 14:16:01 CET)" (scheduled at 2025-02-14 14:15:56.115878+01:00)
+2025-02-14 14:15:56,539 - CPU: 6.2%, RAM: 85.7%, Disco: 97.3%
+2025-02-14 14:15:56,539 - Job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-14 14:16:00 CET)" executed successfully
+2025-02-14 14:15:57,124 - CPU: 5.8%, RAM: 85.7%, Disco: 97.3%
+2025-02-14 14:15:57,124 - Job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-14 14:16:01 CET)" executed successfully
+2025-02-14 14:16:00,534 - Running job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-14 14:16:05 CET)" (scheduled at 2025-02-14 14:16:00.528696+01:00)
+2025-02-14 14:16:01,121 - Running job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-14 14:16:06 CET)" (scheduled at 2025-02-14 14:16:01.115878+01:00)
+2025-02-14 14:16:01,538 - CPU: 15.3%, RAM: 85.8%, Disco: 97.3%
+2025-02-14 14:16:01,539 - Job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-14 14:16:05 CET)" executed successfully
+2025-02-14 14:16:02,133 - CPU: 11.6%, RAM: 85.8%, Disco: 97.3%
+2025-02-14 14:16:02,133 - Job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-14 14:16:06 CET)" executed successfully
+2025-02-14 14:16:05,542 - Running job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-14 14:16:10 CET)" (scheduled at 2025-02-14 14:16:05.528696+01:00)
+2025-02-14 14:16:06,127 - Running job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-14 14:16:11 CET)" (scheduled at 2025-02-14 14:16:06.115878+01:00)
+2025-02-14 14:16:06,554 - CPU: 37.0%, RAM: 86.3%, Disco: 97.3%
+2025-02-14 14:16:06,554 - Job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-14 14:16:10 CET)" executed successfully
+2025-02-14 14:16:07,141 - CPU: 37.3%, RAM: 86.3%, Disco: 97.3%
+2025-02-14 14:16:07,142 - Job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-14 14:16:11 CET)" executed successfully
+2025-02-14 14:16:10,531 - Running job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-14 14:16:15 CET)" (scheduled at 2025-02-14 14:16:10.528696+01:00)
+2025-02-14 14:16:11,116 - Running job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-14 14:16:16 CET)" (scheduled at 2025-02-14 14:16:11.115878+01:00)
+2025-02-14 14:16:11,534 - CPU: 13.0%, RAM: 86.3%, Disco: 97.3%
+2025-02-14 14:16:11,534 - Job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-14 14:16:15 CET)" executed successfully
+2025-02-14 14:16:12,122 - CPU: 7.6%, RAM: 86.3%, Disco: 97.3%
+2025-02-14 14:16:12,122 - Job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-14 14:16:16 CET)" executed successfully
+2025-02-14 14:16:15,532 - Running job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-14 14:16:20 CET)" (scheduled at 2025-02-14 14:16:15.528696+01:00)
+2025-02-14 14:16:16,125 - Running job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-14 14:16:21 CET)" (scheduled at 2025-02-14 14:16:16.115878+01:00)
+2025-02-14 14:16:16,542 - CPU: 5.6%, RAM: 85.8%, Disco: 97.3%
+2025-02-14 14:16:16,542 - Job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-14 14:16:20 CET)" executed successfully
+2025-02-14 14:16:17,127 - CPU: 7.2%, RAM: 85.8%, Disco: 97.3%
+2025-02-14 14:16:17,127 - Job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-14 14:16:21 CET)" executed successfully
+2025-02-14 14:16:20,533 - Running job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-14 14:16:25 CET)" (scheduled at 2025-02-14 14:16:20.528696+01:00)
+2025-02-14 14:16:21,118 - Running job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-14 14:16:26 CET)" (scheduled at 2025-02-14 14:16:21.115878+01:00)
+2025-02-14 14:16:21,543 - CPU: 13.0%, RAM: 85.8%, Disco: 97.3%
+2025-02-14 14:16:21,543 - Job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-14 14:16:25 CET)" executed successfully
+2025-02-14 14:16:22,121 - CPU: 25.0%, RAM: 85.8%, Disco: 97.3%
+2025-02-14 14:16:22,121 - Job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-14 14:16:26 CET)" executed successfully
+2025-02-14 14:16:25,544 - Running job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-14 14:16:30 CET)" (scheduled at 2025-02-14 14:16:25.528696+01:00)
+2025-02-14 14:16:26,124 - Running job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-14 14:16:31 CET)" (scheduled at 2025-02-14 14:16:26.115878+01:00)
+2025-02-14 14:16:26,546 - CPU: 14.3%, RAM: 85.9%, Disco: 97.3%
+2025-02-14 14:16:26,546 - Job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-14 14:16:30 CET)" executed successfully
+2025-02-14 14:16:27,127 - CPU: 21.3%, RAM: 85.9%, Disco: 97.3%
+2025-02-14 14:16:27,127 - Job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-14 14:16:31 CET)" executed successfully
+2025-02-14 14:16:30,537 - Running job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-14 14:16:35 CET)" (scheduled at 2025-02-14 14:16:30.528696+01:00)
+2025-02-14 14:16:31,131 - Running job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-14 14:16:36 CET)" (scheduled at 2025-02-14 14:16:31.115878+01:00)
+2025-02-14 14:16:31,555 - CPU: 99.6%, RAM: 86.9%, Disco: 97.3%
+2025-02-14 14:16:31,555 - Job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-14 14:16:35 CET)" executed successfully
+2025-02-14 14:16:32,135 - CPU: 84.9%, RAM: 87.1%, Disco: 97.3%
+2025-02-14 14:16:32,135 - Job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-14 14:16:36 CET)" executed successfully
+2025-02-14 14:16:35,532 - Running job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-14 14:16:40 CET)" (scheduled at 2025-02-14 14:16:35.528696+01:00)
+2025-02-14 14:16:36,122 - Running job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-14 14:16:41 CET)" (scheduled at 2025-02-14 14:16:36.115878+01:00)
+2025-02-14 14:16:36,537 - CPU: 25.4%, RAM: 87.1%, Disco: 97.3%
+2025-02-14 14:16:36,537 - Job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-14 14:16:40 CET)" executed successfully
+2025-02-14 14:16:37,126 - CPU: 25.9%, RAM: 87.1%, Disco: 97.3%
+2025-02-14 14:16:37,126 - Job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-14 14:16:41 CET)" executed successfully
+2025-02-14 14:16:40,536 - Running job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-14 14:16:45 CET)" (scheduled at 2025-02-14 14:16:40.528696+01:00)
+2025-02-14 14:16:41,121 - Running job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-14 14:16:46 CET)" (scheduled at 2025-02-14 14:16:41.115878+01:00)
+2025-02-14 14:16:41,541 - CPU: 21.2%, RAM: 87.0%, Disco: 97.3%
+2025-02-14 14:16:41,541 - Job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-14 14:16:45 CET)" executed successfully
+2025-02-14 14:16:42,122 - CPU: 29.0%, RAM: 86.9%, Disco: 97.3%
+2025-02-14 14:16:42,122 - Job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-14 14:16:46 CET)" executed successfully
+2025-02-14 14:16:45,543 - Running job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-14 14:16:50 CET)" (scheduled at 2025-02-14 14:16:45.528696+01:00)
+2025-02-14 14:16:46,127 - Running job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-14 14:16:51 CET)" (scheduled at 2025-02-14 14:16:46.115878+01:00)
+2025-02-14 14:16:46,559 - CPU: 11.0%, RAM: 87.0%, Disco: 97.3%
+2025-02-14 14:16:46,559 - Job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-14 14:16:50 CET)" executed successfully
+2025-02-14 14:16:47,131 - CPU: 9.5%, RAM: 86.9%, Disco: 97.3%
+2025-02-14 14:16:47,131 - Job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-14 14:16:51 CET)" executed successfully
+2025-02-14 14:16:50,537 - Running job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-14 14:16:55 CET)" (scheduled at 2025-02-14 14:16:50.528696+01:00)
+2025-02-14 14:16:51,127 - Running job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-14 14:16:56 CET)" (scheduled at 2025-02-14 14:16:51.115878+01:00)
+2025-02-14 14:16:51,539 - CPU: 7.9%, RAM: 86.5%, Disco: 97.3%
+2025-02-14 14:16:51,539 - Job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-14 14:16:55 CET)" executed successfully
+2025-02-14 14:16:52,130 - CPU: 8.3%, RAM: 86.5%, Disco: 97.3%
+2025-02-14 14:16:52,130 - Job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-14 14:16:56 CET)" executed successfully
+2025-02-14 14:16:55,538 - Running job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-14 14:17:00 CET)" (scheduled at 2025-02-14 14:16:55.528696+01:00)
+2025-02-14 14:16:56,126 - Running job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-14 14:17:01 CET)" (scheduled at 2025-02-14 14:16:56.115878+01:00)
+2025-02-14 14:16:56,550 - CPU: 9.1%, RAM: 86.2%, Disco: 97.3%
+2025-02-14 14:16:56,550 - Job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-14 14:17:00 CET)" executed successfully
+2025-02-14 14:16:57,137 - CPU: 14.6%, RAM: 86.4%, Disco: 97.3%
+2025-02-14 14:16:57,137 - Job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-14 14:17:01 CET)" executed successfully
+2025-02-14 14:17:00,542 - Running job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-14 14:17:05 CET)" (scheduled at 2025-02-14 14:17:00.528696+01:00)
+2025-02-14 14:17:01,125 - Running job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-14 14:17:06 CET)" (scheduled at 2025-02-14 14:17:01.115878+01:00)
+2025-02-14 14:17:01,547 - CPU: 17.3%, RAM: 86.4%, Disco: 97.3%
+2025-02-14 14:17:01,547 - Job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-14 14:17:05 CET)" executed successfully
+2025-02-14 14:17:02,127 - CPU: 14.5%, RAM: 86.4%, Disco: 97.3%
+2025-02-14 14:17:02,127 - Job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-14 14:17:06 CET)" executed successfully
+2025-02-14 14:17:05,539 - Running job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-14 14:17:10 CET)" (scheduled at 2025-02-14 14:17:05.528696+01:00)
+2025-02-14 14:17:06,122 - Running job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-14 14:17:11 CET)" (scheduled at 2025-02-14 14:17:06.115878+01:00)
+2025-02-14 14:17:06,540 - CPU: 25.4%, RAM: 86.7%, Disco: 97.3%
+2025-02-14 14:17:06,540 - Job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-14 14:17:10 CET)" executed successfully
+2025-02-14 14:17:07,123 - CPU: 23.7%, RAM: 86.6%, Disco: 97.3%
+2025-02-14 14:17:07,123 - Job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-14 14:17:11 CET)" executed successfully
+2025-02-14 14:17:10,537 - Running job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-14 14:17:15 CET)" (scheduled at 2025-02-14 14:17:10.528696+01:00)
+2025-02-14 14:17:11,120 - Running job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-14 14:17:16 CET)" (scheduled at 2025-02-14 14:17:11.115878+01:00)
+2025-02-14 14:17:11,542 - CPU: 17.9%, RAM: 86.6%, Disco: 97.3%
+2025-02-14 14:17:11,542 - Job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-14 14:17:15 CET)" executed successfully
+2025-02-14 14:17:12,126 - CPU: 17.0%, RAM: 86.5%, Disco: 97.3%
+2025-02-14 14:17:12,126 - Job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-14 14:17:16 CET)" executed successfully
+2025-02-14 14:17:15,530 - Running job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-14 14:17:20 CET)" (scheduled at 2025-02-14 14:17:15.528696+01:00)
+2025-02-14 14:17:16,120 - Running job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-14 14:17:21 CET)" (scheduled at 2025-02-14 14:17:16.115878+01:00)
+2025-02-14 14:17:16,531 - CPU: 17.1%, RAM: 86.7%, Disco: 97.3%
+2025-02-14 14:17:16,531 - Job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-14 14:17:20 CET)" executed successfully
+2025-02-14 14:17:17,125 - CPU: 18.3%, RAM: 86.7%, Disco: 97.3%
+2025-02-14 14:17:17,126 - Job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-14 14:17:21 CET)" executed successfully
+2025-02-14 14:17:20,532 - Running job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-14 14:17:25 CET)" (scheduled at 2025-02-14 14:17:20.528696+01:00)
+2025-02-14 14:17:21,120 - Running job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-14 14:17:26 CET)" (scheduled at 2025-02-14 14:17:21.115878+01:00)
+2025-02-14 14:17:21,546 - CPU: 10.3%, RAM: 86.9%, Disco: 97.3%
+2025-02-14 14:17:21,546 - Job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-14 14:17:25 CET)" executed successfully
+2025-02-14 14:17:22,124 - CPU: 9.3%, RAM: 86.9%, Disco: 97.3%
+2025-02-14 14:17:22,124 - Job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-14 14:17:26 CET)" executed successfully
+2025-02-14 14:17:25,538 - Running job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-14 14:17:30 CET)" (scheduled at 2025-02-14 14:17:25.528696+01:00)
+2025-02-14 14:17:26,119 - Running job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-14 14:17:31 CET)" (scheduled at 2025-02-14 14:17:26.115878+01:00)
+2025-02-14 14:17:26,542 - CPU: 36.0%, RAM: 87.3%, Disco: 97.3%
+2025-02-14 14:17:26,542 - Job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-14 14:17:30 CET)" executed successfully
+2025-02-14 14:17:27,126 - CPU: 25.5%, RAM: 87.2%, Disco: 97.3%
+2025-02-14 14:17:27,127 - Job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-14 14:17:31 CET)" executed successfully
+2025-02-14 14:17:30,543 - Running job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-14 14:17:35 CET)" (scheduled at 2025-02-14 14:17:30.528696+01:00)
+2025-02-14 14:17:31,128 - Running job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-14 14:17:36 CET)" (scheduled at 2025-02-14 14:17:31.115878+01:00)
+2025-02-14 14:17:31,555 - CPU: 50.2%, RAM: 87.4%, Disco: 97.3%
+2025-02-14 14:17:31,555 - Job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-14 14:17:35 CET)" executed successfully
+2025-02-14 14:17:32,133 - CPU: 36.7%, RAM: 87.3%, Disco: 97.3%
+2025-02-14 14:17:32,133 - Job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-14 14:17:36 CET)" executed successfully
+2025-02-14 14:17:32,783 -  * Detected change in 'C:\\xampp\\htdocs\\xampp\\migithub\\app_gestion_4.0\\app\\forms.py', reloading
+2025-02-14 14:17:32,968 -  * Restarting with stat
+2025-02-14 14:17:34,221 - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-02-14 14:17:34,221 - Added job "monitorizar_recursos" to job store "default"
+2025-02-14 14:17:34,221 - Scheduler started
+2025-02-14 14:17:34,253 -  * Debugger is active!
+2025-02-14 14:17:34,257 -  * Debugger PIN: 726-180-169
+2025-02-14 14:17:36,118 - Running job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-14 14:17:41 CET)" (scheduled at 2025-02-14 14:17:36.115878+01:00)
+2025-02-14 14:17:37,126 - CPU: 17.1%, RAM: 87.3%, Disco: 97.3%
+2025-02-14 14:17:37,126 - Job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-14 14:17:41 CET)" executed successfully
+2025-02-14 14:17:39,240 - Running job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-14 14:17:39 CET)" (scheduled at 2025-02-14 14:17:39.221281+01:00)
+2025-02-14 14:17:40,248 - CPU: 14.2%, RAM: 87.3%, Disco: 97.3%
+2025-02-14 14:17:40,248 - Job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-14 14:17:44 CET)" executed successfully
+2025-02-14 14:17:41,117 - Running job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-14 14:17:46 CET)" (scheduled at 2025-02-14 14:17:41.115878+01:00)
+2025-02-14 14:17:42,122 - CPU: 25.5%, RAM: 87.2%, Disco: 97.3%
+2025-02-14 14:17:42,122 - Job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-14 14:17:46 CET)" executed successfully
+2025-02-14 14:17:44,223 - Running job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-14 14:17:49 CET)" (scheduled at 2025-02-14 14:17:44.221281+01:00)
+2025-02-14 14:17:45,228 - CPU: 29.2%, RAM: 87.1%, Disco: 97.3%
+2025-02-14 14:17:45,228 - Job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-14 14:17:49 CET)" executed successfully
+2025-02-14 14:17:46,120 - Running job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-14 14:17:51 CET)" (scheduled at 2025-02-14 14:17:46.115878+01:00)
+2025-02-14 14:17:47,131 - CPU: 25.6%, RAM: 87.2%, Disco: 97.3%
+2025-02-14 14:17:47,132 - Job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-14 14:17:51 CET)" executed successfully
+2025-02-14 14:17:49,225 - Running job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-14 14:17:54 CET)" (scheduled at 2025-02-14 14:17:49.221281+01:00)
+2025-02-14 14:17:50,233 - CPU: 50.4%, RAM: 87.2%, Disco: 97.3%
+2025-02-14 14:17:50,234 - Job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-14 14:17:54 CET)" executed successfully
+2025-02-14 14:17:51,123 - Running job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-14 14:17:56 CET)" (scheduled at 2025-02-14 14:17:51.115878+01:00)
+2025-02-14 14:17:52,136 - CPU: 47.5%, RAM: 87.3%, Disco: 97.3%
+2025-02-14 14:17:52,136 - Job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-14 14:17:56 CET)" executed successfully
+2025-02-14 14:17:54,233 - Running job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-14 14:17:59 CET)" (scheduled at 2025-02-14 14:17:54.221281+01:00)
+2025-02-14 14:17:55,249 - CPU: 39.8%, RAM: 87.5%, Disco: 97.3%
+2025-02-14 14:17:55,249 - Job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-14 14:17:59 CET)" executed successfully
+2025-02-14 14:17:56,128 - Running job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-14 14:18:01 CET)" (scheduled at 2025-02-14 14:17:56.115878+01:00)
+2025-02-14 14:17:57,134 - CPU: 20.9%, RAM: 87.5%, Disco: 97.3%
+2025-02-14 14:17:57,135 - Job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-14 14:18:01 CET)" executed successfully
+2025-02-14 14:17:59,226 - Running job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-14 14:18:04 CET)" (scheduled at 2025-02-14 14:17:59.221281+01:00)
+2025-02-14 14:18:00,233 - CPU: 20.4%, RAM: 87.4%, Disco: 97.3%
+2025-02-14 14:18:00,233 - Job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-14 14:18:04 CET)" executed successfully
+2025-02-14 14:18:01,117 - Running job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-14 14:18:06 CET)" (scheduled at 2025-02-14 14:18:01.115878+01:00)
+2025-02-14 14:18:02,126 - CPU: 17.7%, RAM: 87.2%, Disco: 97.3%
+2025-02-14 14:18:02,126 - Job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-14 14:18:06 CET)" executed successfully
+2025-02-14 14:18:04,225 - Running job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-14 14:18:09 CET)" (scheduled at 2025-02-14 14:18:04.221281+01:00)
+2025-02-14 14:18:05,236 - CPU: 18.7%, RAM: 87.4%, Disco: 97.3%
+2025-02-14 14:18:05,236 - Job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-14 14:18:09 CET)" executed successfully
+2025-02-14 14:18:06,123 - Running job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-14 14:18:11 CET)" (scheduled at 2025-02-14 14:18:06.115878+01:00)
+2025-02-14 14:18:07,135 - CPU: 20.9%, RAM: 87.5%, Disco: 97.3%
+2025-02-14 14:18:07,136 - Job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-14 14:18:11 CET)" executed successfully
+2025-02-14 14:18:09,227 - Running job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-14 14:18:14 CET)" (scheduled at 2025-02-14 14:18:09.221281+01:00)
+2025-02-14 14:18:10,235 - CPU: 29.6%, RAM: 87.5%, Disco: 97.3%
+2025-02-14 14:18:10,236 - Job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-14 14:18:14 CET)" executed successfully
+2025-02-14 14:18:11,122 - Running job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-14 14:18:16 CET)" (scheduled at 2025-02-14 14:18:11.115878+01:00)
+2025-02-14 14:18:12,131 - CPU: 41.1%, RAM: 87.5%, Disco: 97.3%
+2025-02-14 14:18:12,132 - Job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-14 14:18:16 CET)" executed successfully
+2025-02-14 14:18:14,226 - Running job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-14 14:18:19 CET)" (scheduled at 2025-02-14 14:18:14.221281+01:00)
+2025-02-14 14:18:15,242 - CPU: 39.0%, RAM: 87.7%, Disco: 97.3%
+2025-02-14 14:18:15,243 - Job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-14 14:18:19 CET)" executed successfully
+2025-02-14 14:18:16,122 - Running job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-14 14:18:21 CET)" (scheduled at 2025-02-14 14:18:16.115878+01:00)
+2025-02-14 14:18:17,134 - CPU: 46.7%, RAM: 87.7%, Disco: 97.3%
+2025-02-14 14:18:17,134 - Job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-14 14:18:21 CET)" executed successfully
+2025-02-14 14:18:17,677 -  * Detected change in 'C:\\xampp\\htdocs\\xampp\\migithub\\app_gestion_4.0\\app\\forms.py', reloading
+2025-02-14 14:18:17,869 -  * Restarting with stat
+2025-02-14 14:18:19,391 - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-02-14 14:18:19,393 - Added job "monitorizar_recursos" to job store "default"
+2025-02-14 14:18:19,393 - Scheduler started
+2025-02-14 14:18:19,418 -  * Debugger is active!
+2025-02-14 14:18:19,422 -  * Debugger PIN: 726-180-169
+2025-02-14 14:18:21,122 - Running job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-14 14:18:26 CET)" (scheduled at 2025-02-14 14:18:21.115878+01:00)
+2025-02-14 14:18:22,132 - CPU: 34.2%, RAM: 87.9%, Disco: 97.3%
+2025-02-14 14:18:22,132 - Job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-14 14:18:26 CET)" executed successfully
+2025-02-14 14:18:24,406 - Running job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-14 14:18:24 CET)" (scheduled at 2025-02-14 14:18:24.391092+01:00)
+2025-02-14 14:18:25,055 -  * Detected change in 'C:\\xampp\\htdocs\\xampp\\migithub\\app_gestion_4.0\\app\\models\\usuario_model.py', reloading
+2025-02-14 14:18:25,422 - CPU: 38.5%, RAM: 88.1%, Disco: 97.3%
+2025-02-14 14:18:25,423 - Job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-14 14:18:29 CET)" executed successfully
+2025-02-14 14:18:25,681 -  * Restarting with stat
+2025-02-14 14:18:26,125 - Running job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-14 14:18:31 CET)" (scheduled at 2025-02-14 14:18:26.115878+01:00)
+2025-02-14 14:18:27,134 - CPU: 89.8%, RAM: 87.8%, Disco: 97.3%
+2025-02-14 14:18:27,135 - Job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-14 14:18:31 CET)" executed successfully
+2025-02-14 14:18:28,459 - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-02-14 14:18:28,461 - Added job "monitorizar_recursos" to job store "default"
+2025-02-14 14:18:28,461 - Scheduler started
+2025-02-14 14:18:28,496 -  * Debugger is active!
+2025-02-14 14:18:28,503 -  * Debugger PIN: 726-180-169
+2025-02-14 14:18:31,120 - Running job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-14 14:18:36 CET)" (scheduled at 2025-02-14 14:18:31.115878+01:00)
+2025-02-14 14:18:32,122 - CPU: 14.1%, RAM: 86.3%, Disco: 97.3%
+2025-02-14 14:18:32,122 - Job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-14 14:18:36 CET)" executed successfully
+2025-02-14 14:18:33,471 - Running job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-14 14:18:33 CET)" (scheduled at 2025-02-14 14:18:33.458691+01:00)
+2025-02-14 14:18:34,477 - CPU: 14.4%, RAM: 86.2%, Disco: 97.3%
+2025-02-14 14:18:34,478 - Job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-14 14:18:38 CET)" executed successfully
+2025-02-14 14:18:36,124 - Running job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-14 14:18:41 CET)" (scheduled at 2025-02-14 14:18:36.115878+01:00)
+2025-02-14 14:18:37,129 - CPU: 13.0%, RAM: 86.2%, Disco: 97.3%
+2025-02-14 14:18:37,129 - Job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-14 14:18:41 CET)" executed successfully
+2025-02-14 14:18:38,472 - Running job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-14 14:18:43 CET)" (scheduled at 2025-02-14 14:18:38.458691+01:00)
+2025-02-14 14:18:39,477 - CPU: 27.9%, RAM: 86.3%, Disco: 97.3%
+2025-02-14 14:18:39,477 - Job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-14 14:18:43 CET)" executed successfully
+2025-02-14 14:18:41,118 - Running job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-14 14:18:46 CET)" (scheduled at 2025-02-14 14:18:41.115878+01:00)
+2025-02-14 14:18:42,136 - CPU: 23.8%, RAM: 86.4%, Disco: 97.3%
+2025-02-14 14:18:42,139 - Job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-14 14:18:46 CET)" executed successfully
+2025-02-14 14:18:43,037 -  * Detected change in 'C:\\xampp\\htdocs\\xampp\\migithub\\app_gestion_4.0\\app\\controllers\\usuario_controller.py', reloading
+2025-02-14 14:18:43,297 -  * Restarting with stat
+2025-02-14 14:18:44,569 - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-02-14 14:18:44,570 - Added job "monitorizar_recursos" to job store "default"
+2025-02-14 14:18:44,571 - Scheduler started
+2025-02-14 14:18:44,592 -  * Debugger is active!
+2025-02-14 14:18:44,597 -  * Debugger PIN: 726-180-169
+2025-02-14 14:18:46,116 - Running job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-14 14:18:51 CET)" (scheduled at 2025-02-14 14:18:46.115878+01:00)
+2025-02-14 14:18:47,119 - CPU: 14.1%, RAM: 86.5%, Disco: 97.3%
+2025-02-14 14:18:47,119 - Job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-14 14:18:51 CET)" executed successfully
+2025-02-14 14:18:49,581 - Running job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-14 14:18:49 CET)" (scheduled at 2025-02-14 14:18:49.569327+01:00)
+2025-02-14 14:18:50,593 - CPU: 11.1%, RAM: 86.4%, Disco: 97.3%
+2025-02-14 14:18:50,594 - Job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-14 14:18:54 CET)" executed successfully
+2025-02-14 14:18:51,129 - Running job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-14 14:18:56 CET)" (scheduled at 2025-02-14 14:18:51.115878+01:00)
+2025-02-14 14:18:52,136 - CPU: 7.2%, RAM: 86.1%, Disco: 97.3%
+2025-02-14 14:18:52,136 - Job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-14 14:18:56 CET)" executed successfully
+2025-02-14 14:18:54,583 - Running job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-14 14:18:59 CET)" (scheduled at 2025-02-14 14:18:54.569327+01:00)
+2025-02-14 14:18:55,587 - CPU: 13.6%, RAM: 86.4%, Disco: 97.3%
+2025-02-14 14:18:55,587 - Job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-14 14:18:59 CET)" executed successfully
+2025-02-14 14:18:56,130 - Running job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-14 14:19:01 CET)" (scheduled at 2025-02-14 14:18:56.115878+01:00)
+2025-02-14 14:18:57,138 - CPU: 15.1%, RAM: 86.6%, Disco: 97.3%
+2025-02-14 14:18:57,138 - Job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-14 14:19:01 CET)" executed successfully
+2025-02-14 14:18:59,573 - Running job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-14 14:19:04 CET)" (scheduled at 2025-02-14 14:18:59.569327+01:00)
+2025-02-14 14:19:00,576 - CPU: 14.9%, RAM: 86.6%, Disco: 97.3%
+2025-02-14 14:19:00,576 - Job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-14 14:19:04 CET)" executed successfully
+2025-02-14 14:19:01,124 - Running job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-14 14:19:06 CET)" (scheduled at 2025-02-14 14:19:01.115878+01:00)
+2025-02-14 14:19:02,139 - CPU: 12.0%, RAM: 86.6%, Disco: 97.3%
+2025-02-14 14:19:02,139 - Job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-14 14:19:06 CET)" executed successfully
+2025-02-14 14:19:04,578 - Running job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-14 14:19:09 CET)" (scheduled at 2025-02-14 14:19:04.569327+01:00)
+2025-02-14 14:19:05,580 - CPU: 16.7%, RAM: 86.7%, Disco: 97.3%
+2025-02-14 14:19:05,580 - Job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-14 14:19:09 CET)" executed successfully
+2025-02-14 14:19:06,122 - Running job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-14 14:19:11 CET)" (scheduled at 2025-02-14 14:19:06.115878+01:00)
+2025-02-14 14:19:07,130 - CPU: 16.6%, RAM: 86.7%, Disco: 97.3%
+2025-02-14 14:19:07,130 - Job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-14 14:19:11 CET)" executed successfully
+2025-02-14 14:19:09,574 - Running job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-14 14:19:14 CET)" (scheduled at 2025-02-14 14:19:09.569327+01:00)
+2025-02-14 14:19:10,579 - CPU: 11.6%, RAM: 86.8%, Disco: 97.3%
+2025-02-14 14:19:10,579 - Job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-14 14:19:14 CET)" executed successfully
+2025-02-14 14:19:11,130 - Running job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-14 14:19:16 CET)" (scheduled at 2025-02-14 14:19:11.115878+01:00)
+2025-02-14 14:19:12,139 - CPU: 22.0%, RAM: 86.8%, Disco: 97.3%
+2025-02-14 14:19:12,139 - Job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-14 14:19:16 CET)" executed successfully
+2025-02-14 14:19:14,575 - Running job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-14 14:19:19 CET)" (scheduled at 2025-02-14 14:19:14.569327+01:00)
+2025-02-14 14:19:15,578 - CPU: 7.8%, RAM: 86.9%, Disco: 97.3%
+2025-02-14 14:19:15,578 - Job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-14 14:19:19 CET)" executed successfully
+2025-02-14 14:19:16,119 - Running job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-14 14:19:21 CET)" (scheduled at 2025-02-14 14:19:16.115878+01:00)
+2025-02-14 14:19:17,133 - CPU: 22.2%, RAM: 87.0%, Disco: 97.3%
+2025-02-14 14:19:17,133 - Job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-14 14:19:21 CET)" executed successfully
+2025-02-14 14:19:19,571 - Running job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-14 14:19:24 CET)" (scheduled at 2025-02-14 14:19:19.569327+01:00)
+2025-02-14 14:19:20,577 - CPU: 17.3%, RAM: 87.1%, Disco: 97.3%
+2025-02-14 14:19:20,577 - Job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-14 14:19:24 CET)" executed successfully
+2025-02-14 14:19:21,119 - Running job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-14 14:19:26 CET)" (scheduled at 2025-02-14 14:19:21.115878+01:00)
+2025-02-14 14:19:22,120 - CPU: 13.8%, RAM: 87.0%, Disco: 97.3%
+2025-02-14 14:19:22,120 - Job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-14 14:19:26 CET)" executed successfully
+2025-02-14 14:19:24,574 - Running job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-14 14:19:29 CET)" (scheduled at 2025-02-14 14:19:24.569327+01:00)
+2025-02-14 14:19:25,578 - CPU: 7.1%, RAM: 87.2%, Disco: 97.3%
+2025-02-14 14:19:25,578 - Job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-14 14:19:29 CET)" executed successfully
+2025-02-14 14:19:26,121 - Running job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-14 14:19:31 CET)" (scheduled at 2025-02-14 14:19:26.115878+01:00)
+2025-02-14 14:19:27,123 - CPU: 8.9%, RAM: 87.1%, Disco: 97.3%
+2025-02-14 14:19:27,123 - Job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-14 14:19:31 CET)" executed successfully
+2025-02-14 14:19:29,579 - Running job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-14 14:19:34 CET)" (scheduled at 2025-02-14 14:19:29.569327+01:00)
+2025-02-14 14:19:30,583 - CPU: 5.4%, RAM: 85.3%, Disco: 97.3%
+2025-02-14 14:19:30,583 - Job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-14 14:19:34 CET)" executed successfully
+2025-02-14 14:19:31,119 - Running job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-14 14:19:36 CET)" (scheduled at 2025-02-14 14:19:31.115878+01:00)
+2025-02-14 14:19:32,126 - CPU: 12.4%, RAM: 85.3%, Disco: 97.3%
+2025-02-14 14:19:32,126 - Job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-14 14:19:36 CET)" executed successfully
+2025-02-14 14:19:34,572 - Running job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-14 14:19:39 CET)" (scheduled at 2025-02-14 14:19:34.569327+01:00)
+2025-02-14 14:19:35,580 - CPU: 7.8%, RAM: 85.0%, Disco: 97.3%
+2025-02-14 14:19:35,580 - Job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-14 14:19:39 CET)" executed successfully
+2025-02-14 14:19:36,129 - Running job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-14 14:19:41 CET)" (scheduled at 2025-02-14 14:19:36.115878+01:00)
+2025-02-14 14:19:37,130 - CPU: 7.2%, RAM: 85.1%, Disco: 97.3%
+2025-02-14 14:19:37,130 - Job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-14 14:19:41 CET)" executed successfully
+2025-02-14 14:19:39,578 - Running job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-14 14:19:44 CET)" (scheduled at 2025-02-14 14:19:39.569327+01:00)
+2025-02-14 14:19:40,579 - CPU: 11.5%, RAM: 85.0%, Disco: 97.3%
+2025-02-14 14:19:40,588 - Job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-14 14:19:44 CET)" executed successfully
+2025-02-14 14:19:41,138 - Running job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-14 14:19:46 CET)" (scheduled at 2025-02-14 14:19:41.115878+01:00)
+2025-02-14 14:19:42,146 - CPU: 80.5%, RAM: 86.2%, Disco: 98.6%
+2025-02-14 14:19:42,146 - Job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-14 14:19:46 CET)" executed successfully
+2025-02-14 14:19:44,582 - Running job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-14 14:19:49 CET)" (scheduled at 2025-02-14 14:19:44.569327+01:00)
+2025-02-14 14:19:45,586 - CPU: 29.5%, RAM: 86.2%, Disco: 98.6%
+2025-02-14 14:19:45,586 - Job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-14 14:19:49 CET)" executed successfully
+2025-02-14 14:19:46,121 - Running job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-14 14:19:51 CET)" (scheduled at 2025-02-14 14:19:46.115878+01:00)
+2025-02-14 14:19:47,131 - CPU: 24.9%, RAM: 86.5%, Disco: 98.6%
+2025-02-14 14:19:47,131 - Job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-14 14:19:51 CET)" executed successfully
+2025-02-14 14:19:49,586 - Running job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-14 14:19:54 CET)" (scheduled at 2025-02-14 14:19:49.569327+01:00)
+2025-02-14 14:19:50,596 - CPU: 19.4%, RAM: 85.9%, Disco: 98.6%
+2025-02-14 14:19:50,597 - Job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-14 14:19:54 CET)" executed successfully
+2025-02-14 14:19:51,118 - Running job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-14 14:19:56 CET)" (scheduled at 2025-02-14 14:19:51.115878+01:00)
+2025-02-14 14:19:52,124 - CPU: 21.4%, RAM: 85.7%, Disco: 98.6%
+2025-02-14 14:19:52,124 - Job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-14 14:19:56 CET)" executed successfully
+2025-02-14 14:19:54,585 - Running job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-14 14:19:59 CET)" (scheduled at 2025-02-14 14:19:54.569327+01:00)
+2025-02-14 14:19:55,587 - CPU: 9.6%, RAM: 85.9%, Disco: 98.6%
+2025-02-14 14:19:55,587 - Job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-14 14:19:59 CET)" executed successfully
+2025-02-14 14:19:56,117 - Running job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-14 14:20:01 CET)" (scheduled at 2025-02-14 14:19:56.115878+01:00)
+2025-02-14 14:19:57,122 - CPU: 7.4%, RAM: 85.9%, Disco: 98.6%
+2025-02-14 14:19:57,122 - Job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-14 14:20:01 CET)" executed successfully
+2025-02-14 14:19:59,585 - Running job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-14 14:20:04 CET)" (scheduled at 2025-02-14 14:19:59.569327+01:00)
+2025-02-14 14:20:00,590 - CPU: 7.4%, RAM: 85.8%, Disco: 98.6%
+2025-02-14 14:20:00,590 - Job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-14 14:20:04 CET)" executed successfully
+2025-02-14 14:20:01,127 - Running job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-14 14:20:06 CET)" (scheduled at 2025-02-14 14:20:01.115878+01:00)
+2025-02-14 14:20:02,144 - CPU: 48.8%, RAM: 86.2%, Disco: 98.6%
+2025-02-14 14:20:02,145 - Job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-14 14:20:06 CET)" executed successfully
+2025-02-14 14:20:04,581 - Running job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-14 14:20:09 CET)" (scheduled at 2025-02-14 14:20:04.569327+01:00)
+2025-02-14 14:20:05,598 - CPU: 37.5%, RAM: 86.2%, Disco: 98.6%
+2025-02-14 14:20:05,599 - Job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-14 14:20:09 CET)" executed successfully
+2025-02-14 14:20:06,128 - Running job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-14 14:20:11 CET)" (scheduled at 2025-02-14 14:20:06.115878+01:00)
+2025-02-14 14:20:07,143 - CPU: 17.0%, RAM: 86.1%, Disco: 98.6%
+2025-02-14 14:20:07,143 - Job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-14 14:20:11 CET)" executed successfully
+2025-02-14 14:20:09,573 - Running job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-14 14:20:14 CET)" (scheduled at 2025-02-14 14:20:09.569327+01:00)
+2025-02-14 14:20:10,587 - CPU: 45.6%, RAM: 86.1%, Disco: 98.6%
+2025-02-14 14:20:10,587 - Job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-14 14:20:14 CET)" executed successfully
+2025-02-14 14:20:11,119 - Running job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-14 14:20:16 CET)" (scheduled at 2025-02-14 14:20:11.115878+01:00)
+2025-02-14 14:20:12,133 - CPU: 18.8%, RAM: 85.8%, Disco: 98.6%
+2025-02-14 14:20:12,133 - Job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-14 14:20:16 CET)" executed successfully
+2025-02-14 14:20:14,574 - Running job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-14 14:20:19 CET)" (scheduled at 2025-02-14 14:20:14.569327+01:00)
+2025-02-14 14:20:15,585 - CPU: 22.5%, RAM: 85.7%, Disco: 98.6%
+2025-02-14 14:20:15,586 - Job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-14 14:20:19 CET)" executed successfully
+2025-02-14 14:20:16,130 - Running job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-14 14:20:21 CET)" (scheduled at 2025-02-14 14:20:16.115878+01:00)
+2025-02-14 14:20:17,134 - CPU: 32.9%, RAM: 85.7%, Disco: 98.6%
+2025-02-14 14:20:17,134 - Job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-14 14:20:21 CET)" executed successfully
+2025-02-14 14:20:19,582 - Running job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-14 14:20:24 CET)" (scheduled at 2025-02-14 14:20:19.569327+01:00)
+2025-02-14 14:20:20,594 - CPU: 18.0%, RAM: 85.7%, Disco: 98.6%
+2025-02-14 14:20:20,594 - Job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-14 14:20:24 CET)" executed successfully
+2025-02-14 14:20:21,123 - Running job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-14 14:20:26 CET)" (scheduled at 2025-02-14 14:20:21.115878+01:00)
+2025-02-14 14:20:22,126 - CPU: 6.6%, RAM: 85.7%, Disco: 98.6%
+2025-02-14 14:20:22,126 - Job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-14 14:20:26 CET)" executed successfully
+2025-02-14 14:20:24,577 - Running job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-14 14:20:29 CET)" (scheduled at 2025-02-14 14:20:24.569327+01:00)
+2025-02-14 14:20:25,582 - CPU: 14.3%, RAM: 85.9%, Disco: 98.6%
+2025-02-14 14:20:25,582 - Job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-14 14:20:29 CET)" executed successfully
+2025-02-14 14:20:33,522 - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-02-14 14:20:33,522 - Added job "monitorizar_recursos" to job store "default"
+2025-02-14 14:20:33,522 - Scheduler started
+2025-02-14 14:20:41,222 - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-02-14 14:20:41,222 - Added job "monitorizar_recursos" to job store "default"
+2025-02-14 14:20:41,222 - Scheduler started
+2025-02-14 14:20:47,389 - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-02-14 14:20:47,390 - Added job "monitorizar_recursos" to job store "default"
+2025-02-14 14:20:47,390 - Scheduler started
+2025-02-14 14:20:47,441 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-02-14 14:20:47,442 - [33mPress CTRL+C to quit[0m
+2025-02-14 14:20:47,443 -  * Restarting with stat
+2025-02-14 14:20:48,528 - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-02-14 14:20:48,528 - Added job "monitorizar_recursos" to job store "default"
+2025-02-14 14:20:48,528 - Scheduler started
+2025-02-14 14:20:48,560 -  * Debugger is active!
+2025-02-14 14:20:48,560 -  * Debugger PIN: 726-180-169
+2025-02-14 14:20:52,390 - Running job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-14 14:20:52 CET)" (scheduled at 2025-02-14 14:20:52.389034+01:00)
+2025-02-14 14:20:52,682 - 127.0.0.1 - - [14/Feb/2025 14:20:52] "GET /login HTTP/1.1" 200 -
+2025-02-14 14:20:53,403 - CPU: 14.0%, RAM: 86.8%, Disco: 98.6%
+2025-02-14 14:20:53,405 - Job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-14 14:20:57 CET)" executed successfully
+2025-02-14 14:20:53,548 - Running job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-14 14:20:53 CET)" (scheduled at 2025-02-14 14:20:53.528228+01:00)
+2025-02-14 14:20:54,563 - CPU: 12.0%, RAM: 86.9%, Disco: 98.6%
+2025-02-14 14:20:54,563 - Job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-14 14:20:58 CET)" executed successfully
+2025-02-14 14:20:57,401 - Running job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-14 14:21:02 CET)" (scheduled at 2025-02-14 14:20:57.389034+01:00)
+2025-02-14 14:20:58,421 - CPU: 25.8%, RAM: 87.9%, Disco: 98.6%
+2025-02-14 14:20:58,422 - Job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-14 14:21:02 CET)" executed successfully
+2025-02-14 14:20:58,532 - Running job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-14 14:21:03 CET)" (scheduled at 2025-02-14 14:20:58.528228+01:00)
+2025-02-14 14:20:59,545 - CPU: 29.5%, RAM: 88.2%, Disco: 98.6%
+2025-02-14 14:20:59,545 - Job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-14 14:21:03 CET)" executed successfully
+2025-02-14 14:21:02,403 - Running job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-14 14:21:07 CET)" (scheduled at 2025-02-14 14:21:02.389034+01:00)
+2025-02-14 14:21:03,406 - CPU: 30.6%, RAM: 88.2%, Disco: 98.5%
+2025-02-14 14:21:03,406 - Job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-14 14:21:07 CET)" executed successfully
+2025-02-14 14:21:03,543 - Running job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-14 14:21:08 CET)" (scheduled at 2025-02-14 14:21:03.528228+01:00)
+2025-02-14 14:21:04,548 - CPU: 22.4%, RAM: 88.5%, Disco: 98.5%
+2025-02-14 14:21:04,548 - Job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-14 14:21:08 CET)" executed successfully
+2025-02-14 14:21:05,966 - 127.0.0.1 - - [14/Feb/2025 14:21:05] "GET /login HTTP/1.1" 200 -
+2025-02-14 14:21:07,398 - Running job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-14 14:21:12 CET)" (scheduled at 2025-02-14 14:21:07.389034+01:00)
+2025-02-14 14:21:08,409 - CPU: 14.1%, RAM: 85.3%, Disco: 98.5%
+2025-02-14 14:21:08,409 - Job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-14 14:21:12 CET)" executed successfully
+2025-02-14 14:21:08,532 - Running job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-14 14:21:13 CET)" (scheduled at 2025-02-14 14:21:08.528228+01:00)
+2025-02-14 14:21:09,544 - CPU: 12.5%, RAM: 85.1%, Disco: 98.5%
+2025-02-14 14:21:09,544 - Job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-14 14:21:13 CET)" executed successfully
+2025-02-14 14:21:12,395 - Running job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-14 14:21:17 CET)" (scheduled at 2025-02-14 14:21:12.389034+01:00)
+2025-02-14 14:21:13,397 - CPU: 9.7%, RAM: 84.8%, Disco: 98.5%
+2025-02-14 14:21:13,397 - Job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-14 14:21:17 CET)" executed successfully
+2025-02-14 14:21:13,545 - Running job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-14 14:21:18 CET)" (scheduled at 2025-02-14 14:21:13.528228+01:00)
+2025-02-14 14:21:14,555 - CPU: 11.3%, RAM: 84.8%, Disco: 98.5%
+2025-02-14 14:21:14,555 - Job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-14 14:21:18 CET)" executed successfully
+2025-02-14 14:21:17,394 - Running job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-14 14:21:22 CET)" (scheduled at 2025-02-14 14:21:17.389034+01:00)
+2025-02-14 14:21:18,404 - CPU: 7.4%, RAM: 84.6%, Disco: 98.5%
+2025-02-14 14:21:18,404 - Job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-14 14:21:22 CET)" executed successfully
+2025-02-14 14:21:18,529 - Running job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-14 14:21:23 CET)" (scheduled at 2025-02-14 14:21:18.528228+01:00)
+2025-02-14 14:21:19,316 - 127.0.0.1 - - [14/Feb/2025 14:21:19] "[32mPOST /login HTTP/1.1[0m" 302 -
+2025-02-14 14:21:19,327 - 127.0.0.1 - - [14/Feb/2025 14:21:19] "GET /dashboard HTTP/1.1" 200 -
+2025-02-14 14:21:19,536 - CPU: 18.5%, RAM: 84.9%, Disco: 98.5%
+2025-02-14 14:21:19,536 - Job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-14 14:21:23 CET)" executed successfully
+2025-02-14 14:21:21,715 - 127.0.0.1 - - [14/Feb/2025 14:21:21] "GET /recursos HTTP/1.1" 200 -
+2025-02-14 14:21:22,390 - Running job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-14 14:21:27 CET)" (scheduled at 2025-02-14 14:21:22.389034+01:00)
+2025-02-14 14:21:22,781 - 127.0.0.1 - - [14/Feb/2025 14:21:22] "GET /recursos_json HTTP/1.1" 200 -
+2025-02-14 14:21:23,403 - CPU: 12.6%, RAM: 84.8%, Disco: 98.5%
+2025-02-14 14:21:23,404 - Job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-14 14:21:27 CET)" executed successfully
+2025-02-14 14:21:23,533 - Running job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-14 14:21:28 CET)" (scheduled at 2025-02-14 14:21:23.528228+01:00)
+2025-02-14 14:21:24,541 - CPU: 14.8%, RAM: 84.8%, Disco: 98.5%
+2025-02-14 14:21:24,541 - Job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-14 14:21:28 CET)" executed successfully
+2025-02-14 14:21:25,099 - 127.0.0.1 - - [14/Feb/2025 14:21:25] "GET /usuarios HTTP/1.1" 200 -
+2025-02-14 14:21:27,393 - Running job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-14 14:21:32 CET)" (scheduled at 2025-02-14 14:21:27.389034+01:00)
+2025-02-14 14:21:28,402 - CPU: 6.2%, RAM: 84.9%, Disco: 98.5%
+2025-02-14 14:21:28,402 - Job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-14 14:21:32 CET)" executed successfully
+2025-02-14 14:21:28,466 - 127.0.0.1 - - [14/Feb/2025 14:21:28] "GET /usuarios/editar/1 HTTP/1.1" 200 -
+2025-02-14 14:21:28,538 - Running job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-14 14:21:33 CET)" (scheduled at 2025-02-14 14:21:28.528228+01:00)
+2025-02-14 14:21:29,539 - CPU: 12.5%, RAM: 84.9%, Disco: 98.5%
+2025-02-14 14:21:29,539 - Job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-14 14:21:33 CET)" executed successfully
+2025-02-14 14:21:32,394 - Running job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-14 14:21:37 CET)" (scheduled at 2025-02-14 14:21:32.389034+01:00)
+2025-02-14 14:21:33,399 - CPU: 12.4%, RAM: 84.8%, Disco: 98.5%
+2025-02-14 14:21:33,399 - Job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-14 14:21:37 CET)" executed successfully
+2025-02-14 14:21:33,533 - Running job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-14 14:21:38 CET)" (scheduled at 2025-02-14 14:21:33.528228+01:00)
+2025-02-14 14:21:34,543 - CPU: 9.1%, RAM: 84.9%, Disco: 98.5%
+2025-02-14 14:21:34,543 - Job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-14 14:21:38 CET)" executed successfully
+2025-02-14 14:21:35,900 - 127.0.0.1 - - [14/Feb/2025 14:21:35] "[32mPOST /usuarios/editar/1 HTTP/1.1[0m" 302 -
+2025-02-14 14:21:35,913 - 127.0.0.1 - - [14/Feb/2025 14:21:35] "GET /usuarios HTTP/1.1" 200 -
+2025-02-14 14:21:37,390 - Running job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-14 14:21:42 CET)" (scheduled at 2025-02-14 14:21:37.389034+01:00)
+2025-02-14 14:21:38,395 - CPU: 13.3%, RAM: 84.8%, Disco: 98.5%
+2025-02-14 14:21:38,395 - Job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-14 14:21:42 CET)" executed successfully
+2025-02-14 14:21:38,541 - Running job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-14 14:21:43 CET)" (scheduled at 2025-02-14 14:21:38.528228+01:00)
+2025-02-14 14:21:39,552 - CPU: 33.8%, RAM: 85.5%, Disco: 98.5%
+2025-02-14 14:21:39,552 - Job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-14 14:21:43 CET)" executed successfully
+2025-02-14 14:21:42,395 - Running job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-14 14:21:47 CET)" (scheduled at 2025-02-14 14:21:42.389034+01:00)
+2025-02-14 14:21:43,400 - CPU: 34.0%, RAM: 86.3%, Disco: 98.5%
+2025-02-14 14:21:43,400 - Job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-14 14:21:47 CET)" executed successfully
+2025-02-14 14:21:43,538 - Running job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-14 14:21:48 CET)" (scheduled at 2025-02-14 14:21:43.528228+01:00)
+2025-02-14 14:21:44,540 - CPU: 29.1%, RAM: 87.0%, Disco: 98.5%
+2025-02-14 14:21:44,540 - Job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-14 14:21:48 CET)" executed successfully
+2025-02-14 14:21:47,358 - 127.0.0.1 - - [14/Feb/2025 14:21:47] "GET /usuarios/editar/1 HTTP/1.1" 200 -
+2025-02-14 14:21:47,391 - Running job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-14 14:21:52 CET)" (scheduled at 2025-02-14 14:21:47.389034+01:00)
+2025-02-14 14:21:48,402 - CPU: 14.9%, RAM: 87.0%, Disco: 98.5%
+2025-02-14 14:21:48,403 - Job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-14 14:21:52 CET)" executed successfully
+2025-02-14 14:21:48,532 - Running job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-14 14:21:53 CET)" (scheduled at 2025-02-14 14:21:48.528228+01:00)
+2025-02-14 14:21:49,537 - CPU: 14.1%, RAM: 87.0%, Disco: 98.5%
+2025-02-14 14:21:49,537 - Job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-14 14:21:53 CET)" executed successfully
+2025-02-14 14:21:51,099 - 127.0.0.1 - - [14/Feb/2025 14:21:51] "[32mPOST /usuarios/editar/1 HTTP/1.1[0m" 302 -
+2025-02-14 14:21:51,140 - 127.0.0.1 - - [14/Feb/2025 14:21:51] "GET /usuarios HTTP/1.1" 200 -
+2025-02-14 14:21:52,390 - Running job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-14 14:21:57 CET)" (scheduled at 2025-02-14 14:21:52.389034+01:00)
+2025-02-14 14:21:53,399 - CPU: 16.7%, RAM: 86.9%, Disco: 98.5%
+2025-02-14 14:21:53,399 - Job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-14 14:21:57 CET)" executed successfully
+2025-02-14 14:21:53,536 - Running job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-14 14:21:58 CET)" (scheduled at 2025-02-14 14:21:53.528228+01:00)
+2025-02-14 14:21:54,547 - CPU: 13.3%, RAM: 86.9%, Disco: 98.5%
+2025-02-14 14:21:54,548 - Job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-14 14:21:58 CET)" executed successfully
+2025-02-14 14:21:57,402 - Running job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-14 14:22:02 CET)" (scheduled at 2025-02-14 14:21:57.389034+01:00)
+2025-02-14 14:21:58,404 - CPU: 23.5%, RAM: 86.9%, Disco: 98.5%
+2025-02-14 14:21:58,404 - Job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-14 14:22:02 CET)" executed successfully
+2025-02-14 14:21:58,540 - Running job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-14 14:22:03 CET)" (scheduled at 2025-02-14 14:21:58.528228+01:00)
+2025-02-14 14:21:59,541 - CPU: 29.5%, RAM: 87.3%, Disco: 98.5%
+2025-02-14 14:21:59,541 - Job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-14 14:22:03 CET)" executed successfully
+2025-02-14 14:22:01,398 - 127.0.0.1 - - [14/Feb/2025 14:22:01] "GET /login HTTP/1.1" 200 -
+2025-02-14 14:22:02,400 - Running job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-14 14:22:07 CET)" (scheduled at 2025-02-14 14:22:02.389034+01:00)
+2025-02-14 14:22:03,401 - CPU: 25.3%, RAM: 88.3%, Disco: 98.6%
+2025-02-14 14:22:03,401 - Job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-14 14:22:07 CET)" executed successfully
+2025-02-14 14:22:03,531 - Running job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-14 14:22:08 CET)" (scheduled at 2025-02-14 14:22:03.528228+01:00)
+2025-02-14 14:22:03,618 - 127.0.0.1 - - [14/Feb/2025 14:22:03] "GET /register HTTP/1.1" 200 -
+2025-02-14 14:22:04,548 - CPU: 28.7%, RAM: 88.4%, Disco: 98.6%
+2025-02-14 14:22:04,548 - Job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-14 14:22:08 CET)" executed successfully
+2025-02-14 14:22:07,400 - Running job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-14 14:22:12 CET)" (scheduled at 2025-02-14 14:22:07.389034+01:00)
+2025-02-14 14:22:08,402 - CPU: 23.7%, RAM: 88.2%, Disco: 98.6%
+2025-02-14 14:22:08,412 - Job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-14 14:22:12 CET)" executed successfully
+2025-02-14 14:22:08,533 - Running job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-14 14:22:13 CET)" (scheduled at 2025-02-14 14:22:08.528228+01:00)
+2025-02-14 14:22:09,544 - CPU: 21.1%, RAM: 88.3%, Disco: 98.6%
+2025-02-14 14:22:09,544 - Job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-14 14:22:13 CET)" executed successfully
+2025-02-14 14:22:12,400 - Running job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-14 14:22:17 CET)" (scheduled at 2025-02-14 14:22:12.389034+01:00)
+2025-02-14 14:22:13,411 - CPU: 12.5%, RAM: 88.0%, Disco: 98.6%
+2025-02-14 14:22:13,411 - Job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-14 14:22:17 CET)" executed successfully
+2025-02-14 14:22:13,540 - Running job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-14 14:22:18 CET)" (scheduled at 2025-02-14 14:22:13.528228+01:00)
+2025-02-14 14:22:14,548 - CPU: 8.9%, RAM: 87.8%, Disco: 98.6%
+2025-02-14 14:22:14,548 - Job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-14 14:22:18 CET)" executed successfully
+2025-02-14 14:22:17,399 - Running job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-14 14:22:22 CET)" (scheduled at 2025-02-14 14:22:17.389034+01:00)
+2025-02-14 14:22:18,411 - CPU: 7.4%, RAM: 87.7%, Disco: 98.6%
+2025-02-14 14:22:18,411 - Job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-14 14:22:22 CET)" executed successfully
+2025-02-14 14:22:18,539 - Running job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-14 14:22:23 CET)" (scheduled at 2025-02-14 14:22:18.528228+01:00)
+2025-02-14 14:22:19,541 - CPU: 10.7%, RAM: 87.5%, Disco: 98.6%
+2025-02-14 14:22:19,541 - Job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-14 14:22:23 CET)" executed successfully
+2025-02-14 14:22:20,432 - 127.0.0.1 - - [14/Feb/2025 14:22:20] "[32mPOST /register HTTP/1.1[0m" 302 -
+2025-02-14 14:22:20,432 - 127.0.0.1 - - [14/Feb/2025 14:22:20] "GET /login HTTP/1.1" 200 -
+2025-02-14 14:22:22,395 - Running job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-14 14:22:27 CET)" (scheduled at 2025-02-14 14:22:22.389034+01:00)
+2025-02-14 14:22:23,405 - CPU: 13.5%, RAM: 87.9%, Disco: 98.6%
+2025-02-14 14:22:23,405 - Job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-14 14:22:27 CET)" executed successfully
+2025-02-14 14:22:23,541 - Running job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-14 14:22:28 CET)" (scheduled at 2025-02-14 14:22:23.528228+01:00)
+2025-02-14 14:22:24,549 - CPU: 8.5%, RAM: 87.9%, Disco: 98.6%
+2025-02-14 14:22:24,549 - Job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-14 14:22:28 CET)" executed successfully
+2025-02-14 14:22:27,396 - Running job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-14 14:22:32 CET)" (scheduled at 2025-02-14 14:22:27.389034+01:00)
+2025-02-14 14:22:28,026 - 127.0.0.1 - - [14/Feb/2025 14:22:28] "[32mPOST /login HTTP/1.1[0m" 302 -
+2025-02-14 14:22:28,029 - 127.0.0.1 - - [14/Feb/2025 14:22:28] "GET /dashboard HTTP/1.1" 200 -
+2025-02-14 14:22:28,407 - CPU: 17.6%, RAM: 88.1%, Disco: 98.6%
+2025-02-14 14:22:28,407 - Job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-14 14:22:32 CET)" executed successfully
+2025-02-14 14:22:28,531 - Running job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-14 14:22:33 CET)" (scheduled at 2025-02-14 14:22:28.528228+01:00)
+2025-02-14 14:22:29,533 - CPU: 16.1%, RAM: 88.0%, Disco: 98.6%
+2025-02-14 14:22:29,533 - Job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-14 14:22:33 CET)" executed successfully
+2025-02-14 14:22:30,596 - 127.0.0.1 - - [14/Feb/2025 14:22:30] "GET /usuarios HTTP/1.1" 200 -
+2025-02-14 14:22:32,398 - Running job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-14 14:22:37 CET)" (scheduled at 2025-02-14 14:22:32.389034+01:00)
+2025-02-14 14:22:33,408 - CPU: 10.9%, RAM: 88.0%, Disco: 98.6%
+2025-02-14 14:22:33,409 - Job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-14 14:22:37 CET)" executed successfully
+2025-02-14 14:22:33,539 - Running job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-14 14:22:38 CET)" (scheduled at 2025-02-14 14:22:33.528228+01:00)
+2025-02-14 14:22:33,849 - 127.0.0.1 - - [14/Feb/2025 14:22:33] "[32mPOST /usuarios/eliminar/4 HTTP/1.1[0m" 302 -
+2025-02-14 14:22:33,858 - 127.0.0.1 - - [14/Feb/2025 14:22:33] "[32mGET /usuarios HTTP/1.1[0m" 302 -
+2025-02-14 14:22:33,866 - 127.0.0.1 - - [14/Feb/2025 14:22:33] "GET /login?next=/usuarios HTTP/1.1" 200 -
+2025-02-14 14:22:34,546 - CPU: 15.1%, RAM: 88.1%, Disco: 98.6%
+2025-02-14 14:22:34,546 - Job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-14 14:22:38 CET)" executed successfully
+2025-02-14 14:22:37,392 - Running job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-14 14:22:42 CET)" (scheduled at 2025-02-14 14:22:37.389034+01:00)
+2025-02-14 14:22:38,404 - CPU: 11.5%, RAM: 87.6%, Disco: 98.6%
+2025-02-14 14:22:38,404 - Job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-14 14:22:42 CET)" executed successfully
+2025-02-14 14:22:38,533 - Running job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-14 14:22:43 CET)" (scheduled at 2025-02-14 14:22:38.528228+01:00)
+2025-02-14 14:22:39,545 - CPU: 8.9%, RAM: 87.5%, Disco: 98.6%
+2025-02-14 14:22:39,545 - Job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-14 14:22:43 CET)" executed successfully
+2025-02-14 14:22:42,403 - Running job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-14 14:22:47 CET)" (scheduled at 2025-02-14 14:22:42.389034+01:00)
+2025-02-14 14:22:42,886 - 127.0.0.1 - - [14/Feb/2025 14:22:42] "POST /login HTTP/1.1" 200 -
+2025-02-14 14:22:43,410 - CPU: 12.0%, RAM: 87.3%, Disco: 98.6%
+2025-02-14 14:22:43,410 - Job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-14 14:22:47 CET)" executed successfully
+2025-02-14 14:22:43,538 - Running job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-14 14:22:48 CET)" (scheduled at 2025-02-14 14:22:43.528228+01:00)
+2025-02-14 14:22:44,542 - CPU: 13.4%, RAM: 87.6%, Disco: 98.6%
+2025-02-14 14:22:44,542 - Job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-14 14:22:48 CET)" executed successfully
+2025-02-14 14:22:47,347 - 127.0.0.1 - - [14/Feb/2025 14:22:47] "POST /login HTTP/1.1" 200 -
+2025-02-14 14:22:47,391 - Running job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-14 14:22:52 CET)" (scheduled at 2025-02-14 14:22:47.389034+01:00)
+2025-02-14 14:22:48,402 - CPU: 12.7%, RAM: 87.8%, Disco: 98.6%
+2025-02-14 14:22:48,402 - Job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-14 14:22:52 CET)" executed successfully
+2025-02-14 14:22:48,540 - Running job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-14 14:22:53 CET)" (scheduled at 2025-02-14 14:22:48.528228+01:00)
+2025-02-14 14:22:49,550 - CPU: 9.7%, RAM: 87.7%, Disco: 98.6%
+2025-02-14 14:22:49,551 - Job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-14 14:22:53 CET)" executed successfully
+2025-02-14 14:22:52,267 - 127.0.0.1 - - [14/Feb/2025 14:22:52] "[32mPOST /login HTTP/1.1[0m" 302 -
+2025-02-14 14:22:52,275 - 127.0.0.1 - - [14/Feb/2025 14:22:52] "GET /dashboard HTTP/1.1" 200 -
+2025-02-14 14:22:52,390 - Running job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-14 14:22:57 CET)" (scheduled at 2025-02-14 14:22:52.389034+01:00)
+2025-02-14 14:22:53,399 - CPU: 15.1%, RAM: 87.9%, Disco: 98.6%
+2025-02-14 14:22:53,399 - Job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-14 14:22:57 CET)" executed successfully
+2025-02-14 14:22:53,538 - Running job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-14 14:22:58 CET)" (scheduled at 2025-02-14 14:22:53.528228+01:00)
+2025-02-14 14:22:54,552 - CPU: 26.6%, RAM: 87.8%, Disco: 98.6%
+2025-02-14 14:22:54,553 - Job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-14 14:22:58 CET)" executed successfully
+2025-02-14 14:22:56,319 - 127.0.0.1 - - [14/Feb/2025 14:22:56] "[35m[1mGET /logs HTTP/1.1[0m" 500 -
+2025-02-14 14:22:56,543 - 127.0.0.1 - - [14/Feb/2025 14:22:56] "GET /logs?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2025-02-14 14:22:56,548 - 127.0.0.1 - - [14/Feb/2025 14:22:56] "GET /logs?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2025-02-14 14:22:56,564 - 127.0.0.1 - - [14/Feb/2025 14:22:56] "GET /logs?__debugger__=yes&cmd=resource&f=console.png&s=19NfYEM9vd2zcTLLS0Lz HTTP/1.1" 200 -
+2025-02-14 14:22:56,601 - 127.0.0.1 - - [14/Feb/2025 14:22:56] "GET /logs?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -

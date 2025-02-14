@@ -1,3 +1,4 @@
+
 # app/utils.py
 import shutil
 import os
@@ -50,3 +51,6 @@ def generar_csv():
         writer.writerow(["Recurso", "Valor (%)"])
         for recurso, valor in recursos:
             writer.writerow([recurso, valor])
+
+
+

@@ -1,0 +1,19 @@
+{% extends "layout.html" %}
+
+{% block content %}
+<h1>Editar Usuario</h1>
+<form method="POST" action="{{ url_for('usuario_bp.editar_usuario', id=usuario.id) }}">
+    {{ form.hidden_tag() }}
+    <div class="form-group">
+        {{ form.username.label }} {{ form.username(class="form-control") }}
+    </div>
+    <div class="form-group">
+        {{ form.email.label }} {{ form.email(class="form-control") }}
+    </div>
+    <div class="form-group">
+        {{ form.role.label }} {{ form.role(class="form-control") }}
+    </div>
+    <button type="submit" class="btn btn-primary">Guardar Cambios</button>
+    <a href="{{ url_for('usuario_bp.ver_usuarios') }}" class="btn btn-secondary">Cancelar</a>
+</form>
+{% endblock %}

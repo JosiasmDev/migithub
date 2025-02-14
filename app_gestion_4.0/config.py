@@ -1,3 +1,6 @@
+ 
+ 
+
 # config.py - Configuración de la aplicación
 import os
 
