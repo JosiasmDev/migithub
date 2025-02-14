@@ -1,0 +1,15 @@
+{% extends "layout.html" %}
+{% block content %}
+    <h2>Iniciar sesión</h2>
+    <form method="POST" action="{{ url_for('usuario_bp.login') }}">
+        {{ form.hidden_tag() }}
+        <div>
+            {{ form.email.label }} {{ form.email }}
+        </div>
+        <div>
+            {{ form.password.label }} {{ form.password }}
+        </div>
+        <button type="submit">Iniciar sesión</button>
+    </form>
+    <p>No tienes cuenta? <a href="{{ url_for('usuario_bp.register') }}">Regístrate aquí</a></p>
+{% endblock %}
