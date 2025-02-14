@@ -1,11 +1,11 @@
-from flask import render_template, redirect, url_for, request, flash, send_file
-from app import app
+from flask import render_template, redirect, url_for, request, flash, send_file, send_from_directory
+from app import app, DOWNLOADS_DIR
 from app.models import User
 from passlib.hash import scrypt
 from flask_login import LoginManager, UserMixin, login_user, login_required, logout_user, current_user
 from passlib.hash import scrypt
 from app.db import db
-
+import os
 
 login_manager = LoginManager()
 login_manager.init_app(app)
@@ -19,8 +19,6 @@ def load_user(user_id):
 def index():
     return render_template('index.html')
 
-from passlib.hash import scrypt
-
 @app.route('/login', methods=['GET', 'POST'])
 def login():
     if request.method == 'POST':
@@ -33,8 +31,6 @@ def login():
         else:
             flash('Usuario o contraseña incorrectos')
     return render_template('login.html')
-
-from passlib.hash import scrypt
 
 @app.route('/register', methods=['GET', 'POST'])
 def register():
@@ -51,7 +47,7 @@ def register():
         flash('Usuario registrado con éxito')
         return redirect(url_for('login'))
     return render_template('register.html')
-    
+
 @app.route('/dashboard')
 @login_required
 def dashboard():
@@ -63,31 +59,22 @@ def logout():
     logout_user()
     return redirect(url_for('index'))
 
-@app.route('/manage_users')
-@login_required
-def manage_users():
-    users = User.query.all()
-    return render_template('manage_users.html', users=users)
-
-@app.route('/monitor')
-@login_required
-def monitor():
-    return render_template('monitor.html')
-
-@app.route('/logs')
-@login_required
-def logs():
-    return render_template('logs.html')
-
-
 @app.route('/generate_csv')
 @login_required
 def generate_csv():
     generate_users_csv()
-    return send_file("users.csv", as_attachment=True)
+    return send_from_directory(directory=DOWNLOADS_DIR, path="users.csv", as_attachment=True)
 
 @app.route('/generate_pdf')
 @login_required
 def generate_pdf():
     generate_users_pdf()
-    return send_file("users.pdf", as_attachment=True)
+    return send_from_directory(directory=DOWNLOADS_DIR, path="users.pdf", as_attachment=True)
+
+@app.route('/download/pdf')
+def download_pdf():
+    return send_from_directory(directory=DOWNLOADS_DIR, path="resources.pdf", as_attachment=True)
+
+@app.route('/download/csv')
+def download_csv():
+    return send_from_directory(directory=DOWNLOADS_DIR, path="resources.csv", as_attachment=True)

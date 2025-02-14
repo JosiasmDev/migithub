@@ -24,3 +24,8 @@ class User(db.Model):
 
     def get_id(self):
         return str(self.id)
+    
+class Resource(db.Model):
+    id = db.Column(db.Integer, primary_key=True)
+    name = db.Column(db.String(100), nullable=False)
+    usage = db.Column(db.Float, nullable=False)
