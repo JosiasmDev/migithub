@@ -1,0 +1,31 @@
+{% extends "layout.html" %}
+
+{% block content %}
+<h1>Recursos del sistema</h1>
+
+<div>
+    <p>CPU: <span id="cpu">Cargando...</span></p>
+    <p>RAM: <span id="ram">Cargando...</span></p>
+    <p>Disco: <span id="disco">Cargando...</span></p>
+</div>
+
+<script>
+    function actualizarRecursos() {
+        fetch('/recursos_json')
+            .then(response => response.json())
+            .then(data => {
+                document.getElementById('cpu').textContent = data.cpu + '%';  // Añadimos '%' aquí
+                document.getElementById('ram').textContent = data.ram + '%';  // Añadimos '%' aquí
+                document.getElementById('disco').textContent = data.disco + '%';  // Añadimos '%' aquí
+            })
+            .catch(error => console.error('Error al obtener los recursos:', error));
+    }
+
+    // Llama a la función para actualizar los recursos cada 5 segundos
+    setInterval(actualizarRecursos, 5000);
+
+    // También se llama al cargar la página para mostrar los valores desde el principio
+    window.onload = actualizarRecursos;
+</script>
+
+{% endblock %}
