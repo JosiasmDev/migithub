@@ -3,28 +3,17 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>{% block title %}Mi Aplicación{% endblock %}</title>
-    <!-- Aquí puedes agregar tus archivos CSS -->
-    <link rel="stylesheet" href="{{ url_for('static', filename='css/styles.css') }}">
+    <title>{% block title %}Sistema de Gestión{% endblock %}</title>
+    <!-- Bootstrap CDN -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
 </head>
 <body>
-    <header>
-        <nav>
-            <!-- Aquí puedes agregar un menú de navegación si lo necesitas -->
-            <ul>
-                <li><a href="{{ url_for('usuario_bp.login') }}">Iniciar sesión</a></li>
-                <li><a href="{{ url_for('usuario_bp.register') }}">Registrar</a></li>
-            </ul>
-        </nav>
-    </header>
-
-    <main>
-        <!-- Aquí se insertará el contenido de cada página que extienda de esta plantilla -->
-        {% block content %}{% endblock %}
-    </main>
-
-    <footer>
-        <p>&copy; 2025 Mi Aplicación</p>
-    </footer>
+    <div class="container">
+        {% block content %}
+        {% endblock %}
+    </div>
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
+

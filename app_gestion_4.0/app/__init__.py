@@ -32,7 +32,10 @@ def create_app():
     def load_user(user_id):
         return Usuario.query.get(int(user_id))  # Cargar el usuario por su ID
 
+    # Registrar los blueprints
     from app.controllers.usuario_controller import usuario_bp
+    from app.controllers.recurso_controller import recurso_bp  # Importa recurso_bp aquí
     app.register_blueprint(usuario_bp)
+    app.register_blueprint(recurso_bp)  # Registra el blueprint de recursos
 
     return app

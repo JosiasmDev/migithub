@@ -53,3 +53,8 @@ def dashboard():
 
     
     return render_template('dashboard.html', title='Dashboard', user=current_user)
+
+@usuario_bp.route("/usuarios")
+def ver_usuarios():
+    # Lógica para mostrar los usuarios
+    return render_template('usuarios/lista.html')
