@@ -1,0 +1,12 @@
+<!-- templates/recurso/logs.html -->
+{% extends "layout.html" %}
+
+{% block content %}
+<h1>Logs de Recursos</h1>
+<pre>
+{% for log in logs %}
+{{ log }}
+{% endfor %}
+</pre>
+<a href="{{ url_for('usuario_bp.dashboard') }}" class="btn btn-secondary">Volver al Dashboard</a>
+{% endblock %}

@@ -4,10 +4,12 @@
 {% block content %}
 <h2>Dashboard</h2>
 <p>Bienvenido {{ user.nombre }}</p>
-<a href="{{ url_for('recurso_bp.ver_recursos') }}" class="btn btn-primary">Ver recursos del sistema</a>
-<a href="{{ url_for('usuario_bp.ver_usuarios') }}" class="btn btn-secondary">Gestionar usuarios</a>
-<a href="{{ url_for('recurso_bp.forzar_backup') }}" class="btn btn-warning">Forzar Backup</a>
-<a href="{{ url_for('recurso_bp.ver_logs') }}" class="btn btn-info">Ver logs</a>
-<a href="{{ url_for('recurso_bp.descargar_pdf') }}" class="btn btn-success">Descargar PDF</a>
-<a href="{{ url_for('recurso_bp.descargar_csv') }}" class="btn btn-success">Descargar CSV</a>
+<div class="mb-3"></div>
+    <a href="{{ url_for('recurso_bp.ver_recursos') }}" class="btn btn-primary">Ver recursos del sistema</a>
+    <a href="{{ url_for('usuario_bp.ver_usuarios') }}" class="btn btn-secondary">Gestionar usuarios</a>
+    <a href="{{ url_for('recurso_bp.forzar_backup') }}" class="btn btn-primary">Forzar Backup</a>
+    <a href="{{ url_for('recurso_bp.ver_logs') }}" class="btn btn-info">Ver Logs</a>
+    <a href="{{ url_for('recurso_bp.descargar_pdf') }}" class="btn btn-warning">Descargar PDF</a>
+    <a href="{{ url_for('recurso_bp.descargar_csv') }}" class="btn btn-success">Descargar CSV</a>
+</div>
 {% endblock %}

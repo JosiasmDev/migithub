@@ -9,3 +9,4 @@ class Config:
     SQLALCHEMY_DATABASE_URI = "mysql+pymysql://root:@localhost/gestion_sistemas"
     SQLALCHEMY_TRACK_MODIFICATIONS = False
     BACKUP_FOLDER = os.path.join(os.getcwd(), 'backups')
+    LOG_FOLDER = os.path.join(os.getcwd(), 'logs') 

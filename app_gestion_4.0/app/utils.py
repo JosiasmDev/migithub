@@ -7,6 +7,8 @@ from app.models.recurso_model import Recurso
 import csv
 from fpdf import FPDF
 from datetime import datetime
+import psutil
+
 
 # Función para crear backup
 def crear_backup():
@@ -37,7 +39,10 @@ def generar_pdf():
     ]
     for recurso, valor in recursos:
         pdf.cell(200, 10, txt=f"{recurso}: {valor}%", ln=True)
-    pdf.output("static/reportes/recurso_report.pdf")
+    pdf_file = os.path.join(app.config['BACKUP_FOLDER'], 'recursos_report.pdf')
+    pdf.output(pdf_file)
+    return pdf_file
+
 
 # Función para generar un CSV con los recursos
 def generar_csv():
@@ -46,11 +51,10 @@ def generar_csv():
         ('RAM', psutil.virtual_memory().percent),
         ('Disco', psutil.disk_usage('/').percent)
     ]
-    with open("static/reportes/recurso_report.csv", "w", newline='') as file:
+    csv_file = os.path.join(app.config['BACKUP_FOLDER'], 'recursos_report.csv')
+    with open(csv_file, 'w', newline='') as file:
         writer = csv.writer(file)
         writer.writerow(["Recurso", "Valor (%)"])
         for recurso, valor in recursos:
             writer.writerow([recurso, valor])
-
-
-
+    return csv_file
