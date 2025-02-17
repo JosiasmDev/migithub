@@ -5514,3 +5514,743 @@ with app.app_context(). See the documentation for more information.
 2025-02-17 10:38:37,072 - Running job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-17 10:38:42 CET)" (scheduled at 2025-02-17 10:38:37.071041+01:00)
 2025-02-17 10:38:38,082 - CPU: 16.6%, RAM: 77.4%, Disco: 96.4%
 2025-02-17 10:38:38,082 - Job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-17 10:38:42 CET)" executed successfully
+2025-02-17 10:49:41,973 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-02-17 10:49:41,973 - [33mPress CTRL+C to quit[0m
+2025-02-17 10:49:41,980 -  * Restarting with stat
+2025-02-17 10:49:43,135 -  * Debugger is active!
+2025-02-17 10:49:43,139 -  * Debugger PIN: 726-180-169
+2025-02-17 10:49:43,242 - 127.0.0.1 - - [17/Feb/2025 10:49:43] "GET /recursos HTTP/1.1" 200 -
+2025-02-17 10:49:44,289 - 127.0.0.1 - - [17/Feb/2025 10:49:44] "GET /recursos_json HTTP/1.1" 200 -
+2025-02-17 10:49:46,899 - Running job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-17 10:49:46 CET)" (scheduled at 2025-02-17 10:49:46.894651+01:00)
+2025-02-17 10:49:47,903 - CPU: 3.1%, RAM: 77.3%, Disco: 96.4%
+2025-02-17 10:49:47,903 - Job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-17 10:49:51 CET)" executed successfully
+2025-02-17 10:49:48,114 - Running job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-17 10:49:48 CET)" (scheduled at 2025-02-17 10:49:48.108312+01:00)
+2025-02-17 10:49:49,122 - CPU: 3.5%, RAM: 77.3%, Disco: 96.4%
+2025-02-17 10:49:49,122 - Job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-17 10:49:53 CET)" executed successfully
+2025-02-17 10:49:49,283 - 127.0.0.1 - - [17/Feb/2025 10:49:49] "GET /recursos_json HTTP/1.1" 200 -
+2025-02-17 10:49:51,911 - Running job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-17 10:49:56 CET)" (scheduled at 2025-02-17 10:49:51.894651+01:00)
+2025-02-17 10:49:52,915 - CPU: 6.7%, RAM: 76.5%, Disco: 96.4%
+2025-02-17 10:49:52,915 - Job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-17 10:49:56 CET)" executed successfully
+2025-02-17 10:49:53,109 - Running job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-17 10:49:58 CET)" (scheduled at 2025-02-17 10:49:53.108312+01:00)
+2025-02-17 10:49:54,116 - CPU: 10.7%, RAM: 76.6%, Disco: 96.4%
+2025-02-17 10:49:54,116 - Job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-17 10:49:58 CET)" executed successfully
+2025-02-17 10:49:54,288 - 127.0.0.1 - - [17/Feb/2025 10:49:54] "GET /recursos_json HTTP/1.1" 200 -
+2025-02-17 10:49:56,901 - Running job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-17 10:50:01 CET)" (scheduled at 2025-02-17 10:49:56.894651+01:00)
+2025-02-17 10:49:57,904 - CPU: 10.7%, RAM: 76.6%, Disco: 96.4%
+2025-02-17 10:49:57,904 - Job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-17 10:50:01 CET)" executed successfully
+2025-02-17 10:49:58,119 - Running job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-17 10:50:03 CET)" (scheduled at 2025-02-17 10:49:58.108312+01:00)
+2025-02-17 10:49:59,127 - CPU: 10.8%, RAM: 76.6%, Disco: 96.4%
+2025-02-17 10:49:59,127 - Job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-17 10:50:03 CET)" executed successfully
+2025-02-17 10:49:59,295 - 127.0.0.1 - - [17/Feb/2025 10:49:59] "GET /recursos_json HTTP/1.1" 200 -
+2025-02-17 10:50:01,895 - Running job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-17 10:50:06 CET)" (scheduled at 2025-02-17 10:50:01.894651+01:00)
+2025-02-17 10:50:02,897 - CPU: 2.6%, RAM: 76.6%, Disco: 96.4%
+2025-02-17 10:50:02,897 - Job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-17 10:50:06 CET)" executed successfully
+2025-02-17 10:50:03,114 - Running job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-17 10:50:08 CET)" (scheduled at 2025-02-17 10:50:03.108312+01:00)
+2025-02-17 10:50:04,121 - CPU: 9.2%, RAM: 76.6%, Disco: 96.4%
+2025-02-17 10:50:04,121 - Job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-17 10:50:08 CET)" executed successfully
+2025-02-17 10:50:04,296 - 127.0.0.1 - - [17/Feb/2025 10:50:04] "GET /recursos_json HTTP/1.1" 200 -
+2025-02-17 10:50:06,907 - Running job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-17 10:50:11 CET)" (scheduled at 2025-02-17 10:50:06.894651+01:00)
+2025-02-17 10:50:07,909 - CPU: 2.9%, RAM: 76.7%, Disco: 96.4%
+2025-02-17 10:50:07,909 - Job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-17 10:50:11 CET)" executed successfully
+2025-02-17 10:50:08,120 - Running job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-17 10:50:13 CET)" (scheduled at 2025-02-17 10:50:08.108312+01:00)
+2025-02-17 10:50:09,129 - CPU: 6.5%, RAM: 76.6%, Disco: 96.4%
+2025-02-17 10:50:09,129 - Job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-17 10:50:13 CET)" executed successfully
+2025-02-17 10:50:09,302 - 127.0.0.1 - - [17/Feb/2025 10:50:09] "GET /recursos_json HTTP/1.1" 200 -
+2025-02-17 10:50:11,903 - Running job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-17 10:50:16 CET)" (scheduled at 2025-02-17 10:50:11.894651+01:00)
+2025-02-17 10:50:12,911 - CPU: 4.3%, RAM: 76.6%, Disco: 96.4%
+2025-02-17 10:50:12,911 - Job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-17 10:50:16 CET)" executed successfully
+2025-02-17 10:50:13,109 - Running job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-17 10:50:18 CET)" (scheduled at 2025-02-17 10:50:13.108312+01:00)
+2025-02-17 10:50:14,121 - CPU: 14.6%, RAM: 76.6%, Disco: 96.4%
+2025-02-17 10:50:14,121 - Job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-17 10:50:18 CET)" executed successfully
+2025-02-17 10:50:14,290 - 127.0.0.1 - - [17/Feb/2025 10:50:14] "GET /recursos_json HTTP/1.1" 200 -
+2025-02-17 10:50:16,899 - Running job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-17 10:50:21 CET)" (scheduled at 2025-02-17 10:50:16.894651+01:00)
+2025-02-17 10:50:17,912 - CPU: 50.7%, RAM: 77.5%, Disco: 96.4%
+2025-02-17 10:50:17,912 - Job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-17 10:50:21 CET)" executed successfully
+2025-02-17 10:50:18,113 - Running job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-17 10:50:23 CET)" (scheduled at 2025-02-17 10:50:18.108312+01:00)
+2025-02-17 10:50:19,130 - CPU: 27.4%, RAM: 77.3%, Disco: 96.4%
+2025-02-17 10:50:19,130 - Job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-17 10:50:23 CET)" executed successfully
+2025-02-17 10:50:20,075 - 127.0.0.1 - - [17/Feb/2025 10:50:20] "GET /recursos_json HTTP/1.1" 200 -
+2025-02-17 10:50:21,900 - Running job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-17 10:50:26 CET)" (scheduled at 2025-02-17 10:50:21.894651+01:00)
+2025-02-17 10:50:22,912 - CPU: 13.8%, RAM: 77.5%, Disco: 96.4%
+2025-02-17 10:50:22,913 - Job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-17 10:50:26 CET)" executed successfully
+2025-02-17 10:50:23,120 - Running job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-17 10:50:28 CET)" (scheduled at 2025-02-17 10:50:23.108312+01:00)
+2025-02-17 10:50:24,128 - CPU: 10.3%, RAM: 77.4%, Disco: 96.4%
+2025-02-17 10:50:24,128 - Job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-17 10:50:28 CET)" executed successfully
+2025-02-17 10:50:25,075 - 127.0.0.1 - - [17/Feb/2025 10:50:25] "GET /recursos_json HTTP/1.1" 200 -
+2025-02-17 10:50:26,903 - Running job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-17 10:50:31 CET)" (scheduled at 2025-02-17 10:50:26.894651+01:00)
+2025-02-17 10:50:27,922 - CPU: 27.9%, RAM: 78.3%, Disco: 96.4%
+2025-02-17 10:50:27,923 - Job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-17 10:50:31 CET)" executed successfully
+2025-02-17 10:50:28,120 - Running job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-17 10:50:33 CET)" (scheduled at 2025-02-17 10:50:28.108312+01:00)
+2025-02-17 10:50:29,126 - CPU: 18.4%, RAM: 78.4%, Disco: 96.4%
+2025-02-17 10:50:29,126 - Job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-17 10:50:33 CET)" executed successfully
+2025-02-17 10:50:30,083 - 127.0.0.1 - - [17/Feb/2025 10:50:30] "GET /recursos_json HTTP/1.1" 200 -
+2025-02-17 10:50:31,898 - Running job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-17 10:50:36 CET)" (scheduled at 2025-02-17 10:50:31.894651+01:00)
+2025-02-17 10:50:32,910 - CPU: 9.5%, RAM: 78.5%, Disco: 96.4%
+2025-02-17 10:50:32,915 - Job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-17 10:50:36 CET)" executed successfully
+2025-02-17 10:50:33,116 - Running job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-17 10:50:38 CET)" (scheduled at 2025-02-17 10:50:33.108312+01:00)
+2025-02-17 10:50:34,118 - CPU: 7.2%, RAM: 78.4%, Disco: 96.4%
+2025-02-17 10:50:34,118 - Job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-17 10:50:38 CET)" executed successfully
+2025-02-17 10:50:35,081 - 127.0.0.1 - - [17/Feb/2025 10:50:35] "GET /recursos_json HTTP/1.1" 200 -
+2025-02-17 10:50:36,907 - Running job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-17 10:50:41 CET)" (scheduled at 2025-02-17 10:50:36.894651+01:00)
+2025-02-17 10:50:37,912 - CPU: 17.4%, RAM: 77.4%, Disco: 96.4%
+2025-02-17 10:50:37,912 - Job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-17 10:50:41 CET)" executed successfully
+2025-02-17 10:50:38,112 - Running job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-17 10:50:43 CET)" (scheduled at 2025-02-17 10:50:38.108312+01:00)
+2025-02-17 10:50:39,125 - CPU: 10.3%, RAM: 77.3%, Disco: 96.4%
+2025-02-17 10:50:39,125 - Job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-17 10:50:43 CET)" executed successfully
+2025-02-17 10:50:40,076 - 127.0.0.1 - - [17/Feb/2025 10:50:40] "GET /recursos_json HTTP/1.1" 200 -
+2025-02-17 10:50:41,910 - Running job "crear_backup (trigger: interval[0:01:00], next run at: 2025-02-17 10:51:41 CET)" (scheduled at 2025-02-17 10:50:41.894651+01:00)
+2025-02-17 10:50:41,910 - Running job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-17 10:50:46 CET)" (scheduled at 2025-02-17 10:50:41.894651+01:00)
+2025-02-17 10:50:41,926 - Job "crear_backup (trigger: interval[0:01:00], next run at: 2025-02-17 10:51:41 CET)" raised an exception
+Traceback (most recent call last):
+  File "C:\xampp\htdocs\xampp\migithub\app_gestion_4.0\venv\Lib\site-packages\apscheduler\executors\base.py", line 131, in run_job
+    retval = job.func(*job.args, **job.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\xampp\htdocs\xampp\migithub\app_gestion_4.0\app\utils.py", line 62, in crear_backup
+    backup_file = os.path.join(current_app.config['BACKUP_FOLDER'], f"backup_{timestamp}.sql")
+                               ^^^^^^^^^^^^^^^^^^
+  File "C:\xampp\htdocs\xampp\migithub\app_gestion_4.0\venv\Lib\site-packages\werkzeug\local.py", line 318, in __get__
+    obj = instance._get_current_object()
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\xampp\htdocs\xampp\migithub\app_gestion_4.0\venv\Lib\site-packages\werkzeug\local.py", line 519, in _get_current_object
+    raise RuntimeError(unbound_message) from None
+RuntimeError: Working outside of application context.
+
+This typically means that you attempted to use functionality that needed
+the current application. To solve this, set up an application context
+with app.app_context(). See the documentation for more information.
+2025-02-17 10:50:42,922 - CPU: 7.0%, RAM: 77.2%, Disco: 96.4%
+2025-02-17 10:50:42,922 - Job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-17 10:50:46 CET)" executed successfully
+2025-02-17 10:50:43,120 - Running job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-17 10:50:48 CET)" (scheduled at 2025-02-17 10:50:43.108312+01:00)
+2025-02-17 10:50:43,120 - Running job "crear_backup (trigger: interval[0:01:00], next run at: 2025-02-17 10:51:43 CET)" (scheduled at 2025-02-17 10:50:43.108312+01:00)
+2025-02-17 10:50:43,120 - Job "crear_backup (trigger: interval[0:01:00], next run at: 2025-02-17 10:51:43 CET)" raised an exception
+Traceback (most recent call last):
+  File "C:\xampp\htdocs\xampp\migithub\app_gestion_4.0\venv\Lib\site-packages\apscheduler\executors\base.py", line 131, in run_job
+    retval = job.func(*job.args, **job.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\xampp\htdocs\xampp\migithub\app_gestion_4.0\app\utils.py", line 62, in crear_backup
+    backup_file = os.path.join(current_app.config['BACKUP_FOLDER'], f"backup_{timestamp}.sql")
+                               ^^^^^^^^^^^^^^^^^^
+  File "C:\xampp\htdocs\xampp\migithub\app_gestion_4.0\venv\Lib\site-packages\werkzeug\local.py", line 318, in __get__
+    obj = instance._get_current_object()
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\xampp\htdocs\xampp\migithub\app_gestion_4.0\venv\Lib\site-packages\werkzeug\local.py", line 519, in _get_current_object
+    raise RuntimeError(unbound_message) from None
+RuntimeError: Working outside of application context.
+
+This typically means that you attempted to use functionality that needed
+the current application. To solve this, set up an application context
+with app.app_context(). See the documentation for more information.
+2025-02-17 10:50:44,131 - CPU: 8.4%, RAM: 77.2%, Disco: 96.4%
+2025-02-17 10:50:44,131 - Job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-17 10:50:48 CET)" executed successfully
+2025-02-17 10:50:45,079 - 127.0.0.1 - - [17/Feb/2025 10:50:45] "GET /recursos_json HTTP/1.1" 200 -
+2025-02-17 10:50:46,908 - Running job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-17 10:50:51 CET)" (scheduled at 2025-02-17 10:50:46.894651+01:00)
+2025-02-17 10:50:47,915 - CPU: 16.3%, RAM: 77.2%, Disco: 96.4%
+2025-02-17 10:50:47,915 - Job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-17 10:50:51 CET)" executed successfully
+2025-02-17 10:50:48,124 - Running job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-17 10:50:53 CET)" (scheduled at 2025-02-17 10:50:48.108312+01:00)
+2025-02-17 10:50:49,129 - CPU: 8.8%, RAM: 77.2%, Disco: 96.4%
+2025-02-17 10:50:49,130 - Job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-17 10:50:53 CET)" executed successfully
+2025-02-17 10:50:50,073 - 127.0.0.1 - - [17/Feb/2025 10:50:50] "GET /recursos_json HTTP/1.1" 200 -
+2025-02-17 10:50:51,896 - Running job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-17 10:50:56 CET)" (scheduled at 2025-02-17 10:50:51.894651+01:00)
+2025-02-17 10:50:52,905 - CPU: 7.3%, RAM: 77.1%, Disco: 96.4%
+2025-02-17 10:50:52,905 - Job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-17 10:50:56 CET)" executed successfully
+2025-02-17 10:50:53,113 - Running job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-17 10:50:58 CET)" (scheduled at 2025-02-17 10:50:53.108312+01:00)
+2025-02-17 10:50:54,115 - CPU: 13.3%, RAM: 77.1%, Disco: 96.4%
+2025-02-17 10:50:54,115 - Job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-17 10:50:58 CET)" executed successfully
+2025-02-17 10:50:55,066 - 127.0.0.1 - - [17/Feb/2025 10:50:55] "GET /recursos_json HTTP/1.1" 200 -
+2025-02-17 10:50:56,910 - Running job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-17 10:51:01 CET)" (scheduled at 2025-02-17 10:50:56.894651+01:00)
+2025-02-17 10:50:57,915 - CPU: 9.6%, RAM: 76.9%, Disco: 96.4%
+2025-02-17 10:50:57,915 - Job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-17 10:51:01 CET)" executed successfully
+2025-02-17 10:50:58,115 - Running job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-17 10:51:03 CET)" (scheduled at 2025-02-17 10:50:58.108312+01:00)
+2025-02-17 10:50:59,120 - CPU: 8.8%, RAM: 77.0%, Disco: 96.4%
+2025-02-17 10:50:59,120 - Job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-17 10:51:03 CET)" executed successfully
+2025-02-17 10:51:00,071 - 127.0.0.1 - - [17/Feb/2025 10:51:00] "GET /recursos_json HTTP/1.1" 200 -
+2025-02-17 10:51:01,908 - Running job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-17 10:51:06 CET)" (scheduled at 2025-02-17 10:51:01.894651+01:00)
+2025-02-17 10:51:02,914 - CPU: 42.5%, RAM: 78.2%, Disco: 96.4%
+2025-02-17 10:51:02,914 - Job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-17 10:51:06 CET)" executed successfully
+2025-02-17 10:51:03,109 - Running job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-17 10:51:08 CET)" (scheduled at 2025-02-17 10:51:03.108312+01:00)
+2025-02-17 10:51:04,111 - CPU: 18.3%, RAM: 78.2%, Disco: 96.4%
+2025-02-17 10:51:04,111 - Job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-17 10:51:08 CET)" executed successfully
+2025-02-17 10:51:05,068 - 127.0.0.1 - - [17/Feb/2025 10:51:05] "GET /recursos_json HTTP/1.1" 200 -
+2025-02-17 10:51:06,896 - Running job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-17 10:51:11 CET)" (scheduled at 2025-02-17 10:51:06.894651+01:00)
+2025-02-17 10:51:07,901 - CPU: 37.4%, RAM: 79.6%, Disco: 96.4%
+2025-02-17 10:51:07,901 - Job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-17 10:51:11 CET)" executed successfully
+2025-02-17 10:51:08,125 - Running job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-17 10:51:13 CET)" (scheduled at 2025-02-17 10:51:08.108312+01:00)
+2025-02-17 10:51:09,130 - CPU: 18.6%, RAM: 80.3%, Disco: 96.4%
+2025-02-17 10:51:09,130 - Job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-17 10:51:13 CET)" executed successfully
+2025-02-17 10:51:10,103 - 127.0.0.1 - - [17/Feb/2025 10:51:10] "GET /recursos_json HTTP/1.1" 200 -
+2025-02-17 10:51:11,905 - Running job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-17 10:51:16 CET)" (scheduled at 2025-02-17 10:51:11.894651+01:00)
+2025-02-17 10:51:12,910 - CPU: 20.9%, RAM: 81.7%, Disco: 96.4%
+2025-02-17 10:51:12,910 - Job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-17 10:51:16 CET)" executed successfully
+2025-02-17 10:51:13,123 - Running job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-17 10:51:18 CET)" (scheduled at 2025-02-17 10:51:13.108312+01:00)
+2025-02-17 10:51:14,135 - CPU: 32.0%, RAM: 81.6%, Disco: 96.4%
+2025-02-17 10:51:14,135 - Job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-17 10:51:18 CET)" executed successfully
+2025-02-17 10:51:15,084 - 127.0.0.1 - - [17/Feb/2025 10:51:15] "GET /recursos_json HTTP/1.1" 200 -
+2025-02-17 10:51:16,895 - Running job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-17 10:51:21 CET)" (scheduled at 2025-02-17 10:51:16.894651+01:00)
+2025-02-17 10:51:17,902 - CPU: 70.3%, RAM: 85.1%, Disco: 96.4%
+2025-02-17 10:51:17,902 - Job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-17 10:51:21 CET)" executed successfully
+2025-02-17 10:51:18,111 - Running job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-17 10:51:23 CET)" (scheduled at 2025-02-17 10:51:18.108312+01:00)
+2025-02-17 10:51:19,117 - CPU: 30.0%, RAM: 85.7%, Disco: 96.4%
+2025-02-17 10:51:19,117 - Job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-17 10:51:23 CET)" executed successfully
+2025-02-17 10:51:20,074 - 127.0.0.1 - - [17/Feb/2025 10:51:20] "GET /recursos_json HTTP/1.1" 200 -
+2025-02-17 10:51:21,896 - Running job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-17 10:51:26 CET)" (scheduled at 2025-02-17 10:51:21.894651+01:00)
+2025-02-17 10:51:22,908 - CPU: 15.4%, RAM: 80.1%, Disco: 96.4%
+2025-02-17 10:51:22,908 - Job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-17 10:51:26 CET)" executed successfully
+2025-02-17 10:51:23,114 - Running job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-17 10:51:28 CET)" (scheduled at 2025-02-17 10:51:23.108312+01:00)
+2025-02-17 10:51:24,118 - CPU: 18.3%, RAM: 80.0%, Disco: 96.4%
+2025-02-17 10:51:24,118 - Job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-17 10:51:28 CET)" executed successfully
+2025-02-17 10:51:25,066 - 127.0.0.1 - - [17/Feb/2025 10:51:25] "GET /recursos_json HTTP/1.1" 200 -
+2025-02-17 10:51:26,901 - Running job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-17 10:51:31 CET)" (scheduled at 2025-02-17 10:51:26.894651+01:00)
+2025-02-17 10:51:27,910 - CPU: 9.3%, RAM: 79.9%, Disco: 96.4%
+2025-02-17 10:51:27,910 - Job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-17 10:51:31 CET)" executed successfully
+2025-02-17 10:51:28,112 - Running job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-17 10:51:33 CET)" (scheduled at 2025-02-17 10:51:28.108312+01:00)
+2025-02-17 10:51:29,153 - CPU: 13.0%, RAM: 79.7%, Disco: 96.4%
+2025-02-17 10:51:29,153 - Job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-17 10:51:33 CET)" executed successfully
+2025-02-17 10:51:30,075 - 127.0.0.1 - - [17/Feb/2025 10:51:30] "GET /recursos_json HTTP/1.1" 200 -
+2025-02-17 10:51:31,903 - Running job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-17 10:51:36 CET)" (scheduled at 2025-02-17 10:51:31.894651+01:00)
+2025-02-17 10:51:32,904 - CPU: 16.2%, RAM: 79.9%, Disco: 96.4%
+2025-02-17 10:51:32,904 - Job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-17 10:51:36 CET)" executed successfully
+2025-02-17 10:51:33,109 - Running job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-17 10:51:38 CET)" (scheduled at 2025-02-17 10:51:33.108312+01:00)
+2025-02-17 10:51:34,119 - CPU: 7.4%, RAM: 79.9%, Disco: 96.4%
+2025-02-17 10:51:34,120 - Job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-17 10:51:38 CET)" executed successfully
+2025-02-17 10:51:35,065 - 127.0.0.1 - - [17/Feb/2025 10:51:35] "GET /recursos_json HTTP/1.1" 200 -
+2025-02-17 10:51:36,904 - Running job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-17 10:51:41 CET)" (scheduled at 2025-02-17 10:51:36.894651+01:00)
+2025-02-17 10:51:37,908 - CPU: 42.7%, RAM: 81.5%, Disco: 96.4%
+2025-02-17 10:51:37,908 - Job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-17 10:51:41 CET)" executed successfully
+2025-02-17 10:51:38,112 - Running job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-17 10:51:43 CET)" (scheduled at 2025-02-17 10:51:38.108312+01:00)
+2025-02-17 10:51:39,118 - CPU: 70.3%, RAM: 82.1%, Disco: 96.4%
+2025-02-17 10:51:39,118 - Job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-17 10:51:43 CET)" executed successfully
+2025-02-17 10:51:40,064 - 127.0.0.1 - - [17/Feb/2025 10:51:40] "GET /recursos_json HTTP/1.1" 200 -
+2025-02-17 10:51:41,898 - Running job "crear_backup (trigger: interval[0:01:00], next run at: 2025-02-17 10:52:41 CET)" (scheduled at 2025-02-17 10:51:41.894651+01:00)
+2025-02-17 10:51:41,898 - Running job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-17 10:51:46 CET)" (scheduled at 2025-02-17 10:51:41.894651+01:00)
+2025-02-17 10:51:41,898 - Job "crear_backup (trigger: interval[0:01:00], next run at: 2025-02-17 10:52:41 CET)" raised an exception
+Traceback (most recent call last):
+  File "C:\xampp\htdocs\xampp\migithub\app_gestion_4.0\venv\Lib\site-packages\apscheduler\executors\base.py", line 131, in run_job
+    retval = job.func(*job.args, **job.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\xampp\htdocs\xampp\migithub\app_gestion_4.0\app\utils.py", line 62, in crear_backup
+    backup_file = os.path.join(current_app.config['BACKUP_FOLDER'], f"backup_{timestamp}.sql")
+                               ^^^^^^^^^^^^^^^^^^
+  File "C:\xampp\htdocs\xampp\migithub\app_gestion_4.0\venv\Lib\site-packages\werkzeug\local.py", line 318, in __get__
+    obj = instance._get_current_object()
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\xampp\htdocs\xampp\migithub\app_gestion_4.0\venv\Lib\site-packages\werkzeug\local.py", line 519, in _get_current_object
+    raise RuntimeError(unbound_message) from None
+RuntimeError: Working outside of application context.
+
+This typically means that you attempted to use functionality that needed
+the current application. To solve this, set up an application context
+with app.app_context(). See the documentation for more information.
+2025-02-17 10:51:42,904 - CPU: 30.6%, RAM: 80.3%, Disco: 96.4%
+2025-02-17 10:51:42,904 - Job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-17 10:51:46 CET)" executed successfully
+2025-02-17 10:51:43,116 - Running job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-17 10:51:48 CET)" (scheduled at 2025-02-17 10:51:43.108312+01:00)
+2025-02-17 10:51:43,116 - Running job "crear_backup (trigger: interval[0:01:00], next run at: 2025-02-17 10:52:43 CET)" (scheduled at 2025-02-17 10:51:43.108312+01:00)
+2025-02-17 10:51:43,118 - Job "crear_backup (trigger: interval[0:01:00], next run at: 2025-02-17 10:52:43 CET)" raised an exception
+Traceback (most recent call last):
+  File "C:\xampp\htdocs\xampp\migithub\app_gestion_4.0\venv\Lib\site-packages\apscheduler\executors\base.py", line 131, in run_job
+    retval = job.func(*job.args, **job.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\xampp\htdocs\xampp\migithub\app_gestion_4.0\app\utils.py", line 62, in crear_backup
+    backup_file = os.path.join(current_app.config['BACKUP_FOLDER'], f"backup_{timestamp}.sql")
+                               ^^^^^^^^^^^^^^^^^^
+  File "C:\xampp\htdocs\xampp\migithub\app_gestion_4.0\venv\Lib\site-packages\werkzeug\local.py", line 318, in __get__
+    obj = instance._get_current_object()
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\xampp\htdocs\xampp\migithub\app_gestion_4.0\venv\Lib\site-packages\werkzeug\local.py", line 519, in _get_current_object
+    raise RuntimeError(unbound_message) from None
+RuntimeError: Working outside of application context.
+
+This typically means that you attempted to use functionality that needed
+the current application. To solve this, set up an application context
+with app.app_context(). See the documentation for more information.
+2025-02-17 10:51:44,118 - CPU: 56.3%, RAM: 80.9%, Disco: 96.4%
+2025-02-17 10:51:44,118 - Job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-17 10:51:48 CET)" executed successfully
+2025-02-17 10:51:45,069 - 127.0.0.1 - - [17/Feb/2025 10:51:45] "GET /recursos_json HTTP/1.1" 200 -
+2025-02-17 10:51:46,900 - Running job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-17 10:51:51 CET)" (scheduled at 2025-02-17 10:51:46.894651+01:00)
+2025-02-17 10:51:47,910 - CPU: 15.9%, RAM: 80.2%, Disco: 96.4%
+2025-02-17 10:51:47,910 - Job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-17 10:51:51 CET)" executed successfully
+2025-02-17 10:51:48,111 - Running job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-17 10:51:53 CET)" (scheduled at 2025-02-17 10:51:48.108312+01:00)
+2025-02-17 10:51:49,122 - CPU: 10.1%, RAM: 80.1%, Disco: 96.4%
+2025-02-17 10:51:49,123 - Job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-17 10:51:53 CET)" executed successfully
+2025-02-17 10:51:50,082 - 127.0.0.1 - - [17/Feb/2025 10:51:50] "GET /recursos_json HTTP/1.1" 200 -
+2025-02-17 10:51:51,896 - Running job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-17 10:51:56 CET)" (scheduled at 2025-02-17 10:51:51.894651+01:00)
+2025-02-17 10:51:52,905 - CPU: 6.2%, RAM: 79.9%, Disco: 96.4%
+2025-02-17 10:51:52,905 - Job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-17 10:51:56 CET)" executed successfully
+2025-02-17 10:51:53,114 - Running job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-17 10:51:58 CET)" (scheduled at 2025-02-17 10:51:53.108312+01:00)
+2025-02-17 10:51:54,118 - CPU: 7.5%, RAM: 79.9%, Disco: 96.4%
+2025-02-17 10:51:54,118 - Job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-17 10:51:58 CET)" executed successfully
+2025-02-17 10:51:55,072 - 127.0.0.1 - - [17/Feb/2025 10:51:55] "GET /recursos_json HTTP/1.1" 200 -
+2025-02-17 10:51:56,897 - Running job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-17 10:52:01 CET)" (scheduled at 2025-02-17 10:51:56.894651+01:00)
+2025-02-17 10:51:57,905 - CPU: 4.7%, RAM: 79.4%, Disco: 96.4%
+2025-02-17 10:51:57,905 - Job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-17 10:52:01 CET)" executed successfully
+2025-02-17 10:51:58,109 - Running job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-17 10:52:03 CET)" (scheduled at 2025-02-17 10:51:58.108312+01:00)
+2025-02-17 10:51:59,116 - CPU: 9.9%, RAM: 79.4%, Disco: 96.4%
+2025-02-17 10:51:59,117 - Job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-17 10:52:03 CET)" executed successfully
+2025-02-17 10:52:00,070 - 127.0.0.1 - - [17/Feb/2025 10:52:00] "GET /recursos_json HTTP/1.1" 200 -
+2025-02-17 10:52:01,898 - Running job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-17 10:52:06 CET)" (scheduled at 2025-02-17 10:52:01.894651+01:00)
+2025-02-17 10:52:02,901 - CPU: 15.7%, RAM: 79.4%, Disco: 96.4%
+2025-02-17 10:52:02,901 - Job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-17 10:52:06 CET)" executed successfully
+2025-02-17 10:52:03,110 - Running job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-17 10:52:08 CET)" (scheduled at 2025-02-17 10:52:03.108312+01:00)
+2025-02-17 10:52:04,122 - CPU: 17.4%, RAM: 79.6%, Disco: 96.4%
+2025-02-17 10:52:04,122 - Job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-17 10:52:08 CET)" executed successfully
+2025-02-17 10:52:05,085 - 127.0.0.1 - - [17/Feb/2025 10:52:05] "GET /recursos_json HTTP/1.1" 200 -
+2025-02-17 10:52:06,908 - Running job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-17 10:52:11 CET)" (scheduled at 2025-02-17 10:52:06.894651+01:00)
+2025-02-17 10:52:07,911 - CPU: 43.8%, RAM: 80.0%, Disco: 96.4%
+2025-02-17 10:52:07,911 - Job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-17 10:52:11 CET)" executed successfully
+2025-02-17 10:52:08,109 - Running job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-17 10:52:13 CET)" (scheduled at 2025-02-17 10:52:08.108312+01:00)
+2025-02-17 10:52:09,121 - CPU: 33.3%, RAM: 80.1%, Disco: 96.4%
+2025-02-17 10:52:09,121 - Job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-17 10:52:13 CET)" executed successfully
+2025-02-17 10:52:11,899 - Running job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-17 10:52:16 CET)" (scheduled at 2025-02-17 10:52:11.894651+01:00)
+2025-02-17 10:52:12,909 - CPU: 17.3%, RAM: 79.8%, Disco: 96.4%
+2025-02-17 10:52:12,909 - Job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-17 10:52:16 CET)" executed successfully
+2025-02-17 10:52:13,124 - Running job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-17 10:52:18 CET)" (scheduled at 2025-02-17 10:52:13.108312+01:00)
+2025-02-17 10:52:14,132 - CPU: 10.1%, RAM: 79.8%, Disco: 96.4%
+2025-02-17 10:52:14,132 - Job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-17 10:52:18 CET)" executed successfully
+2025-02-17 10:52:16,899 - Running job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-17 10:52:21 CET)" (scheduled at 2025-02-17 10:52:16.894651+01:00)
+2025-02-17 10:52:17,911 - CPU: 10.0%, RAM: 79.8%, Disco: 96.4%
+2025-02-17 10:52:17,911 - Job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-17 10:52:21 CET)" executed successfully
+2025-02-17 10:52:18,110 - Running job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-17 10:52:23 CET)" (scheduled at 2025-02-17 10:52:18.108312+01:00)
+2025-02-17 10:52:19,118 - CPU: 13.8%, RAM: 79.8%, Disco: 96.4%
+2025-02-17 10:52:19,118 - Job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-17 10:52:23 CET)" executed successfully
+2025-02-17 10:52:20,077 - 127.0.0.1 - - [17/Feb/2025 10:52:20] "GET /recursos_json HTTP/1.1" 200 -
+2025-02-17 10:52:21,900 - Running job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-17 10:52:26 CET)" (scheduled at 2025-02-17 10:52:21.894651+01:00)
+2025-02-17 10:52:22,907 - CPU: 14.1%, RAM: 80.5%, Disco: 96.4%
+2025-02-17 10:52:22,907 - Job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-17 10:52:26 CET)" executed successfully
+2025-02-17 10:52:23,109 - Running job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-17 10:52:28 CET)" (scheduled at 2025-02-17 10:52:23.108312+01:00)
+2025-02-17 10:52:24,125 - CPU: 18.4%, RAM: 80.4%, Disco: 96.4%
+2025-02-17 10:52:24,126 - Job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-17 10:52:28 CET)" executed successfully
+2025-02-17 10:52:26,895 - Running job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-17 10:52:31 CET)" (scheduled at 2025-02-17 10:52:26.894651+01:00)
+2025-02-17 10:52:27,897 - CPU: 9.1%, RAM: 80.2%, Disco: 96.4%
+2025-02-17 10:52:27,897 - Job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-17 10:52:31 CET)" executed successfully
+2025-02-17 10:52:28,115 - Running job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-17 10:52:33 CET)" (scheduled at 2025-02-17 10:52:28.108312+01:00)
+2025-02-17 10:52:29,126 - CPU: 2.7%, RAM: 80.2%, Disco: 96.4%
+2025-02-17 10:52:29,126 - Job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-17 10:52:33 CET)" executed successfully
+2025-02-17 10:52:31,900 - Running job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-17 10:52:36 CET)" (scheduled at 2025-02-17 10:52:31.894651+01:00)
+2025-02-17 10:52:32,903 - CPU: 10.1%, RAM: 80.3%, Disco: 96.4%
+2025-02-17 10:52:32,903 - Job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-17 10:52:36 CET)" executed successfully
+2025-02-17 10:52:33,120 - Running job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-17 10:52:38 CET)" (scheduled at 2025-02-17 10:52:33.108312+01:00)
+2025-02-17 10:52:34,126 - CPU: 15.8%, RAM: 80.5%, Disco: 96.4%
+2025-02-17 10:52:34,126 - Job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-17 10:52:38 CET)" executed successfully
+2025-02-17 10:52:36,906 - Running job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-17 10:52:41 CET)" (scheduled at 2025-02-17 10:52:36.894651+01:00)
+2025-02-17 10:52:37,913 - CPU: 7.2%, RAM: 80.5%, Disco: 96.4%
+2025-02-17 10:52:37,913 - Job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-17 10:52:41 CET)" executed successfully
+2025-02-17 10:52:38,116 - Running job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-17 10:52:43 CET)" (scheduled at 2025-02-17 10:52:38.108312+01:00)
+2025-02-17 10:52:39,119 - CPU: 11.3%, RAM: 80.5%, Disco: 96.4%
+2025-02-17 10:52:39,119 - Job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-17 10:52:43 CET)" executed successfully
+2025-02-17 10:52:41,903 - Running job "crear_backup (trigger: interval[0:01:00], next run at: 2025-02-17 10:53:41 CET)" (scheduled at 2025-02-17 10:52:41.894651+01:00)
+2025-02-17 10:52:41,903 - Running job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-17 10:52:46 CET)" (scheduled at 2025-02-17 10:52:41.894651+01:00)
+2025-02-17 10:52:41,903 - Job "crear_backup (trigger: interval[0:01:00], next run at: 2025-02-17 10:53:41 CET)" raised an exception
+Traceback (most recent call last):
+  File "C:\xampp\htdocs\xampp\migithub\app_gestion_4.0\venv\Lib\site-packages\apscheduler\executors\base.py", line 131, in run_job
+    retval = job.func(*job.args, **job.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\xampp\htdocs\xampp\migithub\app_gestion_4.0\app\utils.py", line 62, in crear_backup
+    backup_file = os.path.join(current_app.config['BACKUP_FOLDER'], f"backup_{timestamp}.sql")
+                               ^^^^^^^^^^^^^^^^^^
+  File "C:\xampp\htdocs\xampp\migithub\app_gestion_4.0\venv\Lib\site-packages\werkzeug\local.py", line 318, in __get__
+    obj = instance._get_current_object()
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\xampp\htdocs\xampp\migithub\app_gestion_4.0\venv\Lib\site-packages\werkzeug\local.py", line 519, in _get_current_object
+    raise RuntimeError(unbound_message) from None
+RuntimeError: Working outside of application context.
+
+This typically means that you attempted to use functionality that needed
+the current application. To solve this, set up an application context
+with app.app_context(). See the documentation for more information.
+2025-02-17 10:52:42,911 - CPU: 6.4%, RAM: 80.3%, Disco: 96.4%
+2025-02-17 10:52:42,911 - Job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-17 10:52:46 CET)" executed successfully
+2025-02-17 10:52:43,117 - Running job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-17 10:52:48 CET)" (scheduled at 2025-02-17 10:52:43.108312+01:00)
+2025-02-17 10:52:43,117 - Running job "crear_backup (trigger: interval[0:01:00], next run at: 2025-02-17 10:53:43 CET)" (scheduled at 2025-02-17 10:52:43.108312+01:00)
+2025-02-17 10:52:43,117 - Job "crear_backup (trigger: interval[0:01:00], next run at: 2025-02-17 10:53:43 CET)" raised an exception
+Traceback (most recent call last):
+  File "C:\xampp\htdocs\xampp\migithub\app_gestion_4.0\venv\Lib\site-packages\apscheduler\executors\base.py", line 131, in run_job
+    retval = job.func(*job.args, **job.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\xampp\htdocs\xampp\migithub\app_gestion_4.0\app\utils.py", line 62, in crear_backup
+    backup_file = os.path.join(current_app.config['BACKUP_FOLDER'], f"backup_{timestamp}.sql")
+                               ^^^^^^^^^^^^^^^^^^
+  File "C:\xampp\htdocs\xampp\migithub\app_gestion_4.0\venv\Lib\site-packages\werkzeug\local.py", line 318, in __get__
+    obj = instance._get_current_object()
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\xampp\htdocs\xampp\migithub\app_gestion_4.0\venv\Lib\site-packages\werkzeug\local.py", line 519, in _get_current_object
+    raise RuntimeError(unbound_message) from None
+RuntimeError: Working outside of application context.
+
+This typically means that you attempted to use functionality that needed
+the current application. To solve this, set up an application context
+with app.app_context(). See the documentation for more information.
+2025-02-17 10:52:44,120 - CPU: 5.3%, RAM: 80.2%, Disco: 96.4%
+2025-02-17 10:52:44,120 - Job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-17 10:52:48 CET)" executed successfully
+2025-02-17 10:52:46,896 - Running job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-17 10:52:51 CET)" (scheduled at 2025-02-17 10:52:46.894651+01:00)
+2025-02-17 10:52:47,902 - CPU: 9.9%, RAM: 80.2%, Disco: 96.4%
+2025-02-17 10:52:47,902 - Job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-17 10:52:51 CET)" executed successfully
+2025-02-17 10:52:48,115 - Running job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-17 10:52:53 CET)" (scheduled at 2025-02-17 10:52:48.108312+01:00)
+2025-02-17 10:52:49,126 - CPU: 13.4%, RAM: 79.9%, Disco: 96.4%
+2025-02-17 10:52:49,126 - Job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-17 10:52:53 CET)" executed successfully
+2025-02-17 10:52:51,896 - Running job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-17 10:52:56 CET)" (scheduled at 2025-02-17 10:52:51.894651+01:00)
+2025-02-17 10:52:52,900 - CPU: 28.5%, RAM: 81.4%, Disco: 96.4%
+2025-02-17 10:52:52,900 - Job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-17 10:52:56 CET)" executed successfully
+2025-02-17 10:52:53,115 - Running job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-17 10:52:58 CET)" (scheduled at 2025-02-17 10:52:53.108312+01:00)
+2025-02-17 10:52:54,120 - CPU: 14.8%, RAM: 81.8%, Disco: 96.4%
+2025-02-17 10:52:54,120 - Job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-17 10:52:58 CET)" executed successfully
+2025-02-17 10:52:56,899 - Running job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-17 10:53:01 CET)" (scheduled at 2025-02-17 10:52:56.894651+01:00)
+2025-02-17 10:52:57,903 - CPU: 20.8%, RAM: 82.8%, Disco: 96.4%
+2025-02-17 10:52:57,903 - Job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-17 10:53:01 CET)" executed successfully
+2025-02-17 10:52:58,110 - Running job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-17 10:53:03 CET)" (scheduled at 2025-02-17 10:52:58.108312+01:00)
+2025-02-17 10:52:59,115 - CPU: 26.5%, RAM: 83.2%, Disco: 96.4%
+2025-02-17 10:52:59,115 - Job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-17 10:53:03 CET)" executed successfully
+2025-02-17 10:53:01,906 - Running job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-17 10:53:06 CET)" (scheduled at 2025-02-17 10:53:01.894651+01:00)
+2025-02-17 10:53:02,913 - CPU: 22.7%, RAM: 83.4%, Disco: 96.4%
+2025-02-17 10:53:02,914 - Job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-17 10:53:06 CET)" executed successfully
+2025-02-17 10:53:03,111 - Running job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-17 10:53:08 CET)" (scheduled at 2025-02-17 10:53:03.108312+01:00)
+2025-02-17 10:53:04,116 - CPU: 28.4%, RAM: 83.8%, Disco: 96.4%
+2025-02-17 10:53:04,116 - Job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-17 10:53:08 CET)" executed successfully
+2025-02-17 10:53:06,897 - Running job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-17 10:53:11 CET)" (scheduled at 2025-02-17 10:53:06.894651+01:00)
+2025-02-17 10:53:07,905 - CPU: 46.2%, RAM: 84.0%, Disco: 96.4%
+2025-02-17 10:53:07,906 - Job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-17 10:53:11 CET)" executed successfully
+2025-02-17 10:53:08,112 - Running job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-17 10:53:13 CET)" (scheduled at 2025-02-17 10:53:08.108312+01:00)
+2025-02-17 10:53:09,125 - CPU: 23.9%, RAM: 84.2%, Disco: 96.4%
+2025-02-17 10:53:09,125 - Job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-17 10:53:13 CET)" executed successfully
+2025-02-17 10:53:11,896 - Running job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-17 10:53:16 CET)" (scheduled at 2025-02-17 10:53:11.894651+01:00)
+2025-02-17 10:53:12,898 - CPU: 34.8%, RAM: 84.3%, Disco: 96.4%
+2025-02-17 10:53:12,898 - Job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-17 10:53:16 CET)" executed successfully
+2025-02-17 10:53:13,116 - Running job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-17 10:53:18 CET)" (scheduled at 2025-02-17 10:53:13.108312+01:00)
+2025-02-17 10:53:14,133 - CPU: 35.9%, RAM: 84.3%, Disco: 96.4%
+2025-02-17 10:53:14,133 - Job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-17 10:53:18 CET)" executed successfully
+2025-02-17 10:53:15,302 - 127.0.0.1 - - [17/Feb/2025 10:53:15] "GET /recursos_json HTTP/1.1" 200 -
+2025-02-17 10:53:15,387 - 127.0.0.1 - - [17/Feb/2025 10:53:15] "GET /recursos HTTP/1.1" 200 -
+2025-02-17 10:53:16,414 - 127.0.0.1 - - [17/Feb/2025 10:53:16] "GET /recursos_json HTTP/1.1" 200 -
+2025-02-17 10:53:16,906 - Running job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-17 10:53:21 CET)" (scheduled at 2025-02-17 10:53:16.894651+01:00)
+2025-02-17 10:53:17,915 - CPU: 12.0%, RAM: 80.8%, Disco: 96.4%
+2025-02-17 10:53:17,915 - Job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-17 10:53:21 CET)" executed successfully
+2025-02-17 10:53:18,111 - Running job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-17 10:53:23 CET)" (scheduled at 2025-02-17 10:53:18.108312+01:00)
+2025-02-17 10:53:19,120 - CPU: 13.4%, RAM: 80.7%, Disco: 96.4%
+2025-02-17 10:53:19,120 - Job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-17 10:53:23 CET)" executed successfully
+2025-02-17 10:53:21,431 - 127.0.0.1 - - [17/Feb/2025 10:53:21] "GET /recursos_json HTTP/1.1" 200 -
+2025-02-17 10:53:21,897 - Running job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-17 10:53:26 CET)" (scheduled at 2025-02-17 10:53:21.894651+01:00)
+2025-02-17 10:53:22,898 - CPU: 35.7%, RAM: 81.4%, Disco: 96.4%
+2025-02-17 10:53:22,898 - Job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-17 10:53:26 CET)" executed successfully
+2025-02-17 10:53:23,110 - Running job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-17 10:53:28 CET)" (scheduled at 2025-02-17 10:53:23.108312+01:00)
+2025-02-17 10:53:24,118 - CPU: 28.2%, RAM: 81.5%, Disco: 96.4%
+2025-02-17 10:53:24,118 - Job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-17 10:53:28 CET)" executed successfully
+2025-02-17 10:53:26,424 - 127.0.0.1 - - [17/Feb/2025 10:53:26] "GET /recursos_json HTTP/1.1" 200 -
+2025-02-17 10:53:26,875 - 127.0.0.1 - - [17/Feb/2025 10:53:26] "GET /dashboard HTTP/1.1" 200 -
+2025-02-17 10:53:26,900 - Running job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-17 10:53:31 CET)" (scheduled at 2025-02-17 10:53:26.894651+01:00)
+2025-02-17 10:53:27,913 - CPU: 11.7%, RAM: 81.8%, Disco: 96.4%
+2025-02-17 10:53:27,914 - Job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-17 10:53:31 CET)" executed successfully
+2025-02-17 10:53:28,110 - Running job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-17 10:53:33 CET)" (scheduled at 2025-02-17 10:53:28.108312+01:00)
+2025-02-17 10:53:29,023 - 127.0.0.1 - - [17/Feb/2025 10:53:29] "GET /usuarios HTTP/1.1" 200 -
+2025-02-17 10:53:29,115 - CPU: 14.1%, RAM: 81.9%, Disco: 96.4%
+2025-02-17 10:53:29,115 - Job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-17 10:53:33 CET)" executed successfully
+2025-02-17 10:53:31,906 - Running job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-17 10:53:36 CET)" (scheduled at 2025-02-17 10:53:31.894651+01:00)
+2025-02-17 10:53:32,885 - 127.0.0.1 - - [17/Feb/2025 10:53:32] "GET /usuarios HTTP/1.1" 200 -
+2025-02-17 10:53:32,913 - CPU: 11.7%, RAM: 81.3%, Disco: 96.4%
+2025-02-17 10:53:32,913 - Job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-17 10:53:36 CET)" executed successfully
+2025-02-17 10:53:33,117 - Running job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-17 10:53:38 CET)" (scheduled at 2025-02-17 10:53:33.108312+01:00)
+2025-02-17 10:53:34,124 - CPU: 11.8%, RAM: 80.9%, Disco: 96.4%
+2025-02-17 10:53:34,124 - Job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-17 10:53:38 CET)" executed successfully
+2025-02-17 10:53:35,077 - 127.0.0.1 - - [17/Feb/2025 10:53:35] "[32mGET /logout HTTP/1.1[0m" 302 -
+2025-02-17 10:53:35,115 - 127.0.0.1 - - [17/Feb/2025 10:53:35] "GET /login HTTP/1.1" 200 -
+2025-02-17 10:53:36,905 - Running job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-17 10:53:41 CET)" (scheduled at 2025-02-17 10:53:36.894651+01:00)
+2025-02-17 10:53:37,911 - CPU: 10.5%, RAM: 80.7%, Disco: 96.4%
+2025-02-17 10:53:37,911 - Job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-17 10:53:41 CET)" executed successfully
+2025-02-17 10:53:38,116 - Running job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-17 10:53:43 CET)" (scheduled at 2025-02-17 10:53:38.108312+01:00)
+2025-02-17 10:53:39,120 - CPU: 10.7%, RAM: 80.6%, Disco: 96.4%
+2025-02-17 10:53:39,120 - Job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-17 10:53:43 CET)" executed successfully
+2025-02-17 10:53:41,899 - Running job "crear_backup (trigger: interval[0:01:00], next run at: 2025-02-17 10:54:41 CET)" (scheduled at 2025-02-17 10:53:41.894651+01:00)
+2025-02-17 10:53:41,899 - Running job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-17 10:53:46 CET)" (scheduled at 2025-02-17 10:53:41.894651+01:00)
+2025-02-17 10:53:41,903 - Job "crear_backup (trigger: interval[0:01:00], next run at: 2025-02-17 10:54:41 CET)" raised an exception
+Traceback (most recent call last):
+  File "C:\xampp\htdocs\xampp\migithub\app_gestion_4.0\venv\Lib\site-packages\apscheduler\executors\base.py", line 131, in run_job
+    retval = job.func(*job.args, **job.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\xampp\htdocs\xampp\migithub\app_gestion_4.0\app\utils.py", line 62, in crear_backup
+    backup_file = os.path.join(current_app.config['BACKUP_FOLDER'], f"backup_{timestamp}.sql")
+                               ^^^^^^^^^^^^^^^^^^
+  File "C:\xampp\htdocs\xampp\migithub\app_gestion_4.0\venv\Lib\site-packages\werkzeug\local.py", line 318, in __get__
+    obj = instance._get_current_object()
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\xampp\htdocs\xampp\migithub\app_gestion_4.0\venv\Lib\site-packages\werkzeug\local.py", line 519, in _get_current_object
+    raise RuntimeError(unbound_message) from None
+RuntimeError: Working outside of application context.
+
+This typically means that you attempted to use functionality that needed
+the current application. To solve this, set up an application context
+with app.app_context(). See the documentation for more information.
+2025-02-17 10:53:42,519 - 127.0.0.1 - - [17/Feb/2025 10:53:42] "[32mPOST /login HTTP/1.1[0m" 302 -
+2025-02-17 10:53:42,526 - 127.0.0.1 - - [17/Feb/2025 10:53:42] "GET /dashboard HTTP/1.1" 200 -
+2025-02-17 10:53:42,906 - CPU: 22.0%, RAM: 80.8%, Disco: 96.4%
+2025-02-17 10:53:42,906 - Job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-17 10:53:46 CET)" executed successfully
+2025-02-17 10:53:43,115 - Running job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-17 10:53:48 CET)" (scheduled at 2025-02-17 10:53:43.108312+01:00)
+2025-02-17 10:53:43,115 - Running job "crear_backup (trigger: interval[0:01:00], next run at: 2025-02-17 10:54:43 CET)" (scheduled at 2025-02-17 10:53:43.108312+01:00)
+2025-02-17 10:53:43,115 - Job "crear_backup (trigger: interval[0:01:00], next run at: 2025-02-17 10:54:43 CET)" raised an exception
+Traceback (most recent call last):
+  File "C:\xampp\htdocs\xampp\migithub\app_gestion_4.0\venv\Lib\site-packages\apscheduler\executors\base.py", line 131, in run_job
+    retval = job.func(*job.args, **job.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\xampp\htdocs\xampp\migithub\app_gestion_4.0\app\utils.py", line 62, in crear_backup
+    backup_file = os.path.join(current_app.config['BACKUP_FOLDER'], f"backup_{timestamp}.sql")
+                               ^^^^^^^^^^^^^^^^^^
+  File "C:\xampp\htdocs\xampp\migithub\app_gestion_4.0\venv\Lib\site-packages\werkzeug\local.py", line 318, in __get__
+    obj = instance._get_current_object()
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\xampp\htdocs\xampp\migithub\app_gestion_4.0\venv\Lib\site-packages\werkzeug\local.py", line 519, in _get_current_object
+    raise RuntimeError(unbound_message) from None
+RuntimeError: Working outside of application context.
+
+This typically means that you attempted to use functionality that needed
+the current application. To solve this, set up an application context
+with app.app_context(). See the documentation for more information.
+2025-02-17 10:53:44,085 - 127.0.0.1 - - [17/Feb/2025 10:53:44] "GET /logs HTTP/1.1" 200 -
+2025-02-17 10:53:44,122 - CPU: 25.0%, RAM: 81.1%, Disco: 96.4%
+2025-02-17 10:53:44,122 - Job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-17 10:53:48 CET)" executed successfully
+2025-02-17 10:53:46,910 - Running job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-17 10:53:51 CET)" (scheduled at 2025-02-17 10:53:46.894651+01:00)
+2025-02-17 10:53:47,917 - CPU: 21.2%, RAM: 81.2%, Disco: 96.4%
+2025-02-17 10:53:47,917 - Job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-17 10:53:51 CET)" executed successfully
+2025-02-17 10:53:48,112 - Running job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-17 10:53:53 CET)" (scheduled at 2025-02-17 10:53:48.108312+01:00)
+2025-02-17 10:53:49,124 - CPU: 14.5%, RAM: 81.1%, Disco: 96.4%
+2025-02-17 10:53:49,124 - Job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-17 10:53:53 CET)" executed successfully
+2025-02-17 10:53:51,075 - 127.0.0.1 - - [17/Feb/2025 10:53:51] "GET /dashboard HTTP/1.1" 200 -
+2025-02-17 10:53:51,901 - Running job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-17 10:53:56 CET)" (scheduled at 2025-02-17 10:53:51.894651+01:00)
+2025-02-17 10:53:52,011 - 127.0.0.1 - - [17/Feb/2025 10:53:52] "GET /usuarios HTTP/1.1" 200 -
+2025-02-17 10:53:52,905 - CPU: 10.1%, RAM: 80.7%, Disco: 96.4%
+2025-02-17 10:53:52,905 - Job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-17 10:53:56 CET)" executed successfully
+2025-02-17 10:53:53,113 - Running job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-17 10:53:58 CET)" (scheduled at 2025-02-17 10:53:53.108312+01:00)
+2025-02-17 10:53:54,122 - CPU: 16.0%, RAM: 80.7%, Disco: 96.4%
+2025-02-17 10:53:54,122 - Job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-17 10:53:58 CET)" executed successfully
+2025-02-17 10:53:56,896 - Running job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-17 10:54:01 CET)" (scheduled at 2025-02-17 10:53:56.894651+01:00)
+2025-02-17 10:53:57,921 - CPU: 36.0%, RAM: 81.8%, Disco: 96.4%
+2025-02-17 10:53:57,921 - Job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-17 10:54:01 CET)" executed successfully
+2025-02-17 10:53:58,124 - Running job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-17 10:54:03 CET)" (scheduled at 2025-02-17 10:53:58.108312+01:00)
+2025-02-17 10:53:59,137 - CPU: 23.0%, RAM: 81.7%, Disco: 96.4%
+2025-02-17 10:53:59,137 - Job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-17 10:54:03 CET)" executed successfully
+2025-02-17 10:54:01,899 - Running job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-17 10:54:06 CET)" (scheduled at 2025-02-17 10:54:01.894651+01:00)
+2025-02-17 10:54:02,910 - CPU: 11.2%, RAM: 81.2%, Disco: 96.4%
+2025-02-17 10:54:02,910 - Job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-17 10:54:06 CET)" executed successfully
+2025-02-17 10:54:03,113 - Running job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-17 10:54:08 CET)" (scheduled at 2025-02-17 10:54:03.108312+01:00)
+2025-02-17 10:54:04,118 - CPU: 9.3%, RAM: 81.2%, Disco: 96.4%
+2025-02-17 10:54:04,118 - Job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-17 10:54:08 CET)" executed successfully
+2025-02-17 10:54:06,898 - Running job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-17 10:54:11 CET)" (scheduled at 2025-02-17 10:54:06.894651+01:00)
+2025-02-17 10:54:07,906 - CPU: 11.6%, RAM: 81.0%, Disco: 96.4%
+2025-02-17 10:54:07,906 - Job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-17 10:54:11 CET)" executed successfully
+2025-02-17 10:54:08,124 - Running job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-17 10:54:13 CET)" (scheduled at 2025-02-17 10:54:08.108312+01:00)
+2025-02-17 10:54:09,128 - CPU: 7.9%, RAM: 80.9%, Disco: 96.4%
+2025-02-17 10:54:09,128 - Job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-17 10:54:13 CET)" executed successfully
+2025-02-17 10:54:11,895 - Running job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-17 10:54:16 CET)" (scheduled at 2025-02-17 10:54:11.894651+01:00)
+2025-02-17 10:54:12,897 - CPU: 4.9%, RAM: 80.9%, Disco: 96.4%
+2025-02-17 10:54:12,897 - Job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-17 10:54:16 CET)" executed successfully
+2025-02-17 10:54:13,110 - Running job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-17 10:54:18 CET)" (scheduled at 2025-02-17 10:54:13.108312+01:00)
+2025-02-17 10:54:14,116 - CPU: 19.1%, RAM: 80.9%, Disco: 96.4%
+2025-02-17 10:54:14,116 - Job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-17 10:54:18 CET)" executed successfully
+2025-02-17 10:54:16,909 - Running job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-17 10:54:21 CET)" (scheduled at 2025-02-17 10:54:16.894651+01:00)
+2025-02-17 10:54:17,922 - CPU: 7.5%, RAM: 80.8%, Disco: 96.4%
+2025-02-17 10:54:17,922 - Job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-17 10:54:21 CET)" executed successfully
+2025-02-17 10:54:18,113 - Running job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-17 10:54:23 CET)" (scheduled at 2025-02-17 10:54:18.108312+01:00)
+2025-02-17 10:54:19,124 - CPU: 7.0%, RAM: 80.7%, Disco: 96.4%
+2025-02-17 10:54:19,124 - Job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-17 10:54:23 CET)" executed successfully
+2025-02-17 10:54:21,907 - Running job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-17 10:54:26 CET)" (scheduled at 2025-02-17 10:54:21.894651+01:00)
+2025-02-17 10:54:22,912 - CPU: 5.8%, RAM: 80.9%, Disco: 96.4%
+2025-02-17 10:54:22,912 - Job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-17 10:54:26 CET)" executed successfully
+2025-02-17 10:54:23,111 - Running job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-17 10:54:28 CET)" (scheduled at 2025-02-17 10:54:23.108312+01:00)
+2025-02-17 10:54:24,120 - CPU: 8.8%, RAM: 80.9%, Disco: 96.4%
+2025-02-17 10:54:24,120 - Job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-17 10:54:28 CET)" executed successfully
+2025-02-17 10:54:26,906 - Running job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-17 10:54:31 CET)" (scheduled at 2025-02-17 10:54:26.894651+01:00)
+2025-02-17 10:54:27,918 - CPU: 11.4%, RAM: 80.8%, Disco: 96.4%
+2025-02-17 10:54:27,919 - Job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-17 10:54:31 CET)" executed successfully
+2025-02-17 10:54:28,109 - Running job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-17 10:54:33 CET)" (scheduled at 2025-02-17 10:54:28.108312+01:00)
+2025-02-17 10:54:29,121 - CPU: 5.6%, RAM: 80.7%, Disco: 96.4%
+2025-02-17 10:54:29,121 - Job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-17 10:54:33 CET)" executed successfully
+2025-02-17 10:54:31,901 - Running job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-17 10:54:36 CET)" (scheduled at 2025-02-17 10:54:31.894651+01:00)
+2025-02-17 10:54:32,902 - CPU: 10.3%, RAM: 80.6%, Disco: 96.4%
+2025-02-17 10:54:32,902 - Job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-17 10:54:36 CET)" executed successfully
+2025-02-17 10:54:33,125 - Running job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-17 10:54:38 CET)" (scheduled at 2025-02-17 10:54:33.108312+01:00)
+2025-02-17 10:54:34,126 - CPU: 8.0%, RAM: 80.6%, Disco: 96.4%
+2025-02-17 10:54:34,126 - Job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-17 10:54:38 CET)" executed successfully
+2025-02-17 10:54:36,900 - Running job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-17 10:54:41 CET)" (scheduled at 2025-02-17 10:54:36.894651+01:00)
+2025-02-17 10:54:37,906 - CPU: 10.4%, RAM: 80.4%, Disco: 96.4%
+2025-02-17 10:54:37,906 - Job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-17 10:54:41 CET)" executed successfully
+2025-02-17 10:54:38,117 - Running job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-17 10:54:43 CET)" (scheduled at 2025-02-17 10:54:38.108312+01:00)
+2025-02-17 10:54:39,123 - CPU: 10.1%, RAM: 80.4%, Disco: 96.4%
+2025-02-17 10:54:39,123 - Job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-17 10:54:43 CET)" executed successfully
+2025-02-17 10:54:41,897 - Running job "crear_backup (trigger: interval[0:01:00], next run at: 2025-02-17 10:55:41 CET)" (scheduled at 2025-02-17 10:54:41.894651+01:00)
+2025-02-17 10:54:41,897 - Running job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-17 10:54:46 CET)" (scheduled at 2025-02-17 10:54:41.894651+01:00)
+2025-02-17 10:54:41,897 - Job "crear_backup (trigger: interval[0:01:00], next run at: 2025-02-17 10:55:41 CET)" raised an exception
+Traceback (most recent call last):
+  File "C:\xampp\htdocs\xampp\migithub\app_gestion_4.0\venv\Lib\site-packages\apscheduler\executors\base.py", line 131, in run_job
+    retval = job.func(*job.args, **job.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\xampp\htdocs\xampp\migithub\app_gestion_4.0\app\utils.py", line 62, in crear_backup
+    backup_file = os.path.join(current_app.config['BACKUP_FOLDER'], f"backup_{timestamp}.sql")
+                               ^^^^^^^^^^^^^^^^^^
+  File "C:\xampp\htdocs\xampp\migithub\app_gestion_4.0\venv\Lib\site-packages\werkzeug\local.py", line 318, in __get__
+    obj = instance._get_current_object()
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\xampp\htdocs\xampp\migithub\app_gestion_4.0\venv\Lib\site-packages\werkzeug\local.py", line 519, in _get_current_object
+    raise RuntimeError(unbound_message) from None
+RuntimeError: Working outside of application context.
+
+This typically means that you attempted to use functionality that needed
+the current application. To solve this, set up an application context
+with app.app_context(). See the documentation for more information.
+2025-02-17 10:54:42,910 - CPU: 8.8%, RAM: 80.5%, Disco: 96.4%
+2025-02-17 10:54:42,910 - Job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-17 10:54:46 CET)" executed successfully
+2025-02-17 10:54:43,120 - Running job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-17 10:54:48 CET)" (scheduled at 2025-02-17 10:54:43.108312+01:00)
+2025-02-17 10:54:43,121 - Running job "crear_backup (trigger: interval[0:01:00], next run at: 2025-02-17 10:55:43 CET)" (scheduled at 2025-02-17 10:54:43.108312+01:00)
+2025-02-17 10:54:43,124 - Job "crear_backup (trigger: interval[0:01:00], next run at: 2025-02-17 10:55:43 CET)" raised an exception
+Traceback (most recent call last):
+  File "C:\xampp\htdocs\xampp\migithub\app_gestion_4.0\venv\Lib\site-packages\apscheduler\executors\base.py", line 131, in run_job
+    retval = job.func(*job.args, **job.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\xampp\htdocs\xampp\migithub\app_gestion_4.0\app\utils.py", line 62, in crear_backup
+    backup_file = os.path.join(current_app.config['BACKUP_FOLDER'], f"backup_{timestamp}.sql")
+                               ^^^^^^^^^^^^^^^^^^
+  File "C:\xampp\htdocs\xampp\migithub\app_gestion_4.0\venv\Lib\site-packages\werkzeug\local.py", line 318, in __get__
+    obj = instance._get_current_object()
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\xampp\htdocs\xampp\migithub\app_gestion_4.0\venv\Lib\site-packages\werkzeug\local.py", line 519, in _get_current_object
+    raise RuntimeError(unbound_message) from None
+RuntimeError: Working outside of application context.
+
+This typically means that you attempted to use functionality that needed
+the current application. To solve this, set up an application context
+with app.app_context(). See the documentation for more information.
+2025-02-17 10:54:44,121 - CPU: 8.8%, RAM: 80.5%, Disco: 96.4%
+2025-02-17 10:54:44,121 - Job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-17 10:54:48 CET)" executed successfully
+2025-02-17 10:54:46,901 - Running job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-17 10:54:51 CET)" (scheduled at 2025-02-17 10:54:46.894651+01:00)
+2025-02-17 10:54:47,913 - CPU: 14.6%, RAM: 80.5%, Disco: 96.4%
+2025-02-17 10:54:47,913 - Job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-17 10:54:51 CET)" executed successfully
+2025-02-17 10:54:48,120 - Running job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-17 10:54:53 CET)" (scheduled at 2025-02-17 10:54:48.108312+01:00)
+2025-02-17 10:54:49,127 - CPU: 31.2%, RAM: 81.6%, Disco: 96.4%
+2025-02-17 10:54:49,128 - Job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-17 10:54:53 CET)" executed successfully
+2025-02-17 10:54:51,902 - Running job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-17 10:54:56 CET)" (scheduled at 2025-02-17 10:54:51.894651+01:00)
+2025-02-17 10:54:52,907 - CPU: 18.3%, RAM: 80.8%, Disco: 96.4%
+2025-02-17 10:54:52,907 - Job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-17 10:54:56 CET)" executed successfully
+2025-02-17 10:54:53,119 - Running job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-17 10:54:58 CET)" (scheduled at 2025-02-17 10:54:53.108312+01:00)
+2025-02-17 10:54:54,124 - CPU: 20.9%, RAM: 81.4%, Disco: 96.4%
+2025-02-17 10:54:54,124 - Job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-17 10:54:58 CET)" executed successfully
+2025-02-17 10:54:56,899 - Running job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-17 10:55:01 CET)" (scheduled at 2025-02-17 10:54:56.894651+01:00)
+2025-02-17 10:54:57,904 - CPU: 22.5%, RAM: 82.0%, Disco: 96.4%
+2025-02-17 10:54:57,904 - Job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-17 10:55:01 CET)" executed successfully
+2025-02-17 10:54:58,122 - Running job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-17 10:55:03 CET)" (scheduled at 2025-02-17 10:54:58.108312+01:00)
+2025-02-17 10:54:59,163 - CPU: 32.8%, RAM: 82.1%, Disco: 96.4%
+2025-02-17 10:54:59,163 - Job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-17 10:55:03 CET)" executed successfully
+2025-02-17 10:55:01,907 - Running job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-17 10:55:06 CET)" (scheduled at 2025-02-17 10:55:01.894651+01:00)
+2025-02-17 10:55:02,915 - CPU: 23.4%, RAM: 82.6%, Disco: 96.4%
+2025-02-17 10:55:02,915 - Job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-17 10:55:06 CET)" executed successfully
+2025-02-17 10:55:03,116 - Running job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-17 10:55:08 CET)" (scheduled at 2025-02-17 10:55:03.108312+01:00)
+2025-02-17 10:55:04,123 - CPU: 36.8%, RAM: 82.5%, Disco: 96.4%
+2025-02-17 10:55:04,123 - Job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-17 10:55:08 CET)" executed successfully
+2025-02-17 10:55:06,902 - Running job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-17 10:55:11 CET)" (scheduled at 2025-02-17 10:55:06.894651+01:00)
+2025-02-17 10:55:07,904 - CPU: 23.1%, RAM: 83.3%, Disco: 96.4%
+2025-02-17 10:55:07,904 - Job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-17 10:55:11 CET)" executed successfully
+2025-02-17 10:55:08,118 - Running job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-17 10:55:13 CET)" (scheduled at 2025-02-17 10:55:08.108312+01:00)
+2025-02-17 10:55:09,124 - CPU: 24.7%, RAM: 83.5%, Disco: 96.4%
+2025-02-17 10:55:09,124 - Job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-17 10:55:13 CET)" executed successfully
+2025-02-17 10:55:11,902 - Running job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-17 10:55:16 CET)" (scheduled at 2025-02-17 10:55:11.894651+01:00)
+2025-02-17 10:55:12,914 - CPU: 15.1%, RAM: 83.4%, Disco: 96.4%
+2025-02-17 10:55:12,914 - Job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-17 10:55:16 CET)" executed successfully
+2025-02-17 10:55:13,109 - Running job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-17 10:55:18 CET)" (scheduled at 2025-02-17 10:55:13.108312+01:00)
+2025-02-17 10:55:14,111 - CPU: 32.3%, RAM: 79.9%, Disco: 96.4%
+2025-02-17 10:55:14,111 - Job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-17 10:55:18 CET)" executed successfully
+2025-02-17 10:55:16,899 - Running job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-17 10:55:21 CET)" (scheduled at 2025-02-17 10:55:16.894651+01:00)
+2025-02-17 10:55:17,904 - CPU: 18.0%, RAM: 80.1%, Disco: 96.4%
+2025-02-17 10:55:17,904 - Job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-17 10:55:21 CET)" executed successfully
+2025-02-17 10:55:18,116 - Running job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-17 10:55:23 CET)" (scheduled at 2025-02-17 10:55:18.108312+01:00)
+2025-02-17 10:55:19,126 - CPU: 15.9%, RAM: 80.0%, Disco: 96.4%
+2025-02-17 10:55:19,126 - Job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-17 10:55:23 CET)" executed successfully
+2025-02-17 10:55:21,896 - Running job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-17 10:55:26 CET)" (scheduled at 2025-02-17 10:55:21.894651+01:00)
+2025-02-17 10:55:22,899 - CPU: 18.4%, RAM: 79.7%, Disco: 96.4%
+2025-02-17 10:55:22,899 - Job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-17 10:55:26 CET)" executed successfully
+2025-02-17 10:55:23,112 - Running job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-17 10:55:28 CET)" (scheduled at 2025-02-17 10:55:23.108312+01:00)
+2025-02-17 10:55:24,115 - CPU: 16.0%, RAM: 79.6%, Disco: 96.4%
+2025-02-17 10:55:24,115 - Job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-17 10:55:28 CET)" executed successfully
+2025-02-17 10:55:26,895 - Running job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-17 10:55:31 CET)" (scheduled at 2025-02-17 10:55:26.894651+01:00)
+2025-02-17 10:55:27,901 - CPU: 29.9%, RAM: 80.5%, Disco: 96.4%
+2025-02-17 10:55:27,901 - Job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-17 10:55:31 CET)" executed successfully
+2025-02-17 10:55:28,114 - Running job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-17 10:55:33 CET)" (scheduled at 2025-02-17 10:55:28.108312+01:00)
+2025-02-17 10:55:29,116 - CPU: 15.2%, RAM: 80.4%, Disco: 96.4%
+2025-02-17 10:55:29,116 - Job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-17 10:55:33 CET)" executed successfully
+2025-02-17 10:55:31,898 - Running job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-17 10:55:36 CET)" (scheduled at 2025-02-17 10:55:31.894651+01:00)
+2025-02-17 10:55:32,902 - CPU: 26.0%, RAM: 82.8%, Disco: 96.4%
+2025-02-17 10:55:32,902 - Job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-17 10:55:36 CET)" executed successfully
+2025-02-17 10:55:33,111 - Running job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-17 10:55:38 CET)" (scheduled at 2025-02-17 10:55:33.108312+01:00)
+2025-02-17 10:55:34,113 - CPU: 22.8%, RAM: 83.0%, Disco: 96.4%
+2025-02-17 10:55:34,113 - Job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-17 10:55:38 CET)" executed successfully
+2025-02-17 10:55:36,895 - Running job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-17 10:55:41 CET)" (scheduled at 2025-02-17 10:55:36.894651+01:00)
+2025-02-17 10:55:37,900 - CPU: 30.7%, RAM: 83.0%, Disco: 96.4%
+2025-02-17 10:55:37,901 - Job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-17 10:55:41 CET)" executed successfully
+2025-02-17 10:55:38,123 - Running job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-17 10:55:43 CET)" (scheduled at 2025-02-17 10:55:38.108312+01:00)
+2025-02-17 10:55:39,132 - CPU: 30.4%, RAM: 83.1%, Disco: 96.4%
+2025-02-17 10:55:39,132 - Job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-17 10:55:43 CET)" executed successfully
+2025-02-17 10:55:41,909 - Running job "crear_backup (trigger: interval[0:01:00], next run at: 2025-02-17 10:56:41 CET)" (scheduled at 2025-02-17 10:55:41.894651+01:00)
+2025-02-17 10:55:41,911 - Job "crear_backup (trigger: interval[0:01:00], next run at: 2025-02-17 10:56:41 CET)" raised an exception
+Traceback (most recent call last):
+  File "C:\xampp\htdocs\xampp\migithub\app_gestion_4.0\venv\Lib\site-packages\apscheduler\executors\base.py", line 131, in run_job
+    retval = job.func(*job.args, **job.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\xampp\htdocs\xampp\migithub\app_gestion_4.0\app\utils.py", line 62, in crear_backup
+    backup_file = os.path.join(current_app.config['BACKUP_FOLDER'], f"backup_{timestamp}.sql")
+                               ^^^^^^^^^^^^^^^^^^
+  File "C:\xampp\htdocs\xampp\migithub\app_gestion_4.0\venv\Lib\site-packages\werkzeug\local.py", line 318, in __get__
+    obj = instance._get_current_object()
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\xampp\htdocs\xampp\migithub\app_gestion_4.0\venv\Lib\site-packages\werkzeug\local.py", line 519, in _get_current_object
+    raise RuntimeError(unbound_message) from None
+RuntimeError: Working outside of application context.
+
+This typically means that you attempted to use functionality that needed
+the current application. To solve this, set up an application context
+with app.app_context(). See the documentation for more information.
+2025-02-17 10:55:41,913 - Running job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-17 10:55:46 CET)" (scheduled at 2025-02-17 10:55:41.894651+01:00)
+2025-02-17 10:55:42,925 - CPU: 17.9%, RAM: 83.4%, Disco: 96.4%
+2025-02-17 10:55:42,925 - Job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-17 10:55:46 CET)" executed successfully
+2025-02-17 10:55:43,121 - Running job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-17 10:55:48 CET)" (scheduled at 2025-02-17 10:55:43.108312+01:00)
+2025-02-17 10:55:43,121 - Running job "crear_backup (trigger: interval[0:01:00], next run at: 2025-02-17 10:56:43 CET)" (scheduled at 2025-02-17 10:55:43.108312+01:00)
+2025-02-17 10:55:43,121 - Job "crear_backup (trigger: interval[0:01:00], next run at: 2025-02-17 10:56:43 CET)" raised an exception
+Traceback (most recent call last):
+  File "C:\xampp\htdocs\xampp\migithub\app_gestion_4.0\venv\Lib\site-packages\apscheduler\executors\base.py", line 131, in run_job
+    retval = job.func(*job.args, **job.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\xampp\htdocs\xampp\migithub\app_gestion_4.0\app\utils.py", line 62, in crear_backup
+    backup_file = os.path.join(current_app.config['BACKUP_FOLDER'], f"backup_{timestamp}.sql")
+                               ^^^^^^^^^^^^^^^^^^
+  File "C:\xampp\htdocs\xampp\migithub\app_gestion_4.0\venv\Lib\site-packages\werkzeug\local.py", line 318, in __get__
+    obj = instance._get_current_object()
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\xampp\htdocs\xampp\migithub\app_gestion_4.0\venv\Lib\site-packages\werkzeug\local.py", line 519, in _get_current_object
+    raise RuntimeError(unbound_message) from None
+RuntimeError: Working outside of application context.
+
+This typically means that you attempted to use functionality that needed
+the current application. To solve this, set up an application context
+with app.app_context(). See the documentation for more information.
+2025-02-17 10:55:44,134 - CPU: 15.9%, RAM: 83.4%, Disco: 96.4%
+2025-02-17 10:55:44,134 - Job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-17 10:55:48 CET)" executed successfully
+2025-02-17 10:55:46,906 - Running job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-17 10:55:51 CET)" (scheduled at 2025-02-17 10:55:46.894651+01:00)
+2025-02-17 10:55:47,411 - 127.0.0.1 - - [17/Feb/2025 10:55:47] "GET /usuarios HTTP/1.1" 200 -
+2025-02-17 10:55:47,920 - CPU: 19.9%, RAM: 80.4%, Disco: 96.4%
+2025-02-17 10:55:47,920 - Job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-17 10:55:51 CET)" executed successfully
+2025-02-17 10:55:48,113 - Running job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-17 10:55:53 CET)" (scheduled at 2025-02-17 10:55:48.108312+01:00)
+2025-02-17 10:55:49,118 - CPU: 11.2%, RAM: 80.5%, Disco: 96.4%
+2025-02-17 10:55:49,118 - Job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-17 10:55:53 CET)" executed successfully
+2025-02-17 10:55:50,523 - 127.0.0.1 - - [17/Feb/2025 10:55:50] "GET /dashboard HTTP/1.1" 200 -
+2025-02-17 10:55:51,683 - 127.0.0.1 - - [17/Feb/2025 10:55:51] "GET /recursos HTTP/1.1" 200 -
+2025-02-17 10:55:51,905 - Running job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-17 10:55:56 CET)" (scheduled at 2025-02-17 10:55:51.894651+01:00)
+2025-02-17 10:55:52,751 - 127.0.0.1 - - [17/Feb/2025 10:55:52] "GET /recursos_json HTTP/1.1" 200 -
+2025-02-17 10:55:52,917 - CPU: 19.0%, RAM: 80.3%, Disco: 96.4%
+2025-02-17 10:55:52,917 - Job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-17 10:55:56 CET)" executed successfully
+2025-02-17 10:55:53,121 - Running job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-17 10:55:58 CET)" (scheduled at 2025-02-17 10:55:53.108312+01:00)
+2025-02-17 10:55:53,971 - 127.0.0.1 - - [17/Feb/2025 10:55:53] "GET /dashboard HTTP/1.1" 200 -
+2025-02-17 10:55:54,123 - CPU: 12.6%, RAM: 79.9%, Disco: 96.4%
+2025-02-17 10:55:54,123 - Job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-17 10:55:58 CET)" executed successfully
+2025-02-17 10:55:54,858 - 127.0.0.1 - - [17/Feb/2025 10:55:54] "GET /usuarios HTTP/1.1" 200 -
+2025-02-17 10:55:55,812 - 127.0.0.1 - - [17/Feb/2025 10:55:55] "GET /dashboard HTTP/1.1" 200 -
+2025-02-17 10:55:56,902 - Running job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-17 10:56:01 CET)" (scheduled at 2025-02-17 10:55:56.894651+01:00)
+2025-02-17 10:55:57,294 - 127.0.0.1 - - [17/Feb/2025 10:55:57] "[32mGET /forzar-backup HTTP/1.1[0m" 302 -
+2025-02-17 10:55:57,300 - 127.0.0.1 - - [17/Feb/2025 10:55:57] "GET /dashboard HTTP/1.1" 200 -
+2025-02-17 10:55:57,905 - CPU: 14.0%, RAM: 79.9%, Disco: 96.4%
+2025-02-17 10:55:57,905 - Job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-17 10:56:01 CET)" executed successfully
+2025-02-17 10:55:58,116 - Running job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-17 10:56:03 CET)" (scheduled at 2025-02-17 10:55:58.108312+01:00)
+2025-02-17 10:55:59,125 - CPU: 15.0%, RAM: 80.0%, Disco: 96.4%
+2025-02-17 10:55:59,125 - Job "monitorizar_recursos (trigger: interval[0:00:05], next run at: 2025-02-17 10:56:03 CET)" executed successfully
+2025-02-17 10:55:59,521 - 127.0.0.1 - - [17/Feb/2025 10:55:59] "GET /logs HTTP/1.1" 200 -
