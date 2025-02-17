@@ -1,4 +1,3 @@
-# config.py - Configuración de la aplicación
 import os
 
 class Config:
@@ -11,6 +10,11 @@ class Config:
     BACKUP_FOLDER = os.path.join(BASE_DIR, 'backups')
     LOG_FOLDER = os.path.join(BASE_DIR, 'logs') 
     REPORTES_FOLDER = os.path.join(BASE_DIR, 'reportes_de_recursos')
+
+    # Configuración de la base de datos para el backup
+    DB_USER = "root"
+    DB_PASSWORD = ""  # Si tienes contraseña, colócala aquí
+    DB_NAME = "gestion_sistemas"
 
     # Crear las carpetas si no existen
     for folder in [BACKUP_FOLDER, LOG_FOLDER, REPORTES_FOLDER]:

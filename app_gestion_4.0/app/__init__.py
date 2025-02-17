@@ -1,4 +1,3 @@
-# __init__.py
 from flask import Flask
 from flask_sqlalchemy import SQLAlchemy
 from flask_migrate import Migrate
@@ -7,6 +6,9 @@ from flask_login import LoginManager
 import pymysql
 import os
 from config import Config
+from apscheduler.schedulers.background import BackgroundScheduler
+from app.controllers.recurso_controller import recurso_bp
+
 
 # Inicializamos db, login_manager, bcrypt y migrate
 db = SQLAlchemy()
@@ -43,13 +45,17 @@ def create_app():
 
     # Registrar los blueprints
     from app.controllers.usuario_controller import usuario_bp
-    from app.controllers.recurso_controller import recurso_bp
     app.register_blueprint(usuario_bp)
     app.register_blueprint(recurso_bp)
 
-    # Configuración de logging
-    from app.controllers.recurso_controller import configurar_logging
-    app.app_context().push()  # Agregar el contexto de aplicación
-    configurar_logging()
+    # Función para inicializar el logging y scheduler, llamada directamente al inicio
+    def iniciar_app():
+        with app.app_context():  # Iniciar un contexto de aplicación
+            from app.controllers.recurso_controller import configurar_logging, iniciar_scheduler
+            configurar_logging()
+            iniciar_scheduler(app)
+
+    # Llamamos a la función de inicio de la app
+    iniciar_app()
 
     return app
