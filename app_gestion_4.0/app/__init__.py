@@ -5,11 +5,11 @@ from flask_bcrypt import Bcrypt
 from flask_login import LoginManager
 import pymysql
 import os
-import threading  # Asegúrate de importar threading
+import threading 
 from config import Config
 from apscheduler.schedulers.background import BackgroundScheduler
 from app.controllers.recurso_controller import recurso_bp
-from backup import iniciar_backup_automatico  # Importa la función de backup
+from backup import iniciar_backup_automatico 
 
 # Inicializamos db, login_manager, bcrypt y migrate
 db = SQLAlchemy()
@@ -51,7 +51,7 @@ def create_app():
 
     # Función para inicializar el logging y scheduler, llamada directamente al inicio
     def iniciar_app():
-        with app.app_context():  # Iniciar un contexto de aplicación
+        with app.app_context(): 
             from app.controllers.recurso_controller import configurar_logging, iniciar_scheduler
             configurar_logging()
             iniciar_scheduler(app)

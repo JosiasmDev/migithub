@@ -17,7 +17,6 @@ def iniciar_scheduler(app):
             if not scheduler.running:
                 logging.info("🕒 Iniciando scheduler...")
                 scheduler.add_job(func=monitorizar_recursos, trigger="interval", seconds=30, id="monitor", replace_existing=True)
-                scheduler.add_job(func=backup_automatico, trigger="interval", seconds=10, id="backup", replace_existing=True)
                 scheduler.start()
         except ConflictingIdError:
             logging.error("❌ Error de conflicto de ID en el scheduler.")
@@ -44,15 +43,6 @@ def monitorizar_recursos():
     except Exception as e:
         logging.error(f"❌ Error al monitorizar recursos: {e}")
 
-# 🔹 Función para ejecutar backups automáticos
-'''def backup_automatico():
-    try:
-        logging.info("🕒 Iniciando backup automático...")
-        utils.crear_backup()  # Asegúrate de que esta función esté bien implementada
-        logging.info("✅ Backup automático realizado correctamente.")
-    except Exception as e:
-        logging.error(f"❌ Error en el backup automático: {e}")
-'''
         
 # 🔹 Ruta para forzar backup manual
 @recurso_bp.route("/forzar-backup")

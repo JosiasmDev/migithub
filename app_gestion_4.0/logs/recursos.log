@@ -21971,3 +21971,145 @@ with app.app_context(). See the documentation for more information.
 2025-02-18 10:27:32,843 - ERROR - \u274c Error al iniciar el scheduler: name 'backup_automatico' is not defined
 2025-02-18 10:27:32,859 - WARNING -  * Debugger is active!
 2025-02-18 10:27:32,865 - INFO -  * Debugger PIN: 726-180-169
+2025-02-18 10:44:04,425 - INFO - \U0001f552 Iniciando scheduler...
+2025-02-18 10:44:04,426 - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-02-18 10:44:04,433 - INFO - Added job "monitorizar_recursos" to job store "default"
+2025-02-18 10:44:04,433 - INFO - Scheduler started
+2025-02-18 10:44:04,471 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-02-18 10:44:04,471 - INFO - [33mPress CTRL+C to quit[0m
+2025-02-18 10:44:04,473 - INFO -  * Restarting with stat
+2025-02-18 10:44:05,571 - INFO - \U0001f552 Iniciando scheduler...
+2025-02-18 10:44:05,572 - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-02-18 10:44:05,573 - INFO - Added job "monitorizar_recursos" to job store "default"
+2025-02-18 10:44:05,573 - INFO - Scheduler started
+2025-02-18 10:44:05,594 - WARNING -  * Debugger is active!
+2025-02-18 10:44:05,600 - INFO -  * Debugger PIN: 726-180-169
+2025-02-18 10:44:19,290 - INFO -  * Detected change in 'C:\\xampp\\htdocs\\xampp\\migithub\\app_gestion_4.0\\app\\controllers\\recurso_controller.py', reloading
+2025-02-18 10:44:19,453 - INFO -  * Restarting with stat
+2025-02-18 10:44:33,835 - INFO - \U0001f552 Iniciando scheduler...
+2025-02-18 10:44:33,836 - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-02-18 10:44:33,838 - INFO - Added job "monitorizar_recursos" to job store "default"
+2025-02-18 10:44:33,838 - INFO - Scheduler started
+2025-02-18 10:44:33,875 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-02-18 10:44:33,875 - INFO - [33mPress CTRL+C to quit[0m
+2025-02-18 10:44:33,879 - INFO -  * Restarting with stat
+2025-02-18 10:44:34,955 - INFO - \U0001f552 Iniciando scheduler...
+2025-02-18 10:44:34,956 - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-02-18 10:44:34,957 - INFO - Added job "monitorizar_recursos" to job store "default"
+2025-02-18 10:44:34,957 - INFO - Scheduler started
+2025-02-18 10:44:34,979 - WARNING -  * Debugger is active!
+2025-02-18 10:44:34,984 - INFO -  * Debugger PIN: 726-180-169
+2025-02-18 10:44:56,578 - INFO -  * Detected change in 'C:\\xampp\\htdocs\\xampp\\migithub\\app_gestion_4.0\\app\\controllers\\recurso_controller.py', reloading
+2025-02-18 10:44:56,764 - INFO -  * Restarting with stat
+2025-02-18 10:44:57,884 - INFO - \U0001f552 Iniciando scheduler...
+2025-02-18 10:44:57,885 - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-02-18 10:44:57,886 - INFO - Added job "monitorizar_recursos" to job store "default"
+2025-02-18 10:44:57,886 - INFO - Scheduler started
+2025-02-18 10:44:57,917 - WARNING -  * Debugger is active!
+2025-02-18 10:44:57,924 - INFO -  * Debugger PIN: 726-180-169
+2025-02-18 10:45:03,849 - INFO - Running job "monitorizar_recursos (trigger: interval[0:00:30], next run at: 2025-02-18 10:45:03 CET)" (scheduled at 2025-02-18 10:45:03.836154+01:00)
+2025-02-18 10:45:04,860 - INFO - \U0001f4ca CPU: 15.1%, RAM: 81.5%, Disco: 97.5%
+2025-02-18 10:45:04,861 - INFO - Job "monitorizar_recursos (trigger: interval[0:00:30], next run at: 2025-02-18 10:45:33 CET)" executed successfully
+2025-02-18 10:45:22,871 - INFO -  * Detected change in 'C:\\xampp\\htdocs\\xampp\\migithub\\app_gestion_4.0\\app\\controllers\\usuario_controller.py', reloading
+2025-02-18 10:45:23,036 - INFO -  * Restarting with stat
+2025-02-18 10:45:24,132 - INFO - \U0001f552 Iniciando scheduler...
+2025-02-18 10:45:24,133 - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-02-18 10:45:24,135 - INFO - Added job "monitorizar_recursos" to job store "default"
+2025-02-18 10:45:24,135 - INFO - Scheduler started
+2025-02-18 10:45:24,157 - WARNING -  * Debugger is active!
+2025-02-18 10:45:24,164 - INFO -  * Debugger PIN: 726-180-169
+2025-02-18 10:45:33,845 - INFO - Running job "monitorizar_recursos (trigger: interval[0:00:30], next run at: 2025-02-18 10:46:03 CET)" (scheduled at 2025-02-18 10:45:33.836154+01:00)
+2025-02-18 10:45:34,855 - INFO - \U0001f4ca CPU: 11.0%, RAM: 84.5%, Disco: 97.5%
+2025-02-18 10:45:34,855 - INFO - Job "monitorizar_recursos (trigger: interval[0:00:30], next run at: 2025-02-18 10:46:03 CET)" executed successfully
+2025-02-18 10:45:36,394 - INFO -  * Detected change in 'C:\\xampp\\htdocs\\xampp\\migithub\\app_gestion_4.0\\app\\controllers\\usuario_controller.py', reloading
+2025-02-18 10:45:36,632 - INFO -  * Restarting with stat
+2025-02-18 10:45:37,971 - INFO - \U0001f552 Iniciando scheduler...
+2025-02-18 10:45:37,974 - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-02-18 10:45:37,976 - INFO - Added job "monitorizar_recursos" to job store "default"
+2025-02-18 10:45:37,977 - INFO - Scheduler started
+2025-02-18 10:45:38,019 - WARNING -  * Debugger is active!
+2025-02-18 10:45:38,033 - INFO -  * Debugger PIN: 726-180-169
+2025-02-18 10:45:51,197 - INFO -  * Detected change in 'C:\\xampp\\htdocs\\xampp\\migithub\\app_gestion_4.0\\app\\models\\recurso_model.py', reloading
+2025-02-18 10:45:51,469 - INFO -  * Restarting with stat
+2025-02-18 10:45:52,594 - INFO - \U0001f552 Iniciando scheduler...
+2025-02-18 10:45:52,595 - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-02-18 10:45:52,596 - INFO - Added job "monitorizar_recursos" to job store "default"
+2025-02-18 10:45:52,596 - INFO - Scheduler started
+2025-02-18 10:45:52,616 - WARNING -  * Debugger is active!
+2025-02-18 10:45:52,623 - INFO -  * Debugger PIN: 726-180-169
+2025-02-18 10:46:00,779 - INFO -  * Detected change in 'C:\\xampp\\htdocs\\xampp\\migithub\\app_gestion_4.0\\app\\models\\usuario_model.py', reloading
+2025-02-18 10:46:00,958 - INFO -  * Restarting with stat
+2025-02-18 10:46:02,025 - INFO - \U0001f552 Iniciando scheduler...
+2025-02-18 10:46:02,026 - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-02-18 10:46:02,027 - INFO - Added job "monitorizar_recursos" to job store "default"
+2025-02-18 10:46:02,027 - INFO - Scheduler started
+2025-02-18 10:46:02,047 - WARNING -  * Debugger is active!
+2025-02-18 10:46:02,053 - INFO -  * Debugger PIN: 726-180-169
+2025-02-18 10:46:03,840 - INFO - Running job "monitorizar_recursos (trigger: interval[0:00:30], next run at: 2025-02-18 10:46:33 CET)" (scheduled at 2025-02-18 10:46:03.836154+01:00)
+2025-02-18 10:46:04,849 - INFO - \U0001f4ca CPU: 22.1%, RAM: 85.1%, Disco: 97.5%
+2025-02-18 10:46:04,849 - INFO - Job "monitorizar_recursos (trigger: interval[0:00:30], next run at: 2025-02-18 10:46:33 CET)" executed successfully
+2025-02-18 10:46:13,983 - INFO -  * Detected change in 'C:\\xampp\\htdocs\\xampp\\migithub\\app_gestion_4.0\\app\\__init__.py', reloading
+2025-02-18 10:46:14,180 - INFO -  * Restarting with stat
+2025-02-18 10:46:15,337 - INFO - \U0001f552 Iniciando scheduler...
+2025-02-18 10:46:15,338 - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-02-18 10:46:15,340 - INFO - Added job "monitorizar_recursos" to job store "default"
+2025-02-18 10:46:15,340 - INFO - Scheduler started
+2025-02-18 10:46:15,360 - WARNING -  * Debugger is active!
+2025-02-18 10:46:15,365 - INFO -  * Debugger PIN: 726-180-169
+2025-02-18 10:46:33,846 - INFO - Running job "monitorizar_recursos (trigger: interval[0:00:30], next run at: 2025-02-18 10:47:03 CET)" (scheduled at 2025-02-18 10:46:33.836154+01:00)
+2025-02-18 10:46:34,856 - INFO - \U0001f4ca CPU: 12.0%, RAM: 84.8%, Disco: 97.5%
+2025-02-18 10:46:34,858 - INFO - Job "monitorizar_recursos (trigger: interval[0:00:30], next run at: 2025-02-18 10:47:03 CET)" executed successfully
+2025-02-18 10:46:45,346 - INFO - Running job "monitorizar_recursos (trigger: interval[0:00:30], next run at: 2025-02-18 10:46:45 CET)" (scheduled at 2025-02-18 10:46:45.338870+01:00)
+2025-02-18 10:46:46,358 - INFO - \U0001f4ca CPU: 32.4%, RAM: 85.3%, Disco: 97.5%
+2025-02-18 10:46:46,359 - INFO - Job "monitorizar_recursos (trigger: interval[0:00:30], next run at: 2025-02-18 10:47:15 CET)" executed successfully
+2025-02-18 10:46:53,950 - INFO -  * Detected change in 'C:\\xampp\\htdocs\\xampp\\migithub\\app_gestion_4.0\\app\\__init__.py', reloading
+2025-02-18 10:46:54,235 - INFO -  * Restarting with stat
+2025-02-18 10:46:56,173 - INFO - \U0001f552 Iniciando scheduler...
+2025-02-18 10:46:56,174 - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-02-18 10:46:56,176 - INFO - Added job "monitorizar_recursos" to job store "default"
+2025-02-18 10:46:56,177 - INFO - Scheduler started
+2025-02-18 10:46:56,201 - WARNING -  * Debugger is active!
+2025-02-18 10:46:56,207 - INFO -  * Debugger PIN: 726-180-169
+2025-02-18 10:47:03,840 - INFO - Running job "monitorizar_recursos (trigger: interval[0:00:30], next run at: 2025-02-18 10:47:33 CET)" (scheduled at 2025-02-18 10:47:03.836154+01:00)
+2025-02-18 10:47:04,852 - INFO - \U0001f4ca CPU: 46.4%, RAM: 85.6%, Disco: 97.5%
+2025-02-18 10:47:04,853 - INFO - Job "monitorizar_recursos (trigger: interval[0:00:30], next run at: 2025-02-18 10:47:33 CET)" executed successfully
+2025-02-18 10:47:26,186 - INFO - Running job "monitorizar_recursos (trigger: interval[0:00:30], next run at: 2025-02-18 10:47:26 CET)" (scheduled at 2025-02-18 10:47:26.174549+01:00)
+2025-02-18 10:47:27,197 - INFO - \U0001f4ca CPU: 11.1%, RAM: 84.9%, Disco: 97.5%
+2025-02-18 10:47:27,198 - INFO - Job "monitorizar_recursos (trigger: interval[0:00:30], next run at: 2025-02-18 10:47:56 CET)" executed successfully
+2025-02-18 10:47:36,734 - INFO - \U0001f552 Iniciando scheduler...
+2025-02-18 10:47:36,734 - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-02-18 10:47:36,736 - INFO - Added job "monitorizar_recursos" to job store "default"
+2025-02-18 10:47:36,736 - INFO - Scheduler started
+2025-02-18 10:47:36,780 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-02-18 10:47:36,780 - INFO - [33mPress CTRL+C to quit[0m
+2025-02-18 10:47:36,784 - INFO -  * Restarting with stat
+2025-02-18 10:47:38,112 - INFO - \U0001f552 Iniciando scheduler...
+2025-02-18 10:47:38,114 - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-02-18 10:47:38,116 - INFO - Added job "monitorizar_recursos" to job store "default"
+2025-02-18 10:47:38,116 - INFO - Scheduler started
+2025-02-18 10:47:38,137 - WARNING -  * Debugger is active!
+2025-02-18 10:47:38,144 - INFO -  * Debugger PIN: 726-180-169
+2025-02-18 10:47:55,371 - INFO - 127.0.0.1 - - [18/Feb/2025 10:47:55] "GET /login HTTP/1.1" 200 -
+2025-02-18 10:47:57,821 - INFO - 127.0.0.1 - - [18/Feb/2025 10:47:57] "GET /register HTTP/1.1" 200 -
+2025-02-18 10:48:06,740 - INFO - Running job "monitorizar_recursos (trigger: interval[0:00:30], next run at: 2025-02-18 10:48:06 CET)" (scheduled at 2025-02-18 10:48:06.734949+01:00)
+2025-02-18 10:48:07,749 - INFO - \U0001f4ca CPU: 8.4%, RAM: 85.7%, Disco: 97.5%
+2025-02-18 10:48:07,750 - INFO - Job "monitorizar_recursos (trigger: interval[0:00:30], next run at: 2025-02-18 10:48:36 CET)" executed successfully
+2025-02-18 10:48:08,130 - INFO - Running job "monitorizar_recursos (trigger: interval[0:00:30], next run at: 2025-02-18 10:48:08 CET)" (scheduled at 2025-02-18 10:48:08.114331+01:00)
+2025-02-18 10:48:09,133 - INFO - \U0001f4ca CPU: 12.3%, RAM: 85.7%, Disco: 97.5%
+2025-02-18 10:48:09,133 - INFO - Job "monitorizar_recursos (trigger: interval[0:00:30], next run at: 2025-02-18 10:48:38 CET)" executed successfully
+2025-02-18 10:48:09,404 - INFO - 127.0.0.1 - - [18/Feb/2025 10:48:09] "[32mPOST /register HTTP/1.1[0m" 302 -
+2025-02-18 10:48:09,414 - INFO - 127.0.0.1 - - [18/Feb/2025 10:48:09] "GET /login HTTP/1.1" 200 -
+2025-02-18 10:48:15,342 - INFO - 127.0.0.1 - - [18/Feb/2025 10:48:15] "[32mPOST /login HTTP/1.1[0m" 302 -
+2025-02-18 10:48:15,365 - INFO - 127.0.0.1 - - [18/Feb/2025 10:48:15] "GET /dashboard HTTP/1.1" 200 -
+2025-02-18 10:48:16,775 - INFO - 127.0.0.1 - - [18/Feb/2025 10:48:16] "GET /recursos HTTP/1.1" 200 -
+2025-02-18 10:48:17,796 - INFO - 127.0.0.1 - - [18/Feb/2025 10:48:17] "GET /recursos_json HTTP/1.1" 200 -
+2025-02-18 10:48:18,613 - INFO - 127.0.0.1 - - [18/Feb/2025 10:48:18] "GET /dashboard HTTP/1.1" 200 -
+2025-02-18 10:48:19,744 - INFO - 127.0.0.1 - - [18/Feb/2025 10:48:19] "GET /usuarios HTTP/1.1" 200 -
+2025-02-18 10:48:21,636 - INFO - 127.0.0.1 - - [18/Feb/2025 10:48:21] "GET /dashboard HTTP/1.1" 200 -
+2025-02-18 10:48:23,258 - INFO - \u2705 Backup de la base de datos guardado en: C:\xampp\htdocs\xampp\migithub\app_gestion_4.0\backups\gestion_sistemas_backup_2025-02-18_10-48-23.sql
+2025-02-18 10:48:23,260 - INFO - 127.0.0.1 - - [18/Feb/2025 10:48:23] "[32mGET /forzar-backup HTTP/1.1[0m" 302 -
+2025-02-18 10:48:23,269 - INFO - 127.0.0.1 - - [18/Feb/2025 10:48:23] "GET /dashboard HTTP/1.1" 200 -
+2025-02-18 10:48:24,721 - INFO - 127.0.0.1 - - [18/Feb/2025 10:48:24] "GET /logs HTTP/1.1" 200 -

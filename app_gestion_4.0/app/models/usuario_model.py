@@ -1,5 +1,5 @@
 from flask_login import UserMixin
-from app import db  # Importamos db desde la aplicación inicializada
+from app import db  
 
 class Usuario(UserMixin, db.Model):
     __tablename__ = "usuarios"

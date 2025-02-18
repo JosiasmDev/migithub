@@ -1,4 +1,3 @@
-# usuario_controller.py
 from flask import Blueprint, render_template, url_for, flash, redirect, request
 from app import db, bcrypt
 from app.models.usuario_model import Usuario

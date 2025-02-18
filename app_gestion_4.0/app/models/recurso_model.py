@@ -1,4 +1,3 @@
-# app/models/recurso_model.py
 from app import db
 
 class Recurso(db.Model):

@@ -1,10 +1,8 @@
-# backup.py
-
 import os
 from datetime import datetime
 import subprocess
 import time
-from config import *  # Asegúrate de que estos valores estén definidos en el archivo config.py
+from config import * 
 
 # Configuración
 DB_USER = "root"
@@ -51,6 +49,4 @@ def iniciar_backup_automatico():
         hacer_backup()
         time.sleep(INTERVALO_SEGUNDOS)  # Esperar el intervalo definido antes de hacer otro backup
 
-# Comentado el hilo aquí, ya no es necesario
-# backup_thread = threading.Thread(target=iniciar_backup_automatico, daemon=True)
-# backup_thread.start()
+
