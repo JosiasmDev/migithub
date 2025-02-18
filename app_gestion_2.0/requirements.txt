@@ -1,6 +1,0 @@
-Flask
-Flask-MySQL
-Flask-WTF
-Flask-Bcrypt
-Flask-Login
-flask-mysql
