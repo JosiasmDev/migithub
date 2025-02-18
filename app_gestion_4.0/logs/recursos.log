@@ -21953,3 +21953,21 @@ with app.app_context(). See the documentation for more information.
 2025-02-18 10:27:18,389 - ERROR - \u274c Error al iniciar el scheduler: name 'backup_automatico' is not defined
 2025-02-18 10:27:18,415 - WARNING -  * Debugger is active!
 2025-02-18 10:27:18,421 - INFO -  * Debugger PIN: 726-180-169
+2025-02-18 10:27:31,683 - INFO - \U0001f552 Iniciando scheduler...
+2025-02-18 10:27:31,699 - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-02-18 10:27:31,699 - ERROR - \u274c Error al iniciar el scheduler: name 'backup_automatico' is not defined
+2025-02-18 10:27:31,699 - INFO - \U0001f552 Iniciando scheduler...
+2025-02-18 10:27:31,699 - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-02-18 10:27:31,699 - ERROR - \u274c Error al iniciar el scheduler: name 'backup_automatico' is not defined
+2025-02-18 10:27:31,731 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-02-18 10:27:31,731 - INFO - [33mPress CTRL+C to quit[0m
+2025-02-18 10:27:31,731 - INFO -  * Restarting with stat
+2025-02-18 10:27:32,841 - INFO - \U0001f552 Iniciando scheduler...
+2025-02-18 10:27:32,841 - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-02-18 10:27:32,841 - ERROR - \u274c Error al iniciar el scheduler: name 'backup_automatico' is not defined
+2025-02-18 10:27:32,843 - INFO - \U0001f552 Iniciando scheduler...
+2025-02-18 10:27:32,843 - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-02-18 10:27:32,843 - ERROR - \u274c Error al iniciar el scheduler: name 'backup_automatico' is not defined
+2025-02-18 10:27:32,859 - WARNING -  * Debugger is active!
+2025-02-18 10:27:32,865 - INFO -  * Debugger PIN: 726-180-169
