@@ -1,8 +1,9 @@
+# backup.py
+
 import os
 from datetime import datetime
 import subprocess
 import time
-import threading
 from config import *  # Asegúrate de que estos valores estén definidos en el archivo config.py
 
 # Configuración
@@ -18,7 +19,6 @@ if not os.path.exists(BACKUP_FOLDER):
 
 def hacer_backup():
     """Función para generar un backup de la base de datos."""
-    # Usando variables globales para obtener los valores
     db_user = DB_USER
     db_password = DB_PASSWORD
     db_name = DB_NAME
@@ -51,6 +51,6 @@ def iniciar_backup_automatico():
         hacer_backup()
         time.sleep(INTERVALO_SEGUNDOS)  # Esperar el intervalo definido antes de hacer otro backup
 
-# Iniciar el hilo en segundo plano para hacer backups automáticamente
-backup_thread = threading.Thread(target=iniciar_backup_automatico, daemon=True)
-backup_thread.start()
+# Comentado el hilo aquí, ya no es necesario
+# backup_thread = threading.Thread(target=iniciar_backup_automatico, daemon=True)
+# backup_thread.start()

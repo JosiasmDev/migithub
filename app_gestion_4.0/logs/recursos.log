@@ -21236,3 +21236,720 @@ the current application. To solve this, set up an application context
 with app.app_context(). See the documentation for more information.
 2025-02-18 09:35:49,401 - INFO - Job "backup_automatico (trigger: interval[0:00:10], next run at: 2025-02-18 09:35:59 CET)" executed successfully
 2025-02-18 09:35:50,897 - INFO - 127.0.0.1 - - [18/Feb/2025 09:35:50] "GET /logs HTTP/1.1" 200 -
+2025-02-18 09:35:54,448 - INFO - 127.0.0.1 - - [18/Feb/2025 09:35:54] "GET /descargar-pdf HTTP/1.1" 200 -
+2025-02-18 09:35:55,361 - INFO - 127.0.0.1 - - [18/Feb/2025 09:35:55] "GET /descargar-csv HTTP/1.1" 200 -
+2025-02-18 09:35:58,263 - INFO - Running job "backup_automatico (trigger: interval[0:00:10], next run at: 2025-02-18 09:36:08 CET)" (scheduled at 2025-02-18 09:35:58.250981+01:00)
+2025-02-18 09:35:58,263 - INFO - Running job "monitorizar_recursos (trigger: interval[0:00:30], next run at: 2025-02-18 09:36:28 CET)" (scheduled at 2025-02-18 09:35:58.250981+01:00)
+2025-02-18 09:35:58,263 - INFO - \U0001f552 Iniciando backup automático...
+2025-02-18 09:35:58,263 - ERROR - \u274c Error en el backup automático: Working outside of application context.
+
+This typically means that you attempted to use functionality that needed
+the current application. To solve this, set up an application context
+with app.app_context(). See the documentation for more information.
+2025-02-18 09:35:58,263 - INFO - Job "backup_automatico (trigger: interval[0:00:10], next run at: 2025-02-18 09:36:08 CET)" executed successfully
+2025-02-18 09:35:58,815 - INFO - \u2705 Backup de la base de datos guardado en: C:\xampp\htdocs\xampp\migithub\app_gestion_4.0\backups\gestion_sistemas_backup_2025-02-18_09-35-58.sql
+2025-02-18 09:35:58,825 - INFO - 127.0.0.1 - - [18/Feb/2025 09:35:58] "[32mGET /forzar-backup HTTP/1.1[0m" 302 -
+2025-02-18 09:35:58,835 - INFO - 127.0.0.1 - - [18/Feb/2025 09:35:58] "GET /dashboard HTTP/1.1" 200 -
+2025-02-18 09:35:59,279 - INFO - \U0001f4ca CPU: 37.4%, RAM: 78.9%, Disco: 97.7%
+2025-02-18 09:35:59,280 - INFO - Job "monitorizar_recursos (trigger: interval[0:00:30], next run at: 2025-02-18 09:36:28 CET)" executed successfully
+2025-02-18 09:35:59,393 - INFO - Running job "backup_automatico (trigger: interval[0:00:10], next run at: 2025-02-18 09:36:09 CET)" (scheduled at 2025-02-18 09:35:59.392543+01:00)
+2025-02-18 09:35:59,393 - INFO - Running job "monitorizar_recursos (trigger: interval[0:00:30], next run at: 2025-02-18 09:36:29 CET)" (scheduled at 2025-02-18 09:35:59.392543+01:00)
+2025-02-18 09:35:59,393 - INFO - \U0001f552 Iniciando backup automático...
+2025-02-18 09:35:59,393 - ERROR - \u274c Error en el backup automático: Working outside of application context.
+
+This typically means that you attempted to use functionality that needed
+the current application. To solve this, set up an application context
+with app.app_context(). See the documentation for more information.
+2025-02-18 09:35:59,393 - INFO - Job "backup_automatico (trigger: interval[0:00:10], next run at: 2025-02-18 09:36:09 CET)" executed successfully
+2025-02-18 09:36:00,409 - INFO - \U0001f4ca CPU: 26.8%, RAM: 79.0%, Disco: 97.7%
+2025-02-18 09:36:00,409 - INFO - Job "monitorizar_recursos (trigger: interval[0:00:30], next run at: 2025-02-18 09:36:29 CET)" executed successfully
+2025-02-18 09:36:08,255 - INFO - Running job "backup_automatico (trigger: interval[0:00:10], next run at: 2025-02-18 09:36:18 CET)" (scheduled at 2025-02-18 09:36:08.250981+01:00)
+2025-02-18 09:36:08,255 - INFO - \U0001f552 Iniciando backup automático...
+2025-02-18 09:36:08,255 - ERROR - \u274c Error en el backup automático: Working outside of application context.
+
+This typically means that you attempted to use functionality that needed
+the current application. To solve this, set up an application context
+with app.app_context(). See the documentation for more information.
+2025-02-18 09:36:08,255 - INFO - Job "backup_automatico (trigger: interval[0:00:10], next run at: 2025-02-18 09:36:18 CET)" executed successfully
+2025-02-18 09:36:09,397 - INFO - Running job "backup_automatico (trigger: interval[0:00:10], next run at: 2025-02-18 09:36:19 CET)" (scheduled at 2025-02-18 09:36:09.392543+01:00)
+2025-02-18 09:36:09,397 - INFO - \U0001f552 Iniciando backup automático...
+2025-02-18 09:36:09,397 - ERROR - \u274c Error en el backup automático: Working outside of application context.
+
+This typically means that you attempted to use functionality that needed
+the current application. To solve this, set up an application context
+with app.app_context(). See the documentation for more information.
+2025-02-18 09:36:09,397 - INFO - Job "backup_automatico (trigger: interval[0:00:10], next run at: 2025-02-18 09:36:19 CET)" executed successfully
+2025-02-18 09:36:18,261 - INFO - Running job "backup_automatico (trigger: interval[0:00:10], next run at: 2025-02-18 09:36:28 CET)" (scheduled at 2025-02-18 09:36:18.250981+01:00)
+2025-02-18 09:36:18,261 - INFO - \U0001f552 Iniciando backup automático...
+2025-02-18 09:36:18,261 - ERROR - \u274c Error en el backup automático: Working outside of application context.
+
+This typically means that you attempted to use functionality that needed
+the current application. To solve this, set up an application context
+with app.app_context(). See the documentation for more information.
+2025-02-18 09:36:18,261 - INFO - Job "backup_automatico (trigger: interval[0:00:10], next run at: 2025-02-18 09:36:28 CET)" executed successfully
+2025-02-18 09:36:19,407 - INFO - Running job "backup_automatico (trigger: interval[0:00:10], next run at: 2025-02-18 09:36:29 CET)" (scheduled at 2025-02-18 09:36:19.392543+01:00)
+2025-02-18 09:36:19,407 - INFO - \U0001f552 Iniciando backup automático...
+2025-02-18 09:36:19,407 - ERROR - \u274c Error en el backup automático: Working outside of application context.
+
+This typically means that you attempted to use functionality that needed
+the current application. To solve this, set up an application context
+with app.app_context(). See the documentation for more information.
+2025-02-18 09:36:19,407 - INFO - Job "backup_automatico (trigger: interval[0:00:10], next run at: 2025-02-18 09:36:29 CET)" executed successfully
+2025-02-18 09:36:28,258 - INFO - Running job "backup_automatico (trigger: interval[0:00:10], next run at: 2025-02-18 09:36:38 CET)" (scheduled at 2025-02-18 09:36:28.250981+01:00)
+2025-02-18 09:36:28,258 - INFO - Running job "monitorizar_recursos (trigger: interval[0:00:30], next run at: 2025-02-18 09:36:58 CET)" (scheduled at 2025-02-18 09:36:28.250981+01:00)
+2025-02-18 09:36:28,258 - INFO - \U0001f552 Iniciando backup automático...
+2025-02-18 09:36:28,258 - ERROR - \u274c Error en el backup automático: Working outside of application context.
+
+This typically means that you attempted to use functionality that needed
+the current application. To solve this, set up an application context
+with app.app_context(). See the documentation for more information.
+2025-02-18 09:36:28,258 - INFO - Job "backup_automatico (trigger: interval[0:00:10], next run at: 2025-02-18 09:36:38 CET)" executed successfully
+2025-02-18 09:36:29,266 - INFO - \U0001f4ca CPU: 3.9%, RAM: 80.7%, Disco: 97.7%
+2025-02-18 09:36:29,266 - INFO - Job "monitorizar_recursos (trigger: interval[0:00:30], next run at: 2025-02-18 09:36:58 CET)" executed successfully
+2025-02-18 09:36:29,396 - INFO - Running job "backup_automatico (trigger: interval[0:00:10], next run at: 2025-02-18 09:36:39 CET)" (scheduled at 2025-02-18 09:36:29.392543+01:00)
+2025-02-18 09:36:29,396 - INFO - Running job "monitorizar_recursos (trigger: interval[0:00:30], next run at: 2025-02-18 09:36:59 CET)" (scheduled at 2025-02-18 09:36:29.392543+01:00)
+2025-02-18 09:36:29,396 - INFO - \U0001f552 Iniciando backup automático...
+2025-02-18 09:36:29,396 - ERROR - \u274c Error en el backup automático: Working outside of application context.
+
+This typically means that you attempted to use functionality that needed
+the current application. To solve this, set up an application context
+with app.app_context(). See the documentation for more information.
+2025-02-18 09:36:29,396 - INFO - Job "backup_automatico (trigger: interval[0:00:10], next run at: 2025-02-18 09:36:39 CET)" executed successfully
+2025-02-18 09:36:30,403 - INFO - \U0001f4ca CPU: 4.7%, RAM: 80.7%, Disco: 97.7%
+2025-02-18 09:36:30,403 - INFO - Job "monitorizar_recursos (trigger: interval[0:00:30], next run at: 2025-02-18 09:36:59 CET)" executed successfully
+2025-02-18 09:36:38,266 - INFO - Running job "backup_automatico (trigger: interval[0:00:10], next run at: 2025-02-18 09:36:48 CET)" (scheduled at 2025-02-18 09:36:38.250981+01:00)
+2025-02-18 09:36:38,266 - INFO - \U0001f552 Iniciando backup automático...
+2025-02-18 09:36:38,266 - ERROR - \u274c Error en el backup automático: Working outside of application context.
+
+This typically means that you attempted to use functionality that needed
+the current application. To solve this, set up an application context
+with app.app_context(). See the documentation for more information.
+2025-02-18 09:36:38,266 - INFO - Job "backup_automatico (trigger: interval[0:00:10], next run at: 2025-02-18 09:36:48 CET)" executed successfully
+2025-02-18 09:36:39,403 - INFO - Running job "backup_automatico (trigger: interval[0:00:10], next run at: 2025-02-18 09:36:49 CET)" (scheduled at 2025-02-18 09:36:39.392543+01:00)
+2025-02-18 09:36:39,404 - INFO - \U0001f552 Iniciando backup automático...
+2025-02-18 09:36:39,405 - ERROR - \u274c Error en el backup automático: Working outside of application context.
+
+This typically means that you attempted to use functionality that needed
+the current application. To solve this, set up an application context
+with app.app_context(). See the documentation for more information.
+2025-02-18 09:36:39,406 - INFO - Job "backup_automatico (trigger: interval[0:00:10], next run at: 2025-02-18 09:36:49 CET)" executed successfully
+2025-02-18 09:36:48,265 - INFO - Running job "backup_automatico (trigger: interval[0:00:10], next run at: 2025-02-18 09:36:58 CET)" (scheduled at 2025-02-18 09:36:48.250981+01:00)
+2025-02-18 09:36:48,266 - INFO - \U0001f552 Iniciando backup automático...
+2025-02-18 09:36:48,266 - ERROR - \u274c Error en el backup automático: Working outside of application context.
+
+This typically means that you attempted to use functionality that needed
+the current application. To solve this, set up an application context
+with app.app_context(). See the documentation for more information.
+2025-02-18 09:36:48,267 - INFO - Job "backup_automatico (trigger: interval[0:00:10], next run at: 2025-02-18 09:36:58 CET)" executed successfully
+2025-02-18 09:36:49,395 - INFO - Running job "backup_automatico (trigger: interval[0:00:10], next run at: 2025-02-18 09:36:59 CET)" (scheduled at 2025-02-18 09:36:49.392543+01:00)
+2025-02-18 09:36:49,395 - INFO - \U0001f552 Iniciando backup automático...
+2025-02-18 09:36:49,395 - ERROR - \u274c Error en el backup automático: Working outside of application context.
+
+This typically means that you attempted to use functionality that needed
+the current application. To solve this, set up an application context
+with app.app_context(). See the documentation for more information.
+2025-02-18 09:36:49,395 - INFO - Job "backup_automatico (trigger: interval[0:00:10], next run at: 2025-02-18 09:36:59 CET)" executed successfully
+2025-02-18 09:36:55,243 - INFO - 127.0.0.1 - - [18/Feb/2025 09:36:55] "GET /usuarios HTTP/1.1" 200 -
+2025-02-18 09:36:56,490 - INFO - 127.0.0.1 - - [18/Feb/2025 09:36:56] "GET /usuarios/editar/7 HTTP/1.1" 200 -
+2025-02-18 09:36:58,266 - INFO - Running job "backup_automatico (trigger: interval[0:00:10], next run at: 2025-02-18 09:37:08 CET)" (scheduled at 2025-02-18 09:36:58.250981+01:00)
+2025-02-18 09:36:58,266 - INFO - Running job "monitorizar_recursos (trigger: interval[0:00:30], next run at: 2025-02-18 09:37:28 CET)" (scheduled at 2025-02-18 09:36:58.250981+01:00)
+2025-02-18 09:36:58,266 - INFO - \U0001f552 Iniciando backup automático...
+2025-02-18 09:36:58,266 - ERROR - \u274c Error en el backup automático: Working outside of application context.
+
+This typically means that you attempted to use functionality that needed
+the current application. To solve this, set up an application context
+with app.app_context(). See the documentation for more information.
+2025-02-18 09:36:58,266 - INFO - Job "backup_automatico (trigger: interval[0:00:10], next run at: 2025-02-18 09:37:08 CET)" executed successfully
+2025-02-18 09:36:59,271 - INFO - \U0001f4ca CPU: 14.5%, RAM: 80.3%, Disco: 97.7%
+2025-02-18 09:36:59,271 - INFO - Job "monitorizar_recursos (trigger: interval[0:00:30], next run at: 2025-02-18 09:37:28 CET)" executed successfully
+2025-02-18 09:36:59,399 - INFO - Running job "backup_automatico (trigger: interval[0:00:10], next run at: 2025-02-18 09:37:09 CET)" (scheduled at 2025-02-18 09:36:59.392543+01:00)
+2025-02-18 09:36:59,400 - INFO - Running job "monitorizar_recursos (trigger: interval[0:00:30], next run at: 2025-02-18 09:37:29 CET)" (scheduled at 2025-02-18 09:36:59.392543+01:00)
+2025-02-18 09:36:59,400 - INFO - \U0001f552 Iniciando backup automático...
+2025-02-18 09:36:59,400 - ERROR - \u274c Error en el backup automático: Working outside of application context.
+
+This typically means that you attempted to use functionality that needed
+the current application. To solve this, set up an application context
+with app.app_context(). See the documentation for more information.
+2025-02-18 09:36:59,400 - INFO - Job "backup_automatico (trigger: interval[0:00:10], next run at: 2025-02-18 09:37:09 CET)" executed successfully
+2025-02-18 09:36:59,468 - INFO - 127.0.0.1 - - [18/Feb/2025 09:36:59] "[32mPOST /usuarios/editar/7 HTTP/1.1[0m" 302 -
+2025-02-18 09:36:59,471 - INFO - 127.0.0.1 - - [18/Feb/2025 09:36:59] "GET /usuarios HTTP/1.1" 200 -
+2025-02-18 09:37:00,405 - INFO - \U0001f4ca CPU: 19.7%, RAM: 79.9%, Disco: 97.7%
+2025-02-18 09:37:00,405 - INFO - Job "monitorizar_recursos (trigger: interval[0:00:30], next run at: 2025-02-18 09:37:29 CET)" executed successfully
+2025-02-18 09:37:07,489 - INFO - 127.0.0.1 - - [18/Feb/2025 09:37:07] "GET /usuarios/editar/7 HTTP/1.1" 200 -
+2025-02-18 09:37:08,261 - INFO - Running job "backup_automatico (trigger: interval[0:00:10], next run at: 2025-02-18 09:37:18 CET)" (scheduled at 2025-02-18 09:37:08.250981+01:00)
+2025-02-18 09:37:08,261 - INFO - \U0001f552 Iniciando backup automático...
+2025-02-18 09:37:08,262 - ERROR - \u274c Error en el backup automático: Working outside of application context.
+
+This typically means that you attempted to use functionality that needed
+the current application. To solve this, set up an application context
+with app.app_context(). See the documentation for more information.
+2025-02-18 09:37:08,263 - INFO - Job "backup_automatico (trigger: interval[0:00:10], next run at: 2025-02-18 09:37:18 CET)" executed successfully
+2025-02-18 09:37:09,410 - INFO - Running job "backup_automatico (trigger: interval[0:00:10], next run at: 2025-02-18 09:37:19 CET)" (scheduled at 2025-02-18 09:37:09.392543+01:00)
+2025-02-18 09:37:09,410 - INFO - \U0001f552 Iniciando backup automático...
+2025-02-18 09:37:09,410 - ERROR - \u274c Error en el backup automático: Working outside of application context.
+
+This typically means that you attempted to use functionality that needed
+the current application. To solve this, set up an application context
+with app.app_context(). See the documentation for more information.
+2025-02-18 09:37:09,410 - INFO - Job "backup_automatico (trigger: interval[0:00:10], next run at: 2025-02-18 09:37:19 CET)" executed successfully
+2025-02-18 09:37:10,447 - INFO - 127.0.0.1 - - [18/Feb/2025 09:37:10] "[32mPOST /usuarios/editar/7 HTTP/1.1[0m" 302 -
+2025-02-18 09:37:10,453 - INFO - 127.0.0.1 - - [18/Feb/2025 09:37:10] "GET /usuarios HTTP/1.1" 200 -
+2025-02-18 09:37:18,253 - INFO - Running job "backup_automatico (trigger: interval[0:00:10], next run at: 2025-02-18 09:37:28 CET)" (scheduled at 2025-02-18 09:37:18.250981+01:00)
+2025-02-18 09:37:18,253 - INFO - \U0001f552 Iniciando backup automático...
+2025-02-18 09:37:18,253 - ERROR - \u274c Error en el backup automático: Working outside of application context.
+
+This typically means that you attempted to use functionality that needed
+the current application. To solve this, set up an application context
+with app.app_context(). See the documentation for more information.
+2025-02-18 09:37:18,253 - INFO - Job "backup_automatico (trigger: interval[0:00:10], next run at: 2025-02-18 09:37:28 CET)" executed successfully
+2025-02-18 09:37:19,395 - INFO - Running job "backup_automatico (trigger: interval[0:00:10], next run at: 2025-02-18 09:37:29 CET)" (scheduled at 2025-02-18 09:37:19.392543+01:00)
+2025-02-18 09:37:19,395 - INFO - \U0001f552 Iniciando backup automático...
+2025-02-18 09:37:19,397 - ERROR - \u274c Error en el backup automático: Working outside of application context.
+
+This typically means that you attempted to use functionality that needed
+the current application. To solve this, set up an application context
+with app.app_context(). See the documentation for more information.
+2025-02-18 09:37:19,397 - INFO - Job "backup_automatico (trigger: interval[0:00:10], next run at: 2025-02-18 09:37:29 CET)" executed successfully
+2025-02-18 09:37:28,261 - INFO - Running job "backup_automatico (trigger: interval[0:00:10], next run at: 2025-02-18 09:37:38 CET)" (scheduled at 2025-02-18 09:37:28.250981+01:00)
+2025-02-18 09:37:28,261 - INFO - Running job "monitorizar_recursos (trigger: interval[0:00:30], next run at: 2025-02-18 09:37:58 CET)" (scheduled at 2025-02-18 09:37:28.250981+01:00)
+2025-02-18 09:37:28,261 - INFO - \U0001f552 Iniciando backup automático...
+2025-02-18 09:37:28,261 - ERROR - \u274c Error en el backup automático: Working outside of application context.
+
+This typically means that you attempted to use functionality that needed
+the current application. To solve this, set up an application context
+with app.app_context(). See the documentation for more information.
+2025-02-18 09:37:28,261 - INFO - Job "backup_automatico (trigger: interval[0:00:10], next run at: 2025-02-18 09:37:38 CET)" executed successfully
+2025-02-18 09:37:29,274 - INFO - \U0001f4ca CPU: 43.1%, RAM: 82.6%, Disco: 97.7%
+2025-02-18 09:37:29,274 - INFO - Job "monitorizar_recursos (trigger: interval[0:00:30], next run at: 2025-02-18 09:37:58 CET)" executed successfully
+2025-02-18 09:37:29,403 - INFO - Running job "backup_automatico (trigger: interval[0:00:10], next run at: 2025-02-18 09:37:39 CET)" (scheduled at 2025-02-18 09:37:29.392543+01:00)
+2025-02-18 09:37:29,404 - INFO - Running job "monitorizar_recursos (trigger: interval[0:00:30], next run at: 2025-02-18 09:37:59 CET)" (scheduled at 2025-02-18 09:37:29.392543+01:00)
+2025-02-18 09:37:29,404 - INFO - \U0001f552 Iniciando backup automático...
+2025-02-18 09:37:29,405 - ERROR - \u274c Error en el backup automático: Working outside of application context.
+
+This typically means that you attempted to use functionality that needed
+the current application. To solve this, set up an application context
+with app.app_context(). See the documentation for more information.
+2025-02-18 09:37:29,405 - INFO - Job "backup_automatico (trigger: interval[0:00:10], next run at: 2025-02-18 09:37:39 CET)" executed successfully
+2025-02-18 09:37:30,411 - INFO - \U0001f4ca CPU: 75.5%, RAM: 82.7%, Disco: 97.7%
+2025-02-18 09:37:30,412 - INFO - Job "monitorizar_recursos (trigger: interval[0:00:30], next run at: 2025-02-18 09:37:59 CET)" executed successfully
+2025-02-18 09:37:38,258 - INFO - Running job "backup_automatico (trigger: interval[0:00:10], next run at: 2025-02-18 09:37:48 CET)" (scheduled at 2025-02-18 09:37:38.250981+01:00)
+2025-02-18 09:37:38,258 - INFO - \U0001f552 Iniciando backup automático...
+2025-02-18 09:37:38,258 - ERROR - \u274c Error en el backup automático: Working outside of application context.
+
+This typically means that you attempted to use functionality that needed
+the current application. To solve this, set up an application context
+with app.app_context(). See the documentation for more information.
+2025-02-18 09:37:38,258 - INFO - Job "backup_automatico (trigger: interval[0:00:10], next run at: 2025-02-18 09:37:48 CET)" executed successfully
+2025-02-18 09:37:39,394 - INFO - Running job "backup_automatico (trigger: interval[0:00:10], next run at: 2025-02-18 09:37:49 CET)" (scheduled at 2025-02-18 09:37:39.392543+01:00)
+2025-02-18 09:37:39,394 - INFO - \U0001f552 Iniciando backup automático...
+2025-02-18 09:37:39,394 - ERROR - \u274c Error en el backup automático: Working outside of application context.
+
+This typically means that you attempted to use functionality that needed
+the current application. To solve this, set up an application context
+with app.app_context(). See the documentation for more information.
+2025-02-18 09:37:39,394 - INFO - Job "backup_automatico (trigger: interval[0:00:10], next run at: 2025-02-18 09:37:49 CET)" executed successfully
+2025-02-18 09:37:48,254 - INFO - Running job "backup_automatico (trigger: interval[0:00:10], next run at: 2025-02-18 09:37:58 CET)" (scheduled at 2025-02-18 09:37:48.250981+01:00)
+2025-02-18 09:37:48,254 - INFO - \U0001f552 Iniciando backup automático...
+2025-02-18 09:37:48,254 - ERROR - \u274c Error en el backup automático: Working outside of application context.
+
+This typically means that you attempted to use functionality that needed
+the current application. To solve this, set up an application context
+with app.app_context(). See the documentation for more information.
+2025-02-18 09:37:48,254 - INFO - Job "backup_automatico (trigger: interval[0:00:10], next run at: 2025-02-18 09:37:58 CET)" executed successfully
+2025-02-18 09:37:49,396 - ERROR - Error submitting job "backup_automatico (trigger: interval[0:00:10], next run at: 2025-02-18 09:37:49 CET)" to executor "default"
+Traceback (most recent call last):
+  File "C:\xampp\htdocs\xampp\migithub\app_gestion_4.0\venv\Lib\site-packages\apscheduler\schedulers\base.py", line 1195, in _process_jobs
+    executor.submit_job(job, run_times)
+  File "C:\xampp\htdocs\xampp\migithub\app_gestion_4.0\venv\Lib\site-packages\apscheduler\executors\base.py", line 74, in submit_job
+    self._do_submit_job(job, run_times)
+  File "C:\xampp\htdocs\xampp\migithub\app_gestion_4.0\venv\Lib\site-packages\apscheduler\executors\pool.py", line 27, in _do_submit_job
+    f = self._pool.submit(
+        ^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\concurrent\futures\thread.py", line 167, in submit
+    raise RuntimeError('cannot schedule new futures after shutdown')
+RuntimeError: cannot schedule new futures after shutdown
+2025-02-18 09:37:59,492 - INFO - \U0001f552 Iniciando scheduler...
+2025-02-18 09:37:59,492 - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-02-18 09:37:59,492 - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-02-18 09:37:59,492 - INFO - Added job "monitorizar_recursos" to job store "default"
+2025-02-18 09:37:59,492 - INFO - Added job "backup_automatico" to job store "default"
+2025-02-18 09:37:59,492 - INFO - Scheduler started
+2025-02-18 09:37:59,566 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-02-18 09:37:59,568 - INFO - [33mPress CTRL+C to quit[0m
+2025-02-18 09:37:59,571 - INFO -  * Restarting with stat
+2025-02-18 09:38:00,672 - INFO - \U0001f552 Iniciando scheduler...
+2025-02-18 09:38:00,672 - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-02-18 09:38:00,672 - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-02-18 09:38:00,672 - INFO - Added job "monitorizar_recursos" to job store "default"
+2025-02-18 09:38:00,672 - INFO - Added job "backup_automatico" to job store "default"
+2025-02-18 09:38:00,672 - INFO - Scheduler started
+2025-02-18 09:38:00,708 - WARNING -  * Debugger is active!
+2025-02-18 09:38:00,715 - INFO -  * Debugger PIN: 726-180-169
+2025-02-18 09:38:09,511 - INFO - Running job "backup_automatico (trigger: interval[0:00:10], next run at: 2025-02-18 09:38:09 CET)" (scheduled at 2025-02-18 09:38:09.492657+01:00)
+2025-02-18 09:38:09,511 - INFO - \U0001f552 Iniciando backup automático...
+2025-02-18 09:38:09,511 - ERROR - \u274c Error en el backup automático: Working outside of application context.
+
+This typically means that you attempted to use functionality that needed
+the current application. To solve this, set up an application context
+with app.app_context(). See the documentation for more information.
+2025-02-18 09:38:09,511 - INFO - Job "backup_automatico (trigger: interval[0:00:10], next run at: 2025-02-18 09:38:09 CET)" executed successfully
+2025-02-18 09:38:10,696 - INFO - Running job "backup_automatico (trigger: interval[0:00:10], next run at: 2025-02-18 09:38:10 CET)" (scheduled at 2025-02-18 09:38:10.672772+01:00)
+2025-02-18 09:38:10,696 - INFO - \U0001f552 Iniciando backup automático...
+2025-02-18 09:38:10,696 - ERROR - \u274c Error en el backup automático: Working outside of application context.
+
+This typically means that you attempted to use functionality that needed
+the current application. To solve this, set up an application context
+with app.app_context(). See the documentation for more information.
+2025-02-18 09:38:10,696 - INFO - Job "backup_automatico (trigger: interval[0:00:10], next run at: 2025-02-18 09:38:20 CET)" executed successfully
+2025-02-18 09:38:19,501 - INFO - Running job "backup_automatico (trigger: interval[0:00:10], next run at: 2025-02-18 09:38:29 CET)" (scheduled at 2025-02-18 09:38:19.492657+01:00)
+2025-02-18 09:38:19,501 - INFO - \U0001f552 Iniciando backup automático...
+2025-02-18 09:38:19,501 - ERROR - \u274c Error en el backup automático: Working outside of application context.
+
+This typically means that you attempted to use functionality that needed
+the current application. To solve this, set up an application context
+with app.app_context(). See the documentation for more information.
+2025-02-18 09:38:19,501 - INFO - Job "backup_automatico (trigger: interval[0:00:10], next run at: 2025-02-18 09:38:29 CET)" executed successfully
+2025-02-18 09:38:20,684 - INFO - Running job "backup_automatico (trigger: interval[0:00:10], next run at: 2025-02-18 09:38:30 CET)" (scheduled at 2025-02-18 09:38:20.672772+01:00)
+2025-02-18 09:38:20,684 - INFO - \U0001f552 Iniciando backup automático...
+2025-02-18 09:38:20,684 - ERROR - \u274c Error en el backup automático: Working outside of application context.
+
+This typically means that you attempted to use functionality that needed
+the current application. To solve this, set up an application context
+with app.app_context(). See the documentation for more information.
+2025-02-18 09:38:20,684 - INFO - Job "backup_automatico (trigger: interval[0:00:10], next run at: 2025-02-18 09:38:30 CET)" executed successfully
+2025-02-18 09:38:29,495 - INFO - Running job "backup_automatico (trigger: interval[0:00:10], next run at: 2025-02-18 09:38:39 CET)" (scheduled at 2025-02-18 09:38:29.492657+01:00)
+2025-02-18 09:38:29,495 - INFO - Running job "monitorizar_recursos (trigger: interval[0:00:30], next run at: 2025-02-18 09:38:59 CET)" (scheduled at 2025-02-18 09:38:29.492657+01:00)
+2025-02-18 09:38:29,496 - INFO - \U0001f552 Iniciando backup automático...
+2025-02-18 09:38:29,496 - ERROR - \u274c Error en el backup automático: Working outside of application context.
+
+This typically means that you attempted to use functionality that needed
+the current application. To solve this, set up an application context
+with app.app_context(). See the documentation for more information.
+2025-02-18 09:38:29,497 - INFO - Job "backup_automatico (trigger: interval[0:00:10], next run at: 2025-02-18 09:38:39 CET)" executed successfully
+2025-02-18 09:38:30,506 - INFO - \U0001f4ca CPU: 14.6%, RAM: 83.0%, Disco: 97.7%
+2025-02-18 09:38:30,507 - INFO - Job "monitorizar_recursos (trigger: interval[0:00:30], next run at: 2025-02-18 09:38:59 CET)" executed successfully
+2025-02-18 09:38:30,673 - INFO - Running job "backup_automatico (trigger: interval[0:00:10], next run at: 2025-02-18 09:38:40 CET)" (scheduled at 2025-02-18 09:38:30.672772+01:00)
+2025-02-18 09:38:30,673 - INFO - Running job "monitorizar_recursos (trigger: interval[0:00:30], next run at: 2025-02-18 09:39:00 CET)" (scheduled at 2025-02-18 09:38:30.672772+01:00)
+2025-02-18 09:38:30,673 - INFO - \U0001f552 Iniciando backup automático...
+2025-02-18 09:38:30,673 - ERROR - \u274c Error en el backup automático: Working outside of application context.
+
+This typically means that you attempted to use functionality that needed
+the current application. To solve this, set up an application context
+with app.app_context(). See the documentation for more information.
+2025-02-18 09:38:30,673 - INFO - Job "backup_automatico (trigger: interval[0:00:10], next run at: 2025-02-18 09:38:40 CET)" executed successfully
+2025-02-18 09:38:31,687 - INFO - \U0001f4ca CPU: 7.6%, RAM: 83.0%, Disco: 97.7%
+2025-02-18 09:38:31,688 - INFO - Job "monitorizar_recursos (trigger: interval[0:00:30], next run at: 2025-02-18 09:39:00 CET)" executed successfully
+2025-02-18 09:38:39,493 - INFO - Running job "backup_automatico (trigger: interval[0:00:10], next run at: 2025-02-18 09:38:49 CET)" (scheduled at 2025-02-18 09:38:39.492657+01:00)
+2025-02-18 09:38:39,494 - INFO - \U0001f552 Iniciando backup automático...
+2025-02-18 09:38:39,494 - ERROR - \u274c Error en el backup automático: Working outside of application context.
+
+This typically means that you attempted to use functionality that needed
+the current application. To solve this, set up an application context
+with app.app_context(). See the documentation for more information.
+2025-02-18 09:38:39,495 - INFO - Job "backup_automatico (trigger: interval[0:00:10], next run at: 2025-02-18 09:38:49 CET)" executed successfully
+2025-02-18 09:38:40,683 - INFO - Running job "backup_automatico (trigger: interval[0:00:10], next run at: 2025-02-18 09:38:50 CET)" (scheduled at 2025-02-18 09:38:40.672772+01:00)
+2025-02-18 09:38:40,683 - INFO - \U0001f552 Iniciando backup automático...
+2025-02-18 09:38:40,683 - ERROR - \u274c Error en el backup automático: Working outside of application context.
+
+This typically means that you attempted to use functionality that needed
+the current application. To solve this, set up an application context
+with app.app_context(). See the documentation for more information.
+2025-02-18 09:38:40,684 - INFO - Job "backup_automatico (trigger: interval[0:00:10], next run at: 2025-02-18 09:38:50 CET)" executed successfully
+2025-02-18 09:38:49,501 - INFO - Running job "backup_automatico (trigger: interval[0:00:10], next run at: 2025-02-18 09:38:59 CET)" (scheduled at 2025-02-18 09:38:49.492657+01:00)
+2025-02-18 09:38:49,501 - INFO - \U0001f552 Iniciando backup automático...
+2025-02-18 09:38:49,501 - ERROR - \u274c Error en el backup automático: Working outside of application context.
+
+This typically means that you attempted to use functionality that needed
+the current application. To solve this, set up an application context
+with app.app_context(). See the documentation for more information.
+2025-02-18 09:38:49,501 - INFO - Job "backup_automatico (trigger: interval[0:00:10], next run at: 2025-02-18 09:38:59 CET)" executed successfully
+2025-02-18 09:38:50,682 - INFO - Running job "backup_automatico (trigger: interval[0:00:10], next run at: 2025-02-18 09:39:00 CET)" (scheduled at 2025-02-18 09:38:50.672772+01:00)
+2025-02-18 09:38:50,682 - INFO - \U0001f552 Iniciando backup automático...
+2025-02-18 09:38:50,682 - ERROR - \u274c Error en el backup automático: Working outside of application context.
+
+This typically means that you attempted to use functionality that needed
+the current application. To solve this, set up an application context
+with app.app_context(). See the documentation for more information.
+2025-02-18 09:38:50,682 - INFO - Job "backup_automatico (trigger: interval[0:00:10], next run at: 2025-02-18 09:39:00 CET)" executed successfully
+2025-02-18 09:38:58,803 - INFO -  * Detected change in 'C:\\xampp\\htdocs\\xampp\\migithub\\app_gestion_4.0\\app\\controllers\\recurso_controller.py', reloading
+2025-02-18 09:38:59,023 - INFO -  * Restarting with stat
+2025-02-18 09:38:59,501 - INFO - Running job "backup_automatico (trigger: interval[0:00:10], next run at: 2025-02-18 09:39:09 CET)" (scheduled at 2025-02-18 09:38:59.492657+01:00)
+2025-02-18 09:38:59,501 - INFO - Running job "monitorizar_recursos (trigger: interval[0:00:30], next run at: 2025-02-18 09:39:29 CET)" (scheduled at 2025-02-18 09:38:59.492657+01:00)
+2025-02-18 09:38:59,501 - INFO - \U0001f552 Iniciando backup automático...
+2025-02-18 09:38:59,502 - ERROR - \u274c Error en el backup automático: Working outside of application context.
+
+This typically means that you attempted to use functionality that needed
+the current application. To solve this, set up an application context
+with app.app_context(). See the documentation for more information.
+2025-02-18 09:38:59,503 - INFO - Job "backup_automatico (trigger: interval[0:00:10], next run at: 2025-02-18 09:39:09 CET)" executed successfully
+2025-02-18 09:39:00,329 - INFO - \U0001f552 Iniciando scheduler...
+2025-02-18 09:39:00,329 - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-02-18 09:39:00,329 - ERROR - \u274c Error al iniciar el scheduler: name 'backup_automatico' is not defined
+2025-02-18 09:39:00,329 - INFO - \U0001f552 Iniciando scheduler...
+2025-02-18 09:39:00,329 - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-02-18 09:39:00,338 - ERROR - \u274c Error al iniciar el scheduler: name 'backup_automatico' is not defined
+2025-02-18 09:39:00,375 - WARNING -  * Debugger is active!
+2025-02-18 09:39:00,384 - INFO -  * Debugger PIN: 726-180-169
+2025-02-18 09:39:00,503 - INFO - \U0001f4ca CPU: 55.7%, RAM: 82.9%, Disco: 97.7%
+2025-02-18 09:39:00,503 - INFO - Job "monitorizar_recursos (trigger: interval[0:00:30], next run at: 2025-02-18 09:39:29 CET)" executed successfully
+2025-02-18 09:39:09,798 - INFO - \U0001f552 Iniciando scheduler...
+2025-02-18 09:39:09,798 - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-02-18 09:39:09,800 - ERROR - \u274c Error al iniciar el scheduler: name 'backup_automatico' is not defined
+2025-02-18 09:39:09,800 - INFO - \U0001f552 Iniciando scheduler...
+2025-02-18 09:39:09,800 - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-02-18 09:39:09,800 - ERROR - \u274c Error al iniciar el scheduler: name 'backup_automatico' is not defined
+2025-02-18 09:39:09,857 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-02-18 09:39:09,857 - INFO - [33mPress CTRL+C to quit[0m
+2025-02-18 09:39:09,859 - INFO -  * Restarting with stat
+2025-02-18 09:39:10,930 - INFO - \U0001f552 Iniciando scheduler...
+2025-02-18 09:39:10,930 - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-02-18 09:39:10,935 - ERROR - \u274c Error al iniciar el scheduler: name 'backup_automatico' is not defined
+2025-02-18 09:39:10,935 - INFO - \U0001f552 Iniciando scheduler...
+2025-02-18 09:39:10,935 - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-02-18 09:39:10,937 - ERROR - \u274c Error al iniciar el scheduler: name 'backup_automatico' is not defined
+2025-02-18 09:39:10,965 - WARNING -  * Debugger is active!
+2025-02-18 09:39:10,973 - INFO -  * Debugger PIN: 726-180-169
+2025-02-18 09:40:36,443 - INFO -  * Detected change in 'C:\\xampp\\htdocs\\xampp\\migithub\\app_gestion_4.0\\app\\__init__.py', reloading
+2025-02-18 09:40:36,681 - INFO -  * Restarting with stat
+2025-02-18 09:40:38,037 - INFO - \U0001f552 Iniciando scheduler...
+2025-02-18 09:40:38,038 - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-02-18 09:40:38,038 - ERROR - \u274c Error al iniciar el scheduler: name 'backup_automatico' is not defined
+2025-02-18 09:40:38,039 - INFO - \U0001f552 Iniciando scheduler...
+2025-02-18 09:40:38,039 - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-02-18 09:40:38,039 - ERROR - \u274c Error al iniciar el scheduler: name 'backup_automatico' is not defined
+2025-02-18 09:40:38,065 - WARNING -  * Debugger is active!
+2025-02-18 09:40:38,073 - INFO -  * Debugger PIN: 726-180-169
+2025-02-18 09:40:50,057 - INFO - \U0001f552 Iniciando scheduler...
+2025-02-18 09:40:50,059 - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-02-18 09:40:50,059 - ERROR - \u274c Error al iniciar el scheduler: name 'backup_automatico' is not defined
+2025-02-18 09:40:50,059 - INFO - \U0001f552 Iniciando scheduler...
+2025-02-18 09:40:50,059 - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-02-18 09:40:50,059 - ERROR - \u274c Error al iniciar el scheduler: name 'backup_automatico' is not defined
+2025-02-18 09:40:50,129 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-02-18 09:40:50,129 - INFO - [33mPress CTRL+C to quit[0m
+2025-02-18 09:40:50,129 - INFO -  * Restarting with stat
+2025-02-18 09:40:51,263 - INFO - \U0001f552 Iniciando scheduler...
+2025-02-18 09:40:51,263 - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-02-18 09:40:51,263 - ERROR - \u274c Error al iniciar el scheduler: name 'backup_automatico' is not defined
+2025-02-18 09:40:51,265 - INFO - \U0001f552 Iniciando scheduler...
+2025-02-18 09:40:51,265 - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-02-18 09:40:51,265 - ERROR - \u274c Error al iniciar el scheduler: name 'backup_automatico' is not defined
+2025-02-18 09:40:51,297 - WARNING -  * Debugger is active!
+2025-02-18 09:40:51,300 - INFO -  * Debugger PIN: 726-180-169
+2025-02-18 09:41:47,653 - INFO - \U0001f552 Iniciando scheduler...
+2025-02-18 09:41:47,653 - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-02-18 09:41:47,653 - ERROR - \u274c Error al iniciar el scheduler: name 'backup_automatico' is not defined
+2025-02-18 09:41:47,664 - INFO - \U0001f552 Iniciando scheduler...
+2025-02-18 09:41:47,664 - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-02-18 09:41:47,664 - ERROR - \u274c Error al iniciar el scheduler: name 'backup_automatico' is not defined
+2025-02-18 09:41:47,722 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-02-18 09:41:47,722 - INFO - [33mPress CTRL+C to quit[0m
+2025-02-18 09:41:47,724 - INFO -  * Restarting with stat
+2025-02-18 09:41:48,806 - INFO - \U0001f552 Iniciando scheduler...
+2025-02-18 09:41:48,806 - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-02-18 09:41:48,808 - ERROR - \u274c Error al iniciar el scheduler: name 'backup_automatico' is not defined
+2025-02-18 09:41:48,808 - INFO - \U0001f552 Iniciando scheduler...
+2025-02-18 09:41:48,808 - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-02-18 09:41:48,808 - ERROR - \u274c Error al iniciar el scheduler: name 'backup_automatico' is not defined
+2025-02-18 09:41:48,841 - WARNING -  * Debugger is active!
+2025-02-18 09:41:48,847 - INFO -  * Debugger PIN: 726-180-169
+2025-02-18 09:42:04,221 - INFO - 127.0.0.1 - - [18/Feb/2025 09:42:04] "GET /dashboard HTTP/1.1" 200 -
+2025-02-18 09:42:05,567 - INFO - 127.0.0.1 - - [18/Feb/2025 09:42:05] "GET /recursos HTTP/1.1" 200 -
+2025-02-18 09:42:06,599 - INFO - 127.0.0.1 - - [18/Feb/2025 09:42:06] "GET /recursos_json HTTP/1.1" 200 -
+2025-02-18 09:42:07,380 - INFO - 127.0.0.1 - - [18/Feb/2025 09:42:07] "GET /dashboard HTTP/1.1" 200 -
+2025-02-18 09:43:03,654 - INFO -  * Detected change in 'C:\\xampp\\htdocs\\xampp\\migithub\\app_gestion_4.0\\app\\__init__.py', reloading
+2025-02-18 09:43:03,836 - INFO -  * Restarting with stat
+2025-02-18 09:43:05,259 - INFO - \U0001f552 Iniciando scheduler...
+2025-02-18 09:43:05,263 - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-02-18 09:43:05,263 - ERROR - \u274c Error al iniciar el scheduler: name 'backup_automatico' is not defined
+2025-02-18 09:43:05,264 - INFO - \U0001f552 Iniciando scheduler...
+2025-02-18 09:43:05,265 - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-02-18 09:43:05,266 - ERROR - \u274c Error al iniciar el scheduler: name 'backup_automatico' is not defined
+2025-02-18 09:43:05,356 - WARNING -  * Debugger is active!
+2025-02-18 09:43:05,386 - INFO -  * Debugger PIN: 726-180-169
+2025-02-18 09:43:22,465 - INFO -  * Detected change in 'C:\\xampp\\htdocs\\xampp\\migithub\\app_gestion_4.0\\backup.py', reloading
+2025-02-18 09:43:22,684 - INFO -  * Restarting with stat
+2025-02-18 09:45:58,485 - INFO - \U0001f552 Iniciando scheduler...
+2025-02-18 09:45:58,486 - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-02-18 09:45:58,486 - ERROR - \u274c Error al iniciar el scheduler: name 'backup_automatico' is not defined
+2025-02-18 09:45:58,487 - INFO - \U0001f552 Iniciando scheduler...
+2025-02-18 09:45:58,487 - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-02-18 09:45:58,487 - ERROR - \u274c Error al iniciar el scheduler: name 'backup_automatico' is not defined
+2025-02-18 09:45:58,526 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-02-18 09:45:58,526 - INFO - [33mPress CTRL+C to quit[0m
+2025-02-18 09:45:58,528 - INFO -  * Restarting with stat
+2025-02-18 09:45:59,607 - INFO - \U0001f552 Iniciando scheduler...
+2025-02-18 09:45:59,607 - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-02-18 09:45:59,608 - ERROR - \u274c Error al iniciar el scheduler: name 'backup_automatico' is not defined
+2025-02-18 09:45:59,608 - INFO - \U0001f552 Iniciando scheduler...
+2025-02-18 09:45:59,608 - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-02-18 09:45:59,608 - ERROR - \u274c Error al iniciar el scheduler: name 'backup_automatico' is not defined
+2025-02-18 09:45:59,629 - WARNING -  * Debugger is active!
+2025-02-18 09:45:59,634 - INFO -  * Debugger PIN: 726-180-169
+2025-02-18 09:46:21,696 - INFO - \U0001f552 Iniciando scheduler...
+2025-02-18 09:46:21,696 - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-02-18 09:46:21,696 - ERROR - \u274c Error al iniciar el scheduler: name 'backup_automatico' is not defined
+2025-02-18 09:46:21,696 - INFO - \U0001f552 Iniciando scheduler...
+2025-02-18 09:46:21,696 - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-02-18 09:46:21,696 - ERROR - \u274c Error al iniciar el scheduler: name 'backup_automatico' is not defined
+2025-02-18 09:46:21,741 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-02-18 09:46:21,741 - INFO - [33mPress CTRL+C to quit[0m
+2025-02-18 09:46:21,744 - INFO -  * Restarting with stat
+2025-02-18 09:46:22,808 - INFO - \U0001f552 Iniciando scheduler...
+2025-02-18 09:46:22,808 - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-02-18 09:46:22,808 - ERROR - \u274c Error al iniciar el scheduler: name 'backup_automatico' is not defined
+2025-02-18 09:46:22,808 - INFO - \U0001f552 Iniciando scheduler...
+2025-02-18 09:46:22,808 - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-02-18 09:46:22,808 - ERROR - \u274c Error al iniciar el scheduler: name 'backup_automatico' is not defined
+2025-02-18 09:46:22,824 - WARNING -  * Debugger is active!
+2025-02-18 09:46:22,824 - INFO -  * Debugger PIN: 726-180-169
+2025-02-18 09:46:55,395 - INFO -  * Detected change in 'C:\\xampp\\htdocs\\xampp\\migithub\\app_gestion_4.0\\app\\__init__.py', reloading
+2025-02-18 09:46:55,573 - INFO -  * Restarting with stat
+2025-02-18 09:46:56,832 - INFO - \U0001f552 Iniciando scheduler...
+2025-02-18 09:46:56,833 - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-02-18 09:46:56,833 - ERROR - \u274c Error al iniciar el scheduler: name 'backup_automatico' is not defined
+2025-02-18 09:46:56,834 - INFO - \U0001f552 Iniciando scheduler...
+2025-02-18 09:46:56,834 - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-02-18 09:46:56,834 - ERROR - \u274c Error al iniciar el scheduler: name 'backup_automatico' is not defined
+2025-02-18 09:46:56,862 - WARNING -  * Debugger is active!
+2025-02-18 09:46:56,866 - INFO -  * Debugger PIN: 726-180-169
+2025-02-18 09:48:21,555 - INFO -  * Detected change in 'C:\\xampp\\htdocs\\xampp\\migithub\\app_gestion_4.0\\app\\__init__.py', reloading
+2025-02-18 09:48:21,749 - INFO -  * Restarting with stat
+2025-02-18 09:48:22,983 - INFO - \U0001f552 Iniciando scheduler...
+2025-02-18 09:48:22,984 - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-02-18 09:48:22,984 - ERROR - \u274c Error al iniciar el scheduler: name 'backup_automatico' is not defined
+2025-02-18 09:48:37,893 - INFO - \U0001f552 Iniciando scheduler...
+2025-02-18 09:48:37,895 - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-02-18 09:48:37,895 - ERROR - \u274c Error al iniciar el scheduler: name 'backup_automatico' is not defined
+2025-02-18 09:48:50,347 - INFO - \U0001f552 Iniciando scheduler...
+2025-02-18 09:48:50,347 - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-02-18 09:48:50,347 - ERROR - \u274c Error al iniciar el scheduler: name 'backup_automatico' is not defined
+2025-02-18 09:51:09,650 - INFO - \U0001f552 Iniciando scheduler...
+2025-02-18 09:51:09,651 - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-02-18 09:51:09,651 - ERROR - \u274c Error al iniciar el scheduler: name 'backup_automatico' is not defined
+2025-02-18 09:51:09,652 - INFO - \U0001f552 Iniciando scheduler...
+2025-02-18 09:51:09,652 - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-02-18 09:51:09,652 - ERROR - \u274c Error al iniciar el scheduler: name 'backup_automatico' is not defined
+2025-02-18 09:51:09,689 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-02-18 09:51:09,689 - INFO - [33mPress CTRL+C to quit[0m
+2025-02-18 09:51:09,691 - INFO -  * Restarting with stat
+2025-02-18 09:51:10,769 - INFO - \U0001f552 Iniciando scheduler...
+2025-02-18 09:51:10,770 - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-02-18 09:51:10,770 - ERROR - \u274c Error al iniciar el scheduler: name 'backup_automatico' is not defined
+2025-02-18 09:51:10,771 - INFO - \U0001f552 Iniciando scheduler...
+2025-02-18 09:51:10,771 - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-02-18 09:51:10,771 - ERROR - \u274c Error al iniciar el scheduler: name 'backup_automatico' is not defined
+2025-02-18 09:51:10,789 - WARNING -  * Debugger is active!
+2025-02-18 09:51:10,795 - INFO -  * Debugger PIN: 726-180-169
+2025-02-18 09:51:33,203 - INFO - \U0001f552 Iniciando scheduler...
+2025-02-18 09:51:33,203 - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-02-18 09:51:33,203 - ERROR - \u274c Error al iniciar el scheduler: name 'backup_automatico' is not defined
+2025-02-18 09:51:33,203 - INFO - \U0001f552 Iniciando scheduler...
+2025-02-18 09:51:33,203 - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-02-18 09:51:33,203 - ERROR - \u274c Error al iniciar el scheduler: name 'backup_automatico' is not defined
+2025-02-18 09:51:33,242 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-02-18 09:51:33,242 - INFO - [33mPress CTRL+C to quit[0m
+2025-02-18 09:51:33,242 - INFO -  * Restarting with stat
+2025-02-18 09:51:34,297 - INFO - \U0001f552 Iniciando scheduler...
+2025-02-18 09:51:34,299 - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-02-18 09:51:34,299 - ERROR - \u274c Error al iniciar el scheduler: name 'backup_automatico' is not defined
+2025-02-18 09:51:34,299 - INFO - \U0001f552 Iniciando scheduler...
+2025-02-18 09:51:34,299 - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-02-18 09:51:34,299 - ERROR - \u274c Error al iniciar el scheduler: name 'backup_automatico' is not defined
+2025-02-18 09:51:34,315 - WARNING -  * Debugger is active!
+2025-02-18 09:51:34,321 - INFO -  * Debugger PIN: 726-180-169
+2025-02-18 09:51:38,668 - INFO - 127.0.0.1 - - [18/Feb/2025 09:51:38] "GET /recursos HTTP/1.1" 200 -
+2025-02-18 09:51:39,722 - INFO - 127.0.0.1 - - [18/Feb/2025 09:51:39] "GET /recursos_json HTTP/1.1" 200 -
+2025-02-18 09:51:40,583 - INFO - 127.0.0.1 - - [18/Feb/2025 09:51:40] "GET /dashboard HTTP/1.1" 200 -
+2025-02-18 09:52:44,047 - INFO -  * Detected change in 'C:\\xampp\\htdocs\\xampp\\migithub\\app_gestion_4.0\\backup.py', reloading
+2025-02-18 09:52:44,268 - INFO -  * Restarting with stat
+2025-02-18 09:52:45,697 - INFO - \U0001f552 Iniciando scheduler...
+2025-02-18 09:52:45,697 - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-02-18 09:52:45,698 - ERROR - \u274c Error al iniciar el scheduler: name 'backup_automatico' is not defined
+2025-02-18 09:52:45,698 - INFO - \U0001f552 Iniciando scheduler...
+2025-02-18 09:52:45,698 - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-02-18 09:52:45,698 - ERROR - \u274c Error al iniciar el scheduler: name 'backup_automatico' is not defined
+2025-02-18 09:52:45,729 - WARNING -  * Debugger is active!
+2025-02-18 09:52:45,737 - INFO -  * Debugger PIN: 726-180-169
+2025-02-18 09:52:56,527 - INFO - \U0001f552 Iniciando scheduler...
+2025-02-18 09:52:56,528 - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-02-18 09:52:56,528 - ERROR - \u274c Error al iniciar el scheduler: name 'backup_automatico' is not defined
+2025-02-18 09:52:56,528 - INFO - \U0001f552 Iniciando scheduler...
+2025-02-18 09:52:56,529 - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-02-18 09:52:56,529 - ERROR - \u274c Error al iniciar el scheduler: name 'backup_automatico' is not defined
+2025-02-18 09:52:56,560 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-02-18 09:52:56,560 - INFO - [33mPress CTRL+C to quit[0m
+2025-02-18 09:52:56,565 - INFO -  * Restarting with stat
+2025-02-18 09:52:57,618 - INFO - \U0001f552 Iniciando scheduler...
+2025-02-18 09:52:57,618 - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-02-18 09:52:57,618 - ERROR - \u274c Error al iniciar el scheduler: name 'backup_automatico' is not defined
+2025-02-18 09:52:57,618 - INFO - \U0001f552 Iniciando scheduler...
+2025-02-18 09:52:57,618 - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-02-18 09:52:57,618 - ERROR - \u274c Error al iniciar el scheduler: name 'backup_automatico' is not defined
+2025-02-18 09:52:57,649 - WARNING -  * Debugger is active!
+2025-02-18 09:52:57,655 - INFO -  * Debugger PIN: 726-180-169
+2025-02-18 09:53:02,704 - INFO - 127.0.0.1 - - [18/Feb/2025 09:53:02] "GET /dashboard HTTP/1.1" 200 -
+2025-02-18 09:53:04,398 - INFO - 127.0.0.1 - - [18/Feb/2025 09:53:04] "GET /recursos HTTP/1.1" 200 -
+2025-02-18 09:53:05,471 - INFO - 127.0.0.1 - - [18/Feb/2025 09:53:05] "GET /recursos_json HTTP/1.1" 200 -
+2025-02-18 09:53:07,517 - INFO - 127.0.0.1 - - [18/Feb/2025 09:53:07] "GET /dashboard HTTP/1.1" 200 -
+2025-02-18 09:53:08,712 - INFO - \u2705 Backup de la base de datos guardado en: C:\xampp\htdocs\xampp\migithub\app_gestion_4.0\backups\gestion_sistemas_backup_2025-02-18_09-53-08.sql
+2025-02-18 09:53:08,714 - INFO - 127.0.0.1 - - [18/Feb/2025 09:53:08] "[32mGET /forzar-backup HTTP/1.1[0m" 302 -
+2025-02-18 09:53:08,727 - INFO - 127.0.0.1 - - [18/Feb/2025 09:53:08] "GET /dashboard HTTP/1.1" 200 -
+2025-02-18 09:55:09,627 - INFO -  * Detected change in 'C:\\xampp\\htdocs\\xampp\\migithub\\app_gestion_4.0\\app\\__init__.py', reloading
+2025-02-18 09:55:09,821 - INFO -  * Restarting with stat
+2025-02-18 09:55:10,927 - INFO - \U0001f552 Iniciando scheduler...
+2025-02-18 09:55:10,928 - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-02-18 09:55:10,928 - ERROR - \u274c Error al iniciar el scheduler: name 'backup_automatico' is not defined
+2025-02-18 09:55:44,439 - INFO - \U0001f552 Iniciando scheduler...
+2025-02-18 09:55:44,440 - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-02-18 09:55:44,440 - ERROR - \u274c Error al iniciar el scheduler: name 'backup_automatico' is not defined
+2025-02-18 09:55:44,440 - INFO - \U0001f552 Iniciando scheduler...
+2025-02-18 09:55:44,440 - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-02-18 09:55:44,440 - ERROR - \u274c Error al iniciar el scheduler: name 'backup_automatico' is not defined
+2025-02-18 09:55:44,471 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-02-18 09:55:44,472 - INFO - [33mPress CTRL+C to quit[0m
+2025-02-18 09:55:44,473 - INFO -  * Restarting with stat
+2025-02-18 09:55:45,490 - INFO - \U0001f552 Iniciando scheduler...
+2025-02-18 09:55:45,491 - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-02-18 09:55:45,492 - ERROR - \u274c Error al iniciar el scheduler: name 'backup_automatico' is not defined
+2025-02-18 09:55:45,492 - INFO - \U0001f552 Iniciando scheduler...
+2025-02-18 09:55:45,492 - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-02-18 09:55:45,492 - ERROR - \u274c Error al iniciar el scheduler: name 'backup_automatico' is not defined
+2025-02-18 09:55:45,509 - WARNING -  * Debugger is active!
+2025-02-18 09:55:45,514 - INFO -  * Debugger PIN: 726-180-169
+2025-02-18 09:55:55,765 - INFO - \U0001f552 Iniciando scheduler...
+2025-02-18 09:55:55,765 - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-02-18 09:55:55,765 - ERROR - \u274c Error al iniciar el scheduler: name 'backup_automatico' is not defined
+2025-02-18 09:55:55,765 - INFO - \U0001f552 Iniciando scheduler...
+2025-02-18 09:55:55,765 - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-02-18 09:55:55,765 - ERROR - \u274c Error al iniciar el scheduler: name 'backup_automatico' is not defined
+2025-02-18 09:55:55,805 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-02-18 09:55:55,805 - INFO - [33mPress CTRL+C to quit[0m
+2025-02-18 09:55:55,807 - INFO -  * Restarting with stat
+2025-02-18 09:55:56,816 - INFO - \U0001f552 Iniciando scheduler...
+2025-02-18 09:55:56,816 - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-02-18 09:55:56,816 - ERROR - \u274c Error al iniciar el scheduler: name 'backup_automatico' is not defined
+2025-02-18 09:55:56,816 - INFO - \U0001f552 Iniciando scheduler...
+2025-02-18 09:55:56,816 - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-02-18 09:55:56,816 - ERROR - \u274c Error al iniciar el scheduler: name 'backup_automatico' is not defined
+2025-02-18 09:55:56,832 - WARNING -  * Debugger is active!
+2025-02-18 09:55:56,832 - INFO -  * Debugger PIN: 726-180-169
+2025-02-18 09:56:35,765 - INFO -  * Detected change in 'C:\\xampp\\htdocs\\xampp\\migithub\\app_gestion_4.0\\app\\__init__.py', reloading
+2025-02-18 09:56:35,940 - INFO -  * Restarting with stat
+2025-02-18 09:56:37,143 - INFO - \U0001f552 Iniciando scheduler...
+2025-02-18 09:56:37,143 - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-02-18 09:56:37,143 - ERROR - \u274c Error al iniciar el scheduler: name 'backup_automatico' is not defined
+2025-02-18 09:56:49,067 - INFO - \U0001f552 Iniciando scheduler...
+2025-02-18 09:56:49,067 - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-02-18 09:56:49,067 - ERROR - \u274c Error al iniciar el scheduler: name 'backup_automatico' is not defined
+2025-02-18 09:56:49,067 - INFO - \U0001f552 Iniciando scheduler...
+2025-02-18 09:56:49,067 - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-02-18 09:56:49,067 - ERROR - \u274c Error al iniciar el scheduler: name 'backup_automatico' is not defined
+2025-02-18 09:56:49,109 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-02-18 09:56:49,109 - INFO - [33mPress CTRL+C to quit[0m
+2025-02-18 09:56:49,115 - INFO -  * Restarting with stat
+2025-02-18 09:56:50,109 - INFO - \U0001f552 Iniciando scheduler...
+2025-02-18 09:56:50,115 - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-02-18 09:56:50,115 - ERROR - \u274c Error al iniciar el scheduler: name 'backup_automatico' is not defined
+2025-02-18 09:56:50,115 - INFO - \U0001f552 Iniciando scheduler...
+2025-02-18 09:56:50,115 - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-02-18 09:56:50,115 - ERROR - \u274c Error al iniciar el scheduler: name 'backup_automatico' is not defined
+2025-02-18 09:56:50,131 - WARNING -  * Debugger is active!
+2025-02-18 09:56:50,131 - INFO -  * Debugger PIN: 726-180-169
+2025-02-18 09:57:01,350 - INFO -  * Detected change in 'C:\\xampp\\htdocs\\xampp\\migithub\\app_gestion_4.0\\app\\__init__.py', reloading
+2025-02-18 09:57:01,647 - INFO -  * Restarting with stat
+2025-02-18 09:57:02,813 - INFO - \U0001f552 Iniciando scheduler...
+2025-02-18 09:57:02,813 - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-02-18 09:57:02,813 - ERROR - \u274c Error al iniciar el scheduler: name 'backup_automatico' is not defined
+2025-02-18 09:57:02,813 - INFO - \U0001f552 Iniciando scheduler...
+2025-02-18 09:57:02,813 - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-02-18 09:57:02,813 - ERROR - \u274c Error al iniciar el scheduler: name 'backup_automatico' is not defined
+2025-02-18 09:57:02,833 - WARNING -  * Debugger is active!
+2025-02-18 09:57:02,845 - INFO -  * Debugger PIN: 726-180-169
+2025-02-18 09:57:19,074 - INFO - \U0001f552 Iniciando scheduler...
+2025-02-18 09:57:19,074 - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-02-18 09:57:19,074 - ERROR - \u274c Error al iniciar el scheduler: name 'backup_automatico' is not defined
+2025-02-18 09:57:19,074 - INFO - \U0001f552 Iniciando scheduler...
+2025-02-18 09:57:19,074 - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-02-18 09:57:19,086 - ERROR - \u274c Error al iniciar el scheduler: name 'backup_automatico' is not defined
+2025-02-18 09:57:19,127 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-02-18 09:57:19,128 - INFO - [33mPress CTRL+C to quit[0m
+2025-02-18 09:57:19,129 - INFO -  * Restarting with stat
+2025-02-18 09:57:20,169 - INFO - \U0001f552 Iniciando scheduler...
+2025-02-18 09:57:20,169 - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-02-18 09:57:20,169 - ERROR - \u274c Error al iniciar el scheduler: name 'backup_automatico' is not defined
+2025-02-18 09:57:20,169 - INFO - \U0001f552 Iniciando scheduler...
+2025-02-18 09:57:20,169 - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-02-18 09:57:20,169 - ERROR - \u274c Error al iniciar el scheduler: name 'backup_automatico' is not defined
+2025-02-18 09:57:20,201 - WARNING -  * Debugger is active!
+2025-02-18 09:57:20,201 - INFO -  * Debugger PIN: 726-180-169
+2025-02-18 09:57:50,992 - INFO -  * Detected change in 'C:\\xampp\\htdocs\\xampp\\migithub\\app_gestion_4.0\\app\\__init__.py', reloading
+2025-02-18 09:57:51,166 - INFO -  * Restarting with stat
+2025-02-18 09:57:52,220 - INFO - \U0001f552 Iniciando scheduler...
+2025-02-18 09:57:52,221 - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-02-18 09:57:52,221 - ERROR - \u274c Error al iniciar el scheduler: name 'backup_automatico' is not defined
+2025-02-18 09:57:59,898 - INFO - \U0001f552 Iniciando scheduler...
+2025-02-18 09:57:59,900 - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-02-18 09:57:59,900 - ERROR - \u274c Error al iniciar el scheduler: name 'backup_automatico' is not defined
+2025-02-18 10:00:40,721 - INFO - \U0001f552 Iniciando scheduler...
+2025-02-18 10:00:40,721 - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-02-18 10:00:40,721 - ERROR - \u274c Error al iniciar el scheduler: name 'backup_automatico' is not defined
+2025-02-18 10:00:40,721 - INFO - \U0001f552 Iniciando scheduler...
+2025-02-18 10:00:40,721 - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-02-18 10:00:40,721 - ERROR - \u274c Error al iniciar el scheduler: name 'backup_automatico' is not defined
+2025-02-18 10:00:40,747 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-02-18 10:00:40,747 - INFO - [33mPress CTRL+C to quit[0m
+2025-02-18 10:00:40,747 - INFO -  * Restarting with stat
+2025-02-18 10:00:41,764 - INFO - \U0001f552 Iniciando scheduler...
+2025-02-18 10:00:41,764 - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-02-18 10:00:41,764 - ERROR - \u274c Error al iniciar el scheduler: name 'backup_automatico' is not defined
+2025-02-18 10:00:41,764 - INFO - \U0001f552 Iniciando scheduler...
+2025-02-18 10:00:41,764 - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-02-18 10:00:41,764 - ERROR - \u274c Error al iniciar el scheduler: name 'backup_automatico' is not defined
+2025-02-18 10:00:41,780 - WARNING -  * Debugger is active!
+2025-02-18 10:00:41,796 - INFO -  * Debugger PIN: 726-180-169
+2025-02-18 10:00:52,314 - INFO - 127.0.0.1 - - [18/Feb/2025 10:00:52] "GET /recursos HTTP/1.1" 200 -
+2025-02-18 10:00:53,399 - INFO - 127.0.0.1 - - [18/Feb/2025 10:00:53] "GET /recursos_json HTTP/1.1" 200 -
+2025-02-18 10:00:55,145 - INFO - 127.0.0.1 - - [18/Feb/2025 10:00:55] "GET /dashboard HTTP/1.1" 200 -
+2025-02-18 10:27:03,424 - INFO - \U0001f552 Iniciando scheduler...
+2025-02-18 10:27:03,424 - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-02-18 10:27:03,424 - ERROR - \u274c Error al iniciar el scheduler: name 'backup_automatico' is not defined
+2025-02-18 10:27:03,424 - INFO - \U0001f552 Iniciando scheduler...
+2025-02-18 10:27:03,424 - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-02-18 10:27:03,424 - ERROR - \u274c Error al iniciar el scheduler: name 'backup_automatico' is not defined
+2025-02-18 10:27:03,578 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-02-18 10:27:03,578 - INFO - [33mPress CTRL+C to quit[0m
+2025-02-18 10:27:03,594 - INFO -  * Restarting with stat
+2025-02-18 10:27:04,623 - INFO - \U0001f552 Iniciando scheduler...
+2025-02-18 10:27:04,627 - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-02-18 10:27:04,627 - ERROR - \u274c Error al iniciar el scheduler: name 'backup_automatico' is not defined
+2025-02-18 10:27:04,627 - INFO - \U0001f552 Iniciando scheduler...
+2025-02-18 10:27:04,627 - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-02-18 10:27:04,627 - ERROR - \u274c Error al iniciar el scheduler: name 'backup_automatico' is not defined
+2025-02-18 10:27:04,643 - WARNING -  * Debugger is active!
+2025-02-18 10:27:04,649 - INFO -  * Debugger PIN: 726-180-169
+2025-02-18 10:27:16,848 - INFO -  * Detected change in 'C:\\xampp\\htdocs\\xampp\\migithub\\app_gestion_4.0\\app\\__init__.py', reloading
+2025-02-18 10:27:17,087 - INFO -  * Restarting with stat
+2025-02-18 10:27:18,389 - INFO - \U0001f552 Iniciando scheduler...
+2025-02-18 10:27:18,389 - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-02-18 10:27:18,389 - ERROR - \u274c Error al iniciar el scheduler: name 'backup_automatico' is not defined
+2025-02-18 10:27:18,389 - INFO - \U0001f552 Iniciando scheduler...
+2025-02-18 10:27:18,389 - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-02-18 10:27:18,389 - ERROR - \u274c Error al iniciar el scheduler: name 'backup_automatico' is not defined
+2025-02-18 10:27:18,415 - WARNING -  * Debugger is active!
+2025-02-18 10:27:18,421 - INFO -  * Debugger PIN: 726-180-169

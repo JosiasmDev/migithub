@@ -45,14 +45,14 @@ def monitorizar_recursos():
         logging.error(f"❌ Error al monitorizar recursos: {e}")
 
 # 🔹 Función para ejecutar backups automáticos
-def backup_automatico():
+'''def backup_automatico():
     try:
         logging.info("🕒 Iniciando backup automático...")
         utils.crear_backup()  # Asegúrate de que esta función esté bien implementada
         logging.info("✅ Backup automático realizado correctamente.")
     except Exception as e:
         logging.error(f"❌ Error en el backup automático: {e}")
-
+'''
         
 # 🔹 Ruta para forzar backup manual
 @recurso_bp.route("/forzar-backup")
