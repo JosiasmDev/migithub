@@ -22113,3 +22113,252 @@ with app.app_context(). See the documentation for more information.
 2025-02-18 10:48:23,260 - INFO - 127.0.0.1 - - [18/Feb/2025 10:48:23] "[32mGET /forzar-backup HTTP/1.1[0m" 302 -
 2025-02-18 10:48:23,269 - INFO - 127.0.0.1 - - [18/Feb/2025 10:48:23] "GET /dashboard HTTP/1.1" 200 -
 2025-02-18 10:48:24,721 - INFO - 127.0.0.1 - - [18/Feb/2025 10:48:24] "GET /logs HTTP/1.1" 200 -
+2025-02-18 10:48:27,180 - INFO - 127.0.0.1 - - [18/Feb/2025 10:48:27] "GET /dashboard HTTP/1.1" 200 -
+2025-02-18 10:48:28,262 - INFO - 127.0.0.1 - - [18/Feb/2025 10:48:28] "GET /descargar-pdf HTTP/1.1" 200 -
+2025-02-18 10:48:29,820 - INFO - 127.0.0.1 - - [18/Feb/2025 10:48:29] "GET /descargar-csv HTTP/1.1" 200 -
+2025-02-18 10:48:36,751 - INFO - Running job "monitorizar_recursos (trigger: interval[0:00:30], next run at: 2025-02-18 10:49:06 CET)" (scheduled at 2025-02-18 10:48:36.734949+01:00)
+2025-02-18 10:48:37,753 - INFO - \U0001f4ca CPU: 11.9%, RAM: 83.2%, Disco: 97.5%
+2025-02-18 10:48:37,753 - INFO - Job "monitorizar_recursos (trigger: interval[0:00:30], next run at: 2025-02-18 10:49:06 CET)" executed successfully
+2025-02-18 10:48:38,127 - INFO - Running job "monitorizar_recursos (trigger: interval[0:00:30], next run at: 2025-02-18 10:49:08 CET)" (scheduled at 2025-02-18 10:48:38.114331+01:00)
+2025-02-18 10:48:39,131 - INFO - \U0001f4ca CPU: 10.9%, RAM: 83.1%, Disco: 97.5%
+2025-02-18 10:48:39,131 - INFO - Job "monitorizar_recursos (trigger: interval[0:00:30], next run at: 2025-02-18 10:49:08 CET)" executed successfully
+2025-02-18 10:49:06,739 - INFO - Running job "monitorizar_recursos (trigger: interval[0:00:30], next run at: 2025-02-18 10:49:36 CET)" (scheduled at 2025-02-18 10:49:06.734949+01:00)
+2025-02-18 10:49:07,749 - INFO - \U0001f4ca CPU: 20.5%, RAM: 84.6%, Disco: 97.5%
+2025-02-18 10:49:07,750 - INFO - Job "monitorizar_recursos (trigger: interval[0:00:30], next run at: 2025-02-18 10:49:36 CET)" executed successfully
+2025-02-18 10:49:08,129 - INFO - Running job "monitorizar_recursos (trigger: interval[0:00:30], next run at: 2025-02-18 10:49:38 CET)" (scheduled at 2025-02-18 10:49:08.114331+01:00)
+2025-02-18 10:49:09,140 - INFO - \U0001f4ca CPU: 18.1%, RAM: 84.8%, Disco: 97.5%
+2025-02-18 10:49:09,140 - INFO - Job "monitorizar_recursos (trigger: interval[0:00:30], next run at: 2025-02-18 10:49:38 CET)" executed successfully
+2025-02-18 10:49:36,746 - INFO - Running job "monitorizar_recursos (trigger: interval[0:00:30], next run at: 2025-02-18 10:50:06 CET)" (scheduled at 2025-02-18 10:49:36.734949+01:00)
+2025-02-18 10:49:37,752 - INFO - \U0001f4ca CPU: 16.5%, RAM: 84.5%, Disco: 97.5%
+2025-02-18 10:49:37,752 - INFO - Job "monitorizar_recursos (trigger: interval[0:00:30], next run at: 2025-02-18 10:50:06 CET)" executed successfully
+2025-02-18 10:49:38,120 - INFO - Running job "monitorizar_recursos (trigger: interval[0:00:30], next run at: 2025-02-18 10:50:08 CET)" (scheduled at 2025-02-18 10:49:38.114331+01:00)
+2025-02-18 10:49:39,124 - INFO - \U0001f4ca CPU: 8.0%, RAM: 84.5%, Disco: 97.5%
+2025-02-18 10:49:39,124 - INFO - Job "monitorizar_recursos (trigger: interval[0:00:30], next run at: 2025-02-18 10:50:08 CET)" executed successfully
+2025-02-18 10:50:06,749 - INFO - Running job "monitorizar_recursos (trigger: interval[0:00:30], next run at: 2025-02-18 10:50:36 CET)" (scheduled at 2025-02-18 10:50:06.734949+01:00)
+2025-02-18 10:50:07,760 - INFO - \U0001f4ca CPU: 9.2%, RAM: 84.7%, Disco: 97.5%
+2025-02-18 10:50:07,760 - INFO - Job "monitorizar_recursos (trigger: interval[0:00:30], next run at: 2025-02-18 10:50:36 CET)" executed successfully
+2025-02-18 10:50:08,121 - INFO - Running job "monitorizar_recursos (trigger: interval[0:00:30], next run at: 2025-02-18 10:50:38 CET)" (scheduled at 2025-02-18 10:50:08.114331+01:00)
+2025-02-18 10:50:09,126 - INFO - \U0001f4ca CPU: 3.3%, RAM: 84.8%, Disco: 97.5%
+2025-02-18 10:50:09,126 - INFO - Job "monitorizar_recursos (trigger: interval[0:00:30], next run at: 2025-02-18 10:50:38 CET)" executed successfully
+2025-02-18 10:50:36,750 - INFO - Running job "monitorizar_recursos (trigger: interval[0:00:30], next run at: 2025-02-18 10:51:06 CET)" (scheduled at 2025-02-18 10:50:36.734949+01:00)
+2025-02-18 10:50:37,754 - INFO - \U0001f4ca CPU: 8.2%, RAM: 84.5%, Disco: 97.5%
+2025-02-18 10:50:37,754 - INFO - Job "monitorizar_recursos (trigger: interval[0:00:30], next run at: 2025-02-18 10:51:06 CET)" executed successfully
+2025-02-18 10:50:38,128 - INFO - Running job "monitorizar_recursos (trigger: interval[0:00:30], next run at: 2025-02-18 10:51:08 CET)" (scheduled at 2025-02-18 10:50:38.114331+01:00)
+2025-02-18 10:50:39,136 - INFO - \U0001f4ca CPU: 6.0%, RAM: 84.5%, Disco: 97.5%
+2025-02-18 10:50:39,136 - INFO - Job "monitorizar_recursos (trigger: interval[0:00:30], next run at: 2025-02-18 10:51:08 CET)" executed successfully
+2025-02-18 10:51:06,744 - INFO - Running job "monitorizar_recursos (trigger: interval[0:00:30], next run at: 2025-02-18 10:51:36 CET)" (scheduled at 2025-02-18 10:51:06.734949+01:00)
+2025-02-18 10:51:07,757 - INFO - \U0001f4ca CPU: 20.9%, RAM: 85.1%, Disco: 97.5%
+2025-02-18 10:51:07,759 - INFO - Job "monitorizar_recursos (trigger: interval[0:00:30], next run at: 2025-02-18 10:51:36 CET)" executed successfully
+2025-02-18 10:51:08,119 - INFO - Running job "monitorizar_recursos (trigger: interval[0:00:30], next run at: 2025-02-18 10:51:38 CET)" (scheduled at 2025-02-18 10:51:08.114331+01:00)
+2025-02-18 10:51:09,132 - INFO - \U0001f4ca CPU: 12.0%, RAM: 85.1%, Disco: 97.5%
+2025-02-18 10:51:09,133 - INFO - Job "monitorizar_recursos (trigger: interval[0:00:30], next run at: 2025-02-18 10:51:38 CET)" executed successfully
+2025-02-18 10:51:36,742 - INFO - Running job "monitorizar_recursos (trigger: interval[0:00:30], next run at: 2025-02-18 10:52:06 CET)" (scheduled at 2025-02-18 10:51:36.734949+01:00)
+2025-02-18 10:51:37,743 - INFO - \U0001f4ca CPU: 16.0%, RAM: 85.1%, Disco: 97.5%
+2025-02-18 10:51:37,743 - INFO - Job "monitorizar_recursos (trigger: interval[0:00:30], next run at: 2025-02-18 10:52:06 CET)" executed successfully
+2025-02-18 10:51:38,119 - INFO - Running job "monitorizar_recursos (trigger: interval[0:00:30], next run at: 2025-02-18 10:52:08 CET)" (scheduled at 2025-02-18 10:51:38.114331+01:00)
+2025-02-18 10:51:39,121 - INFO - \U0001f4ca CPU: 14.9%, RAM: 85.1%, Disco: 97.5%
+2025-02-18 10:51:39,121 - INFO - Job "monitorizar_recursos (trigger: interval[0:00:30], next run at: 2025-02-18 10:52:08 CET)" executed successfully
+2025-02-18 10:52:06,741 - INFO - Running job "monitorizar_recursos (trigger: interval[0:00:30], next run at: 2025-02-18 10:52:36 CET)" (scheduled at 2025-02-18 10:52:06.734949+01:00)
+2025-02-18 10:52:07,747 - INFO - \U0001f4ca CPU: 16.3%, RAM: 85.6%, Disco: 97.5%
+2025-02-18 10:52:07,747 - INFO - Job "monitorizar_recursos (trigger: interval[0:00:30], next run at: 2025-02-18 10:52:36 CET)" executed successfully
+2025-02-18 10:52:08,129 - INFO - Running job "monitorizar_recursos (trigger: interval[0:00:30], next run at: 2025-02-18 10:52:38 CET)" (scheduled at 2025-02-18 10:52:08.114331+01:00)
+2025-02-18 10:52:09,141 - INFO - \U0001f4ca CPU: 13.6%, RAM: 85.7%, Disco: 97.5%
+2025-02-18 10:52:09,141 - INFO - Job "monitorizar_recursos (trigger: interval[0:00:30], next run at: 2025-02-18 10:52:38 CET)" executed successfully
+2025-02-18 10:52:36,739 - INFO - Running job "monitorizar_recursos (trigger: interval[0:00:30], next run at: 2025-02-18 10:53:06 CET)" (scheduled at 2025-02-18 10:52:36.734949+01:00)
+2025-02-18 10:52:37,747 - INFO - \U0001f4ca CPU: 24.4%, RAM: 85.2%, Disco: 97.5%
+2025-02-18 10:52:37,748 - INFO - Job "monitorizar_recursos (trigger: interval[0:00:30], next run at: 2025-02-18 10:53:06 CET)" executed successfully
+2025-02-18 10:52:38,118 - INFO - Running job "monitorizar_recursos (trigger: interval[0:00:30], next run at: 2025-02-18 10:53:08 CET)" (scheduled at 2025-02-18 10:52:38.114331+01:00)
+2025-02-18 10:52:39,125 - INFO - \U0001f4ca CPU: 16.2%, RAM: 85.2%, Disco: 97.5%
+2025-02-18 10:52:39,125 - INFO - Job "monitorizar_recursos (trigger: interval[0:00:30], next run at: 2025-02-18 10:53:08 CET)" executed successfully
+2025-02-18 10:53:06,737 - INFO - Running job "monitorizar_recursos (trigger: interval[0:00:30], next run at: 2025-02-18 10:53:36 CET)" (scheduled at 2025-02-18 10:53:06.734949+01:00)
+2025-02-18 10:53:07,739 - INFO - \U0001f4ca CPU: 9.9%, RAM: 84.0%, Disco: 97.5%
+2025-02-18 10:53:07,739 - INFO - Job "monitorizar_recursos (trigger: interval[0:00:30], next run at: 2025-02-18 10:53:36 CET)" executed successfully
+2025-02-18 10:53:08,117 - INFO - Running job "monitorizar_recursos (trigger: interval[0:00:30], next run at: 2025-02-18 10:53:38 CET)" (scheduled at 2025-02-18 10:53:08.114331+01:00)
+2025-02-18 10:53:09,121 - INFO - \U0001f4ca CPU: 12.9%, RAM: 83.9%, Disco: 97.5%
+2025-02-18 10:53:09,121 - INFO - Job "monitorizar_recursos (trigger: interval[0:00:30], next run at: 2025-02-18 10:53:38 CET)" executed successfully
+2025-02-18 10:53:36,745 - INFO - Running job "monitorizar_recursos (trigger: interval[0:00:30], next run at: 2025-02-18 10:54:06 CET)" (scheduled at 2025-02-18 10:53:36.734949+01:00)
+2025-02-18 10:53:37,752 - INFO - \U0001f4ca CPU: 5.4%, RAM: 85.7%, Disco: 97.5%
+2025-02-18 10:53:37,752 - INFO - Job "monitorizar_recursos (trigger: interval[0:00:30], next run at: 2025-02-18 10:54:06 CET)" executed successfully
+2025-02-18 10:53:38,125 - INFO - Running job "monitorizar_recursos (trigger: interval[0:00:30], next run at: 2025-02-18 10:54:08 CET)" (scheduled at 2025-02-18 10:53:38.114331+01:00)
+2025-02-18 10:53:39,129 - INFO - \U0001f4ca CPU: 4.5%, RAM: 85.6%, Disco: 97.5%
+2025-02-18 10:53:39,129 - INFO - Job "monitorizar_recursos (trigger: interval[0:00:30], next run at: 2025-02-18 10:54:08 CET)" executed successfully
+2025-02-18 10:54:06,737 - INFO - Running job "monitorizar_recursos (trigger: interval[0:00:30], next run at: 2025-02-18 10:54:36 CET)" (scheduled at 2025-02-18 10:54:06.734949+01:00)
+2025-02-18 10:54:07,741 - INFO - \U0001f4ca CPU: 15.3%, RAM: 85.5%, Disco: 97.5%
+2025-02-18 10:54:07,741 - INFO - Job "monitorizar_recursos (trigger: interval[0:00:30], next run at: 2025-02-18 10:54:36 CET)" executed successfully
+2025-02-18 10:54:08,116 - INFO - Running job "monitorizar_recursos (trigger: interval[0:00:30], next run at: 2025-02-18 10:54:38 CET)" (scheduled at 2025-02-18 10:54:08.114331+01:00)
+2025-02-18 10:54:09,125 - INFO - \U0001f4ca CPU: 17.4%, RAM: 85.5%, Disco: 97.5%
+2025-02-18 10:54:09,125 - INFO - Job "monitorizar_recursos (trigger: interval[0:00:30], next run at: 2025-02-18 10:54:38 CET)" executed successfully
+2025-02-18 10:54:36,746 - INFO - Running job "monitorizar_recursos (trigger: interval[0:00:30], next run at: 2025-02-18 10:55:06 CET)" (scheduled at 2025-02-18 10:54:36.734949+01:00)
+2025-02-18 10:54:37,750 - INFO - \U0001f4ca CPU: 46.5%, RAM: 86.3%, Disco: 97.5%
+2025-02-18 10:54:37,750 - INFO - Job "monitorizar_recursos (trigger: interval[0:00:30], next run at: 2025-02-18 10:55:06 CET)" executed successfully
+2025-02-18 10:54:38,125 - INFO - Running job "monitorizar_recursos (trigger: interval[0:00:30], next run at: 2025-02-18 10:55:08 CET)" (scheduled at 2025-02-18 10:54:38.114331+01:00)
+2025-02-18 10:54:39,138 - INFO - \U0001f4ca CPU: 5.3%, RAM: 86.2%, Disco: 97.5%
+2025-02-18 10:54:39,139 - INFO - Job "monitorizar_recursos (trigger: interval[0:00:30], next run at: 2025-02-18 10:55:08 CET)" executed successfully
+2025-02-18 10:55:06,739 - INFO - Running job "monitorizar_recursos (trigger: interval[0:00:30], next run at: 2025-02-18 10:55:36 CET)" (scheduled at 2025-02-18 10:55:06.734949+01:00)
+2025-02-18 10:55:07,752 - INFO - \U0001f4ca CPU: 73.4%, RAM: 87.4%, Disco: 97.5%
+2025-02-18 10:55:07,752 - INFO - Job "monitorizar_recursos (trigger: interval[0:00:30], next run at: 2025-02-18 10:55:36 CET)" executed successfully
+2025-02-18 10:55:08,127 - INFO - Running job "monitorizar_recursos (trigger: interval[0:00:30], next run at: 2025-02-18 10:55:38 CET)" (scheduled at 2025-02-18 10:55:08.114331+01:00)
+2025-02-18 10:55:09,138 - INFO - \U0001f4ca CPU: 58.4%, RAM: 87.6%, Disco: 97.5%
+2025-02-18 10:55:09,138 - INFO - Job "monitorizar_recursos (trigger: interval[0:00:30], next run at: 2025-02-18 10:55:38 CET)" executed successfully
+2025-02-18 10:55:36,745 - INFO - Running job "monitorizar_recursos (trigger: interval[0:00:30], next run at: 2025-02-18 10:56:06 CET)" (scheduled at 2025-02-18 10:55:36.734949+01:00)
+2025-02-18 10:55:37,747 - INFO - \U0001f4ca CPU: 11.4%, RAM: 86.4%, Disco: 97.5%
+2025-02-18 10:55:37,747 - INFO - Job "monitorizar_recursos (trigger: interval[0:00:30], next run at: 2025-02-18 10:56:06 CET)" executed successfully
+2025-02-18 10:55:38,116 - INFO - Running job "monitorizar_recursos (trigger: interval[0:00:30], next run at: 2025-02-18 10:56:08 CET)" (scheduled at 2025-02-18 10:55:38.114331+01:00)
+2025-02-18 10:55:39,118 - INFO - \U0001f4ca CPU: 13.0%, RAM: 86.5%, Disco: 97.5%
+2025-02-18 10:55:39,118 - INFO - Job "monitorizar_recursos (trigger: interval[0:00:30], next run at: 2025-02-18 10:56:08 CET)" executed successfully
+2025-02-18 10:56:06,739 - INFO - Running job "monitorizar_recursos (trigger: interval[0:00:30], next run at: 2025-02-18 10:56:36 CET)" (scheduled at 2025-02-18 10:56:06.734949+01:00)
+2025-02-18 10:56:07,741 - INFO - \U0001f4ca CPU: 5.8%, RAM: 86.6%, Disco: 97.5%
+2025-02-18 10:56:07,741 - INFO - Job "monitorizar_recursos (trigger: interval[0:00:30], next run at: 2025-02-18 10:56:36 CET)" executed successfully
+2025-02-18 10:56:08,115 - INFO - Running job "monitorizar_recursos (trigger: interval[0:00:30], next run at: 2025-02-18 10:56:38 CET)" (scheduled at 2025-02-18 10:56:08.114331+01:00)
+2025-02-18 10:56:09,120 - INFO - \U0001f4ca CPU: 7.6%, RAM: 86.5%, Disco: 97.5%
+2025-02-18 10:56:09,126 - INFO - Job "monitorizar_recursos (trigger: interval[0:00:30], next run at: 2025-02-18 10:56:38 CET)" executed successfully
+2025-02-18 10:56:36,737 - INFO - Running job "monitorizar_recursos (trigger: interval[0:00:30], next run at: 2025-02-18 10:57:06 CET)" (scheduled at 2025-02-18 10:56:36.734949+01:00)
+2025-02-18 10:56:37,739 - INFO - \U0001f4ca CPU: 8.3%, RAM: 86.8%, Disco: 97.5%
+2025-02-18 10:56:37,739 - INFO - Job "monitorizar_recursos (trigger: interval[0:00:30], next run at: 2025-02-18 10:57:06 CET)" executed successfully
+2025-02-18 10:56:38,127 - INFO - Running job "monitorizar_recursos (trigger: interval[0:00:30], next run at: 2025-02-18 10:57:08 CET)" (scheduled at 2025-02-18 10:56:38.114331+01:00)
+2025-02-18 10:56:39,132 - INFO - \U0001f4ca CPU: 4.3%, RAM: 86.8%, Disco: 97.5%
+2025-02-18 10:56:39,132 - INFO - Job "monitorizar_recursos (trigger: interval[0:00:30], next run at: 2025-02-18 10:57:08 CET)" executed successfully
+2025-02-18 10:57:06,740 - INFO - Running job "monitorizar_recursos (trigger: interval[0:00:30], next run at: 2025-02-18 10:57:36 CET)" (scheduled at 2025-02-18 10:57:06.734949+01:00)
+2025-02-18 10:57:07,747 - INFO - \U0001f4ca CPU: 13.4%, RAM: 86.6%, Disco: 97.5%
+2025-02-18 10:57:07,748 - INFO - Job "monitorizar_recursos (trigger: interval[0:00:30], next run at: 2025-02-18 10:57:36 CET)" executed successfully
+2025-02-18 10:57:08,118 - INFO - Running job "monitorizar_recursos (trigger: interval[0:00:30], next run at: 2025-02-18 10:57:38 CET)" (scheduled at 2025-02-18 10:57:08.114331+01:00)
+2025-02-18 10:57:09,121 - INFO - \U0001f4ca CPU: 6.5%, RAM: 86.5%, Disco: 97.5%
+2025-02-18 10:57:09,121 - INFO - Job "monitorizar_recursos (trigger: interval[0:00:30], next run at: 2025-02-18 10:57:38 CET)" executed successfully
+2025-02-18 10:57:36,736 - INFO - Running job "monitorizar_recursos (trigger: interval[0:00:30], next run at: 2025-02-18 10:58:06 CET)" (scheduled at 2025-02-18 10:57:36.734949+01:00)
+2025-02-18 10:57:37,743 - INFO - \U0001f4ca CPU: 19.2%, RAM: 84.7%, Disco: 97.5%
+2025-02-18 10:57:37,743 - INFO - Job "monitorizar_recursos (trigger: interval[0:00:30], next run at: 2025-02-18 10:58:06 CET)" executed successfully
+2025-02-18 10:57:38,121 - INFO - Running job "monitorizar_recursos (trigger: interval[0:00:30], next run at: 2025-02-18 10:58:08 CET)" (scheduled at 2025-02-18 10:57:38.114331+01:00)
+2025-02-18 10:57:39,133 - INFO - \U0001f4ca CPU: 20.0%, RAM: 85.0%, Disco: 97.5%
+2025-02-18 10:57:39,134 - INFO - Job "monitorizar_recursos (trigger: interval[0:00:30], next run at: 2025-02-18 10:58:08 CET)" executed successfully
+2025-02-18 10:58:06,744 - INFO - Running job "monitorizar_recursos (trigger: interval[0:00:30], next run at: 2025-02-18 10:58:36 CET)" (scheduled at 2025-02-18 10:58:06.734949+01:00)
+2025-02-18 10:58:07,751 - INFO - \U0001f4ca CPU: 15.2%, RAM: 84.8%, Disco: 97.5%
+2025-02-18 10:58:07,751 - INFO - Job "monitorizar_recursos (trigger: interval[0:00:30], next run at: 2025-02-18 10:58:36 CET)" executed successfully
+2025-02-18 10:58:08,123 - INFO - Running job "monitorizar_recursos (trigger: interval[0:00:30], next run at: 2025-02-18 10:58:38 CET)" (scheduled at 2025-02-18 10:58:08.114331+01:00)
+2025-02-18 10:58:09,133 - INFO - \U0001f4ca CPU: 31.0%, RAM: 84.7%, Disco: 97.5%
+2025-02-18 10:58:09,133 - INFO - Job "monitorizar_recursos (trigger: interval[0:00:30], next run at: 2025-02-18 10:58:38 CET)" executed successfully
+2025-02-18 10:58:36,736 - INFO - Running job "monitorizar_recursos (trigger: interval[0:00:30], next run at: 2025-02-18 10:59:06 CET)" (scheduled at 2025-02-18 10:58:36.734949+01:00)
+2025-02-18 10:58:37,741 - INFO - \U0001f4ca CPU: 4.3%, RAM: 84.2%, Disco: 97.5%
+2025-02-18 10:58:37,741 - INFO - Job "monitorizar_recursos (trigger: interval[0:00:30], next run at: 2025-02-18 10:59:06 CET)" executed successfully
+2025-02-18 10:58:38,121 - INFO - Running job "monitorizar_recursos (trigger: interval[0:00:30], next run at: 2025-02-18 10:59:08 CET)" (scheduled at 2025-02-18 10:58:38.114331+01:00)
+2025-02-18 10:58:39,133 - INFO - \U0001f4ca CPU: 11.5%, RAM: 84.0%, Disco: 97.5%
+2025-02-18 10:58:39,133 - INFO - Job "monitorizar_recursos (trigger: interval[0:00:30], next run at: 2025-02-18 10:59:08 CET)" executed successfully
+2025-02-18 10:59:06,748 - INFO - Running job "monitorizar_recursos (trigger: interval[0:00:30], next run at: 2025-02-18 10:59:36 CET)" (scheduled at 2025-02-18 10:59:06.734949+01:00)
+2025-02-18 10:59:07,755 - INFO - \U0001f4ca CPU: 8.5%, RAM: 84.2%, Disco: 97.5%
+2025-02-18 10:59:07,755 - INFO - Job "monitorizar_recursos (trigger: interval[0:00:30], next run at: 2025-02-18 10:59:36 CET)" executed successfully
+2025-02-18 10:59:08,118 - INFO - Running job "monitorizar_recursos (trigger: interval[0:00:30], next run at: 2025-02-18 10:59:38 CET)" (scheduled at 2025-02-18 10:59:08.114331+01:00)
+2025-02-18 10:59:09,127 - INFO - \U0001f4ca CPU: 19.0%, RAM: 84.4%, Disco: 97.5%
+2025-02-18 10:59:09,128 - INFO - Job "monitorizar_recursos (trigger: interval[0:00:30], next run at: 2025-02-18 10:59:38 CET)" executed successfully
+2025-02-18 10:59:36,749 - INFO - Running job "monitorizar_recursos (trigger: interval[0:00:30], next run at: 2025-02-18 11:00:06 CET)" (scheduled at 2025-02-18 10:59:36.734949+01:00)
+2025-02-18 10:59:37,759 - INFO - \U0001f4ca CPU: 14.6%, RAM: 83.3%, Disco: 97.5%
+2025-02-18 10:59:37,759 - INFO - Job "monitorizar_recursos (trigger: interval[0:00:30], next run at: 2025-02-18 11:00:06 CET)" executed successfully
+2025-02-18 10:59:38,123 - INFO - Running job "monitorizar_recursos (trigger: interval[0:00:30], next run at: 2025-02-18 11:00:08 CET)" (scheduled at 2025-02-18 10:59:38.114331+01:00)
+2025-02-18 10:59:39,125 - INFO - \U0001f4ca CPU: 8.5%, RAM: 83.3%, Disco: 97.5%
+2025-02-18 10:59:39,125 - INFO - Job "monitorizar_recursos (trigger: interval[0:00:30], next run at: 2025-02-18 11:00:08 CET)" executed successfully
+2025-02-18 11:00:06,744 - INFO - Running job "monitorizar_recursos (trigger: interval[0:00:30], next run at: 2025-02-18 11:00:36 CET)" (scheduled at 2025-02-18 11:00:06.734949+01:00)
+2025-02-18 11:00:07,760 - INFO - \U0001f4ca CPU: 34.8%, RAM: 84.0%, Disco: 97.5%
+2025-02-18 11:00:07,760 - INFO - Job "monitorizar_recursos (trigger: interval[0:00:30], next run at: 2025-02-18 11:00:36 CET)" executed successfully
+2025-02-18 11:00:08,116 - INFO - Running job "monitorizar_recursos (trigger: interval[0:00:30], next run at: 2025-02-18 11:00:38 CET)" (scheduled at 2025-02-18 11:00:08.114331+01:00)
+2025-02-18 11:00:09,124 - INFO - \U0001f4ca CPU: 21.1%, RAM: 84.1%, Disco: 97.5%
+2025-02-18 11:00:09,129 - INFO - Job "monitorizar_recursos (trigger: interval[0:00:30], next run at: 2025-02-18 11:00:38 CET)" executed successfully
+2025-02-18 11:00:36,746 - INFO - Running job "monitorizar_recursos (trigger: interval[0:00:30], next run at: 2025-02-18 11:01:06 CET)" (scheduled at 2025-02-18 11:00:36.734949+01:00)
+2025-02-18 11:00:37,748 - INFO - \U0001f4ca CPU: 10.3%, RAM: 83.6%, Disco: 97.5%
+2025-02-18 11:00:37,748 - INFO - Job "monitorizar_recursos (trigger: interval[0:00:30], next run at: 2025-02-18 11:01:06 CET)" executed successfully
+2025-02-18 11:00:38,120 - INFO - Running job "monitorizar_recursos (trigger: interval[0:00:30], next run at: 2025-02-18 11:01:08 CET)" (scheduled at 2025-02-18 11:00:38.114331+01:00)
+2025-02-18 11:00:39,132 - INFO - \U0001f4ca CPU: 23.5%, RAM: 83.8%, Disco: 97.5%
+2025-02-18 11:00:39,133 - INFO - Job "monitorizar_recursos (trigger: interval[0:00:30], next run at: 2025-02-18 11:01:08 CET)" executed successfully
+2025-02-18 11:01:06,752 - INFO - Running job "monitorizar_recursos (trigger: interval[0:00:30], next run at: 2025-02-18 11:01:36 CET)" (scheduled at 2025-02-18 11:01:06.734949+01:00)
+2025-02-18 11:01:07,753 - INFO - \U0001f4ca CPU: 14.9%, RAM: 84.7%, Disco: 97.5%
+2025-02-18 11:01:07,753 - INFO - Job "monitorizar_recursos (trigger: interval[0:00:30], next run at: 2025-02-18 11:01:36 CET)" executed successfully
+2025-02-18 11:01:08,117 - INFO - Running job "monitorizar_recursos (trigger: interval[0:00:30], next run at: 2025-02-18 11:01:38 CET)" (scheduled at 2025-02-18 11:01:08.114331+01:00)
+2025-02-18 11:01:09,121 - INFO - \U0001f4ca CPU: 33.0%, RAM: 85.1%, Disco: 97.5%
+2025-02-18 11:01:09,122 - INFO - Job "monitorizar_recursos (trigger: interval[0:00:30], next run at: 2025-02-18 11:01:38 CET)" executed successfully
+2025-02-18 11:01:36,745 - INFO - Running job "monitorizar_recursos (trigger: interval[0:00:30], next run at: 2025-02-18 11:02:06 CET)" (scheduled at 2025-02-18 11:01:36.734949+01:00)
+2025-02-18 11:01:37,747 - INFO - \U0001f4ca CPU: 71.3%, RAM: 85.4%, Disco: 97.5%
+2025-02-18 11:01:37,747 - INFO - Job "monitorizar_recursos (trigger: interval[0:00:30], next run at: 2025-02-18 11:02:06 CET)" executed successfully
+2025-02-18 11:01:38,131 - INFO - Running job "monitorizar_recursos (trigger: interval[0:00:30], next run at: 2025-02-18 11:02:08 CET)" (scheduled at 2025-02-18 11:01:38.114331+01:00)
+2025-02-18 11:01:39,139 - INFO - \U0001f4ca CPU: 38.9%, RAM: 85.3%, Disco: 97.5%
+2025-02-18 11:01:39,139 - INFO - Job "monitorizar_recursos (trigger: interval[0:00:30], next run at: 2025-02-18 11:02:08 CET)" executed successfully
+2025-02-18 11:02:06,750 - INFO - Running job "monitorizar_recursos (trigger: interval[0:00:30], next run at: 2025-02-18 11:02:36 CET)" (scheduled at 2025-02-18 11:02:06.734949+01:00)
+2025-02-18 11:02:07,761 - INFO - \U0001f4ca CPU: 1.8%, RAM: 84.8%, Disco: 97.5%
+2025-02-18 11:02:07,761 - INFO - Job "monitorizar_recursos (trigger: interval[0:00:30], next run at: 2025-02-18 11:02:36 CET)" executed successfully
+2025-02-18 11:02:08,122 - INFO - Running job "monitorizar_recursos (trigger: interval[0:00:30], next run at: 2025-02-18 11:02:38 CET)" (scheduled at 2025-02-18 11:02:08.114331+01:00)
+2025-02-18 11:02:09,132 - INFO - \U0001f4ca CPU: 3.9%, RAM: 84.8%, Disco: 97.5%
+2025-02-18 11:02:09,132 - INFO - Job "monitorizar_recursos (trigger: interval[0:00:30], next run at: 2025-02-18 11:02:38 CET)" executed successfully
+2025-02-18 11:02:36,740 - INFO - Running job "monitorizar_recursos (trigger: interval[0:00:30], next run at: 2025-02-18 11:03:06 CET)" (scheduled at 2025-02-18 11:02:36.734949+01:00)
+2025-02-18 11:02:37,742 - INFO - \U0001f4ca CPU: 11.2%, RAM: 84.9%, Disco: 97.5%
+2025-02-18 11:02:37,742 - INFO - Job "monitorizar_recursos (trigger: interval[0:00:30], next run at: 2025-02-18 11:03:06 CET)" executed successfully
+2025-02-18 11:02:38,129 - INFO - Running job "monitorizar_recursos (trigger: interval[0:00:30], next run at: 2025-02-18 11:03:08 CET)" (scheduled at 2025-02-18 11:02:38.114331+01:00)
+2025-02-18 11:02:39,130 - INFO - \U0001f4ca CPU: 12.1%, RAM: 85.0%, Disco: 97.5%
+2025-02-18 11:02:39,130 - INFO - Job "monitorizar_recursos (trigger: interval[0:00:30], next run at: 2025-02-18 11:03:08 CET)" executed successfully
+2025-02-18 11:03:06,743 - INFO - Running job "monitorizar_recursos (trigger: interval[0:00:30], next run at: 2025-02-18 11:03:36 CET)" (scheduled at 2025-02-18 11:03:06.734949+01:00)
+2025-02-18 11:03:07,748 - INFO - \U0001f4ca CPU: 17.7%, RAM: 84.8%, Disco: 97.5%
+2025-02-18 11:03:07,748 - INFO - Job "monitorizar_recursos (trigger: interval[0:00:30], next run at: 2025-02-18 11:03:36 CET)" executed successfully
+2025-02-18 11:03:08,118 - INFO - Running job "monitorizar_recursos (trigger: interval[0:00:30], next run at: 2025-02-18 11:03:38 CET)" (scheduled at 2025-02-18 11:03:08.114331+01:00)
+2025-02-18 11:03:09,129 - INFO - \U0001f4ca CPU: 11.8%, RAM: 84.8%, Disco: 97.5%
+2025-02-18 11:03:09,130 - INFO - Job "monitorizar_recursos (trigger: interval[0:00:30], next run at: 2025-02-18 11:03:38 CET)" executed successfully
+2025-02-18 11:03:36,740 - INFO - Running job "monitorizar_recursos (trigger: interval[0:00:30], next run at: 2025-02-18 11:04:06 CET)" (scheduled at 2025-02-18 11:03:36.734949+01:00)
+2025-02-18 11:03:37,753 - INFO - \U0001f4ca CPU: 25.3%, RAM: 82.9%, Disco: 97.5%
+2025-02-18 11:03:37,754 - INFO - Job "monitorizar_recursos (trigger: interval[0:00:30], next run at: 2025-02-18 11:04:06 CET)" executed successfully
+2025-02-18 11:03:38,118 - INFO - Running job "monitorizar_recursos (trigger: interval[0:00:30], next run at: 2025-02-18 11:04:08 CET)" (scheduled at 2025-02-18 11:03:38.114331+01:00)
+2025-02-18 11:03:39,120 - INFO - \U0001f4ca CPU: 19.5%, RAM: 83.0%, Disco: 97.5%
+2025-02-18 11:03:39,120 - INFO - Job "monitorizar_recursos (trigger: interval[0:00:30], next run at: 2025-02-18 11:04:08 CET)" executed successfully
+2025-02-18 11:04:06,739 - INFO - Running job "monitorizar_recursos (trigger: interval[0:00:30], next run at: 2025-02-18 11:04:36 CET)" (scheduled at 2025-02-18 11:04:06.734949+01:00)
+2025-02-18 11:04:07,742 - INFO - \U0001f4ca CPU: 4.7%, RAM: 82.9%, Disco: 97.5%
+2025-02-18 11:04:07,742 - INFO - Job "monitorizar_recursos (trigger: interval[0:00:30], next run at: 2025-02-18 11:04:36 CET)" executed successfully
+2025-02-18 11:04:08,125 - INFO - Running job "monitorizar_recursos (trigger: interval[0:00:30], next run at: 2025-02-18 11:04:38 CET)" (scheduled at 2025-02-18 11:04:08.114331+01:00)
+2025-02-18 11:04:09,128 - INFO - \U0001f4ca CPU: 17.0%, RAM: 82.8%, Disco: 97.5%
+2025-02-18 11:04:09,128 - INFO - Job "monitorizar_recursos (trigger: interval[0:00:30], next run at: 2025-02-18 11:04:38 CET)" executed successfully
+2025-02-18 11:04:36,740 - INFO - Running job "monitorizar_recursos (trigger: interval[0:00:30], next run at: 2025-02-18 11:05:06 CET)" (scheduled at 2025-02-18 11:04:36.734949+01:00)
+2025-02-18 11:04:37,763 - INFO - \U0001f4ca CPU: 33.2%, RAM: 83.3%, Disco: 97.5%
+2025-02-18 11:04:37,764 - INFO - Job "monitorizar_recursos (trigger: interval[0:00:30], next run at: 2025-02-18 11:05:06 CET)" executed successfully
+2025-02-18 11:04:38,123 - INFO - Running job "monitorizar_recursos (trigger: interval[0:00:30], next run at: 2025-02-18 11:05:08 CET)" (scheduled at 2025-02-18 11:04:38.114331+01:00)
+2025-02-18 11:04:39,139 - INFO - \U0001f4ca CPU: 29.2%, RAM: 83.6%, Disco: 97.5%
+2025-02-18 11:04:39,141 - INFO - Job "monitorizar_recursos (trigger: interval[0:00:30], next run at: 2025-02-18 11:05:08 CET)" executed successfully
+2025-02-18 11:05:06,742 - INFO - Running job "monitorizar_recursos (trigger: interval[0:00:30], next run at: 2025-02-18 11:05:36 CET)" (scheduled at 2025-02-18 11:05:06.734949+01:00)
+2025-02-18 11:05:07,763 - INFO - \U0001f4ca CPU: 12.3%, RAM: 83.6%, Disco: 97.5%
+2025-02-18 11:05:07,763 - INFO - Job "monitorizar_recursos (trigger: interval[0:00:30], next run at: 2025-02-18 11:05:36 CET)" executed successfully
+2025-02-18 11:05:08,127 - INFO - Running job "monitorizar_recursos (trigger: interval[0:00:30], next run at: 2025-02-18 11:05:38 CET)" (scheduled at 2025-02-18 11:05:08.114331+01:00)
+2025-02-18 11:05:09,134 - INFO - \U0001f4ca CPU: 21.5%, RAM: 83.5%, Disco: 97.5%
+2025-02-18 11:05:09,134 - INFO - Job "monitorizar_recursos (trigger: interval[0:00:30], next run at: 2025-02-18 11:05:38 CET)" executed successfully
+2025-02-18 11:05:36,739 - INFO - Running job "monitorizar_recursos (trigger: interval[0:00:30], next run at: 2025-02-18 11:06:06 CET)" (scheduled at 2025-02-18 11:05:36.734949+01:00)
+2025-02-18 11:05:37,751 - INFO - \U0001f4ca CPU: 19.3%, RAM: 83.5%, Disco: 97.5%
+2025-02-18 11:05:37,752 - INFO - Job "monitorizar_recursos (trigger: interval[0:00:30], next run at: 2025-02-18 11:06:06 CET)" executed successfully
+2025-02-18 11:05:38,119 - INFO - Running job "monitorizar_recursos (trigger: interval[0:00:30], next run at: 2025-02-18 11:06:08 CET)" (scheduled at 2025-02-18 11:05:38.114331+01:00)
+2025-02-18 11:05:39,130 - INFO - \U0001f4ca CPU: 22.7%, RAM: 83.5%, Disco: 97.5%
+2025-02-18 11:05:39,130 - INFO - Job "monitorizar_recursos (trigger: interval[0:00:30], next run at: 2025-02-18 11:06:08 CET)" executed successfully
+2025-02-18 11:06:06,737 - INFO - Running job "monitorizar_recursos (trigger: interval[0:00:30], next run at: 2025-02-18 11:06:36 CET)" (scheduled at 2025-02-18 11:06:06.734949+01:00)
+2025-02-18 11:06:07,745 - INFO - \U0001f4ca CPU: 23.2%, RAM: 83.7%, Disco: 97.5%
+2025-02-18 11:06:07,746 - INFO - Job "monitorizar_recursos (trigger: interval[0:00:30], next run at: 2025-02-18 11:06:36 CET)" executed successfully
+2025-02-18 11:06:08,128 - INFO - Running job "monitorizar_recursos (trigger: interval[0:00:30], next run at: 2025-02-18 11:06:38 CET)" (scheduled at 2025-02-18 11:06:08.114331+01:00)
+2025-02-18 11:06:09,131 - INFO - \U0001f4ca CPU: 9.7%, RAM: 83.8%, Disco: 97.5%
+2025-02-18 11:06:09,131 - INFO - Job "monitorizar_recursos (trigger: interval[0:00:30], next run at: 2025-02-18 11:06:38 CET)" executed successfully
+2025-02-18 11:06:36,739 - INFO - Running job "monitorizar_recursos (trigger: interval[0:00:30], next run at: 2025-02-18 11:07:06 CET)" (scheduled at 2025-02-18 11:06:36.734949+01:00)
+2025-02-18 11:06:37,744 - INFO - \U0001f4ca CPU: 13.9%, RAM: 84.5%, Disco: 97.5%
+2025-02-18 11:06:37,744 - INFO - Job "monitorizar_recursos (trigger: interval[0:00:30], next run at: 2025-02-18 11:07:06 CET)" executed successfully
+2025-02-18 11:06:38,118 - INFO - Running job "monitorizar_recursos (trigger: interval[0:00:30], next run at: 2025-02-18 11:07:08 CET)" (scheduled at 2025-02-18 11:06:38.114331+01:00)
+2025-02-18 11:06:39,128 - INFO - \U0001f4ca CPU: 20.9%, RAM: 84.5%, Disco: 97.5%
+2025-02-18 11:06:39,129 - INFO - Job "monitorizar_recursos (trigger: interval[0:00:30], next run at: 2025-02-18 11:07:08 CET)" executed successfully
+2025-02-18 11:07:06,750 - INFO - Running job "monitorizar_recursos (trigger: interval[0:00:30], next run at: 2025-02-18 11:07:36 CET)" (scheduled at 2025-02-18 11:07:06.734949+01:00)
+2025-02-18 11:07:07,759 - INFO - \U0001f4ca CPU: 22.2%, RAM: 84.3%, Disco: 97.5%
+2025-02-18 11:07:07,761 - INFO - Job "monitorizar_recursos (trigger: interval[0:00:30], next run at: 2025-02-18 11:07:36 CET)" executed successfully
+2025-02-18 11:07:08,116 - INFO - Running job "monitorizar_recursos (trigger: interval[0:00:30], next run at: 2025-02-18 11:07:38 CET)" (scheduled at 2025-02-18 11:07:08.114331+01:00)
+2025-02-18 11:07:09,120 - INFO - \U0001f4ca CPU: 14.9%, RAM: 84.4%, Disco: 97.5%
+2025-02-18 11:07:09,120 - INFO - Job "monitorizar_recursos (trigger: interval[0:00:30], next run at: 2025-02-18 11:07:38 CET)" executed successfully
+2025-02-18 11:07:36,739 - INFO - Running job "monitorizar_recursos (trigger: interval[0:00:30], next run at: 2025-02-18 11:08:06 CET)" (scheduled at 2025-02-18 11:07:36.734949+01:00)
+2025-02-18 11:07:37,742 - INFO - \U0001f4ca CPU: 13.8%, RAM: 84.2%, Disco: 97.5%
+2025-02-18 11:07:37,742 - INFO - Job "monitorizar_recursos (trigger: interval[0:00:30], next run at: 2025-02-18 11:08:06 CET)" executed successfully
+2025-02-18 11:07:38,120 - INFO - Running job "monitorizar_recursos (trigger: interval[0:00:30], next run at: 2025-02-18 11:08:08 CET)" (scheduled at 2025-02-18 11:07:38.114331+01:00)
+2025-02-18 11:07:39,130 - INFO - \U0001f4ca CPU: 31.0%, RAM: 84.2%, Disco: 97.5%
+2025-02-18 11:07:39,130 - INFO - Job "monitorizar_recursos (trigger: interval[0:00:30], next run at: 2025-02-18 11:08:08 CET)" executed successfully
+2025-02-18 11:08:06,749 - INFO - Running job "monitorizar_recursos (trigger: interval[0:00:30], next run at: 2025-02-18 11:08:36 CET)" (scheduled at 2025-02-18 11:08:06.734949+01:00)
+2025-02-18 11:08:07,751 - INFO - \U0001f4ca CPU: 59.4%, RAM: 85.1%, Disco: 97.5%
+2025-02-18 11:08:07,751 - INFO - Job "monitorizar_recursos (trigger: interval[0:00:30], next run at: 2025-02-18 11:08:36 CET)" executed successfully
+2025-02-18 11:08:08,116 - INFO - Running job "monitorizar_recursos (trigger: interval[0:00:30], next run at: 2025-02-18 11:08:38 CET)" (scheduled at 2025-02-18 11:08:08.114331+01:00)
+2025-02-18 11:08:09,120 - INFO - \U0001f4ca CPU: 29.1%, RAM: 85.2%, Disco: 97.5%
+2025-02-18 11:08:09,120 - INFO - Job "monitorizar_recursos (trigger: interval[0:00:30], next run at: 2025-02-18 11:08:38 CET)" executed successfully
+2025-02-18 11:08:36,741 - INFO - Running job "monitorizar_recursos (trigger: interval[0:00:30], next run at: 2025-02-18 11:09:06 CET)" (scheduled at 2025-02-18 11:08:36.734949+01:00)
+2025-02-18 11:08:37,751 - INFO - \U0001f4ca CPU: 53.0%, RAM: 85.1%, Disco: 97.5%
+2025-02-18 11:08:37,751 - INFO - Job "monitorizar_recursos (trigger: interval[0:00:30], next run at: 2025-02-18 11:09:06 CET)" executed successfully
+2025-02-18 11:08:38,118 - INFO - Running job "monitorizar_recursos (trigger: interval[0:00:30], next run at: 2025-02-18 11:09:08 CET)" (scheduled at 2025-02-18 11:08:38.114331+01:00)
+2025-02-18 11:08:39,123 - INFO - \U0001f4ca CPU: 7.8%, RAM: 85.3%, Disco: 97.5%
+2025-02-18 11:08:39,123 - INFO - Job "monitorizar_recursos (trigger: interval[0:00:30], next run at: 2025-02-18 11:09:08 CET)" executed successfully

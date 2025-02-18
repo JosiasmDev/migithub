@@ -76,7 +76,15 @@ Esta es una aplicación web desarrollada en Flask que permite gestionar usuarios
 
 - **app/models/** Modelos de la base de datos.
 
-- **app/templates/** Plantillas HTML para las vistas de la aplicación.
+- **backup.py** Gestiona los backups automaticos.
+
+- Licencia
+Este proyecto está bajo la licencia MIT. Consulta el archivo LICENSE para más detalles.
+
+Contacto
+Si tienes alguna pregunta o sugerencia, no dudes en contactarme en tu-email@example.com. Plantillas HTML para las vistas de la aplicación.
+
+
 
 ## Uso de la aplicación.
 
@@ -94,7 +102,7 @@ Los usuarios pueden generar informes en PDF o CSV con el estado de los recursos.
 
 - **Backups**
 
-La aplicación realiza backups automáticos de la base de datos cada 10 segundos (configurable).
+La aplicación realiza backups automáticos de la base de datos cada hora (configurable).
 
 Los backups antiguos (más de 2 días) se eliminan automáticamente.
 
