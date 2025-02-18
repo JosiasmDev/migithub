@@ -1,5 +1,6 @@
 import os
 
+
 class Config:
     SECRET_KEY = "clave_secreta"
     SQLALCHEMY_DATABASE_URI = "mysql+pymysql://root:@localhost/gestion_sistemas"

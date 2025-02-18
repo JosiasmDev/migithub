@@ -29,10 +29,12 @@ def crear_backup():
 
         with open(backup_path, "w") as output_file:
             subprocess.run(command, stdout=output_file, check=True)
-        
+
         logging.info(f"✅ Backup de la base de datos guardado en: {backup_path}")
     except subprocess.CalledProcessError as e:
         logging.error(f"❌ Error en mysqldump: {e}")
+
+
 
 # ⚪️ Función para limpiar backups antiguos
 def limpiar_backups():

@@ -5,9 +5,11 @@ from flask_bcrypt import Bcrypt
 from flask_login import LoginManager
 import pymysql
 import os
+import threading
 from config import Config
 from apscheduler.schedulers.background import BackgroundScheduler
 from app.controllers.recurso_controller import recurso_bp
+from backup import *
 
 
 # Inicializamos db, login_manager, bcrypt y migrate
@@ -17,6 +19,13 @@ bcrypt = Bcrypt()
 migrate = Migrate()
 
 pymysql.install_as_MySQLdb()
+
+def iniciar_backup_automatico():
+    """Ejecuta backups automáticamente cada cierto tiempo."""
+    while True:
+        hacer_backup()
+        time.sleep(INTERVALO_SEGUNDOS)  # Esperar el intervalo definido antes de hacer otro backup
+
 
 def create_app():
     app = Flask(__name__)
@@ -55,7 +64,14 @@ def create_app():
             configurar_logging()
             iniciar_scheduler(app)
 
+    
+
     # Llamamos a la función de inicio de la app
     iniciar_app()
+
+
+    # Iniciar el hilo del backup automático en segundo plano
+    backup_thread = threading.Thread(target=iniciar_backup_automatico, daemon=True)
+    backup_thread.start()
 
     return app
