@@ -1,9 +1,8 @@
-from flask import Flask, Blueprint, render_template, redirect, url_for
+from flask import Flask
 from flask_sqlalchemy import SQLAlchemy
 from flask_login import LoginManager
 from flask_migrate import Migrate
 from apscheduler.schedulers.background import BackgroundScheduler
-from config import Config
 
 # Inicializa las instancias
 db = SQLAlchemy()
@@ -13,7 +12,7 @@ login_manager = LoginManager()
 # Configura la vista para login (cuando no esté autenticado)
 login_manager.login_view = 'usuario.login'
 
-# Crea la función de carga de usuario
+# Carga el usuario por ID
 @login_manager.user_loader
 def load_user(user_id):
     from app.models.usuario_model import Usuario  # Importa aquí para evitar importación circular
@@ -30,12 +29,11 @@ def create_app():
     login_manager.init_app(app)
     migrate.init_app(app, db)
 
-    # Registra el blueprint de usuarios (asegúrate de importar correctamente el controlador)
+    # Importa y registra los Blueprints dentro de la función
     from app.controllers.usuario_controller import bp as usuario_bp
-    app.register_blueprint(usuario_bp)
+    app.register_blueprint(usuario_bp, url_prefix='/usuario')
 
-    # Registra otros controladores
-    from app.controllers import recurso_controller
-    app.register_blueprint(recurso_controller.bp)
+    from app.controllers.recurso_controller import bp as recurso_bp
+    app.register_blueprint(recurso_bp, url_prefix='/recurso')
 
     return app

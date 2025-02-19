@@ -19,9 +19,26 @@
             </div>
         </nav>
 
-        <div class="mt-4">
-            {% block content %}{% endblock %}
+        <div class="mt-4 text-center">
+            <h2>Imagen aleatoria de un perro</h2>
+            <button class="btn btn-primary mb-3" onclick="cargarImagen()">Obtener nueva imagen</button>
+            <br>
+            <img id="imagen-perro" src="" alt="Imagen de un perro" class="img-fluid rounded shadow">
         </div>
     </div>
+
+    <script>
+        function cargarImagen() {
+            fetch("https://dog.ceo/api/breeds/image/random")
+                .then(response => response.json())
+                .then(data => {
+                    document.getElementById("imagen-perro").src = data.message;
+                })
+                .catch(error => console.error("Error al cargar la imagen:", error));
+        }
+
+        // Cargar una imagen al cargar la página
+        window.onload = cargarImagen;
+    </script>
 </body>
 </html>

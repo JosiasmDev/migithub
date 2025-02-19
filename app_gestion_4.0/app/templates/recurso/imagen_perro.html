@@ -1,0 +1,14 @@
+{% extends "base.html" %}
+
+{% block content %}
+<div class="container text-center mt-4">
+    <h2>Imagen aleatoria de un perro</h2>
+    <a href="{{ url_for('recurso.imagen_perro') }}" class="btn btn-primary mb-3">Obtener nueva imagen</a>
+    <br>
+    {% if imagen_url %}
+        <img src="{{ imagen_url }}" alt="Imagen de un perro" class="img-fluid rounded shadow">
+    {% else %}
+        <p>No se pudo cargar la imagen.</p>
+    {% endif %}
+</div>
+{% endblock %}
