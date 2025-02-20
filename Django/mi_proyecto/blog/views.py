@@ -1,40 +1,46 @@
 from django.shortcuts import render
 from django.views.generic import ListView, DetailView, CreateView, UpdateView, DeleteView
 from django.urls import reverse_lazy
+from django.contrib.auth.mixins import LoginRequiredMixin  # Para restringir acceso a vistas basadas en clases
+from django.contrib.auth.decorators import login_required  # Para restringir acceso a vistas basadas en funciones
 from .models import Post
-from django.contrib.auth.decorators import login_required
 
+# Restringir acceso a la vista home
 @login_required
 def home(request):
-    print(f"Usuario autenticado: {request.user}")  # Esto imprimirá el usuario en la consola
     return render(request, 'blog/index.html', {'saludo': 'Hola, bienvenido'})
 
-# Vista para listar todos los posts
-class PostListView(ListView):
+# Vista para listar posts (solo usuarios autenticados)
+class PostListView(LoginRequiredMixin, ListView):
     model = Post
     template_name = 'blog/post_list.html'
-    context_object_name = 'posts'  # Variable que se pasará a la plantilla
+    context_object_name = 'posts'
+    login_url = 'login'  # Redirige a la página de login si el usuario no está autenticado
 
-# Vista para ver los detalles de un post
-class PostDetailView(DetailView):
+# Vista para ver detalles de un post (solo usuarios autenticados)
+class PostDetailView(LoginRequiredMixin, DetailView):
     model = Post
     template_name = 'blog/post_detail.html'
     context_object_name = 'post'
+    login_url = 'login'
 
-# Vista para crear un nuevo post
-class PostCreateView(CreateView):
+# Vista para crear un nuevo post (solo usuarios autenticados)
+class PostCreateView(LoginRequiredMixin, CreateView):
     model = Post
     template_name = 'blog/post_form.html'
-    fields = ['titulo', 'contenido']  # Campos que se mostrarán en el formulario
+    fields = ['titulo', 'contenido']
+    login_url = 'login'
 
-# Vista para actualizar un post existente
-class PostUpdateView(UpdateView):
+# Vista para actualizar un post (solo usuarios autenticados)
+class PostUpdateView(LoginRequiredMixin, UpdateView):
     model = Post
     template_name = 'blog/post_form.html'
-    fields = ['titulo', 'contenido']  # Campos que se podrán editar
+    fields = ['titulo', 'contenido']
+    login_url = 'login'
 
-# Vista para eliminar un post
-class PostDeleteView(DeleteView):
+# Vista para eliminar un post (solo usuarios autenticados)
+class PostDeleteView(LoginRequiredMixin, DeleteView):
     model = Post
     template_name = 'blog/post_confirm_delete.html'
-    success_url = reverse_lazy('post_list')  # Redirige a la lista de posts después de eliminar
+    success_url = reverse_lazy('post_list')
+    login_url = 'login'

@@ -10,7 +10,12 @@
 
     <header>
         {% if user.is_authenticated %}
-            <p>Bienvenido, {{ user.username }} | <a href="{% url 'logout' %}">Cerrar sesión</a></p>
+            <p>Bienvenido, {{ user.username }} | <form id="logout-form" method="post" action="{% url 'logout' %}" style="display: inline;">
+                {% csrf_token %}
+                <button type="submit" style="border: none; background: none; color: blue; cursor: pointer;">
+                    Cerrar sesión
+                </button>
+            </form></p>
         {% else %}
             <a href="{% url 'login' %}">Iniciar sesión</a>
         {% endif %}
