@@ -4,6 +4,10 @@ from django.urls import reverse_lazy
 from django.contrib.auth.mixins import LoginRequiredMixin  # Para restringir acceso a vistas basadas en clases
 from django.contrib.auth.decorators import login_required  # Para restringir acceso a vistas basadas en funciones
 from .models import Post
+from rest_framework.views import APIView
+from rest_framework.response import Response
+from rest_framework import status
+from .serializers import PostSerializer
 
 # Restringir acceso a la vista home
 @login_required
@@ -44,3 +48,19 @@ class PostDeleteView(LoginRequiredMixin, DeleteView):
     template_name = 'blog/post_confirm_delete.html'
     success_url = reverse_lazy('post_list')
     login_url = 'login'
+
+# APIViews para manejar las solicitudes HTTP
+class PostList(APIView):
+    def get(self, request):
+        posts = Post.objects.all()
+        serializer = PostSerializer(posts, many=True)
+        return Response(serializer.data)
+
+class PostDetail(APIView):
+    def get(self, request, pk):
+        try:
+            post = Post.objects.get(pk=pk)
+        except Post.DoesNotExist:
+            return Response(status=status.HTTP_404_NOT_FOUND)
+        serializer = PostSerializer(post)
+        return Response(serializer.data)
