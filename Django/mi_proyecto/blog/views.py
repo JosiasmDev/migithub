@@ -2,6 +2,12 @@ from django.shortcuts import render
 from django.views.generic import ListView, DetailView, CreateView, UpdateView, DeleteView
 from django.urls import reverse_lazy
 from .models import Post
+from django.contrib.auth.decorators import login_required
+
+@login_required
+def home(request):
+    print(f"Usuario autenticado: {request.user}")  # Esto imprimirá el usuario en la consola
+    return render(request, 'blog/index.html', {'saludo': 'Hola, bienvenido'})
 
 # Vista para listar todos los posts
 class PostListView(ListView):

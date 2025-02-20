@@ -56,9 +56,9 @@ TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
         'DIRS': [
-            BASE_DIR / 'templates',
+            # Aquí puedes dejar vacío o agregar otras rutas, si es necesario
         ],
-        'APP_DIRS': True,
+        'APP_DIRS': True,  # Esto permite que Django busque plantillas dentro de la carpeta 'templates' en tu app
         'OPTIONS': {
             'context_processors': [
                 'django.template.context_processors.debug',
@@ -69,6 +69,7 @@ TEMPLATES = [
         },
     },
 ]
+
 
 WSGI_APPLICATION = 'mi_proyecto.wsgi.application'
 
@@ -124,3 +125,8 @@ STATIC_URL = 'static/'
 # https://docs.djangoproject.com/en/5.1/ref/settings/#default-auto-field
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
+
+# Redirecciones después de iniciar/cerrar sesión
+LOGIN_REDIRECT_URL = '/'
+LOGOUT_REDIRECT_URL = '/'
+LOGIN_URL = 'login' 
