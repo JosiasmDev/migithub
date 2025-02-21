@@ -1,0 +1,16 @@
+{% extends "blog/base.html" %}
+
+{% block content %}
+<div class="container mt-4">
+    <h1 class="mb-4">{{ form.instance.id|yesno:"Editar post,Crear nuevo post" }}</h1>
+    
+    <form method="post">
+        {% csrf_token %}
+        <div class="mb-3">
+            {{ form.as_p }}
+        </div>
+        <button type="submit" class="btn btn-primary">Guardar</button>
+        <a href="{% url 'post_list' %}" class="btn btn-secondary ms-3">Volver a la lista</a>
+    </form>
+</div>
+{% endblock %}

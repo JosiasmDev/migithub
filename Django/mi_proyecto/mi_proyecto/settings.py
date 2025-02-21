@@ -13,6 +13,7 @@ https://docs.djangoproject.com/en/5.1/ref/settings/
 from pathlib import Path
 from django.urls import reverse_lazy
 import dj_database_url
+import os
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
@@ -27,7 +28,15 @@ SECRET_KEY = 'django-insecure-wqv+r(p67qjygowc4j$ne_s^@l@l#*b)h)&@p*+5*j1s&**01i
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ['*', localhost']
+SECURE_PROXY_SSL_HEADER = ('HTTP_X_FORWARDED_PROTO', 'https')
+
+
+ALLOWED_HOSTS = [
+    "localhost",
+    "127.0.0.1",
+    "mi-proyecto-73d04.web.app",
+    "88c2-83-138-255-48.ngrok-free.app",  # Nueva URL de Ngrok
+]
 
 
 # Application definition
@@ -41,6 +50,7 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'blog',
     'rest_framework',
+    'corsheaders',
 ]
 
 MIDDLEWARE = [
@@ -48,10 +58,23 @@ MIDDLEWARE = [
     'django.contrib.sessions.middleware.SessionMiddleware',
     'django.middleware.common.CommonMiddleware',
     'django.middleware.csrf.CsrfViewMiddleware',
+    'corsheaders.middleware.CorsMiddleware',  # Asegúrate de que esté aquí
+    'django.middleware.common.CommonMiddleware',
     'django.contrib.auth.middleware.AuthenticationMiddleware',
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
+
+
+CORS_ALLOWED_ORIGINS = [
+    "https://mi-proyecto-73d04.web.app",
+    "https://88c2-83-138-255-48.ngrok-free.app",  # Nueva URL de Ngrok
+]
+
+
+
+SESSION_ENGINE = 'django.contrib.sessions.backends.db'  # Para guardar las sesiones en la base de datos
+
 
 ROOT_URLCONF = 'mi_proyecto.urls'
 
@@ -135,3 +158,17 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 LOGIN_REDIRECT_URL = '/post/'
 LOGOUT_REDIRECT_URL = '/'
 LOGIN_URL = 'login' 
+
+
+# Ruta donde se guardarán los archivos estáticos
+STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
+
+
+CSRF_COOKIE_SECURE = True
+SESSION_COOKIE_SECURE = True
+CSRF_TRUSTED_ORIGINS = [
+    "https://88c2-83-138-255-48.ngrok-free.app",  # Nueva URL de Ngrok
+    "https://mi-proyecto-73d04.web.app",
+]
+CSRF_COOKIE_DOMAIN = "mi-proyecto-73d04.web.app"
+CSRF_COOKIE_DOMAIN = None  # Esto permite múltiples orígenes en desarrollo

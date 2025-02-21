@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog - {{ titulo }}</title>
+    
+    <!-- Cargar Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Estilo para el contenedor de la imagen -->
+    <style>
+        /* Fondo moderno para la página */
+        body {
+            background: linear-gradient(135deg, #6e7e80, #3f434c); /* Gradiente de colores modernos */
+            color: #fff;
+            font-family: 'Arial', sans-serif;
+            padding-top: 60px; /* Ajusta según el tamaño de la cabecera */
+        }
+
+        /* Contenedor de la imagen aleatoria que ocupará un tercio del ancho */
+        #random-image-container {
+            width: 30%; /* Ocupa el 30% de la pantalla */
+            margin-left: auto;
+            margin-right: 0;
+            background-color: white;
+            border: 2px solid #ddd;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            padding: 10px;
+            text-align: center;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+        }
+
+        /* Aseguramos que la imagen se ajusta al tamaño del contenedor */
+        #random-image-container img {
+            width: 100%;  /* La imagen se adapta al tamaño del contenedor */
+            height: auto;
+            border-bottom: 1px solid #ddd;
+        }
+
+        /* Botón para "Otro perrito" encima de la imagen */
+        #random-image-container button {
+            background-color: #ff6f61;  /* Color atractivo para el botón */
+            border: none;
+            color: white;
+            padding: 10px;
+            font-size: 16px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+            border-radius: 5px;
+        }
+
+        #random-image-container button:hover {
+            background-color: #e35d50;  /* Efecto al pasar el ratón */
+        }
+
+        /* Estilo de la cabecera con fondo oscuro */
+        header {
+            background-color: #343a40;
+            color: white;
+            padding: 10px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        /* Asegurar que el área del contenido y la imagen estén alineados */
+        .container-main {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            gap: 20px;
+        }
+
+        /* Estilo del botón "Cerrar sesión" estrambótico */
+        .logout-button {
+            background-color: #f44336;  /* Color rojo vibrante */
+            color: white;
+            font-size: 18px;
+            font-weight: bold;
+            border: none;
+            padding: 12px 20px;
+            border-radius: 50px;  /* Bordes redondeados */
+            text-transform: uppercase;
+            cursor: pointer;
+            position: relative;
+            animation: pulsate 1.5s ease-in-out infinite; /* Animación de pulsación */
+        }
+
+        .logout-button:hover {
+            background-color: #d32f2f; /* Cambio de color al pasar el ratón */
+        }
+
+        /* Animación de pulsación */
+        @keyframes pulsate {
+            0% { transform: scale(1); }
+            50% { transform: scale(1.1); }
+            100% { transform: scale(1); }
+        }
+
+        /* Estilo del botón "Iniciar sesión" */
+        header a {
+            color: white;
+            text-decoration: none;
+            font-size: 18px;
+        }
+
+        header a:hover {
+            text-decoration: underline;
+        }
+
+    </style>
+
+    <!-- JavaScript para obtener la imagen aleatoria -->
+    <script>
+        function cargarImagen() {
+            fetch('https://dog.ceo/api/breeds/image/random')  // Aquí va la URL de la API
+                .then(response => response.json())
+                .then(data => {
+                    // Obtenemos la URL de la imagen desde el JSON
+                    const imageUrl = data.message;
+                    const imageContainer = document.getElementById('random-image-container');
+                    
+                    // Limpiar el contenedor antes de agregar la nueva imagen
+                    imageContainer.innerHTML = '';
+
+                    // Crear el botón para cargar otra imagen
+                    const button = document.createElement('button');
+                    button.textContent = 'Otro perrito';
+                    button.onclick = cargarImagen; // Llamar a cargarImagen al hacer click
+                    imageContainer.appendChild(button);
+
+                    // Crear una nueva imagen y agregarla al contenedor
+                    const img = document.createElement('img');
+                    img.src = imageUrl;
+                    img.alt = 'Imagen aleatoria de perro';
+                    imageContainer.appendChild(img);
+                })
+                .catch(error => {
+                    console.error('Error al cargar la imagen:', error);
+                });
+        }
+
+        // Cargar la primera imagen al cargar la página
+        window.onload = cargarImagen;
+    </script>
+</head>
+<body>
+
+    <header>
+        <div>
+            {% if user.is_authenticated %}
+                <p>Bienvenido, {{ user.username }} | 
+                    <form id="logout-form" method="post" action="{% url 'logout' %}" style="display: inline;">
+                        {% csrf_token %}
+                        <button type="submit" class="logout-button">
+                            Cerrar sesión
+                        </button>
+                    </form>
+                </p>
+            {% else %}
+                <a href="{% url 'login' %}" class="text-light">Iniciar sesión</a>
+            {% endif %}
+        </div>
+    </header>
+
+    <div class="container container-main">
+        <main class="main-content">
+            {% block content %}{% endblock %}
+        </main>
+
+        <!-- Contenedor de la imagen aleatoria -->
+        <div id="random-image-container">
+            <!-- La imagen se carga aquí mediante JS -->
+        </div>
+    </div>
+
+</body>
+</html>

@@ -1,0 +1,29 @@
+{% extends "blog/base.html" %}
+
+{% block content %}
+<div class="container mt-4">
+    <h1 class="mb-4 text-center">Lista de Posts</h1>
+    
+    <div class="text-end mb-3">
+        <a href="{% url 'post_create' %}" class="btn btn-success">➕ Crear nuevo post</a>
+    </div>
+
+    {% if posts %}
+        <div class="list-group">
+            {% for post in posts %}
+            <div class="list-group-item mb-3 shadow-sm">
+                <h5 class="mb-2">
+                    <a href="{% url 'post_detail' post.id %}" class="text-decoration-none">{{ post.titulo }}</a>
+                </h5>
+                <div class="d-flex justify-content-between">
+                    <a href="{% url 'post_update' post.id %}" class="btn btn-warning btn-sm">✏️ Editar</a>
+                    <a href="{% url 'post_delete' post.id %}" class="btn btn-danger btn-sm">🗑️ Eliminar</a>
+                </div>
+            </div>
+            {% endfor %}
+        </div>
+    {% else %}
+        <p class="text-muted text-center">No hay posts disponibles.</p>
+    {% endif %}
+</div>
+{% endblock %}
